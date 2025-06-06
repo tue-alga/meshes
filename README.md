@@ -1,4 +1,6 @@
-This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. If you'd like to reference a specific version of the dataset (e.g., in a publication or software release), you can use the DOI of the current release (wip).
+[![DOI](https://zenodo.org/badge/997447644.svg)](https://zenodo.org/badge/latestdoi/997447644)
+
+This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. If you'd like to reference a specific version of the dataset (e.g., in a publication or software release), you can use the DOI of the current release.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer — click on any model in the repository to interactively preview it in 3D.
 
