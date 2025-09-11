@@ -1,4 +1,4 @@
-This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. You can refer to a specific version of the dataset (e.g., in a publication or software release) through the [releases](github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer, click on any model in the repository to interactively preview it in 3D.
 
