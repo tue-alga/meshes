@@ -1,8 +1,8 @@
-This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. If you'd like to reference a specific version of the dataset (e.g., in a publication or software release), you can use the DOI of the current release.
+This repository contains a curated collection of **manifold watertight triangular surface meshes** representing a wide variety of 3D shapes. You can refer to a specific version of the dataset (e.g., in a publication or software release) through the [releases](github.com/tue-alga/meshes/releases) page.
 
-> 💡 **Tip:** GitHub has a built-in STL viewer — click on any model in the repository to interactively preview it in 3D.
+> 💡 **Tip:** GitHub has a built-in STL viewer, click on any model in the repository to interactively preview it in 3D.
 
-All meshes are provided in `.stl` format. The collection is organized into five categories based on geometric style and topological complexity: (a) **smooth genus 0**, (b) **smooth higher genus**, (c) **CAD genus 0**, (d) **CAD higher genus**, and (e) **nightmares**.
+All meshes are provided in `.stl` format. The collection is currently organized into five categories based on geometric style and topological complexity: (a) **smooth genus 0**, (b) **smooth higher genus**, (c) **CAD genus 0**, (d) **CAD higher genus**, and (e) **nightmares**.
 
 ### (a) Smooth (g=0, n=22)
 | model                                       | vertices  | edges   | triangles  | from                                                                                                 | license                                                            |
