@@ -20,3 +20,9 @@ for upper in os.listdir(base_path):
                 data = fin.read().splitlines(True)
             with open(new_path, 'w') as fout:
                 fout.writelines(data[1:])
+
+            # perform validity checks on meshes
+            if len(mesh.split()) != 1:
+                print(f"{path} is not 1 connected component")
+            if not mesh.is_watertight:
+                print(f"{path} is not watertight or orientable")
