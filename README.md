@@ -49,9 +49,10 @@ All meshes are provided in `.obj` and `.stl` format. The collection is organized
 | [toy2](dataset/a.bouba_zero/toy2.stl) | 0 | 10.755 | 32.259 | 21.506 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [venus](dataset/a.bouba_zero/venus.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (b) bouba (g≥1, n=24)
+### (b) bouba (g≥1, n=25)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
+| [bob](dataset/b.bouba_plus/bob.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | [botijo](dataset/b.bouba_plus/botijo.stl) | 5 | 12.127 | 36.405 | 24.270 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [bottle1](dataset/b.bouba_plus/bottle1.stl) | 1 | 14.832 | 44.496 | 29.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [bottle2](dataset/b.bouba_plus/bottle2.stl) | 1 | 14.595 | 43.785 | 29.190 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -142,7 +143,7 @@ All meshes are provided in `.obj` and `.stl` format. The collection is organized
 | [rocker](dataset/d.kiki_plus/rocker.stl) | 1 | 26.656 | 79.968 | 53.312 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [rod](dataset/d.kiki_plus/rod.stl) | 2 | 8.814 | 26.448 | 17.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (e) nightmares (g≥0, n=10)
+### (e) nightmares (g≥0, n=11)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [7connected](dataset/e.nightmares/7connected.stl) | 0 | 6.890 | 20.664 | 13.776 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
@@ -155,3 +156,4 @@ All meshes are provided in `.obj` and `.stl` format. The collection is organized
 | [traystep](dataset/e.nightmares/traystep.stl) | 0 | 8.562 | 25.680 | 17.120 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | [twins](dataset/e.nightmares/twins.stl) | 0 | 9.272 | 27.810 | 18.540 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | [twist](dataset/e.nightmares/twist.stl) | 2 | 78.524 | 235.578 | 157.052 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| [yeahright](dataset/e.nightmares/yeahright.stl) | 131 | 377.084 | 1.132.032 | 754.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
