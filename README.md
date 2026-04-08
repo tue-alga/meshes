@@ -1,8 +1,10 @@
-This repository contains a curated collection of triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 132 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model in the repository to preview it interactively in 3D.
 
 All meshes are provided in `.obj` and `.stl` format. The collection is organized into five categories based on geometric character and topological complexity: (a) **bouba genus 0**, (b) **bouba genus ≥ 1**, (c) **kiki genus 0**, (d) **kiki genus ≥ 1**, and (e) **nightmares**. Here, *bouba* refers to smooth or organic shapes, *kiki* to CAD or mechanical shapes, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
+
+Note that some shapes did not originally come from a triangle mesh, or came from a very poor or broken one. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
 ### (a) bouba (g=0, n=41)
 | model | genus | vertices | edges | triangles | source |
