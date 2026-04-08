@@ -1,4 +1,4 @@
-This repository contains a curated collection of 3D surface meshes spanning a wide variety of shapes. All meshes are verified to be triangular, manifold, watertight, connected, and consistently oriented. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 3D surface meshes spanning a wide variety of shapes. All meshes are verified to be triangular, manifold, watertight, connected, and orientable. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model in the repository to preview it interactively in 3D.
 
