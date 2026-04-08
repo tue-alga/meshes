@@ -6,7 +6,10 @@ from pathlib import Path
 import trimesh
 
 GMSH_CMD = r"C:\Users\snoep\Documents\gmsh-4.15.2-Windows64\gmsh.exe"
-DEFAULT_REFINE_COUNT = 3
+DEFAULT_REFINE_COUNT = 0
+DEFAULT_CURVATURE = 30.0
+DEFAULT_CLMIN = None
+DEFAULT_CLMAX = 1.0
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 
@@ -24,17 +27,33 @@ def run_gmsh_command(args: list[str], error_context: str) -> None:
         raise RuntimeError(f"{error_context}: {message}")
 
 
-def run_gmsh(step_path: Path, stl_path: Path, refine_count: int) -> None:
+def run_gmsh(
+    step_path: Path,
+    stl_path: Path,
+    refine_count: int,
+    clcurv: float | None,
+    clmin: float | None,
+    clmax: float | None,
+) -> None:
+    gmsh_args = [
+        GMSH_CMD,
+        str(step_path),
+        "-2",
+        "-format",
+        "stl",
+        "-o",
+        str(stl_path),
+    ]
+
+    if clcurv is not None:
+        gmsh_args.extend(["-clcurv", str(clcurv)])
+    if clmin is not None:
+        gmsh_args.extend(["-clmin", str(clmin)])
+    if clmax is not None:
+        gmsh_args.extend(["-clmax", str(clmax)])
+
     run_gmsh_command(
-        [
-            GMSH_CMD,
-            str(step_path),
-            "-2",
-            "-format",
-            "stl",
-            "-o",
-            str(stl_path),
-        ],
+        gmsh_args,
         f"Gmsh surface meshing failed for '{step_path}'",
     )
 
@@ -98,14 +117,20 @@ def stl_to_obj(stl_path: Path, obj_path: Path) -> None:
     rewrite_obj_without_header(obj_path)
 
 
-def step_to_obj(step_path: Path, refine_count: int) -> Path:
+def step_to_obj(
+    step_path: Path,
+    refine_count: int,
+    clcurv: float | None,
+    clmin: float | None,
+    clmax: float | None,
+) -> Path:
     if step_path.suffix.lower() not in {".step", ".stp"}:
         raise ValueError(f"Unsupported file type: '{step_path}'")
 
     obj_path = step_path.with_suffix(".obj")
     stl_path = step_path.with_suffix(".stl")
 
-    run_gmsh(step_path, stl_path, refine_count)
+    run_gmsh(step_path, stl_path, refine_count, clcurv, clmin, clmax)
     stl_to_obj(stl_path, obj_path)
 
     return obj_path
@@ -212,7 +237,13 @@ def verify_obj_directory(directory: Path) -> None:
             print(f"- {path.name}")
 
 
-def convert_directory(directory: Path, refine_count: int) -> None:
+def convert_directory(
+    directory: Path,
+    refine_count: int,
+    clcurv: float | None,
+    clmin: float | None,
+    clmax: float | None,
+) -> None:
     step_files = sorted(
         [
             path
@@ -233,7 +264,7 @@ def convert_directory(directory: Path, refine_count: int) -> None:
     for index, step_path in enumerate(step_files, start=1):
         print(f"[{index}/{len(step_files)}] Converting '{step_path.name}'...")
         try:
-            obj_path = step_to_obj(step_path, refine_count)
+            obj_path = step_to_obj(step_path, refine_count, clcurv, clmin, clmax)
             converted += 1
             print(f"  Wrote '{obj_path.name}'.")
         except Exception as exc:
@@ -254,8 +285,8 @@ def run_parser_validation(directory: Path) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Convert STEP files to OBJ by meshing them with Gmsh as a 2D surface mesh "
-            "and refining the mesh a configurable number of times."
+            "Convert STEP files to OBJ by meshing them with Gmsh as a 2D surface mesh, "
+            "optionally refining the mesh, and controlling the initial tessellation size."
         )
     )
     parser.add_argument(
@@ -268,7 +299,25 @@ def parse_args() -> argparse.Namespace:
         "--refine",
         type=int,
         default=DEFAULT_REFINE_COUNT,
-        help=f"Number of Gmsh refinement passes (default: {DEFAULT_REFINE_COUNT})",
+        help=f"Number of Gmsh refinement passes after initial meshing (default: {DEFAULT_REFINE_COUNT})",
+    )
+    parser.add_argument(
+        "--clcurv",
+        type=float,
+        default=DEFAULT_CURVATURE,
+        help=f"Target number of elements per 2*pi radians of curvature (default: {DEFAULT_CURVATURE})",
+    )
+    parser.add_argument(
+        "--clmin",
+        type=float,
+        default=DEFAULT_CLMIN,
+        help="Minimum mesh element size for the initial Gmsh tessellation",
+    )
+    parser.add_argument(
+        "--clmax",
+        type=float,
+        default=DEFAULT_CLMAX,
+        help="Maximum mesh element size for the initial Gmsh tessellation",
     )
     return parser.parse_args()
 
@@ -284,11 +333,11 @@ def main() -> None:
         raise SystemExit("--refine must be non-negative")
 
     if path.is_file():
-        obj_path = step_to_obj(path, args.refine)
+        obj_path = step_to_obj(path, args.refine, args.clcurv, args.clmin, args.clmax)
         print(f"Wrote '{obj_path}'.")
         run_parser_validation(path.parent)
     elif path.is_dir():
-        convert_directory(path, args.refine)
+        convert_directory(path, args.refine, args.clcurv, args.clmin, args.clmax)
         run_parser_validation(path)
     else:
         raise SystemExit(f"Path does not exist: '{path}'")
