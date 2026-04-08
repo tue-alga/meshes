@@ -94,6 +94,21 @@ def export_obj_safely(mesh, obj_path: str | Path) -> None:
             temp_path.unlink(missing_ok=True)
 
 
+def export_stl_safely(mesh, stl_path: str | Path) -> None:
+    stl_path = Path(stl_path)
+    with tempfile.NamedTemporaryFile(
+        suffix=".stl", delete=False, dir=stl_path.parent
+    ) as tmp:
+        temp_path = Path(tmp.name)
+
+    try:
+        mesh.export(temp_path)
+        temp_path.replace(stl_path)
+    finally:
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
+
+
 def to_obj(path: str) -> str:
     assert os.path.isfile(path), f"{path} is not a file"
 
@@ -212,7 +227,7 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
                     check_mesh(mesh, str(obj_path))
 
                     export_obj_safely(mesh, obj_path)
-                    mesh.export(stl_path)
+                    export_stl_safely(mesh, stl_path)
 
                     processed_from_obj += 1
                     print(
@@ -224,7 +239,7 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
                     check_mesh(mesh, str(stl_path))
 
                     export_obj_safely(mesh, obj_path)
-                    mesh.export(stl_path)
+                    export_stl_safely(mesh, stl_path)
 
                     processed_from_stl += 1
                     print(
@@ -399,6 +414,6 @@ def print_dataset(
 
 
 if __name__ == "__main__":
-    normalize_dataset()
-    verify_dataset()
+    # normalize_dataset()
+    # verify_dataset()
     print_dataset()
