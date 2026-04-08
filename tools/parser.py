@@ -1,5 +1,6 @@
 import csv
 import os
+import tempfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -22,9 +23,75 @@ def rewrite_obj_without_header(obj_path: str) -> None:
     with open(obj_path, "r", encoding="utf-8") as fin:
         lines = fin.read().splitlines(True)
 
-    if lines and lines[0].startswith("#"):
-        with open(obj_path, "w", encoding="utf-8") as fout:
-            fout.writelines(lines[1:])
+    filtered_lines = []
+    for line in lines:
+        stripped = line.lstrip()
+        if stripped.startswith("v ") or stripped.startswith("f "):
+            filtered_lines.append(line)
+
+    with open(obj_path, "w", encoding="utf-8") as fout:
+        fout.writelines(filtered_lines)
+
+
+def load_trimesh(path: str | Path):
+    path = Path(path)
+
+    try:
+        mesh = trimesh.load(path, force="mesh")
+    except Exception:
+        mesh = trimesh.load(path)
+
+    if isinstance(mesh, trimesh.Scene):
+        geometries = [
+            g for g in mesh.geometry.values() if isinstance(g, trimesh.Trimesh)
+        ]
+        if geometries:
+            mesh = trimesh.util.concatenate(geometries)
+        else:
+            vertices = []
+            faces = []
+            vertex_offset = 0
+
+            for geometry in mesh.geometry.values():
+                if hasattr(geometry, "vertices"):
+                    current_vertices = geometry.vertices
+                    if len(current_vertices) == 0:
+                        continue
+
+                    vertices.extend(current_vertices)
+
+                    if hasattr(geometry, "faces") and len(geometry.faces) > 0:
+                        faces.extend(geometry.faces + vertex_offset)
+
+                    vertex_offset += len(current_vertices)
+
+            if not vertices:
+                raise ValueError(
+                    f"Mesh file '{path}' does not contain any mesh geometry"
+                )
+
+            mesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
+
+    if not isinstance(mesh, trimesh.Trimesh):
+        raise TypeError(f"File '{path}' could not be loaded as a triangular mesh")
+
+    return mesh
+
+
+def export_obj_safely(mesh, obj_path: str | Path) -> None:
+    obj_path = Path(obj_path)
+    with tempfile.NamedTemporaryFile(
+        mode="w", suffix=".obj", delete=False, dir=obj_path.parent, encoding="utf-8"
+    ) as tmp:
+        temp_path = Path(tmp.name)
+
+    try:
+        mesh.export(temp_path)
+        rewrite_obj_without_header(str(temp_path))
+        temp_path.replace(obj_path)
+    finally:
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
 
 
 def to_obj(path: str) -> str:
@@ -32,10 +99,9 @@ def to_obj(path: str) -> str:
 
     path_excluding_extension, _ = os.path.splitext(path)
 
-    mesh = trimesh.load_mesh(path)
+    mesh = load_trimesh(path)
     new_path = path_excluding_extension + ".obj"
-    mesh.export(new_path)
-    rewrite_obj_without_header(new_path)
+    export_obj_safely(mesh, new_path)
 
     return new_path
 
@@ -142,12 +208,10 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
 
             try:
                 if ".obj" in exts:
-                    mesh = trimesh.load(obj_path)
+                    mesh = load_trimesh(obj_path)
                     check_mesh(mesh, str(obj_path))
 
-                    mesh.export(obj_path)
-                    rewrite_obj_without_header(str(obj_path))
-
+                    export_obj_safely(mesh, obj_path)
                     mesh.export(stl_path)
 
                     processed_from_obj += 1
@@ -156,14 +220,11 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
                     )
 
                 elif ".stl" in exts:
-                    mesh = trimesh.load(stl_path)
+                    mesh = load_trimesh(stl_path)
                     check_mesh(mesh, str(stl_path))
 
-                    mesh.export(obj_path)
-                    rewrite_obj_without_header(str(obj_path))
-
-                    mesh_from_obj = trimesh.load(obj_path)
-                    mesh_from_obj.export(stl_path)
+                    export_obj_safely(mesh, obj_path)
+                    mesh.export(stl_path)
 
                     processed_from_stl += 1
                     print(
@@ -200,7 +261,7 @@ def verify_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
         for file_path in folder.iterdir():
             if not file_path.is_file() or file_path.suffix != ".obj":
                 continue
-            mesh = trimesh.load_mesh(file_path)
+            mesh = load_trimesh(file_path)
             if is_valid(mesh):
                 valid += 1
             else:
@@ -278,7 +339,7 @@ def print_dataset(
         rows = []
 
         for file_path in files:
-            mesh = trimesh.load_mesh(file_path)
+            mesh = load_trimesh(file_path)
 
             V = len(mesh.vertices)
             E = len(mesh.edges_unique)
