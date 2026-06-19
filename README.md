@@ -2,7 +2,7 @@ This repository contains a curated collection of 192 triangle meshes spanning a 
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model in the repository to preview it interactively in 3D.
 
-All meshes are provided in `.obj` and `.stl` format. The collection is organized into five categories based on geometric character and topological complexity: (a) **bouba genus 0**, (b) **bouba genus ≥ 1**, (c) **kiki genus 0**, (d) **kiki genus ≥ 1**, and (e) **nightmares**. Here, *bouba* refers to smooth or organic shapes, *kiki* to CAD or mechanical shapes, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
+All meshes are provided in `.obj` and `.stl` format. The collection is organized into five categories based on geometric character and topological complexity: (a) **bouba genus 0**, (b) **bouba genus ≥ 1**, (c) **kiki genus 0**, (d) **kiki genus ≥ 1**, and (e) **nightmares**. Here, *bouba* refers to smooth or organic shapes, *kiki* to CAD or mechanical shapes, and *nightmares* to very challenging shapes with unusual geometric or topological quirks. The naming system is inspired by [the bouba/kiki effect](https://en.wikipedia.org/wiki/Bouba/kiki_effect).
 
 Note that some shapes did not originally come from a triangle mesh, or came from a very poor or broken one. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
