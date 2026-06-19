@@ -414,6 +414,6 @@ def print_dataset(
 
 
 if __name__ == "__main__":
-    # normalize_dataset()
-    # verify_dataset()
+    normalize_dataset()
+    verify_dataset()
     print_dataset()

@@ -6,7 +6,7 @@ All meshes are provided in `.obj` and `.stl` format. The collection is organized
 
 Note that some shapes did not originally come from a triangle mesh, or came from a very poor or broken one. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=41)
+### (a) bouba (g=0, n=67)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [airplane1](dataset/a.bouba_zero/airplane1.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -39,19 +39,45 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [foot](dataset/a.bouba_zero/foot.stl) | 0 | 10.342 | 31.020 | 20.680 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [gargoyle](dataset/a.bouba_zero/gargoyle.stl) | 0 | 13.024 | 39.066 | 26.044 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [ghost](dataset/a.bouba_zero/ghost.stl) | 0 | 1.698 | 5.088 | 3.392 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=40746) |
+| [glass1](dataset/a.bouba_zero/glass1.stl) | 0 | 29.674 | 89.016 | 59.344 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [glass2](dataset/a.bouba_zero/glass2.stl) | 0 | 11.710 | 35.124 | 23.416 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [goathead](dataset/a.bouba_zero/goathead.stl) | 0 | 2.763 | 8.283 | 5.522 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/goathead) |
+| [hand](dataset/a.bouba_zero/hand.stl) | 0 | 13.982 | 41.940 | 27.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [head1](dataset/a.bouba_zero/head1.stl) | 0 | 14.399 | 43.191 | 28.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [head2](dataset/a.bouba_zero/head2.stl) | 0 | 14.754 | 44.256 | 29.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [homer](dataset/a.bouba_zero/homer.stl) | 0 | 13.639 | 40.911 | 27.274 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| [horse](dataset/a.bouba_zero/horse.stl) | 0 | 19.851 | 59.547 | 39.698 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [human1](dataset/a.bouba_zero/human1.stl) | 0 | 10.231 | 30.687 | 20.458 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [human2](dataset/a.bouba_zero/human2.stl) | 0 | 12.794 | 38.376 | 25.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [human3](dataset/a.bouba_zero/human3.stl) | 0 | 12.329 | 36.981 | 24.654 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [igea](dataset/a.bouba_zero/igea.stl) | 0 | 25.282 | 75.840 | 50.560 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [insect](dataset/a.bouba_zero/insect.stl) | 0 | 39.370 | 118.104 | 78.736 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [isidorehorse](dataset/a.bouba_zero/isidorehorse.stl) | 0 | 19.465 | 58.389 | 38.926 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [koala](dataset/a.bouba_zero/koala.stl) | 0 | 3.560 | 10.674 | 7.116 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [lion](dataset/a.bouba_zero/lion.stl) | 0 | 27.899 | 83.691 | 55.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [max](dataset/a.bouba_zero/max.stl) | 0 | 9.936 | 29.802 | 19.868 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [moai](dataset/a.bouba_zero/moai.stl) | 0 | 10.002 | 30.000 | 20.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [mouse](dataset/a.bouba_zero/mouse.stl) | 0 | 13.961 | 41.877 | 27.918 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [oni](dataset/a.bouba_zero/oni.stl) | 0 | 12.887 | 38.655 | 25.770 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [pear](dataset/a.bouba_zero/pear.stl) | 0 | 10.754 | 32.256 | 21.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [pensatore](dataset/a.bouba_zero/pensatore.stl) | 0 | 19.624 | 58.866 | 39.244 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [pierrot](dataset/a.bouba_zero/pierrot.stl) | 0 | 16.551 | 49.647 | 33.098 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [pig](dataset/a.bouba_zero/pig.stl) | 0 | 15.594 | 46.776 | 31.184 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [ramses](dataset/a.bouba_zero/ramses.stl) | 0 | 13.505 | 40.509 | 27.006 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [redbox](dataset/a.bouba_zero/redbox.stl) | 0 | 50.002 | 150.000 | 100.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [retinal](dataset/a.bouba_zero/retinal.stl) | 0 | 14.566 | 43.692 | 29.128 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [santa](dataset/a.bouba_zero/santa.stl) | 0 | 10.406 | 31.212 | 20.808 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [screwdriver](dataset/a.bouba_zero/screwdriver.stl) | 0 | 24.568 | 73.698 | 49.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [sediapatch](dataset/a.bouba_zero/sediapatch.stl) | 0 | 15.584 | 46.746 | 31.164 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [sphinx](dataset/a.bouba_zero/sphinx.stl) | 0 | 10.608 | 31.818 | 21.212 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [spot](dataset/a.bouba_zero/spot.stl) | 0 | 11.533 | 34.593 | 23.062 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/spot) |
 | [toy1](dataset/a.bouba_zero/toy1.stl) | 0 | 13.452 | 40.350 | 26.900 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [toy2](dataset/a.bouba_zero/toy2.stl) | 0 | 10.755 | 32.259 | 21.506 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [uumemento](dataset/a.bouba_zero/uumemento.stl) | 0 | 46.510 | 139.524 | 93.016 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [venus](dataset/a.bouba_zero/venus.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [woodenfish](dataset/a.bouba_zero/woodenfish.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (b) bouba (g≥1, n=25)
+### (b) bouba (g≥0, n=34)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [bob](dataset/b.bouba_plus/bob.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -74,11 +100,20 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [eight](dataset/b.bouba_plus/eight.stl) | 2 | 5.544 | 16.638 | 11.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [elephant](dataset/b.bouba_plus/elephant.stl) | 3 | 38.084 | 114.264 | 76.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [elk](dataset/b.bouba_plus/elk.stl) | 1 | 23.114 | 69.342 | 46.228 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [eros](dataset/b.bouba_plus/eros.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [fertility](dataset/b.bouba_plus/fertility.stl) | 4 | 26.222 | 78.684 | 52.456 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [genus3](dataset/b.bouba_plus/genus3.stl) | 3 | 33.952 | 101.868 | 67.912 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [grayloc](dataset/b.bouba_plus/grayloc.stl) | 9 | 11.339 | 34.065 | 22.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [greek](dataset/b.bouba_plus/greek.stl) | 4 | 12.501 | 37.521 | 25.014 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [holes3](dataset/b.bouba_plus/holes3.stl) | 3 | 14.396 | 43.200 | 28.800 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [kiss](dataset/b.bouba_plus/kiss.stl) | 3 | 10.192 | 30.588 | 20.392 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [kitten](dataset/b.bouba_plus/kitten.stl) | 1 | 10.183 | 30.549 | 20.366 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [mastercylinder](dataset/b.bouba_plus/mastercylinder.stl) | 3 | 13.689 | 41.079 | 27.386 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [oilpump](dataset/b.bouba_plus/oilpump.stl) | 4 | 68.742 | 206.244 | 137.496 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [rollingstage](dataset/b.bouba_plus/rollingstage.stl) | 7 | 15.387 | 46.197 | 30.798 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [teapot](dataset/b.bouba_plus/teapot.stl) | 1 | 13.464 | 40.392 | 26.928 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [thaistatue](dataset/b.bouba_plus/thaistatue.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [wrench](dataset/b.bouba_plus/wrench.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
 ### (c) kiki (g=0, n=56)
 | model | genus | vertices | edges | triangles | source |
