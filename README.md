@@ -6,7 +6,7 @@ All meshes are provided in `.obj` and `.stl` format. The collection is organized
 
 Note that some shapes did not originally come from a triangle mesh, or came from a very poor or broken one. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=67)
+### (a) bouba (g=0, n=68)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [airplane1](dataset/a.bouba_zero/airplane1.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -34,6 +34,7 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [dino2](dataset/a.bouba_zero/dino2.stl) | 0 | 10.178 | 30.528 | 20.352 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [duck](dataset/a.bouba_zero/duck.stl) | 0 | 3.598 | 10.788 | 7.192 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [duck2](dataset/a.bouba_zero/duck2.stl) | 0 | 9.640 | 28.914 | 19.276 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [eros](dataset/b.bouba_plus/eros.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [fish1](dataset/a.bouba_zero/fish1.stl) | 0 | 11.895 | 35.679 | 23.786 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [fish2](dataset/a.bouba_zero/fish2.stl) | 0 | 10.604 | 31.806 | 21.204 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [foot](dataset/a.bouba_zero/foot.stl) | 0 | 10.342 | 31.020 | 20.680 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -77,7 +78,7 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [venus](dataset/a.bouba_zero/venus.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [woodenfish](dataset/a.bouba_zero/woodenfish.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (b) bouba (g≥0, n=34)
+### (b) bouba (g≥0, n=33)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [bob](dataset/b.bouba_plus/bob.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -100,7 +101,6 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [eight](dataset/b.bouba_plus/eight.stl) | 2 | 5.544 | 16.638 | 11.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [elephant](dataset/b.bouba_plus/elephant.stl) | 3 | 38.084 | 114.264 | 76.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [elk](dataset/b.bouba_plus/elk.stl) | 1 | 23.114 | 69.342 | 46.228 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [eros](dataset/b.bouba_plus/eros.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [fertility](dataset/b.bouba_plus/fertility.stl) | 4 | 26.222 | 78.684 | 52.456 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [genus3](dataset/b.bouba_plus/genus3.stl) | 3 | 33.952 | 101.868 | 67.912 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [grayloc](dataset/b.bouba_plus/grayloc.stl) | 9 | 11.339 | 34.065 | 22.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
