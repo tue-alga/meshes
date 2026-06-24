@@ -1,4 +1,4 @@
-This repository contains a curated collection of 228 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 229 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model in the repository to preview it interactively in 3D.
 
@@ -78,7 +78,7 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [venus](dataset/a.bouba_zero/venus.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [woodenfish](dataset/a.bouba_zero/woodenfish.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (b) bouba (g≥0, n=33)
+### (b) bouba (g≥0, n=34)
 | model | genus | vertices | edges | triangles | source |
 |-------|-------|----------|-------|-----------|--------|
 | [bob](dataset/b.bouba_plus/bob.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -114,6 +114,7 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [teapot](dataset/b.bouba_plus/teapot.stl) | 1 | 13.464 | 40.392 | 26.928 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [thaistatue](dataset/b.bouba_plus/thaistatue.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [wrench](dataset/b.bouba_plus/wrench.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| [threecees](dataset/b.bouba_plus/threecees.stl) | 1 | 1.788 | 5.364 | 3.576 | [Bas Paardekooper]() |
 
 ### (c) kiki (g=0, n=56)
 | model | genus | vertices | edges | triangles | source |
