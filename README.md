@@ -114,7 +114,7 @@ Note that some shapes did not originally come from a triangle mesh, or came from
 | [teapot](dataset/b.bouba_plus/teapot.stl) | 1 | 13.464 | 40.392 | 26.928 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [thaistatue](dataset/b.bouba_plus/thaistatue.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | [wrench](dataset/b.bouba_plus/wrench.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [threecees](dataset/b.bouba_plus/threecees.stl) | 1 | 1.788 | 5.364 | 3.576 | [Bas Paardekooper]() |
+| [threecees](dataset/b.bouba_plus/threecees.stl) | 1 | 1.788 | 5.364 | 3.576 | Bas Paardekooper |
 
 ### (c) kiki (g=0, n=56)
 | model | genus | vertices | edges | triangles | source |
