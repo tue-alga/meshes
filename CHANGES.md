@@ -284,7 +284,7 @@ Credit changes in this version:
 | `knot_cgal` | b.bouba_plus | 1 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | `limitcycle_hexme` | d.kiki_plus | 1 | 16.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `limitcycleg0_hexme` | c.kiki_zero | 0 | 15.276 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `metatron_loopy` | e.nightmares | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `metatron_loopy` | d.kiki_plus | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `octaflower_gao` | c.kiki_zero | 0 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `octahedron_hexme` | c.kiki_zero | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `oloid_crane` | c.kiki_zero | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
