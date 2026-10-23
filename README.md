@@ -4,7 +4,7 @@ This repository contains a curated collection of 723 triangle meshes spanning a 
 
 The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder contains a thumbnail and `.stl` copy such that the models can be viewed using GitHub's built-in 3D viewer. The collection is organized into five categories based on geometric character and topological complexity: (a) **smooth genus 0**, (b) **smooth genus ≥ 1**, (c) **sharp genus 0**, (d) **sharp genus ≥ 1**, and (e) **nightmares**. Here, *smooth* refers to organic or freeform shapes, *sharp* to CAD-like shapes with flat faces and sharp edges, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
 
-### (a) smooth (g=0, n=206)
+### (a) smooth (g=0, n=209)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.smooth_zero/18_quadwild.png" width="120"/> | [18_quadwild](preview/a.smooth_zero/18_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 25.002 | 75.000 | 50.000 | [^1] (repaired) |
@@ -23,6 +23,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/armadillo_stein.png" width="120"/> | [armadillo_stein](preview/a.smooth_zero/armadillo_stein.stl) | 0 | 14.587 | 43.755 | 29.170 | [^8] |
 | <img src="preview/a.smooth_zero/armchair_gao.png" width="120"/> | [armchair_gao](preview/a.smooth_zero/armchair_gao.stl) | 0 | 12.972 | 38.910 | 25.940 | [^4] |
 | <img src="preview/a.smooth_zero/asiandragon_skel.png" width="120"/> | [asiandragon_skel](preview/a.smooth_zero/asiandragon_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 29.999 | 89.991 | 59.994 | [^3] (repaired, simplified) |
+| <img src="preview/a.smooth_zero/ballJoint_skel.png" width="120"/> | [ballJoint_skel](preview/a.smooth_zero/ballJoint_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 137.062 | 411.180 | 274.120 | [^3] |
 | <img src="preview/a.smooth_zero/bear0_quadwild.png" width="120"/> | [bear0_quadwild](preview/a.smooth_zero/bear0_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 5.018 | 15.048 | 10.032 | [^1] |
 | <img src="preview/a.smooth_zero/bear1_quadwild.png" width="120"/> | [bear1_quadwild](preview/a.smooth_zero/bear1_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 4.290 | 12.864 | 8.576 | [^1] |
 | <img src="preview/a.smooth_zero/bigguy_quadwild.png" width="120"/> | [bigguy_quadwild](preview/a.smooth_zero/bigguy_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 6.786 | 20.352 | 13.568 | [^1] |
@@ -174,12 +175,14 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/strawberry_stein.png" width="120"/> | [strawberry_stein](preview/a.smooth_zero/strawberry_stein.stl) | 0 | 29.992 | 89.970 | 59.980 | [^8] (simplified) |
 | <img src="preview/a.smooth_zero/stuffedtoy_stein.png" width="120"/> | [stuffedtoy_stein](preview/a.smooth_zero/stuffedtoy_stein.stl) | 0 | 6.669 | 20.001 | 13.334 | [^8] |
 | <img src="preview/a.smooth_zero/sword_stein.png" width="120"/> | [sword_stein](preview/a.smooth_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | [^8] |
+| <img src="preview/a.smooth_zero/T165_shrec11.png" width="120"/> | [T165_shrec11](preview/a.smooth_zero/T165_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.493 | 28.473 | 18.982 | [^13] |
 | <img src="preview/a.smooth_zero/T200_shrec11.png" width="120"/> | [T200_shrec11](preview/a.smooth_zero/T200_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.497 | 28.485 | 18.990 | [^13] |
 | <img src="preview/a.smooth_zero/T211_shrec11.png" width="120"/> | [T211_shrec11](preview/a.smooth_zero/T211_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.454 | 28.356 | 18.904 | [^13] |
 | <img src="preview/a.smooth_zero/T216_shrec11.png" width="120"/> | [T216_shrec11](preview/a.smooth_zero/T216_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.450 | 28.344 | 18.896 | [^13] |
 | <img src="preview/a.smooth_zero/T222_shrec11.png" width="120"/> | [T222_shrec11](preview/a.smooth_zero/T222_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.501 | 28.497 | 18.998 | [^13] |
 | <img src="preview/a.smooth_zero/T235_shrec11.png" width="120"/> | [T235_shrec11](preview/a.smooth_zero/T235_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.497 | 28.485 | 18.990 | [^13] |
 | <img src="preview/a.smooth_zero/T248_shrec11.png" width="120"/> | [T248_shrec11](preview/a.smooth_zero/T248_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.148 | 27.438 | 18.292 | [^13] |
+| <img src="preview/a.smooth_zero/T266_shrec11.png" width="120"/> | [T266_shrec11](preview/a.smooth_zero/T266_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.493 | 28.473 | 18.982 | [^13] |
 | <img src="preview/a.smooth_zero/T280_shrec11.png" width="120"/> | [T280_shrec11](preview/a.smooth_zero/T280_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.497 | 28.485 | 18.990 | [^13] |
 | <img src="preview/a.smooth_zero/T2_shrec11.png" width="120"/> | [T2_shrec11](preview/a.smooth_zero/T2_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.501 | 28.497 | 18.998 | [^13] |
 | <img src="preview/a.smooth_zero/T340_shrec11.png" width="120"/> | [T340_shrec11](preview/a.smooth_zero/T340_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.318 | 27.948 | 18.632 | [^13] |
@@ -313,7 +316,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/well_stein.png" width="120"/> | [well_stein](preview/b.smooth_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [^8] (simplified) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="120"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [^4] |
 
-### (c) sharp (g=0, n=160)
+### (c) sharp (g=0, n=157)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/c.sharp_zero/0_1875_BALL_CUTTER_esb.png" width="120"/> | [0_1875_BALL_CUTTER_esb](preview/c.sharp_zero/0_1875_BALL_CUTTER_esb.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 3.399 | 10.191 | 6.794 | [^18] (repaired) |
@@ -386,7 +389,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/B7_mambo.png" width="120"/> | [B7_mambo](preview/c.sharp_zero/B7_mambo.stl) | 0 | 498 | 1.488 | 992 | [^19] (meshed) |
 | <img src="preview/c.sharp_zero/B8_mambo.png" width="120"/> | [B8_mambo](preview/c.sharp_zero/B8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [^19] (meshed) |
 | <img src="preview/c.sharp_zero/B9_mambo.png" width="120"/> | [B9_mambo](preview/c.sharp_zero/B9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [^19] (meshed) |
-| <img src="preview/c.sharp_zero/ballJoint_skel.png" width="120"/> | [ballJoint_skel](preview/c.sharp_zero/ballJoint_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 137.062 | 411.180 | 274.120 | [^3] |
 | <img src="preview/c.sharp_zero/bed2_left_sidepannel_esb.png" width="120"/> | [bed2_left_sidepannel_esb](preview/c.sharp_zero/bed2_left_sidepannel_esb.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 36 | 102 | 68 | [^18] |
 | <img src="preview/c.sharp_zero/beveled_shoulder_1_quadwild.png" width="120"/> | [beveled_shoulder_1_quadwild](preview/c.sharp_zero/beveled_shoulder_1_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 3.836 | 11.502 | 7.668 | [^1] |
 | <img src="preview/c.sharp_zero/blacde_quadwild.png" width="120"/> | [blacde_quadwild](preview/c.sharp_zero/blacde_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 37.378 | 112.128 | 74.752 | [^1] |
@@ -470,8 +472,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/spring2_quadwild.png" width="120"/> | [spring2_quadwild](preview/c.sharp_zero/spring2_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 1.130 | 3.384 | 2.256 | [^1] |
 | <img src="preview/c.sharp_zero/spring_quadwild.png" width="120"/> | [spring_quadwild](preview/c.sharp_zero/spring_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 3.620 | 10.854 | 7.236 | [^1] |
 | <img src="preview/c.sharp_zero/stab3_quadwild.png" width="120"/> | [stab3_quadwild](preview/c.sharp_zero/stab3_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 3.316 | 9.942 | 6.628 | [^1] |
-| <img src="preview/c.sharp_zero/T165_shrec11.png" width="120"/> | [T165_shrec11](preview/c.sharp_zero/T165_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.493 | 28.473 | 18.982 | [^13] |
-| <img src="preview/c.sharp_zero/T266_shrec11.png" width="120"/> | [T266_shrec11](preview/c.sharp_zero/T266_shrec11.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.493 | 28.473 | 18.982 | [^13] |
 | <img src="preview/c.sharp_zero/tris_closed_loopy.png" width="120"/> | [tris_closed_loopy](preview/c.sharp_zero/tris_closed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | [^9] |
 | <img src="preview/c.sharp_zero/wave_loopy.png" width="120"/> | [wave_loopy](preview/c.sharp_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | [^9] (repaired) |
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="120"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^9] |
