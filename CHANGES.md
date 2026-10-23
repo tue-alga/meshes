@@ -141,7 +141,7 @@ Credit changes in this version:
 | `torque_loopy` | a.bouba_zero | 0 | 3.300 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `trebol_loopy` | a.bouba_zero | 0 | 36.348 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `tree_stein` | a.bouba_zero | 0 | 59.996 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tree) |
-| `wave_loopy` | a.bouba_zero | 0 | 1.148 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `wave_loopy` | c.kiki_zero | 0 | 1.148 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boot_stein` | b.bouba_plus | 12 | 39.906 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boot) |
 | `buddha_stanford` | b.bouba_plus | 10 | 58.874 | [Stanford + Maxim Snoep (repaired, simplified)](https://graphics.stanford.edu/data/3Dscanrep/) |
 | `centaur_tds` | b.bouba_plus | 9 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |

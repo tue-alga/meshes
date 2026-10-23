@@ -10,7 +10,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=127)
+### (a) bouba (g=0, n=126)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/a.bouba_zero/airplane1_gao.png" width="40"/> | [airplane1_gao](preview/a.bouba_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | 0.16 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -138,7 +138,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.bouba_zero/tree_stein.png" width="40"/> | [tree_stein](preview/a.bouba_zero/tree_stein.stl) | 0 | 30.000 | 89.994 | 59.996 | 0.23 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tree) |
 | <img src="preview/a.bouba_zero/uumemento_gao.png" width="40"/> | [uumemento_gao](preview/a.bouba_zero/uumemento_gao.stl) | 0 | 46.510 | 139.524 | 93.016 | 0.06 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/venus_gao.png" width="40"/> | [venus_gao](preview/a.bouba_zero/venus_gao.stl) | 0 | 10.874 | 32.616 | 21.744 | 0.12 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| <img src="preview/a.bouba_zero/wave_loopy.png" width="40"/> | [wave_loopy](preview/a.bouba_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | 0.96 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/woodenfish_gao.png" width="40"/> | [woodenfish_gao](preview/a.bouba_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | 0.13 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
 ### (b) bouba (g≥1, n=55)
@@ -200,7 +199,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.bouba_plus/violin_stein.png" width="40"/> | [violin_stein](preview/b.bouba_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.51 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.bouba_plus/wrench_gao.png" width="40"/> | [wrench_gao](preview/b.bouba_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (c) kiki (g=0, n=103)
+### (c) kiki (g=0, n=104)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.kiki_zero/3035_gao.png" width="40"/> | [3035_gao](preview/c.kiki_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.89 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -304,6 +303,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.kiki_zero/sword_stein.png" width="40"/> | [sword_stein](preview/c.kiki_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | 0.23 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sword) |
 | <img src="preview/c.kiki_zero/trisclosed_loopy.png" width="40"/> | [trisclosed_loopy](preview/c.kiki_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/vessel_loopy.png" width="40"/> | [vessel_loopy](preview/c.kiki_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | 0.15 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/wave_loopy.png" width="40"/> | [wave_loopy](preview/c.kiki_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | 0.96 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/wedge_loopy.png" width="40"/> | [wedge_loopy](preview/c.kiki_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/wingnut_stein.png" width="40"/> | [wingnut_stein](preview/c.kiki_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | 0.95 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
