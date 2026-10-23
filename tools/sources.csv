@@ -1,18 +1,18 @@
 name,source,url
 3035_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 7connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-7connected_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+7connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 8connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-8connected_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-acuteline_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+8connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+acuteline_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 airplane1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 airplane2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 amogus_sketchfab,joshua facunla,https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
 amogus_snoep,Maxim Snoep,
 anc101_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-antipentapyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-antipyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-antiskijump_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+antipentapyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+antipyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+antiskijump_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 aries155_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 aries70_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 armadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -96,7 +96,7 @@ B9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/m
 bearingplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 beveledshoulder2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bimba_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bimba_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+bimba_jacobson,Alec Jacobson + Maxim Snoep (simplified),https://github.com/alecjacobson/common-3d-test-models
 bimba_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bird_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 blade_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -117,15 +117,15 @@ boot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bo
 botijo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 bottle1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 bottle2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-boxpcyls_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+boxpcyls_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 bracket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 bracketinches_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 brucewick_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/brucewick
-buddha_stanford,Stanford,https://graphics.stanford.edu/data/3Dscanrep/
+buddha_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
 bumpysphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 bumpytorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 bunny_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bunny_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+bunny_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 bunny_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bunny_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bunny_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
@@ -133,7 +133,7 @@ buste_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 buste_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 buste_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bustobimba_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-c25dflowthru_nasa,NASA,https://lbpw.larc.nasa.gov/
+c25dflowthru_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
 cactus_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 camel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 cami1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -145,13 +145,13 @@ casting_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 cat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 cat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
 catalanwire_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
-centaur_tds,Three D Scans,https://huggingface.co/datasets/alecjacobson/threedscans
+centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified)",https://huggingface.co/datasets/alecjacobson/threedscans
 chair1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 chair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 cheese2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 cheese3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 cheese_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-cheese_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/cheese
+cheese_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/cheese
 chesspawn_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 chessrook_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 chineselion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -164,9 +164,9 @@ completepart16_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing
 completepart63_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 constantwidth_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 coverrear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-cow_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/cow
-crosscyls_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-csaszar_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+cow_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/cow
+crosscyls_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+csaszar_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 ctc01_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
 ctc03_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
 cube_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cube
@@ -184,7 +184,7 @@ david_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 deckel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 deckel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 deformedarmadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-demosthenes_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/demosthenes
+demosthenes_stein,"Oded Stein + Maxim Snoep (repaired, simplified)",https://github.com/odedstein/meshes/tree/master/objects/demosthenes
 dente_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 des6_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 desertrose_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
@@ -195,7 +195,7 @@ dog_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_dat
 dpw6g0_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
 dpw6g1_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
 dpw7_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
-dragon_stanford,Stanford,https://graphics.stanford.edu/data/3Dscanrep/
+dragon_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
 dragonstand2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 dragonstand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 dtorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -206,7 +206,7 @@ elephant_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 elk_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 ellipse_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 encrusted_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-encrusted_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+encrusted_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 eraserball_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 eros_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 falconstatue_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/falconstatue
@@ -237,7 +237,7 @@ goathead_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedste
 goathead_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/goathead
 grayloc_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 greek_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-greyhounds_tds,Three D Scans,https://huggingface.co/datasets/alecjacobson/threedscans
+greyhounds_tds,"Three D Scans + Maxim Snoep (repaired, simplified)",https://huggingface.co/datasets/alecjacobson/threedscans
 gyroidpuzzle_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 halvedobliquescarf3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 hammer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hammer
@@ -258,27 +258,27 @@ holes3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 homer_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 horse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 horse_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
-house_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/house
+house_stein,"Oded Stein + Maxim Snoep (repaired, simplified)",https://github.com/odedstein/meshes/tree/master/objects/house
 human1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 human2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 human3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 humanman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
 humanneutral_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/human
 humanwoman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
-icosahedron_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+icosahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 igea_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-igea_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+igea_jacobson,Alec Jacobson + Maxim Snoep (simplified),https://github.com/alecjacobson/common-3d-test-models
 impeller_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 impellerhousing_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 indorelax_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-inigo_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+inigo_crane,"Keenan Crane + Maxim Snoep (repaired, simplified)",https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 inlaydovetail3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 insect_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-involumeknot_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+involumeknot_nop,Sébastien Mestrallet + Maxim Snoep (meshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 isidorehorse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 joint_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 joint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-jwb_nasa,NASA,https://lbpw.larc.nasa.gov/
+jwb_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
 kiss_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 kiss_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 kitten_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -291,8 +291,8 @@ kong_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_da
 legoblock_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 legoman_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 leverarm_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-limitcycle_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-limitcycleg0_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+limitcycle_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+limitcycleg0_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 lion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 lionstatue_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/lionstatue
 lock_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -306,7 +306,7 @@ M8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/m
 M9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 mastercylinder_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 max_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-max_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+max_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 mech10_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mechanical02_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mechanical05_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
@@ -318,26 +318,26 @@ moai_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 motortail_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mouse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 mushroom_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/mushroom
-nefertiti_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-nefertiti_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/nefertiti
+nefertiti_crane,Keenan Crane + Maxim Snoep (simplified),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+nefertiti_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/nefertiti
 octaflower_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-octahedron_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-ogre_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-ogre_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+octahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+ogre_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+ogre_jacobson,"Alec Jacobson + Maxim Snoep (repaired, simplified)",https://github.com/alecjacobson/common-3d-test-models
 oilpump_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 oloid_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 oni_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-orion_nasa,NASA,https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule
-parsnip_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/parsnip
+orion_nasa,NASA + Maxim Snoep (repaired),https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule
+parsnip_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/parsnip
 part10_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 part11_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 pear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 penguin_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/penguin
 pensatore_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pentapyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+pentapyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 pierrot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pig_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+pig_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 pig_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 pig_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 pinion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -352,7 +352,7 @@ plate2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_
 plate3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 plate4_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 prism_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-pyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+pyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 rabbit_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 ramses_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 redbox_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
@@ -399,15 +399,15 @@ sbpw3_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
 sbracket_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 scorpion_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/scorpion
 screw_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-screw_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+screw_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 screwdriver_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 sculpt_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 sculpt_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 sediapatch_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-simp_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
-skijump_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+simp_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+skijump_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 skull_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/skull
-sls_nasa,NASA,https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201
+sls_nasa,"NASA + Maxim Snoep (repaired, simplified)",https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201
 socket1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 socket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 sphere_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sphere
@@ -417,14 +417,14 @@ spot_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository
 spot_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedstein/meshes/tree/master/objects/spot
 spot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/spot
 springer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/springer
-strawberry_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/strawberry
+strawberry_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/strawberry
 stuffedtoy_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy
 supportframe_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 swivel2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 sword_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sword
 team2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 teapot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-teapot_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+teapot_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 teapot_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 thaistatue_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 threecees_paardekooper,Bas Paardekooper,
@@ -432,28 +432,28 @@ torque1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test
 torque_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 torus_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/torus
 torusstep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-torusstep_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-tower_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/tower
+torusstep_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+tower_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/tower
 toy1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 toy2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 traystep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-traystep_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+traystep_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 trebol_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-tree_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/tree
+tree_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/tree
 triangularbase_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 trisclosed_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 trisopen_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 twins_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-twins_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+twins_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 twist_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 ujoint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 uumemento_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 venus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 vessel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-violin_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/violin
+violin_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/violin
 wave_loopy,Marco Livesu + Maxim Snoep (repaired),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 wedge_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-well_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/well
+well_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/well
 wingnut_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/wingnut
 woodenfish_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 wrench_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip

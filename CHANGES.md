@@ -4,7 +4,7 @@ Every mesh is now named `<shape>_<source>`, so the same shape can appear once pe
 
 All meshes from the previous version were rebuilt from a fresh download of their original source. The table below lists every mesh whose geometry or pose differs from the previous version, plus the meshes that could not be rebuilt and were kept as they were. The remaining 210 meshes are identical to the previous version and are only renamed.
 
-The previous versions of the changed meshes are still included, named `<shape>_snoep` and credited to the original source plus Maxim Snoep (*remeshed* for the nightmares, *re-oriented* for the rest).
+The previous versions of the changed meshes are still included, named `<shape>_snoep` and credited to the original source plus Maxim Snoep (*simplified* for the nightmares, *re-oriented* for the rest).
 
 Rotations are given as the transform that maps the **new** (original-source) mesh onto the **previous** dataset mesh, so you can re-create a previous orientation from the new file.
 
@@ -14,7 +14,8 @@ Rotations are given as the transform that maps the **new** (original-source) mes
 When a mesh was made by someone other than the original author, the source is credited as `<original source> + <person> (<what they did>)`:
 
 - **meshed**: tessellated from a CAD file (STEP/BREP/IGES), because the source provides no mesh.
-- **remeshed**: retriangulated, for example coarser or more uniform.
+- **remeshed**: retriangulated, for example finer or more uniform.
+- **simplified**: remeshed to fewer triangles (decimated or coarsened).
 - **re-oriented**: rotated (and possibly moved) without changing the triangulation.
 - **repaired**: small holes closed and stray parts or non-manifold spots removed (MeshFix).
 
@@ -22,11 +23,11 @@ Credit changes in this version:
 
 - **Mambo** (118 meshes, `*_mambo`): now credited as *Franck Ledoux + Maxim Snoep (meshed)*. The Mambo repository only provides CAD files; the meshes are tessellations made with `tools/step_to_obj.py` (gmsh). The 110 meshes from the previous version that could be rebuilt are identical to before. `M4_mambo` and `M5_mambo` are Maxim Snoep's own remeshes and were kept as they were (meshing the upstream STEP with gmsh gives degenerate triangles for M4 and does not finish for M5).
 - **Aerospace workshop models** (`dpw6g0`, `dpw6g1`, `dpw7`, `hlpw4`, `hlpw5`, `sbpw1`, `sbpw2`, `sbpw3`): credited as *NASA + Stevie-Ray Janssen (meshed)* and named `*_nlr`.
-- **`*_snoep`**: previous versions of changed meshes, credited as *<original source> + Maxim Snoep (remeshed / re-oriented)*.
+- **`*_snoep`**: previous versions of changed meshes, credited as *<original source> + Maxim Snoep (simplified / re-oriented)*.
 - **`blocktopus_snoep`**: a new feature-preserving isotropic remesh of `blocktopus_thingi`, credited to Thingi10K + Maxim Snoep (remeshed).
 - **`amogus_snoep`**: a new feature-preserving isotropic remesh of `amogus_sketchfab` (6.118 triangles), credited to Maxim Snoep.
 
-Still to be checked: these new meshes were also meshed from CAD with our pipeline but are, for now, credited to their source only: `acuteline_hexme`, `antipentapyramid_hexme`, `antipyramid_hexme`, `antiskijump_hexme`, `boxpcyls_hexme`, `crosscyls_hexme`, `icosahedron_hexme`, `limitcycle_hexme`, `limitcycleg0_hexme`, `octahedron_hexme`, `pentapyramid_hexme`, `pyramid_hexme`, `simp_hexme`, `skijump_hexme`, `c25dflowthru_nasa`, `jwb_nasa`, `involumeknot_nop`.
+- **Meshed from CAD by us**: the HexMe models (`*_hexme`), `involumeknot_nop`, `c25dflowthru_nasa`, `jwb_nasa` and the NIST parts (`*_nist`) are credited as *<source> + Maxim Snoep (meshed)*.
 
 
 ## Changed geometry or pose
@@ -85,7 +86,7 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `amogus_snoep` | a.bouba_zero | 0 | 6.118 | Maxim Snoep (feature-preserving isotropic remesh of `amogus_sketchfab`) |
 | `armadillo_gao` | a.bouba_zero | 0 | 31.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `armadillo_jacobson` | a.bouba_zero | 0 | 99.976 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
-| `bimba_jacobson` | a.bouba_zero | 0 | 59.986 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| `bimba_jacobson` | a.bouba_zero | 0 | 59.986 | [Alec Jacobson + Maxim Snoep (simplified)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bimba_loopy` | a.bouba_zero | 0 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blade_loopy` | a.bouba_zero | 0 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bladefem_loopy` | a.bouba_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -96,14 +97,14 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `bonefemur_loopy` | a.bouba_zero | 0 | 9.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `brucewick_stein` | a.bouba_zero | 0 | 2.858 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/brucewick) |
 | `bunny_gao` | a.bouba_zero | 0 | 22.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `bunny_jacobson` | a.bouba_zero | 0 | 70.372 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| `bunny_jacobson` | a.bouba_zero | 0 | 70.372 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bunny_stein` | a.bouba_zero | 0 | 6.598 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/bunny) |
 | `buste_gao` | a.bouba_zero | 0 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `bustobimba_loopy` | a.bouba_zero | 0 | 3.892 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cactus_loopy` | a.bouba_zero | 0 | 1.396 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `camillehand_loopy` | a.bouba_zero | 0 | 7.406 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cat_loopy` | a.bouba_zero | 0 | 4.660 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `cheese_stein` | a.bouba_zero | 0 | 60.000 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/cheese) |
+| `cheese_stein` | a.bouba_zero | 0 | 60.000 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/cheese) |
 | `chineselion_gao` | a.bouba_zero | 0 | 50.384 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `clef_loopy` | a.bouba_zero | 0 | 2.780 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cup_loopy` | a.bouba_zero | 0 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -118,52 +119,52 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `humanman_stein` | a.bouba_zero | 0 | 13.776 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/human) |
 | `humanneutral_stein` | a.bouba_zero | 0 | 18.870 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/human) |
 | `humanwoman_stein` | a.bouba_zero | 0 | 13.776 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/human) |
-| `igea_jacobson` | a.bouba_zero | 0 | 59.998 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
-| `inigo_crane` | a.bouba_zero | 0 | 59.986 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `igea_jacobson` | a.bouba_zero | 0 | 59.998 | [Alec Jacobson + Maxim Snoep (simplified)](https://github.com/alecjacobson/common-3d-test-models) |
+| `inigo_crane` | a.bouba_zero | 0 | 59.986 | [Keenan Crane + Maxim Snoep (repaired, simplified)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `kong_loopy` | a.bouba_zero | 0 | 31.552 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `max_jacobson` | a.bouba_zero | 0 | 102.420 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| `max_jacobson` | a.bouba_zero | 0 | 102.420 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `mushroom_stein` | a.bouba_zero | 0 | 23.166 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/mushroom) |
-| `nefertiti_crane` | a.bouba_zero | 0 | 59.994 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `nefertiti_stein` | a.bouba_zero | 0 | 59.994 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/nefertiti) |
-| `ogre_crane` | a.bouba_zero | 0 | 38.888 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `ogre_jacobson` | a.bouba_zero | 0 | 51.334 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| `nefertiti_crane` | a.bouba_zero | 0 | 59.994 | [Keenan Crane + Maxim Snoep (simplified)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `nefertiti_stein` | a.bouba_zero | 0 | 59.994 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/nefertiti) |
+| `ogre_crane` | a.bouba_zero | 0 | 38.888 | [Keenan Crane + Maxim Snoep (repaired)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `ogre_jacobson` | a.bouba_zero | 0 | 51.334 | [Alec Jacobson + Maxim Snoep (repaired, simplified)](https://github.com/alecjacobson/common-3d-test-models) |
 | `penguin_stein` | a.bouba_zero | 0 | 6.720 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/penguin) |
-| `pig_crane` | a.bouba_zero | 0 | 8.864 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `pig_crane` | a.bouba_zero | 0 | 8.864 | [Keenan Crane + Maxim Snoep (repaired)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `pig_loopy` | a.bouba_zero | 0 | 6.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `rabbit_loopy` | a.bouba_zero | 0 | 16.000 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `scorpion_stein` | a.bouba_zero | 0 | 12.626 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/scorpion) |
 | `sphere_stein` | a.bouba_zero | 0 | 1.280 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sphere) |
 | `sphinx_loopy` | a.bouba_zero | 0 | 20.364 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `spot_crane` | a.bouba_zero | 0 | 5.856 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `strawberry_stein` | a.bouba_zero | 0 | 59.980 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
+| `strawberry_stein` | a.bouba_zero | 0 | 59.980 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
 | `stuffedtoy_stein` | a.bouba_zero | 0 | 13.334 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy) |
-| `teapot_jacobson` | a.bouba_zero | 0 | 3.606 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| `teapot_jacobson` | a.bouba_zero | 0 | 3.606 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `torque1_loopy` | a.bouba_zero | 0 | 5.696 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `torque_loopy` | a.bouba_zero | 0 | 3.300 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `trebol_loopy` | a.bouba_zero | 0 | 36.348 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `tree_stein` | a.bouba_zero | 0 | 59.996 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/tree) |
+| `tree_stein` | a.bouba_zero | 0 | 59.996 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tree) |
 | `wave_loopy` | a.bouba_zero | 0 | 1.148 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boot_stein` | b.bouba_plus | 12 | 39.906 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boot) |
-| `buddha_stanford` | b.bouba_plus | 10 | 58.874 | [Stanford](https://graphics.stanford.edu/data/3Dscanrep/) |
-| `centaur_tds` | b.bouba_plus | 9 | 59.978 | [Three D Scans](https://huggingface.co/datasets/alecjacobson/threedscans) |
-| `cow_stein` | b.bouba_plus | 1 | 59.982 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/cow) |
+| `buddha_stanford` | b.bouba_plus | 10 | 58.874 | [Stanford + Maxim Snoep (repaired, simplified)](https://graphics.stanford.edu/data/3Dscanrep/) |
+| `centaur_tds` | b.bouba_plus | 9 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| `cow_stein` | b.bouba_plus | 1 | 59.982 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/cow) |
 | `dancer_loopy` | b.bouba_plus | 1 | 49.996 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `demosthenes_stein` | b.bouba_plus | 1 | 59.930 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/demosthenes) |
+| `demosthenes_stein` | b.bouba_plus | 1 | 59.930 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/demosthenes) |
 | `desertrose_crane` | b.bouba_plus | 1 | 63.360 | [Keenan Crane + Maxim Snoep (repaired)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `dragon_stanford` | b.bouba_plus | 3 | 59.508 | [Stanford](https://graphics.stanford.edu/data/3Dscanrep/) |
-| `greyhounds_tds` | b.bouba_plus | 5 | 59.978 | [Three D Scans](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| `dragon_stanford` | b.bouba_plus | 3 | 59.508 | [Stanford + Maxim Snoep (repaired, simplified)](https://graphics.stanford.edu/data/3Dscanrep/) |
+| `greyhounds_tds` | b.bouba_plus | 5 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |
 | `holes2_loopy` | b.bouba_plus | 2 | 5.848 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `indorelax_loopy` | b.bouba_plus | 2 | 24.260 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `kiss_loopy` | b.bouba_plus | 3 | 25.484 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `kitten_loopy` | b.bouba_plus | 1 | 6.356 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `lionstatue_stein` | b.bouba_plus | 3 | 74.326 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/lionstatue) |
-| `parsnip_stein` | b.bouba_plus | 12 | 59.474 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/parsnip) |
+| `parsnip_stein` | b.bouba_plus | 12 | 59.474 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/parsnip) |
 | `pittsburghbridge_crane` | b.bouba_plus | 3 | 59.998 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `pizza_stein` | b.bouba_plus | 65 | 57.584 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/pizza) |
 | `skull_stein` | b.bouba_plus | 2 | 10.312 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/skull) |
 | `teapot_loopy` | b.bouba_plus | 1 | 13.088 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `torus_stein` | b.bouba_plus | 1 | 4.608 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/torus) |
-| `violin_stein` | b.bouba_plus | 5 | 59.998 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
+| `violin_stein` | b.bouba_plus | 5 | 59.998 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | `3035_gao` | c.kiki_zero | 0 | 7.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `aries70_gao` | c.kiki_zero | 0 | 8.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `chesspawn_mambo` | c.kiki_zero | 0 | 23.222 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
@@ -179,7 +180,7 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `featureloft_mambo` | c.kiki_zero | 0 | 18.480 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `gear_loopy` | c.kiki_zero | 0 | 7.858 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `hammer_stein` | c.kiki_zero | 0 | 60.160 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/hammer) |
-| `jwb_nasa` | c.kiki_zero | 0 | 43.342 | [NASA](https://lbpw.larc.nasa.gov/) |
+| `jwb_nasa` | c.kiki_zero | 0 | 43.342 | [NASA + Maxim Snoep (meshed)](https://lbpw.larc.nasa.gov/) |
 | `legoblock_mambo` | c.kiki_zero | 0 | 42.984 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `legoman_mambo` | c.kiki_zero | 0 | 14.114 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `mech10_loopy` | c.kiki_zero | 0 | 508 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -204,7 +205,7 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `bolt_loopy` | d.kiki_plus | 1 | 9.504 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bracket2_gao` | d.kiki_plus | 3 | 2.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `bracketinches_loopy` | d.kiki_plus | 6 | 16.622 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `c25dflowthru_nasa` | d.kiki_plus | 1 | 65.636 | [NASA](https://lbpw.larc.nasa.gov/) |
+| `c25dflowthru_nasa` | d.kiki_plus | 1 | 65.636 | [NASA + Maxim Snoep (meshed)](https://lbpw.larc.nasa.gov/) |
 | `cami1_gao` | d.kiki_plus | 5 | 2.436 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `cami2_gao` | d.kiki_plus | 1 | 1.308 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `casting_gao` | d.kiki_plus | 9 | 52.100 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -231,7 +232,7 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `hanger_loopy` | d.kiki_plus | 2 | 8.056 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `hinge_loopy` | d.kiki_plus | 5 | 19.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `holes10_gao` | d.kiki_plus | 100 | 10.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `house_stein` | d.kiki_plus | 36 | 58.020 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/house) |
+| `house_stein` | d.kiki_plus | 36 | 58.020 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/house) |
 | `impeller_loopy` | d.kiki_plus | 1 | 26.126 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `impellerhousing_gao` | d.kiki_plus | 1 | 2.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `joint_gao` | d.kiki_plus | 2 | 16.032 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -242,7 +243,7 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `mechanical06_loopy` | d.kiki_plus | 1 | 9.090 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `mechanical08_loopy` | d.kiki_plus | 1 | 2.928 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `motortail_loopy` | d.kiki_plus | 13 | 15.248 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `orion_nasa` | d.kiki_plus | 7 | 51.728 | [NASA](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule) |
+| `orion_nasa` | d.kiki_plus | 7 | 51.728 | [NASA + Maxim Snoep (repaired)](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule) |
 | `part10_gao` | d.kiki_plus | 3 | 2.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `part11_gao` | d.kiki_plus | 6 | 9.080 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `part_gao` | d.kiki_plus | 3 | 34.120 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -253,42 +254,42 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 | `sbracket_gao` | d.kiki_plus | 2 | 2.604 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `sculpt_gao` | d.kiki_plus | 2 | 29.368 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `sculpt_loopy` | d.kiki_plus | 2 | 7.342 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `simp_hexme` | d.kiki_plus | 1 | 10.048 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `sls_nasa` | d.kiki_plus | 7 | 60.000 | [NASA](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201) |
+| `simp_hexme` | d.kiki_plus | 1 | 10.048 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `sls_nasa` | d.kiki_plus | 7 | 60.000 | [NASA + Maxim Snoep (repaired, simplified)](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201) |
 | `socket1_gao` | d.kiki_plus | 7 | 2.412 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `socket2_gao` | d.kiki_plus | 7 | 2.420 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `supportframe_gao` | d.kiki_plus | 5 | 1.124 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `swivel2_gao` | d.kiki_plus | 2 | 816 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | `team2_gao` | d.kiki_plus | 9 | 8.638 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `tower_stein` | d.kiki_plus | 2 | 59.936 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/tower) |
+| `tower_stein` | d.kiki_plus | 2 | 59.936 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tower) |
 | `triangularbase_mambo` | d.kiki_plus | 4 | 30.152 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `trisopen_loopy` | d.kiki_plus | 1 | 1.440 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `ujoint_loopy` | d.kiki_plus | 2 | 11.152 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `well_stein` | d.kiki_plus | 48 | 59.832 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/well) |
+| `well_stein` | d.kiki_plus | 48 | 59.832 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | `wrench_loopy` | d.kiki_plus | 1 | 4.496 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `acuteline_hexme` | e.nightmares | 0 | 1.316 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antipentapyramid_hexme` | e.nightmares | 0 | 11.826 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antipyramid_hexme` | e.nightmares | 0 | 12.018 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antiskijump_hexme` | e.nightmares | 0 | 1.448 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `acuteline_hexme` | e.nightmares | 0 | 1.316 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antipentapyramid_hexme` | e.nightmares | 0 | 11.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antipyramid_hexme` | e.nightmares | 0 | 12.018 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antiskijump_hexme` | e.nightmares | 0 | 1.448 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `beveledshoulder2_loopy` | e.nightmares | 1 | 44 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `boxpcyls_hexme` | e.nightmares | 1 | 2.244 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `boxpcyls_hexme` | e.nightmares | 1 | 2.244 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `catalanwire_thingi` | e.nightmares | 119 | 57.600 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=509316) |
 | `constantwidth_crane` | e.nightmares | 0 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `crosscyls_hexme` | e.nightmares | 0 | 686 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `csaszar_crane` | e.nightmares | 1 | 896 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `crosscyls_hexme` | e.nightmares | 0 | 686 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `csaszar_crane` | e.nightmares | 1 | 896 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `halvedobliquescarf3_loopy` | e.nightmares | 0 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `hilbertcube_thingi` | e.nightmares | 8 | 508 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
-| `icosahedron_hexme` | e.nightmares | 0 | 12.500 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `icosahedron_hexme` | e.nightmares | 0 | 12.500 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `inlaydovetail3_loopy` | e.nightmares | 0 | 60 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `involumeknot_nop` | e.nightmares | 1 | 26.750 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| `involumeknot_nop` | e.nightmares | 1 | 26.750 | [Sébastien Mestrallet + Maxim Snoep (meshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | `knot1_cgal` | e.nightmares | 1 | 6.400 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | `knot_cgal` | e.nightmares | 1 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
-| `limitcycle_hexme` | e.nightmares | 1 | 16.826 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `limitcycleg0_hexme` | e.nightmares | 0 | 15.276 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `limitcycle_hexme` | e.nightmares | 1 | 16.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `limitcycleg0_hexme` | e.nightmares | 0 | 15.276 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `metatron_loopy` | e.nightmares | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `octaflower_gao` | e.nightmares | 0 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `octahedron_hexme` | e.nightmares | 0 | 6.728 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `octahedron_hexme` | e.nightmares | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `oloid_crane` | e.nightmares | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `pentapyramid_hexme` | e.nightmares | 0 | 1.918 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `pyramid_hexme` | e.nightmares | 0 | 2.544 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `skijump_hexme` | e.nightmares | 0 | 1.692 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `pentapyramid_hexme` | e.nightmares | 0 | 1.918 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `pyramid_hexme` | e.nightmares | 0 | 2.544 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `skijump_hexme` | e.nightmares | 0 | 1.692 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
