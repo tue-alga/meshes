@@ -438,7 +438,7 @@ def print_dataset(
             ).relative_to(PROJECT_ROOT).as_posix()
             stl_path = f"{preview_stem}.stl"
             png_path = f"{preview_stem}.png"
-            thumb_cell = f'<img src="{png_path}" width="160"/>'
+            thumb_cell = f'<img src="{png_path}" width="120"/>'
             source_info = sources.get(file_path.stem)
 
             source_cell = ""
