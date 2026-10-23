@@ -333,12 +333,53 @@ def fmt(n):
     return f"{n:,}".replace(",", ".")
 
 
+DEFAULT_NEW_PATH = SCRIPT_DIR / "new_meshes.txt"
+NEW_BADGE = '<img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/>'
+PROCESSING_CODES = {"meshed": "M", "remeshed": "R", "simplified": "S", "repaired": "F", "re-oriented": "O", "rescaled": "X"}
+DEFAULT_PROCESSOR = "Maxim Snoep"
+# per-object URLs that belong to one collection (reference) in the README
+COLLECTION_URLS = {
+    "https://github.com/odedstein/meshes/": "https://github.com/odedstein/meshes",
+    "https://ten-thousand-models.appspot.com/": "https://ten-thousand-models.appspot.com",
+    "https://github.com/nasa/NASA-3D-Resources/": "https://github.com/nasa/NASA-3D-Resources",
+}
+
+
+def collection_url(url: str) -> str:
+    for prefix, collection in COLLECTION_URLS.items():
+        if url.startswith(prefix):
+            return collection
+    return url
+
+
+def split_source(source: str) -> tuple[str, str]:
+    """'Base + Person (tag, tag)' -> (reference text, processing codes)."""
+    if " + " not in source:
+        return source, ""
+    base, rest = source.split(" + ", 1)
+    person, _, tags = rest.partition(" (")
+    tags = [t.strip() for t in tags.rstrip(")").split(",") if t.strip()]
+    codes = "".join(PROCESSING_CODES.get(t, "?") for t in tags)
+    if person != DEFAULT_PROCESSOR:
+        base = f"{base}, {', '.join(tags)} by {person}"
+    return base, codes
+
+
+def load_new(path=DEFAULT_NEW_PATH) -> set[str]:
+    path = Path(path)
+    if not path.is_file():
+        return set()
+    return {line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()}
+
+
 def print_dataset(
     base_path=DEFAULT_DATASET_PATH,
     sources_path=DEFAULT_SOURCES_PATH,
 ) -> None:
     base = Path(base_path)
     sources = load_sources(sources_path)
+    new_names = load_new()
+    references: dict[tuple[str, str], int] = {}
 
     folders = {
         "a.smooth_zero": ("a", "smooth"),
@@ -390,8 +431,8 @@ def print_dataset(
         print()
         print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
 
-        print("| | model | genus | vertices | edges | triangles | source |")
-        print("|-|-------|-------|----------|-------|-----------|--------|")
+        print("| | model | genus | vertices | edges | triangles | source | processing |")
+        print("|-|-------|-------|----------|-------|-----------|--------|------------|")
 
         for file_path, g, V, E, F in rows:
             preview_stem = (
@@ -402,18 +443,35 @@ def print_dataset(
             thumb_cell = f'<img src="{png_path}" width="160"/>'
             source_info = sources.get(file_path.stem)
 
+            source_cell = processing_cell = ""
             if source_info is None:
-                source_cell = ""
                 missing_sources.add(file_path.stem)
             else:
                 source_name, source_url = source_info
-                source_cell = (
-                    f"[{source_name}]({source_url})" if source_url else source_name
-                )
+                ref_text, processing_cell = split_source(source_name)
+                key = (ref_text, collection_url(source_url))
+                number = references.setdefault(key, len(references) + 1)
+                target = source_url if source_url != key[1] else f"#ref-{number}"
+                source_cell = f"[[{number}]]({target})"
 
+            badge = f" {NEW_BADGE}" if file_path.stem in new_names else ""
             print(
-                f"| {thumb_cell} | [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} | {source_cell} |"
+                f"| {thumb_cell} | [{file_path.stem}]({stl_path}){badge} | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
+                f"| {source_cell} | {processing_cell} |"
             )
+
+    print()
+    print("### References")
+    print()
+    print(
+        "Processing codes (by Maxim Snoep unless the reference names someone else): "
+        "**M** meshed from CAD, **R** remeshed, **S** simplified (fewer triangles), "
+        "**F** repaired, **O** re-oriented, **X** rescaled."
+    )
+    print()
+    for (ref_text, ref_url), number in sorted(references.items(), key=lambda kv: kv[1]):
+        link = f" — <{ref_url}>" if ref_url else ""
+        print(f'{number}. <a name="ref-{number}"></a>{ref_text}{link}')
 
     unused_sources = sorted(set(sources) - dataset_names)
 
