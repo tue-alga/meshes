@@ -410,7 +410,7 @@ def print_dataset(
             ).relative_to(PROJECT_ROOT).as_posix()
             stl_path = f"{preview_stem}.stl"
             png_path = f"{preview_stem}.png"
-            thumb_cell = f'<img src="{png_path}" width="40"/>'
+            thumb_cell = f'<img src="{png_path}" width="80"/>'
             kiki = kikiness.get(file_path.stem)
             kiki_cell = f"{kiki:.2f}" if kiki is not None else ""
             source_info = sources.get(file_path.stem)

@@ -6,7 +6,7 @@ drawn in ALGO blue (#00a2de) with a dark outline.
 
 The PNG has a transparent background.
 
-Usage:  python tools/thumbnails.py [--size 80] [--force] [names ...]
+Usage:  python tools/thumbnails.py [--size 160] [--force] [names ...]
 Needs:  pip install pyvista pillow
 """
 
@@ -66,7 +66,7 @@ def render_thumbnail(obj_path: Path, png_path: Path, smooth: bool, size: int) ->
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("names", nargs="*", help="only render these mesh names")
-    parser.add_argument("--size", type=int, default=80, help="thumbnail size in pixels (default: 80)")
+    parser.add_argument("--size", type=int, default=160, help="thumbnail size in pixels (default: 160)")
     parser.add_argument("--force", action="store_true", help="re-render existing thumbnails")
     args = parser.parse_args()
 

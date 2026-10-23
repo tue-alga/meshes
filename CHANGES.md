@@ -1,6 +1,6 @@
 # Changes in this version
 
-Every mesh is now named `<shape>_<source>`, so the same shape can appear once per source (for example `bunny_loopy`, `bunny_gao` and `bunny_jacobson`). STL files and thumbnails moved from `dataset/` to `preview/`; `dataset/` holds only the `.obj` files. The separate aerospace folder (`f.aerospace`) was merged into kiki: its genus-0 meshes are now in `c.kiki_zero`, the others in `d.kiki_plus`. `blocktopus_thingi` (previously `blocktopus`) moved from bouba to `c.kiki_zero`.
+Every mesh is now named `<shape>_<source>`, so the same shape can appear once per source (for example `bunny_loopy`, `bunny_gao` and `bunny_jacobson`). STL files and thumbnails moved from `dataset/` to `preview/`; `dataset/` holds only the `.obj` files. The separate aerospace folder (`f.aerospace`) was merged into kiki: its genus-0 meshes are now in `c.kiki_zero`, the others in `d.kiki_plus`. `blocktopus_thingi` (previously `blocktopus`) moved from bouba to `c.kiki_zero`, and `carter_gao` (previously `carter`) from bouba to `d.kiki_plus`.
 
 All meshes from the previous version were rebuilt from a fresh download of their original source. The table below lists every mesh whose geometry or pose differs from the previous version, plus the meshes that could not be rebuilt and were kept as they were. The remaining 210 meshes are identical to the previous version and are only renamed.
 
