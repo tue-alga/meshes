@@ -90,7 +90,7 @@ Credit changes in this version:
 | `bimba_loopy` | a.bouba_zero | 0 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blade_loopy` | a.bouba_zero | 0 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bladefem_loopy` | c.kiki_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `blocktopus_snoep` | a.bouba_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed, re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
+| `blocktopus_snoep` | c.kiki_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed, re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
 | `boat_loopy` | a.bouba_zero | 0 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boat_stein` | a.bouba_zero | 0 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
 | `bone1_loopy` | a.bouba_zero | 0 | 3.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
