@@ -63,11 +63,17 @@ CITATIONS = {
         "Google Scanned Objects: a high-quality dataset of 3D scanned household items. In _IEEE International "
         "Conference on Robotics and Automation (ICRA)_ (2022). "
         "[doi:10.1109/ICRA46639.2022.9811809](https://doi.org/10.1109/ICRA46639.2022.9811809)",
-    "https://graphics.stanford.edu/data/3Dscanrep/":
+    "https://graphics.stanford.edu/data/3Dscanrep/#vrip":
+        "CURLESS B., LEVOY M.: A volumetric method for building complex models from range images. In _SIGGRAPH_ "
+        "(1996). [doi:10.1145/237170.237269](https://doi.org/10.1145/237170.237269). Via the "
+        "[Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/)",
+    "https://graphics.stanford.edu/data/3Dscanrep/#bunny":
         "TURK G., LEVOY M.: Zippered polygon meshes from range images. In _SIGGRAPH_ (1994). "
-        "[doi:10.1145/192161.192241](https://doi.org/10.1145/192161.192241); CURLESS B., LEVOY M.: A volumetric method "
-        "for building complex models from range images. In _SIGGRAPH_ (1996). "
-        "[doi:10.1145/237170.237269](https://doi.org/10.1145/237170.237269). Via the "
+        "[doi:10.1145/192161.192241](https://doi.org/10.1145/192161.192241). Via the "
+        "[Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/)",
+    "https://graphics.stanford.edu/data/3Dscanrep/#armadillo":
+        "KRISHNAMURTHY V., LEVOY M.: Fitting smooth surfaces to dense polygon meshes. In _SIGGRAPH_ (1996). "
+        "[doi:10.1145/237170.237270](https://doi.org/10.1145/237170.237270). Via the "
         "[Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/)",
     # --- CAD / engineering
     "https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0":

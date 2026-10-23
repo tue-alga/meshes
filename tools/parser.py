@@ -377,7 +377,6 @@ def print_dataset(
     base = Path(base_path)
     sources = load_sources(sources_path)
     new_names = load_new()
-    references: dict[str, tuple[int, str, str]] = {}
 
     folders = {
         "a.smooth_zero": ("a", "smooth"),
@@ -390,82 +389,73 @@ def print_dataset(
     dataset_names = set()
     missing_sources = set()
 
+    # first pass: geometry and the reference (collection) of every mesh
+    tables = []
+    ref_info: dict[str, tuple[str, str]] = {}
+    ref_count: dict[str, int] = {}
+    ref_order: dict[str, int] = {}
     for folder in sorted(base.iterdir()):
         if not folder.is_dir() or folder.name not in folders:
             continue
-
-        letter, name = folders[folder.name]
         files = sorted(
             (p for p in folder.iterdir() if p.is_file() and p.suffix == ".obj"),
             key=lambda p: p.stem.lower(),
         )
-        if not files:
-            continue
-
         rows = []
-
         for file_path in files:
             mesh = load_trimesh(file_path)
-
-            V = len(mesh.vertices)
-            E = len(mesh.edges_unique)
-            F = len(mesh.faces)
-
-            chi = V - E + F
-            g = (2 - chi) // 2
-
+            V, E, F = len(mesh.vertices), len(mesh.edges_unique), len(mesh.faces)
+            g = (2 - (V - E + F)) // 2
             dataset_names.add(file_path.stem)
-            rows.append((file_path, g, V, E, F))
-
-        genera = [g for _, g, _, _, _ in rows]
-
-        if all(g == 0 for g in genera):
-            g_label = "=0"
-        elif all(g >= 1 for g in genera):
-            g_label = "≥1"
-        else:
-            g_label = "≥0"
-
-        print()
-        print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
-
-        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column 80 px wide
-        spacer = "&nbsp;" * 23
-        print(f"| {spacer} | model | genus | vertices | edges | triangles | source |")
-        print("|-|-------|-------|----------|-------|-----------|--------|")
-
-        for file_path, g, V, E, F in rows:
-            preview_stem = (
-                DEFAULT_PREVIEW_PATH / folder.name / file_path.stem
-            ).relative_to(PROJECT_ROOT).as_posix()
-            stl_path = f"{preview_stem}.stl"
-            png_path = f"{preview_stem}.png"
-            thumb_cell = f'<img src="{png_path}" width="80"/>'
+            key, note = None, ""
             source_info = sources.get(file_path.stem)
-
-            source_cell = ""
             if source_info is None:
                 missing_sources.add(file_path.stem)
             else:
                 source_name, source_url = source_info
                 base_name, note = split_source(source_name)
                 key = collection_url(source_url) or base_name
-                if key not in references:
-                    references[key] = (len(references) + 1, base_name, key if source_url else "")
-                source_cell = f"[^{references[key][0]}] {note}".strip()
+                ref_info.setdefault(key, (base_name, key if source_url else ""))
+                ref_count[key] = ref_count.get(key, 0) + 1
+                ref_order.setdefault(key, len(ref_order))
+            rows.append((file_path, g, V, E, F, key, note))
+        if rows:
+            tables.append((folder, rows))
 
+    # references are numbered by how many meshes they contribute (most first)
+    ranked = sorted(ref_count, key=lambda k: (-ref_count[k], ref_order[k]))
+    number = {k: i + 1 for i, k in enumerate(ranked)}
+
+    for folder, rows in tables:
+        letter, name = folders[folder.name]
+        genera = [r[1] for r in rows]
+        g_label = "=0" if all(g == 0 for g in genera) else "≥1" if all(g >= 1 for g in genera) else "≥0"
+        print()
+        print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
+        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column wide enough
+        spacer = "&nbsp;" * 17
+        print(f"| {spacer} | model | genus | vertices | edges | triangles | source |")
+        print("|-|-------|-------|----------|-------|-----------|--------|")
+        for file_path, g, V, E, F, key, note in rows:
+            preview_stem = (DEFAULT_PREVIEW_PATH / folder.name / file_path.stem).relative_to(PROJECT_ROOT).as_posix()
+            thumb_cell = f'<img src="{preview_stem}.png" width="60"/>'
+            source_cell = f"[[{number[key]}]](#ref-{number[key]}) {note}".strip() if key else ""
             badge = f" {NEW_BADGE}" if file_path.stem in new_names else ""
             print(
-                f"| {thumb_cell} | [{file_path.stem}]({stl_path}){badge} | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
+                f"| {thumb_cell} | [{file_path.stem}]({preview_stem}.stl){badge} | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
                 f"| {source_cell} |"
             )
 
     from citations import CITATIONS
 
     print()
-    for key, (number, base_name, url) in sorted(references.items(), key=lambda kv: kv[1][0]):
+    print("### References")
+    print()
+    for key in ranked:
+        base_name, url = ref_info[key]
         citation = CITATIONS.get(url) or CITATIONS.get(base_name) or (f"{base_name}. <{url}>" if url else base_name)
-        print(f"[^{number}]: {citation}")
+        n = ref_count[key]
+        print(f'{number[key]}. <a name="ref-{number[key]}"></a>{citation} ({n} mesh{"es" if n != 1 else ""})')
 
     unused_sources = sorted(set(sources) - dataset_names)
 
