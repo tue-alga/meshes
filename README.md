@@ -4,16 +4,9 @@ This repository contains a curated collection of 723 triangle meshes spanning a 
 
 The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder contains a thumbnail and `.stl` copy such that the models can be viewed using GitHub's built-in 3D viewer. The collection is organized into five categories based on geometric character and topological complexity: (a) **smooth genus 0**, (b) **smooth genus ≥ 1**, (c) **sharp genus 0**, (d) **sharp genus ≥ 1**, and (e) **nightmares**. Here, *smooth* refers to organic or freeform shapes, *sharp* to CAD-like shapes with flat faces and sharp edges, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
 
-### (a) smooth (g=0, n=214)
-| | model | genus | vertices | edges | triangles | source |
+### (a) smooth (g=0, n=207)
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
-| <img src="preview/a.smooth_zero/aim18020_skel.png" width="120"/> | [aim18020_skel](preview/a.smooth_zero/aim18020_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 24.786 | 74.352 | 49.568 | [^1] (repaired) |
-| <img src="preview/a.smooth_zero/aim20306_skel.png" width="120"/> | [aim20306_skel](preview/a.smooth_zero/aim20306_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 300 | 894 | 596 | [^1] |
-| <img src="preview/a.smooth_zero/aim21464_skel.png" width="120"/> | [aim21464_skel](preview/a.smooth_zero/aim21464_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 1.015 | 3.039 | 2.026 | [^1] (repaired) |
-| <img src="preview/a.smooth_zero/aim21788_skel.png" width="120"/> | [aim21788_skel](preview/a.smooth_zero/aim21788_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 4.877 | 14.625 | 9.750 | [^1] (repaired) |
-| <img src="preview/a.smooth_zero/aim22701_skel.png" width="120"/> | [aim22701_skel](preview/a.smooth_zero/aim22701_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 52.784 | 158.346 | 105.564 | [^1] (repaired) |
-| <img src="preview/a.smooth_zero/aim22826_skel.png" width="120"/> | [aim22826_skel](preview/a.smooth_zero/aim22826_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 1.765 | 5.289 | 3.526 | [^1] (repaired) |
-| <img src="preview/a.smooth_zero/aim23091_skel.png" width="120"/> | [aim23091_skel](preview/a.smooth_zero/aim23091_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 4.120 | 12.354 | 8.236 | [^1] |
 | <img src="preview/a.smooth_zero/aim711dente_skel.png" width="120"/> | [aim711dente_skel](preview/a.smooth_zero/aim711dente_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 9.337 | 28.005 | 18.670 | [^1] |
 | <img src="preview/a.smooth_zero/airplane1_gao.png" width="120"/> | [airplane1_gao](preview/a.smooth_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | [^2] |
 | <img src="preview/a.smooth_zero/airplane2_gao.png" width="120"/> | [airplane2_gao](preview/a.smooth_zero/airplane2_gao.stl) | 0 | 26.806 | 80.412 | 53.608 | [^2] |
@@ -223,7 +216,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="120"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [^2] |
 
 ### (b) smooth (g≥1, n=107)
-| | model | genus | vertices | edges | triangles | source |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/3holes_quadwild.png" width="120"/> | [3holes_quadwild](preview/b.smooth_plus/3holes_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 3 | 9.847 | 29.553 | 19.702 | [^5] |
 | <img src="preview/b.smooth_plus/aim17674_skel.png" width="120"/> | [aim17674_skel](preview/b.smooth_plus/aim17674_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 2 | 29.211 | 87.639 | 58.426 | [^1] (repaired, simplified) |
@@ -333,11 +326,18 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/well_stein.png" width="120"/> | [well_stein](preview/b.smooth_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [^8] (simplified) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="120"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [^2] |
 
-### (c) sharp (g=0, n=152)
-| | model | genus | vertices | edges | triangles | source |
+### (c) sharp (g=0, n=159)
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/c.sharp_zero/3035_gao.png" width="120"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | [^2] |
 | <img src="preview/c.sharp_zero/acuteline_hexme.png" width="120"/> | [acuteline_hexme](preview/c.sharp_zero/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [^18] (meshed) |
+| <img src="preview/c.sharp_zero/aim18020_skel.png" width="120"/> | [aim18020_skel](preview/c.sharp_zero/aim18020_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 24.786 | 74.352 | 49.568 | [^1] (repaired) |
+| <img src="preview/c.sharp_zero/aim20306_skel.png" width="120"/> | [aim20306_skel](preview/c.sharp_zero/aim20306_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 300 | 894 | 596 | [^1] |
+| <img src="preview/c.sharp_zero/aim21464_skel.png" width="120"/> | [aim21464_skel](preview/c.sharp_zero/aim21464_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 1.015 | 3.039 | 2.026 | [^1] (repaired) |
+| <img src="preview/c.sharp_zero/aim21788_skel.png" width="120"/> | [aim21788_skel](preview/c.sharp_zero/aim21788_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 4.877 | 14.625 | 9.750 | [^1] (repaired) |
+| <img src="preview/c.sharp_zero/aim22701_skel.png" width="120"/> | [aim22701_skel](preview/c.sharp_zero/aim22701_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 52.784 | 158.346 | 105.564 | [^1] (repaired) |
+| <img src="preview/c.sharp_zero/aim22826_skel.png" width="120"/> | [aim22826_skel](preview/c.sharp_zero/aim22826_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 1.765 | 5.289 | 3.526 | [^1] (repaired) |
+| <img src="preview/c.sharp_zero/aim23091_skel.png" width="120"/> | [aim23091_skel](preview/c.sharp_zero/aim23091_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 4.120 | 12.354 | 8.236 | [^1] |
 | <img src="preview/c.sharp_zero/aircraft_quadwild.png" width="120"/> | [aircraft_quadwild](preview/c.sharp_zero/aircraft_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 0 | 13.687 | 41.055 | 27.370 | [^5] (repaired) |
 | <img src="preview/c.sharp_zero/antipentapyramid_hexme.png" width="120"/> | [antipentapyramid_hexme](preview/c.sharp_zero/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [^18] (meshed) |
 | <img src="preview/c.sharp_zero/antipyramid_hexme.png" width="120"/> | [antipyramid_hexme](preview/c.sharp_zero/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [^18] (meshed) |
@@ -490,7 +490,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="120"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [^8] |
 
 ### (d) sharp (g≥1, n=226)
-| | model | genus | vertices | edges | triangles | source |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/90degreeelbows_esb.png" width="120"/> | [90degreeelbows_esb](preview/d.sharp_plus/90degreeelbows_esb.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 6 | 1.910 | 5.760 | 3.840 | [^20] |
 | <img src="preview/d.sharp_plus/anc101_gao.png" width="120"/> | [anc101_gao](preview/d.sharp_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | [^2] |
@@ -720,7 +720,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/wwwre_quadwild.png" width="120"/> | [wwwre_quadwild](preview/d.sharp_plus/wwwre_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 28.712 | 86.136 | 57.424 | [^5] |
 
 ### (e) nightmares (g≥0, n=24)
-| | model | genus | vertices | edges | triangles | source |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/e.nightmares/7connected_nop.png" width="120"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | [^28] |
 | <img src="preview/e.nightmares/7connected_snoep.png" width="120"/> | [7connected_snoep](preview/e.nightmares/7connected_snoep.stl) | 0 | 6.890 | 20.664 | 13.776 | [^28] (simplified) |

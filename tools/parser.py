@@ -429,7 +429,9 @@ def print_dataset(
         print()
         print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
 
-        print("| | model | genus | vertices | edges | triangles | source |")
+        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column 120 px wide
+        spacer = "&nbsp;" * 34
+        print(f"| {spacer} | model | genus | vertices | edges | triangles | source |")
         print("|-|-------|-------|----------|-------|-----------|--------|")
 
         for file_path, g, V, E, F in rows:
