@@ -84,7 +84,7 @@ Credit changes in this version:
 | new name | folder | genus | triangles | source |
 |---|---|---|---|---|
 | `amogus_snoep` | a.bouba_zero | 0 | 6.118 | Maxim Snoep (feature-preserving isotropic remesh of `amogus_sketchfab`) |
-| `armadillo_gao` | a.bouba_zero | 0 | 31.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `armadillo_gao` | a.bouba_zero | 0 | 31.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `armadillo_jacobson` | a.bouba_zero | 0 | 99.976 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
 | `bimba_jacobson` | a.bouba_zero | 0 | 59.986 | [Alec Jacobson + Maxim Snoep (simplified)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bimba_loopy` | a.bouba_zero | 0 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -96,15 +96,15 @@ Credit changes in this version:
 | `bone1_loopy` | a.bouba_zero | 0 | 3.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bonefemur_loopy` | a.bouba_zero | 0 | 9.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `brucewick_stein` | a.bouba_zero | 0 | 2.858 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/brucewick) |
-| `bunny_gao` | a.bouba_zero | 0 | 22.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `bunny_gao` | a.bouba_zero | 0 | 22.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `bunny_jacobson` | a.bouba_zero | 0 | 70.372 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bunny_stein` | a.bouba_zero | 0 | 6.598 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/bunny) |
-| `buste_gao` | a.bouba_zero | 0 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `buste_gao` | a.bouba_zero | 0 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `cactus_loopy` | a.bouba_zero | 0 | 1.396 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `camillehand_loopy` | a.bouba_zero | 0 | 7.406 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cat_loopy` | a.bouba_zero | 0 | 4.660 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cheese_stein` | a.bouba_zero | 0 | 60.000 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/cheese) |
-| `chineselion_gao` | a.bouba_zero | 0 | 50.384 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `chineselion_gao` | a.bouba_zero | 0 | 50.384 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `clef_loopy` | c.kiki_zero | 0 | 2.780 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cup_loopy` | c.kiki_zero | 0 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `dog_loopy` | a.bouba_zero | 0 | 6.164 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -163,13 +163,13 @@ Credit changes in this version:
 | `teapot_loopy` | b.bouba_plus | 1 | 13.088 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `torus_stein` | b.bouba_plus | 1 | 4.608 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/torus) |
 | `violin_stein` | b.bouba_plus | 5 | 59.998 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
-| `3035_gao` | c.kiki_zero | 0 | 7.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `aries70_gao` | c.kiki_zero | 0 | 8.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `3035_gao` | c.kiki_zero | 0 | 7.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `aries70_gao` | c.kiki_zero | 0 | 8.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `chesspawn_mambo` | c.kiki_zero | 0 | 23.222 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `chessrook_mambo` | c.kiki_zero | 0 | 18.336 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| `completepart16_gao` | c.kiki_zero | 0 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `completepart63_gao` | c.kiki_zero | 0 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `coverrear_gao` | c.kiki_zero | 0 | 79.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `completepart16_gao` | c.kiki_zero | 0 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `completepart63_gao` | c.kiki_zero | 0 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `coverrear_gao` | c.kiki_zero | 0 | 79.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `cube_stein` | c.kiki_zero | 0 | 48 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/cube) |
 | `cubecarved_loopy` | c.kiki_zero | 0 | 3.636 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cubeminussphere_loopy` | c.kiki_zero | 0 | 4.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -197,24 +197,24 @@ Credit changes in this version:
 | `vessel_loopy` | c.kiki_zero | 0 | 5.312 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `wedge_loopy` | c.kiki_zero | 0 | 4.468 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `wingnut_stein` | c.kiki_zero | 0 | 6.090 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
-| `anc101_gao` | d.kiki_plus | 5 | 7.956 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `aries155_gao` | d.kiki_plus | 6 | 4.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `anc101_gao` | d.kiki_plus | 5 | 7.956 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `aries155_gao` | d.kiki_plus | 6 | 4.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `bearingplate_loopy` | d.kiki_plus | 5 | 9.830 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bolt_loopy` | d.kiki_plus | 1 | 9.504 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `bracket2_gao` | d.kiki_plus | 3 | 2.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `bracket2_gao` | d.kiki_plus | 3 | 2.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `bracketinches_loopy` | d.kiki_plus | 6 | 16.622 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `c25dflowthru_nasa` | d.kiki_plus | 1 | 65.636 | [NASA + Maxim Snoep (meshed)](https://lbpw.larc.nasa.gov/) |
-| `cami1_gao` | d.kiki_plus | 5 | 2.436 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `cami2_gao` | d.kiki_plus | 1 | 1.308 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `casting_gao` | d.kiki_plus | 9 | 52.100 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `cheese2_gao` | d.kiki_plus | 28 | 9.660 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `cheese3_gao` | d.kiki_plus | 81 | 28.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `cheese_gao` | d.kiki_plus | 176 | 63.180 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `cimplex_gao` | d.kiki_plus | 6 | 29.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `clevis23_gao` | d.kiki_plus | 9 | 4.988 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `cami1_gao` | d.kiki_plus | 5 | 2.436 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `cami2_gao` | d.kiki_plus | 1 | 1.308 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `casting_gao` | d.kiki_plus | 9 | 52.100 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `cheese2_gao` | d.kiki_plus | 28 | 9.660 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `cheese3_gao` | d.kiki_plus | 81 | 28.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `cheese_gao` | d.kiki_plus | 176 | 63.180 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `cimplex_gao` | d.kiki_plus | 6 | 29.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `clevis23_gao` | d.kiki_plus | 9 | 4.988 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `ctc01_nist` | d.kiki_plus | 10 | 48.318 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
 | `ctc03_nist` | d.kiki_plus | 17 | 79.634 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
-| `deckel_gao` | d.kiki_plus | 4 | 40.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `deckel_gao` | d.kiki_plus | 4 | 40.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `deckel_loopy` | d.kiki_plus | 4 | 10.012 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `des6_loopy` | d.kiki_plus | 1 | 11.390 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `ftc06_nist` | d.kiki_plus | 10 | 138.928 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
@@ -223,42 +223,42 @@ Credit changes in this version:
 | `ftc09_nist` | d.kiki_plus | 34 | 83.908 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
 | `ftc10_nist` | d.kiki_plus | 22 | 212.646 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
 | `ftc11_nist` | d.kiki_plus | 1 | 27.066 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
-| `gehaeuse_gao` | d.kiki_plus | 3 | 8.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `gimbal_gao` | d.kiki_plus | 5 | 1.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `gehaeuse_gao` | d.kiki_plus | 3 | 8.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `gimbal_gao` | d.kiki_plus | 5 | 1.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `gyroidpuzzle_loopy` | d.kiki_plus | 15 | 26.210 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `hanger_gao` | d.kiki_plus | 2 | 32.224 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `hanger_gao` | d.kiki_plus | 2 | 32.224 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `hanger_loopy` | d.kiki_plus | 2 | 8.056 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `hinge_loopy` | d.kiki_plus | 5 | 19.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `holes10_gao` | d.kiki_plus | 100 | 10.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `holes10_gao` | d.kiki_plus | 100 | 10.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `house_stein` | d.kiki_plus | 36 | 58.020 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/house) |
 | `impeller_loopy` | d.kiki_plus | 1 | 26.126 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `impellerhousing_gao` | d.kiki_plus | 1 | 2.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `joint_gao` | d.kiki_plus | 2 | 16.032 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `impellerhousing_gao` | d.kiki_plus | 1 | 2.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `joint_gao` | d.kiki_plus | 2 | 16.032 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `joint_loopy` | d.kiki_plus | 2 | 8.766 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `knob_loopy` | d.kiki_plus | 1 | 13.816 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `leverarm_loopy` | d.kiki_plus | 2 | 8.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `lock_gao` | d.kiki_plus | 3 | 170.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `lock_gao` | d.kiki_plus | 3 | 170.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `mechanical06_loopy` | d.kiki_plus | 1 | 9.090 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `mechanical08_loopy` | d.kiki_plus | 1 | 2.928 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `motortail_loopy` | d.kiki_plus | 13 | 15.248 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `orion_nasa` | d.kiki_plus | 7 | 51.728 | [NASA + Maxim Snoep (repaired)](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule) |
-| `part10_gao` | d.kiki_plus | 3 | 2.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `part11_gao` | d.kiki_plus | 6 | 9.080 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `part_gao` | d.kiki_plus | 3 | 34.120 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `pinion_gao` | d.kiki_plus | 1 | 2.596 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `part10_gao` | d.kiki_plus | 3 | 2.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `part11_gao` | d.kiki_plus | 6 | 9.080 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `part_gao` | d.kiki_plus | 3 | 34.120 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `pinion_gao` | d.kiki_plus | 1 | 2.596 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `pinion_loopy` | d.kiki_plus | 1 | 42.878 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `rocker_jacobson` | d.kiki_plus | 1 | 20.088 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
 | `rod_loopy` | d.kiki_plus | 2 | 4.408 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `sbracket_gao` | d.kiki_plus | 2 | 2.604 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `sculpt_gao` | d.kiki_plus | 2 | 29.368 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `sbracket_gao` | d.kiki_plus | 2 | 2.604 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `sculpt_gao` | d.kiki_plus | 2 | 29.368 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `sculpt_loopy` | d.kiki_plus | 2 | 7.342 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `simp_hexme` | d.kiki_plus | 1 | 10.048 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `sls_nasa` | d.kiki_plus | 7 | 60.000 | [NASA + Maxim Snoep (repaired, simplified)](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201) |
-| `socket1_gao` | d.kiki_plus | 7 | 2.412 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `socket2_gao` | d.kiki_plus | 7 | 2.420 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `supportframe_gao` | d.kiki_plus | 5 | 1.124 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `swivel2_gao` | d.kiki_plus | 2 | 816 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `team2_gao` | d.kiki_plus | 9 | 8.638 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `socket1_gao` | d.kiki_plus | 7 | 2.412 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `socket2_gao` | d.kiki_plus | 7 | 2.420 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `supportframe_gao` | d.kiki_plus | 5 | 1.124 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `swivel2_gao` | d.kiki_plus | 2 | 816 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| `team2_gao` | d.kiki_plus | 9 | 8.638 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `tower_stein` | d.kiki_plus | 2 | 59.936 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tower) |
 | `triangularbase_mambo` | d.kiki_plus | 4 | 30.152 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
 | `trisopen_loopy` | d.kiki_plus | 1 | 1.440 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -285,7 +285,7 @@ Credit changes in this version:
 | `limitcycle_hexme` | e.nightmares | 1 | 16.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `limitcycleg0_hexme` | e.nightmares | 0 | 15.276 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `metatron_loopy` | e.nightmares | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `octaflower_gao` | e.nightmares | 0 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| `octaflower_gao` | e.nightmares | 0 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | `octahedron_hexme` | e.nightmares | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `oloid_crane` | e.nightmares | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `pentapyramid_hexme` | e.nightmares | 0 | 1.918 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
