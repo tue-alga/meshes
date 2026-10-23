@@ -286,8 +286,8 @@ Credit changes in this version:
 | `limitcycleg0_hexme` | c.kiki_zero | 0 | 15.276 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `metatron_loopy` | e.nightmares | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `octaflower_gao` | c.kiki_zero | 0 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
-| `octahedron_hexme` | e.nightmares | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `oloid_crane` | e.nightmares | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `pentapyramid_hexme` | e.nightmares | 0 | 1.918 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `octahedron_hexme` | c.kiki_zero | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `oloid_crane` | c.kiki_zero | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `pentapyramid_hexme` | c.kiki_zero | 0 | 1.918 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `pyramid_hexme` | e.nightmares | 0 | 2.544 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `skijump_hexme` | e.nightmares | 0 | 1.692 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
