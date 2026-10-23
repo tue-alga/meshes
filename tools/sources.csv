@@ -126,8 +126,6 @@ B9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/m
 backdoors_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 balljoint_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 bamboopen_quadwild,QuadWild,https://www.quadmesh.cloud/
-bear0_quadwild,QuadWild,https://www.quadmesh.cloud/
-bear1_quadwild,QuadWild,https://www.quadmesh.cloud/
 bearingblocks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 bearinglikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 bearingplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
@@ -172,20 +170,20 @@ bracketlikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/
 brain_quadwild,QuadWild,https://www.quadmesh.cloud/
 brain_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 brucewick_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/brucewick
-bu_polycut,PolyCut + Maxim Snoep (simplified),https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
 buddha_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
 bumpysphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bumpytorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bun_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 bundtpan_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 bunny_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bunny_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 bunny_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bunny_quadwild,QuadWild,https://www.quadmesh.cloud/
+bunny_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 bunny_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bunny_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
-bunnyalessia_quadwild,QuadWild,https://www.quadmesh.cloud/
 buste_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 buste_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+buste_polycut,PolyCut + Maxim Snoep (simplified),https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
 buste_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 c0089_quadwild,QuadWild,https://www.quadmesh.cloud/
 c25dflowthru_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
@@ -684,7 +682,9 @@ torusstep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geome
 torusstep_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 tower_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/tower
 toy1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+toy1_quadwild,QuadWild,https://www.quadmesh.cloud/
 toy2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+toy2_quadwild,QuadWild,https://www.quadmesh.cloud/
 toywagon_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 transmissionhousingfem_quadwild,QuadWild,https://www.quadmesh.cloud/
 traystep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes

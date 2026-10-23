@@ -31,8 +31,6 @@ asm007_quadwild
 backdoors_esb
 balljoint_skel
 bamboopen_quadwild
-bear0_quadwild
-bear1_quadwild
 bearingblocks_esb
 bearinglikeparts_esb
 bendtube_quadwild
@@ -49,10 +47,10 @@ bozbezbozzel_quadwild
 bracketlikeparts_esb
 brain_quadwild
 brain_skel
-bu_polycut
-bun_skel
 bundtpan_gso
-bunnyalessia_quadwild
+bunny_quadwild
+bunny_skel
+buste_polycut
 c0089_quadwild
 cad5_quadwild
 camel_shrec11
@@ -249,6 +247,8 @@ thinwallmisc_esb
 toothbrushholder_quadwild
 torso_quadwild
 torus2_quadwild
+toy1_quadwild
+toy2_quadwild
 toywagon_gso
 transmissionhousingfem_quadwild
 trimstar_quadwild
