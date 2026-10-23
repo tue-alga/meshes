@@ -10,7 +10,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) smooth (g=0, n=127)
+### (a) smooth (g=0, n=125)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/a.smooth_zero/airplane1_gao.png" width="320"/> | [airplane1_gao](preview/a.smooth_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | 0.18 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -28,8 +28,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/blade_gao.png" width="320"/> | [blade_gao](preview/a.smooth_zero/blade_gao.stl) | 0 | 14.106 | 42.312 | 28.208 | 0.30 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/blade_loopy.png" width="320"/> | [blade_loopy](preview/a.smooth_zero/blade_loopy.stl) | 0 | 14.532 | 43.590 | 29.060 | 0.39 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/blub_crane.png" width="320"/> | [blub_crane](preview/a.smooth_zero/blub_crane.stl) | 0 | 7.106 | 21.312 | 14.208 | 0.11 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| <img src="preview/a.smooth_zero/boat_loopy.png" width="320"/> | [boat_loopy](preview/a.smooth_zero/boat_loopy.stl) | 0 | 11.389 | 34.161 | 22.774 | 0.97 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/a.smooth_zero/boat_stein.png" width="320"/> | [boat_stein](preview/a.smooth_zero/boat_stein.stl) | 0 | 16.210 | 48.624 | 32.416 | 0.99 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
 | <img src="preview/a.smooth_zero/bone1_loopy.png" width="320"/> | [bone1_loopy](preview/a.smooth_zero/bone1_loopy.stl) | 0 | 1.566 | 4.692 | 3.128 | 0.11 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/bone_gao.png" width="320"/> | [bone_gao](preview/a.smooth_zero/bone_gao.stl) | 0 | 6.046 | 18.132 | 12.088 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/bonefemur_loopy.png" width="320"/> | [bonefemur_loopy](preview/a.smooth_zero/bonefemur_loopy.stl) | 0 | 4.666 | 13.992 | 9.328 | 0.12 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -141,7 +139,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/venus_gao.png" width="320"/> | [venus_gao](preview/a.smooth_zero/venus_gao.stl) | 0 | 10.874 | 32.616 | 21.744 | 0.13 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="320"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (b) smooth (g≥1, n=56)
+### (b) smooth (g≥1, n=55)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/b.smooth_plus/bob_crane.png" width="320"/> | [bob_crane](preview/b.smooth_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | 0.09 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -196,12 +194,11 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.smooth_plus/teapot_gao.png" width="320"/> | [teapot_gao](preview/b.smooth_plus/teapot_gao.stl) | 1 | 13.464 | 40.392 | 26.928 | 0.21 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/b.smooth_plus/teapot_loopy.png" width="320"/> | [teapot_loopy](preview/b.smooth_plus/teapot_loopy.stl) | 1 | 6.544 | 19.632 | 13.088 | 0.23 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/b.smooth_plus/thaistatue_gao.png" width="320"/> | [thaistatue_gao](preview/b.smooth_plus/thaistatue_gao.stl) | 3 | 20.133 | 60.411 | 40.274 | 0.25 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
-| <img src="preview/b.smooth_plus/threecees_paardekooper.png" width="320"/> | [threecees_paardekooper](preview/b.smooth_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | 0.98 | Bas Paardekooper |
 | <img src="preview/b.smooth_plus/torus_stein.png" width="320"/> | [torus_stein](preview/b.smooth_plus/torus_stein.stl) | 1 | 2.304 | 6.912 | 4.608 | 0.08 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/torus) |
 | <img src="preview/b.smooth_plus/violin_stein.png" width="320"/> | [violin_stein](preview/b.smooth_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.53 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="320"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.15 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (c) sharp (g=0, n=119)
+### (c) sharp (g=0, n=121)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.sharp_zero/3035_gao.png" width="320"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.91 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -267,6 +264,8 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.sharp_zero/bladefem_loopy.png" width="320"/> | [bladefem_loopy](preview/c.sharp_zero/bladefem_loopy.stl) | 0 | 6.086 | 18.252 | 12.168 | 0.89 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/blocktopus_snoep.png" width="320"/> | [blocktopus_snoep](preview/c.sharp_zero/blocktopus_snoep.stl) | 0 | 7.569 | 22.701 | 15.134 | 1.00 | [Thingi10K + Maxim Snoep (remeshed, re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
 | <img src="preview/c.sharp_zero/blocktopus_thingi.png" width="320"/> | [blocktopus_thingi](preview/c.sharp_zero/blocktopus_thingi.stl) | 0 | 5.054 | 15.156 | 10.104 | 1.00 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
+| <img src="preview/c.sharp_zero/boat_loopy.png" width="320"/> | [boat_loopy](preview/c.sharp_zero/boat_loopy.stl) | 0 | 11.389 | 34.161 | 22.774 | 0.97 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.sharp_zero/boat_stein.png" width="320"/> | [boat_stein](preview/c.sharp_zero/boat_stein.stl) | 0 | 16.210 | 48.624 | 32.416 | 0.99 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
 | <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="320"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | 0.39 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.sharp_zero/chessrook_mambo.png" width="320"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | 0.72 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.sharp_zero/clef_loopy.png" width="320"/> | [clef_loopy](preview/c.sharp_zero/clef_loopy.stl) | 0 | 1.392 | 4.170 | 2.780 | 0.79 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -324,7 +323,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="320"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="320"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | 0.95 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
-### (d) sharp (g≥1, n=135)
+### (d) sharp (g≥1, n=136)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/d.sharp_plus/anc101_gao.png" width="320"/> | [anc101_gao](preview/d.sharp_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | 0.93 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -456,6 +455,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.sharp_plus/supportframe_gao.png" width="320"/> | [supportframe_gao](preview/d.sharp_plus/supportframe_gao.stl) | 5 | 554 | 1.686 | 1.124 | 0.95 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/d.sharp_plus/swivel2_gao.png" width="320"/> | [swivel2_gao](preview/d.sharp_plus/swivel2_gao.stl) | 2 | 406 | 1.224 | 816 | 0.95 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/d.sharp_plus/team2_gao.png" width="320"/> | [team2_gao](preview/d.sharp_plus/team2_gao.stl) | 9 | 4.303 | 12.957 | 8.638 | 0.91 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| <img src="preview/d.sharp_plus/threecees_paardekooper.png" width="320"/> | [threecees_paardekooper](preview/d.sharp_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | 0.98 | Bas Paardekooper |
 | <img src="preview/d.sharp_plus/tower_stein.png" width="320"/> | [tower_stein](preview/d.sharp_plus/tower_stein.stl) | 2 | 29.966 | 89.904 | 59.936 | 0.48 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tower) |
 | <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="320"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | 1.00 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/d.sharp_plus/trisopen_loopy.png" width="320"/> | [trisopen_loopy](preview/d.sharp_plus/trisopen_loopy.stl) | 1 | 720 | 2.160 | 1.440 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |

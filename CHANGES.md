@@ -1,6 +1,6 @@
 # Changes in this version
 
-Every mesh is now named `<shape>_<source>`, so the same shape can appear once per source (for example `bunny_loopy`, `bunny_gao` and `bunny_jacobson`). STL files and thumbnails moved from `dataset/` to `preview/`; `dataset/` holds only the `.obj` files. The categories *bouba* and *kiki* were renamed to *smooth* and *sharp* (`a.smooth_zero`, `b.smooth_plus`, `c.sharp_zero`, `d.sharp_plus`). The separate aerospace folder (`f.aerospace`) was merged into the sharp categories: its genus-0 meshes are now in `c.sharp_zero`, the others in `d.sharp_plus`. `blocktopus_thingi` (previously `blocktopus`) moved from smooth to `c.sharp_zero`, and `carter_gao` (previously `carter`) from smooth to `d.sharp_plus`.
+Every mesh is now named `<shape>_<source>`, so the same shape can appear once per source (for example `bunny_loopy`, `bunny_gao` and `bunny_jacobson`). STL files and thumbnails moved from `dataset/` to `preview/`; `dataset/` holds only the `.obj` files. The categories *bouba* and *kiki* were renamed to *smooth* and *sharp* (`a.smooth_zero`, `b.smooth_plus`, `c.sharp_zero`, `d.sharp_plus`). The separate aerospace folder (`f.aerospace`) was merged into the sharp categories: its genus-0 meshes are now in `c.sharp_zero`, the others in `d.sharp_plus`. `blocktopus_thingi` (previously `blocktopus`) moved from smooth to `c.sharp_zero`, `carter_gao` (previously `carter`) from smooth to `d.sharp_plus`, and `threecees_paardekooper` (previously `threecees`) from smooth to the sharp categories.
 
 All meshes from the previous version were rebuilt from a fresh download of their original source. The table below lists every mesh whose geometry or pose differs from the previous version, plus the meshes that could not be rebuilt and were kept as they were. The remaining 210 meshes are identical to the previous version and are only renamed.
 
@@ -92,8 +92,8 @@ Credit changes in this version:
 | `blade_loopy` | a.smooth_zero | 0 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bladefem_loopy` | c.sharp_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blocktopus_snoep` | c.sharp_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed, re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
-| `boat_loopy` | a.smooth_zero | 0 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `boat_stein` | a.smooth_zero | 0 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
+| `boat_loopy` | c.sharp_zero | 0 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `boat_stein` | c.sharp_zero | 0 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
 | `bone1_loopy` | a.smooth_zero | 0 | 3.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bonefemur_loopy` | a.smooth_zero | 0 | 9.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `brucewick_stein` | a.smooth_zero | 0 | 2.858 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/brucewick) |
