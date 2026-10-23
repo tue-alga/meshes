@@ -144,7 +144,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/vessel_loopy.png" width="640"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | 0.17 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="640"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (b) smooth (g≥1, n=55)
+### (b) smooth (g≥1, n=56)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/b.smooth_plus/bob_crane.png" width="640"/> | [bob_crane](preview/b.smooth_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | 0.09 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -181,6 +181,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.smooth_plus/greyhounds_tds.png" width="640"/> | [greyhounds_tds](preview/b.smooth_plus/greyhounds_tds.stl) | 5 | 29.981 | 89.967 | 59.978 | 0.44 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |
 | <img src="preview/b.smooth_plus/holes2_loopy.png" width="640"/> | [holes2_loopy](preview/b.smooth_plus/holes2_loopy.stl) | 2 | 2.922 | 8.772 | 5.848 | 0.14 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/b.smooth_plus/holes3_gao.png" width="640"/> | [holes3_gao](preview/b.smooth_plus/holes3_gao.stl) | 3 | 14.396 | 43.200 | 28.800 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| <img src="preview/b.smooth_plus/house_stein.png" width="640"/> | [house_stein](preview/b.smooth_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | 0.33 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/house) |
 | <img src="preview/b.smooth_plus/indorelax_loopy.png" width="640"/> | [indorelax_loopy](preview/b.smooth_plus/indorelax_loopy.stl) | 2 | 12.128 | 36.390 | 24.260 | 0.13 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/b.smooth_plus/kiss_gao.png" width="640"/> | [kiss_gao](preview/b.smooth_plus/kiss_gao.stl) | 3 | 10.192 | 30.588 | 20.392 | 0.12 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/b.smooth_plus/kiss_loopy.png" width="640"/> | [kiss_loopy](preview/b.smooth_plus/kiss_loopy.stl) | 3 | 12.738 | 38.226 | 25.484 | 0.13 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -323,7 +324,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="640"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="640"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | 0.95 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
-### (d) sharp (g≥1, n=136)
+### (d) sharp (g≥1, n=135)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/d.sharp_plus/anc101_gao.png" width="640"/> | [anc101_gao](preview/d.sharp_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | 0.93 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -385,7 +386,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.sharp_plus/hilbertcube_thingi.png" width="640"/> | [hilbertcube_thingi](preview/d.sharp_plus/hilbertcube_thingi.stl) | 8 | 240 | 762 | 508 | 0.97 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
 | <img src="preview/d.sharp_plus/hinge_loopy.png" width="640"/> | [hinge_loopy](preview/d.sharp_plus/hinge_loopy.stl) | 5 | 9.544 | 28.656 | 19.104 | 0.97 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/d.sharp_plus/holes10_gao.png" width="640"/> | [holes10_gao](preview/d.sharp_plus/holes10_gao.stl) | 100 | 4.808 | 15.018 | 10.012 | 0.63 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
-| <img src="preview/d.sharp_plus/house_stein.png" width="640"/> | [house_stein](preview/d.sharp_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | 0.33 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/house) |
 | <img src="preview/d.sharp_plus/impeller_loopy.png" width="640"/> | [impeller_loopy](preview/d.sharp_plus/impeller_loopy.stl) | 1 | 13.063 | 39.189 | 26.126 | 0.59 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/d.sharp_plus/impellerhousing_gao.png" width="640"/> | [impellerhousing_gao](preview/d.sharp_plus/impellerhousing_gao.stl) | 1 | 1.024 | 3.072 | 2.048 | 0.73 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/d.sharp_plus/joint_gao.png" width="640"/> | [joint_gao](preview/d.sharp_plus/joint_gao.stl) | 2 | 8.014 | 24.048 | 16.032 | 0.97 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
