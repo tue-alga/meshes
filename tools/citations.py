@@ -94,6 +94,11 @@ CITATIONS = {
         "PARK M. A., MORGENSTERN J. M.: Summary and statistical analysis of the first AIAA sonic boom prediction "
         "workshop. _Journal of Aircraft 53_, 2 (2016). [doi:10.2514/1.C033449](https://doi.org/10.2514/1.C033449). "
         "Geometry from the [AIAA Sonic Boom Prediction Workshop](https://lbpw.larc.nasa.gov/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/":
+        "DECARLO D., FINKELSTEIN A., RUSINKIEWICZ S., SANTELLA A.: Suggestive contours for conveying shape. "
+        "_ACM Transactions on Graphics (SIGGRAPH) 22_, 3 (2003). "
+        "[doi:10.1145/882262.882354](https://doi.org/10.1145/882262.882354). "
+        "Models from [gfx.cs.princeton.edu/proj/sugcon/models](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
     "https://github.com/nasa/NASA-3D-Resources":
         "NASA: NASA 3D Resources. [github.com/nasa/NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources)",
     # --- model collections without a dataset paper

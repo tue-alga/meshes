@@ -1,10 +1,10 @@
-This repository contains a curated collection of 745 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 746 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model name in the tables below to preview it interactively in 3D.
 
 The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder contains a thumbnail and `.stl` copy such that the models can be viewed using GitHub's built-in 3D viewer. The collection is organized into five categories based on geometric character and topological complexity: (a) **smooth genus 0**, (b) **smooth genus ≥ 1**, (c) **sharp genus 0**, (d) **sharp genus ≥ 1**, and (e) **nightmares**. Here, *smooth* refers to organic or freeform shapes, *sharp* to CAD-like shapes with flat faces and sharp edges, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
 
-### (a) smooth (g=0, n=229)
+### (a) smooth (g=0, n=230)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.smooth_zero/aircraft_quadwild.png" width="60"/> | [aircraft_quadwild](preview/a.smooth_zero/aircraft_quadwild.stl) | 0 | 13.687 | 41.055 | 27.370 | [^1] (repaired) |
@@ -114,6 +114,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/glasses_shrec11.png" width="60"/> | [glasses_shrec11](preview/a.smooth_zero/glasses_shrec11.stl) | 0 | 9.500 | 28.494 | 18.996 | [^4] |
 | <img src="preview/a.smooth_zero/goathead_snoep.png" width="60"/> | [goathead_snoep](preview/a.smooth_zero/goathead_snoep.stl) | 0 | 2.763 | 8.283 | 5.522 | [^6] (re-oriented) |
 | <img src="preview/a.smooth_zero/goathead_stein.png" width="60"/> | [goathead_stein](preview/a.smooth_zero/goathead_stein.stl) | 0 | 2.763 | 8.283 | 5.522 | [^6] |
+| <img src="preview/a.smooth_zero/golfball_princeton.png" width="60"/> | [golfball_princeton](preview/a.smooth_zero/golfball_princeton.stl) | 0 | 40.001 | 119.997 | 79.998 | [^15] (simplified) |
 | <img src="preview/a.smooth_zero/gorilla_shrec11.png" width="60"/> | [gorilla_shrec11](preview/a.smooth_zero/gorilla_shrec11.stl) | 0 | 9.318 | 27.948 | 18.632 | [^4] |
 | <img src="preview/a.smooth_zero/guy_quadwild.png" width="60"/> | [guy_quadwild](preview/a.smooth_zero/guy_quadwild.stl) | 0 | 9.474 | 28.416 | 18.944 | [^1] |
 | <img src="preview/a.smooth_zero/hand_gao.png" width="60"/> | [hand_gao](preview/a.smooth_zero/hand_gao.stl) | 0 | 13.982 | 41.940 | 27.960 | [^2] |
@@ -144,7 +145,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/inigo_crane.png" width="60"/> | [inigo_crane](preview/a.smooth_zero/inigo_crane.stl) | 0 | 29.995 | 89.979 | 59.986 | [^10] (repaired, simplified) |
 | <img src="preview/a.smooth_zero/insect_gao.png" width="60"/> | [insect_gao](preview/a.smooth_zero/insect_gao.stl) | 0 | 39.370 | 118.104 | 78.736 | [^2] |
 | <img src="preview/a.smooth_zero/isidorehorse_gao.png" width="60"/> | [isidorehorse_gao](preview/a.smooth_zero/isidorehorse_gao.stl) | 0 | 19.465 | 58.389 | 38.926 | [^2] |
-| <img src="preview/a.smooth_zero/kid00_topkids.png" width="60"/> | [kid00_topkids](preview/a.smooth_zero/kid00_topkids.stl) | 0 | 11.510 | 34.524 | 23.016 | [^15] (repaired) |
+| <img src="preview/a.smooth_zero/kid00_topkids.png" width="60"/> | [kid00_topkids](preview/a.smooth_zero/kid00_topkids.stl) | 0 | 11.510 | 34.524 | 23.016 | [^16] (repaired) |
 | <img src="preview/a.smooth_zero/knight_tubular.png" width="60"/> | [knight_tubular](preview/a.smooth_zero/knight_tubular.stl) | 0 | 13.336 | 40.002 | 26.668 | [^7] |
 | <img src="preview/a.smooth_zero/koala_stein.png" width="60"/> | [koala_stein](preview/a.smooth_zero/koala_stein.stl) | 0 | 3.560 | 10.674 | 7.116 | [^6] |
 | <img src="preview/a.smooth_zero/kong_loopy.png" width="60"/> | [kong_loopy](preview/a.smooth_zero/kong_loopy.stl) | 0 | 15.778 | 47.328 | 31.552 | [^9] |
@@ -243,7 +244,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/17674_skel.png" width="60"/> | [17674_skel](preview/b.smooth_plus/17674_skel.stl) | 2 | 29.211 | 87.639 | 58.426 | [^8] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/3holes_quadwild.png" width="60"/> | [3holes_quadwild](preview/b.smooth_plus/3holes_quadwild.stl) | 3 | 9.847 | 29.553 | 19.702 | [^1] |
 | <img src="preview/b.smooth_plus/alien_shrec11.png" width="60"/> | [alien_shrec11](preview/b.smooth_plus/alien_shrec11.stl) | 1 | 9.388 | 28.164 | 18.776 | [^4] |
-| <img src="preview/b.smooth_plus/backdoor_esb.png" width="60"/> | [backdoor_esb](preview/b.smooth_plus/backdoor_esb.stl) | 1 | 1.368 | 4.104 | 2.736 | [^16] |
+| <img src="preview/b.smooth_plus/backdoor_esb.png" width="60"/> | [backdoor_esb](preview/b.smooth_plus/backdoor_esb.stl) | 1 | 1.368 | 4.104 | 2.736 | [^17] |
 | <img src="preview/b.smooth_plus/bamboopen_quadwild.png" width="60"/> | [bamboopen_quadwild](preview/b.smooth_plus/bamboopen_quadwild.stl) | 8 | 17.832 | 53.538 | 35.692 | [^1] |
 | <img src="preview/b.smooth_plus/bob_crane.png" width="60"/> | [bob_crane](preview/b.smooth_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | [^10] |
 | <img src="preview/b.smooth_plus/boot_stein.png" width="60"/> | [boot_stein](preview/b.smooth_plus/boot_stein.stl) | 12 | 19.931 | 59.859 | 39.906 | [^6] |
@@ -252,10 +253,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/bottle2_gao.png" width="60"/> | [bottle2_gao](preview/b.smooth_plus/bottle2_gao.stl) | 1 | 14.595 | 43.785 | 29.190 | [^2] |
 | <img src="preview/b.smooth_plus/bozbezbozzel_quadwild.png" width="60"/> | [bozbezbozzel_quadwild](preview/b.smooth_plus/bozbezbozzel_quadwild.stl) | 5 | 24.992 | 75.000 | 50.000 | [^1] |
 | <img src="preview/b.smooth_plus/brain_quadwild.png" width="60"/> | [brain_quadwild](preview/b.smooth_plus/brain_quadwild.stl) | 57 | 49.888 | 150.000 | 100.000 | [^1] |
-| <img src="preview/b.smooth_plus/buddha_stanford.png" width="60"/> | [buddha_stanford](preview/b.smooth_plus/buddha_stanford.stl) | 10 | 29.419 | 88.311 | 58.874 | [^17] (repaired, simplified) |
+| <img src="preview/b.smooth_plus/buddha_stanford.png" width="60"/> | [buddha_stanford](preview/b.smooth_plus/buddha_stanford.stl) | 10 | 29.419 | 88.311 | 58.874 | [^18] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/bumpytorus_gao.png" width="60"/> | [bumpytorus_gao](preview/b.smooth_plus/bumpytorus_gao.stl) | 1 | 15.279 | 45.837 | 30.558 | [^2] |
 | <img src="preview/b.smooth_plus/camel_gao.png" width="60"/> | [camel_gao](preview/b.smooth_plus/camel_gao.stl) | 1 | 34.546 | 103.638 | 69.092 | [^2] |
-| <img src="preview/b.smooth_plus/centaur_tds.png" width="60"/> | [centaur_tds](preview/b.smooth_plus/centaur_tds.stl) | 9 | 29.973 | 89.967 | 59.978 | [^18] (repaired, simplified, rescaled) |
+| <img src="preview/b.smooth_plus/centaur_tds.png" width="60"/> | [centaur_tds](preview/b.smooth_plus/centaur_tds.stl) | 9 | 29.973 | 89.967 | 59.978 | [^19] (repaired, simplified, rescaled) |
 | <img src="preview/b.smooth_plus/chair1_gao.png" width="60"/> | [chair1_gao](preview/b.smooth_plus/chair1_gao.stl) | 4 | 11.421 | 34.281 | 22.854 | [^2] |
 | <img src="preview/b.smooth_plus/chair_gao.png" width="60"/> | [chair_gao](preview/b.smooth_plus/chair_gao.stl) | 7 | 23.081 | 69.279 | 46.186 | [^2] |
 | <img src="preview/b.smooth_plus/coffeemug_gso.png" width="60"/> | [coffeemug_gso](preview/b.smooth_plus/coffeemug_gso.stl) | 1 | 5.612 | 16.836 | 11.224 | [^11] |
@@ -270,7 +271,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/desertrose_crane.png" width="60"/> | [desertrose_crane](preview/b.smooth_plus/desertrose_crane.stl) | 1 | 31.680 | 95.040 | 63.360 | [^10] (repaired) |
 | <img src="preview/b.smooth_plus/doubletorus_quadwild.png" width="60"/> | [doubletorus_quadwild](preview/b.smooth_plus/doubletorus_quadwild.stl) | 2 | 2.353 | 7.065 | 4.710 | [^1] |
 | <img src="preview/b.smooth_plus/dragon0_quadwild.png" width="60"/> | [dragon0_quadwild](preview/b.smooth_plus/dragon0_quadwild.stl) | 1 | 26.176 | 78.528 | 52.352 | [^1] |
-| <img src="preview/b.smooth_plus/dragon_stanford.png" width="60"/> | [dragon_stanford](preview/b.smooth_plus/dragon_stanford.stl) | 3 | 29.750 | 89.262 | 59.508 | [^17] (repaired, simplified) |
+| <img src="preview/b.smooth_plus/dragon_stanford.png" width="60"/> | [dragon_stanford](preview/b.smooth_plus/dragon_stanford.stl) | 3 | 29.750 | 89.262 | 59.508 | [^18] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/dragonstand2_gao.png" width="60"/> | [dragonstand2_gao](preview/b.smooth_plus/dragonstand2_gao.stl) | 1 | 30.561 | 91.683 | 61.122 | [^2] |
 | <img src="preview/b.smooth_plus/dragonstand_gao.png" width="60"/> | [dragonstand_gao](preview/b.smooth_plus/dragonstand_gao.stl) | 1 | 21.042 | 63.126 | 42.084 | [^2] |
 | <img src="preview/b.smooth_plus/dtorus_gao.png" width="60"/> | [dtorus_gao](preview/b.smooth_plus/dtorus_gao.stl) | 2 | 10.090 | 30.276 | 20.184 | [^2] |
@@ -288,7 +289,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/grayloc_gao.png" width="60"/> | [grayloc_gao](preview/b.smooth_plus/grayloc_gao.stl) | 9 | 11.339 | 34.065 | 22.710 | [^2] |
 | <img src="preview/b.smooth_plus/greek_gao.png" width="60"/> | [greek_gao](preview/b.smooth_plus/greek_gao.stl) | 4 | 12.501 | 37.521 | 25.014 | [^2] |
 | <img src="preview/b.smooth_plus/greeksculpture_quadwild.png" width="60"/> | [greeksculpture_quadwild](preview/b.smooth_plus/greeksculpture_quadwild.stl) | 4 | 24.994 | 75.000 | 50.000 | [^1] |
-| <img src="preview/b.smooth_plus/greyhounds_tds.png" width="60"/> | [greyhounds_tds](preview/b.smooth_plus/greyhounds_tds.stl) | 5 | 29.981 | 89.967 | 59.978 | [^18] (repaired, simplified) |
+| <img src="preview/b.smooth_plus/greyhounds_tds.png" width="60"/> | [greyhounds_tds](preview/b.smooth_plus/greyhounds_tds.stl) | 5 | 29.981 | 89.967 | 59.978 | [^19] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/helmet_quadwild.png" width="60"/> | [helmet_quadwild](preview/b.smooth_plus/helmet_quadwild.stl) | 3 | 496 | 1.500 | 1.000 | [^1] |
 | <img src="preview/b.smooth_plus/heptoroid_skel.png" width="60"/> | [heptoroid_skel](preview/b.smooth_plus/heptoroid_skel.stl) | 22 | 29.957 | 89.997 | 59.998 | [^8] (simplified) |
 | <img src="preview/b.smooth_plus/holes2_loopy.png" width="60"/> | [holes2_loopy](preview/b.smooth_plus/holes2_loopy.stl) | 2 | 2.922 | 8.772 | 5.848 | [^9] |
@@ -297,20 +298,20 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/house_stein.png" width="60"/> | [house_stein](preview/b.smooth_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | [^6] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/indorelax_loopy.png" width="60"/> | [indorelax_loopy](preview/b.smooth_plus/indorelax_loopy.stl) | 2 | 12.128 | 36.390 | 24.260 | [^9] |
 | <img src="preview/b.smooth_plus/jbs003_quadwild.png" width="60"/> | [jbs003_quadwild](preview/b.smooth_plus/jbs003_quadwild.stl) | 4 | 24.994 | 75.000 | 50.000 | [^1] |
-| <img src="preview/b.smooth_plus/kid14_topkids.png" width="60"/> | [kid14_topkids](preview/b.smooth_plus/kid14_topkids.stl) | 8 | 9.585 | 28.797 | 19.198 | [^15] (repaired) |
-| <img src="preview/b.smooth_plus/kid15_topkids.png" width="60"/> | [kid15_topkids](preview/b.smooth_plus/kid15_topkids.stl) | 6 | 8.860 | 26.610 | 17.740 | [^15] (repaired) |
-| <img src="preview/b.smooth_plus/kid18_topkids.png" width="60"/> | [kid18_topkids](preview/b.smooth_plus/kid18_topkids.stl) | 5 | 11.176 | 33.552 | 22.368 | [^15] (repaired) |
+| <img src="preview/b.smooth_plus/kid14_topkids.png" width="60"/> | [kid14_topkids](preview/b.smooth_plus/kid14_topkids.stl) | 8 | 9.585 | 28.797 | 19.198 | [^16] (repaired) |
+| <img src="preview/b.smooth_plus/kid15_topkids.png" width="60"/> | [kid15_topkids](preview/b.smooth_plus/kid15_topkids.stl) | 6 | 8.860 | 26.610 | 17.740 | [^16] (repaired) |
+| <img src="preview/b.smooth_plus/kid18_topkids.png" width="60"/> | [kid18_topkids](preview/b.smooth_plus/kid18_topkids.stl) | 5 | 11.176 | 33.552 | 22.368 | [^16] (repaired) |
 | <img src="preview/b.smooth_plus/kiss_gao.png" width="60"/> | [kiss_gao](preview/b.smooth_plus/kiss_gao.stl) | 3 | 10.192 | 30.588 | 20.392 | [^2] |
 | <img src="preview/b.smooth_plus/kiss_loopy.png" width="60"/> | [kiss_loopy](preview/b.smooth_plus/kiss_loopy.stl) | 3 | 12.738 | 38.226 | 25.484 | [^9] |
 | <img src="preview/b.smooth_plus/kitten_gao.png" width="60"/> | [kitten_gao](preview/b.smooth_plus/kitten_gao.stl) | 1 | 10.183 | 30.549 | 20.366 | [^2] |
 | <img src="preview/b.smooth_plus/kitten_loopy.png" width="60"/> | [kitten_loopy](preview/b.smooth_plus/kitten_loopy.stl) | 1 | 3.178 | 9.534 | 6.356 | [^9] |
 | <img src="preview/b.smooth_plus/kitten_sweeping.png" width="60"/> | [kitten_sweeping](preview/b.smooth_plus/kitten_sweeping.stl) | 1 | 18.578 | 55.734 | 37.156 | [^12] |
-| <img src="preview/b.smooth_plus/knot10102_knotplot.png" width="60"/> | [knot10102_knotplot](preview/b.smooth_plus/knot10102_knotplot.stl) | 1 | 4.312 | 12.936 | 8.624 | [^19] |
-| <img src="preview/b.smooth_plus/knot1_cgal.png" width="60"/> | [knot1_cgal](preview/b.smooth_plus/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | [^20] |
-| <img src="preview/b.smooth_plus/knot_cgal.png" width="60"/> | [knot_cgal](preview/b.smooth_plus/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | [^20] |
+| <img src="preview/b.smooth_plus/knot10102_knotplot.png" width="60"/> | [knot10102_knotplot](preview/b.smooth_plus/knot10102_knotplot.stl) | 1 | 4.312 | 12.936 | 8.624 | [^20] |
+| <img src="preview/b.smooth_plus/knot1_cgal.png" width="60"/> | [knot1_cgal](preview/b.smooth_plus/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | [^21] |
+| <img src="preview/b.smooth_plus/knot_cgal.png" width="60"/> | [knot_cgal](preview/b.smooth_plus/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | [^21] |
 | <img src="preview/b.smooth_plus/laurenthand_quadwild.png" width="60"/> | [laurenthand_quadwild](preview/b.smooth_plus/laurenthand_quadwild.stl) | 1 | 55.957 | 167.871 | 111.914 | [^1] (repaired) |
 | <img src="preview/b.smooth_plus/lionstatue_stein.png" width="60"/> | [lionstatue_stein](preview/b.smooth_plus/lionstatue_stein.stl) | 3 | 37.159 | 111.489 | 74.326 | [^6] (repaired) |
-| <img src="preview/b.smooth_plus/lissajous_knotplot.png" width="60"/> | [lissajous_knotplot](preview/b.smooth_plus/lissajous_knotplot.stl) | 1 | 1.995 | 5.985 | 3.990 | [^19] |
+| <img src="preview/b.smooth_plus/lissajous_knotplot.png" width="60"/> | [lissajous_knotplot](preview/b.smooth_plus/lissajous_knotplot.stl) | 1 | 1.995 | 5.985 | 3.990 | [^20] |
 | <img src="preview/b.smooth_plus/mastercylinder_gao.png" width="60"/> | [mastercylinder_gao](preview/b.smooth_plus/mastercylinder_gao.stl) | 3 | 13.689 | 41.079 | 27.386 | [^2] |
 | <img src="preview/b.smooth_plus/milkfrother_gso.png" width="60"/> | [milkfrother_gso](preview/b.smooth_plus/milkfrother_gso.stl) | 10 | 10.771 | 32.367 | 21.578 | [^11] (repaired) |
 | <img src="preview/b.smooth_plus/mug_gso.png" width="60"/> | [mug_gso](preview/b.smooth_plus/mug_gso.stl) | 1 | 4.358 | 13.074 | 8.716 | [^11] |
@@ -329,7 +330,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/scissors_gso.png" width="60"/> | [scissors_gso](preview/b.smooth_plus/scissors_gso.stl) | 7 | 3.396 | 10.224 | 6.816 | [^11] |
 | <img src="preview/b.smooth_plus/seabowl_skel.png" width="60"/> | [seabowl_skel](preview/b.smooth_plus/seabowl_skel.stl) | 4 | 45.095 | 135.303 | 90.202 | [^8] |
 | <img src="preview/b.smooth_plus/seahorse2_quadwild.png" width="60"/> | [seahorse2_quadwild](preview/b.smooth_plus/seahorse2_quadwild.stl) | 8 | 49.986 | 150.000 | 100.000 | [^1] |
-| <img src="preview/b.smooth_plus/skotknot_knotplot.png" width="60"/> | [skotknot_knotplot](preview/b.smooth_plus/skotknot_knotplot.stl) | 1 | 308 | 924 | 616 | [^19] |
+| <img src="preview/b.smooth_plus/skotknot_knotplot.png" width="60"/> | [skotknot_knotplot](preview/b.smooth_plus/skotknot_knotplot.stl) | 1 | 308 | 924 | 616 | [^20] |
 | <img src="preview/b.smooth_plus/skull_stein.png" width="60"/> | [skull_stein](preview/b.smooth_plus/skull_stein.stl) | 2 | 5.154 | 15.468 | 10.312 | [^6] |
 | <img src="preview/b.smooth_plus/teapot_gao.png" width="60"/> | [teapot_gao](preview/b.smooth_plus/teapot_gao.stl) | 1 | 13.464 | 40.392 | 26.928 | [^2] |
 | <img src="preview/b.smooth_plus/teapot_loopy.png" width="60"/> | [teapot_loopy](preview/b.smooth_plus/teapot_loopy.stl) | 1 | 6.544 | 19.632 | 13.088 | [^9] |
@@ -355,65 +356,65 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/22826_skel.png" width="60"/> | [22826_skel](preview/c.sharp_zero/22826_skel.stl) | 0 | 1.765 | 5.289 | 3.526 | [^8] (repaired) |
 | <img src="preview/c.sharp_zero/23091_skel.png" width="60"/> | [23091_skel](preview/c.sharp_zero/23091_skel.stl) | 0 | 4.120 | 12.354 | 8.236 | [^8] |
 | <img src="preview/c.sharp_zero/3035_gao.png" width="60"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | [^2] |
-| <img src="preview/c.sharp_zero/acuteline_hexme.png" width="60"/> | [acuteline_hexme](preview/c.sharp_zero/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/antipentapyramid_hexme.png" width="60"/> | [antipentapyramid_hexme](preview/c.sharp_zero/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/antipyramid_hexme.png" width="60"/> | [antipyramid_hexme](preview/c.sharp_zero/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/antiskijump_hexme.png" width="60"/> | [antiskijump_hexme](preview/c.sharp_zero/antiskijump_hexme.stl) | 0 | 726 | 2.172 | 1.448 | [^21] (meshed) |
+| <img src="preview/c.sharp_zero/acuteline_hexme.png" width="60"/> | [acuteline_hexme](preview/c.sharp_zero/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/antipentapyramid_hexme.png" width="60"/> | [antipentapyramid_hexme](preview/c.sharp_zero/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/antipyramid_hexme.png" width="60"/> | [antipyramid_hexme](preview/c.sharp_zero/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/antiskijump_hexme.png" width="60"/> | [antiskijump_hexme](preview/c.sharp_zero/antiskijump_hexme.stl) | 0 | 726 | 2.172 | 1.448 | [^22] (meshed) |
 | <img src="preview/c.sharp_zero/aries70_gao.png" width="60"/> | [aries70_gao](preview/c.sharp_zero/aries70_gao.stl) | 0 | 4.357 | 13.065 | 8.710 | [^2] |
-| <img src="preview/c.sharp_zero/b0_mambo.png" width="60"/> | [b0_mambo](preview/c.sharp_zero/b0_mambo.stl) | 0 | 560 | 1.674 | 1.116 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b11_mambo.png" width="60"/> | [b11_mambo](preview/c.sharp_zero/b11_mambo.stl) | 0 | 1.139 | 3.411 | 2.274 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b12_mambo.png" width="60"/> | [b12_mambo](preview/c.sharp_zero/b12_mambo.stl) | 0 | 885 | 2.649 | 1.766 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b14_mambo.png" width="60"/> | [b14_mambo](preview/c.sharp_zero/b14_mambo.stl) | 0 | 74.218 | 222.648 | 148.432 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b15_mambo.png" width="60"/> | [b15_mambo](preview/c.sharp_zero/b15_mambo.stl) | 0 | 10.769 | 32.301 | 21.534 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b16_mambo.png" width="60"/> | [b16_mambo](preview/c.sharp_zero/b16_mambo.stl) | 0 | 217 | 645 | 430 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b17_mambo.png" width="60"/> | [b17_mambo](preview/c.sharp_zero/b17_mambo.stl) | 0 | 363 | 1.083 | 722 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b18_mambo.png" width="60"/> | [b18_mambo](preview/c.sharp_zero/b18_mambo.stl) | 0 | 329 | 981 | 654 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b19_mambo.png" width="60"/> | [b19_mambo](preview/c.sharp_zero/b19_mambo.stl) | 0 | 1.641 | 4.917 | 3.278 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b20_mambo.png" width="60"/> | [b20_mambo](preview/c.sharp_zero/b20_mambo.stl) | 0 | 159 | 471 | 314 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b21_mambo.png" width="60"/> | [b21_mambo](preview/c.sharp_zero/b21_mambo.stl) | 0 | 478 | 1.428 | 952 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b23_mambo.png" width="60"/> | [b23_mambo](preview/c.sharp_zero/b23_mambo.stl) | 0 | 211 | 627 | 418 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b25_mambo.png" width="60"/> | [b25_mambo](preview/c.sharp_zero/b25_mambo.stl) | 0 | 1.816 | 5.442 | 3.628 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b27_mambo.png" width="60"/> | [b27_mambo](preview/c.sharp_zero/b27_mambo.stl) | 0 | 459 | 1.371 | 914 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b2_mambo.png" width="60"/> | [b2_mambo](preview/c.sharp_zero/b2_mambo.stl) | 0 | 918 | 2.748 | 1.832 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b30_mambo.png" width="60"/> | [b30_mambo](preview/c.sharp_zero/b30_mambo.stl) | 0 | 712 | 2.130 | 1.420 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b34_mambo.png" width="60"/> | [b34_mambo](preview/c.sharp_zero/b34_mambo.stl) | 0 | 514 | 1.536 | 1.024 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b35_mambo.png" width="60"/> | [b35_mambo](preview/c.sharp_zero/b35_mambo.stl) | 0 | 2.115 | 6.339 | 4.226 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b36_mambo.png" width="60"/> | [b36_mambo](preview/c.sharp_zero/b36_mambo.stl) | 0 | 3.991 | 11.967 | 7.978 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b37_mambo.png" width="60"/> | [b37_mambo](preview/c.sharp_zero/b37_mambo.stl) | 0 | 2.668 | 7.998 | 5.332 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b38_mambo.png" width="60"/> | [b38_mambo](preview/c.sharp_zero/b38_mambo.stl) | 0 | 1.956 | 5.862 | 3.908 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b39_mambo.png" width="60"/> | [b39_mambo](preview/c.sharp_zero/b39_mambo.stl) | 0 | 3.628 | 10.878 | 7.252 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b40_mambo.png" width="60"/> | [b40_mambo](preview/c.sharp_zero/b40_mambo.stl) | 0 | 3.171 | 9.507 | 6.338 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b41_mambo.png" width="60"/> | [b41_mambo](preview/c.sharp_zero/b41_mambo.stl) | 0 | 3.529 | 10.581 | 7.054 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b42_mambo.png" width="60"/> | [b42_mambo](preview/c.sharp_zero/b42_mambo.stl) | 0 | 1.843 | 5.523 | 3.682 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b43_mambo.png" width="60"/> | [b43_mambo](preview/c.sharp_zero/b43_mambo.stl) | 0 | 2.626 | 7.872 | 5.248 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b45_mambo.png" width="60"/> | [b45_mambo](preview/c.sharp_zero/b45_mambo.stl) | 0 | 736 | 2.202 | 1.468 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b46_mambo.png" width="60"/> | [b46_mambo](preview/c.sharp_zero/b46_mambo.stl) | 0 | 827 | 2.475 | 1.650 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b48_mambo.png" width="60"/> | [b48_mambo](preview/c.sharp_zero/b48_mambo.stl) | 0 | 1.146 | 3.432 | 2.288 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b49_mambo.png" width="60"/> | [b49_mambo](preview/c.sharp_zero/b49_mambo.stl) | 0 | 528 | 1.578 | 1.052 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b4_mambo.png" width="60"/> | [b4_mambo](preview/c.sharp_zero/b4_mambo.stl) | 0 | 1.216 | 3.642 | 2.428 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b50_mambo.png" width="60"/> | [b50_mambo](preview/c.sharp_zero/b50_mambo.stl) | 0 | 643 | 1.923 | 1.282 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b52_mambo.png" width="60"/> | [b52_mambo](preview/c.sharp_zero/b52_mambo.stl) | 0 | 545 | 1.629 | 1.086 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b54_mambo.png" width="60"/> | [b54_mambo](preview/c.sharp_zero/b54_mambo.stl) | 0 | 425 | 1.269 | 846 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b56_mambo.png" width="60"/> | [b56_mambo](preview/c.sharp_zero/b56_mambo.stl) | 0 | 586 | 1.752 | 1.168 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b57_mambo.png" width="60"/> | [b57_mambo](preview/c.sharp_zero/b57_mambo.stl) | 0 | 4.951 | 14.847 | 9.898 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b58_mambo.png" width="60"/> | [b58_mambo](preview/c.sharp_zero/b58_mambo.stl) | 0 | 735 | 2.199 | 1.466 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b59_mambo.png" width="60"/> | [b59_mambo](preview/c.sharp_zero/b59_mambo.stl) | 0 | 598 | 1.788 | 1.192 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b5_mambo.png" width="60"/> | [b5_mambo](preview/c.sharp_zero/b5_mambo.stl) | 0 | 613 | 1.833 | 1.222 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b60_mambo.png" width="60"/> | [b60_mambo](preview/c.sharp_zero/b60_mambo.stl) | 0 | 1.043 | 3.123 | 2.082 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b61_mambo.png" width="60"/> | [b61_mambo](preview/c.sharp_zero/b61_mambo.stl) | 0 | 1.125 | 3.369 | 2.246 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b67_mambo.png" width="60"/> | [b67_mambo](preview/c.sharp_zero/b67_mambo.stl) | 0 | 1.279 | 3.831 | 2.554 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b68_mambo.png" width="60"/> | [b68_mambo](preview/c.sharp_zero/b68_mambo.stl) | 0 | 1.137 | 3.405 | 2.270 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b69_mambo.png" width="60"/> | [b69_mambo](preview/c.sharp_zero/b69_mambo.stl) | 0 | 2.119 | 6.351 | 4.234 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b6_mambo.png" width="60"/> | [b6_mambo](preview/c.sharp_zero/b6_mambo.stl) | 0 | 659 | 1.971 | 1.314 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b70_mambo.png" width="60"/> | [b70_mambo](preview/c.sharp_zero/b70_mambo.stl) | 0 | 2.280 | 6.834 | 4.556 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b71_mambo.png" width="60"/> | [b71_mambo](preview/c.sharp_zero/b71_mambo.stl) | 0 | 2.175 | 6.519 | 4.346 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b72_mambo.png" width="60"/> | [b72_mambo](preview/c.sharp_zero/b72_mambo.stl) | 0 | 1.685 | 5.049 | 3.366 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b74_mambo.png" width="60"/> | [b74_mambo](preview/c.sharp_zero/b74_mambo.stl) | 0 | 1.313 | 3.933 | 2.622 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b75_mambo.png" width="60"/> | [b75_mambo](preview/c.sharp_zero/b75_mambo.stl) | 0 | 1.709 | 5.121 | 3.414 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b76_mambo.png" width="60"/> | [b76_mambo](preview/c.sharp_zero/b76_mambo.stl) | 0 | 508 | 1.518 | 1.012 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b7_mambo.png" width="60"/> | [b7_mambo](preview/c.sharp_zero/b7_mambo.stl) | 0 | 498 | 1.488 | 992 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b8_mambo.png" width="60"/> | [b8_mambo](preview/c.sharp_zero/b8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/b9_mambo.png" width="60"/> | [b9_mambo](preview/c.sharp_zero/b9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/b0_mambo.png" width="60"/> | [b0_mambo](preview/c.sharp_zero/b0_mambo.stl) | 0 | 560 | 1.674 | 1.116 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b11_mambo.png" width="60"/> | [b11_mambo](preview/c.sharp_zero/b11_mambo.stl) | 0 | 1.139 | 3.411 | 2.274 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b12_mambo.png" width="60"/> | [b12_mambo](preview/c.sharp_zero/b12_mambo.stl) | 0 | 885 | 2.649 | 1.766 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b14_mambo.png" width="60"/> | [b14_mambo](preview/c.sharp_zero/b14_mambo.stl) | 0 | 74.218 | 222.648 | 148.432 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b15_mambo.png" width="60"/> | [b15_mambo](preview/c.sharp_zero/b15_mambo.stl) | 0 | 10.769 | 32.301 | 21.534 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b16_mambo.png" width="60"/> | [b16_mambo](preview/c.sharp_zero/b16_mambo.stl) | 0 | 217 | 645 | 430 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b17_mambo.png" width="60"/> | [b17_mambo](preview/c.sharp_zero/b17_mambo.stl) | 0 | 363 | 1.083 | 722 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b18_mambo.png" width="60"/> | [b18_mambo](preview/c.sharp_zero/b18_mambo.stl) | 0 | 329 | 981 | 654 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b19_mambo.png" width="60"/> | [b19_mambo](preview/c.sharp_zero/b19_mambo.stl) | 0 | 1.641 | 4.917 | 3.278 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b20_mambo.png" width="60"/> | [b20_mambo](preview/c.sharp_zero/b20_mambo.stl) | 0 | 159 | 471 | 314 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b21_mambo.png" width="60"/> | [b21_mambo](preview/c.sharp_zero/b21_mambo.stl) | 0 | 478 | 1.428 | 952 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b23_mambo.png" width="60"/> | [b23_mambo](preview/c.sharp_zero/b23_mambo.stl) | 0 | 211 | 627 | 418 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b25_mambo.png" width="60"/> | [b25_mambo](preview/c.sharp_zero/b25_mambo.stl) | 0 | 1.816 | 5.442 | 3.628 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b27_mambo.png" width="60"/> | [b27_mambo](preview/c.sharp_zero/b27_mambo.stl) | 0 | 459 | 1.371 | 914 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b2_mambo.png" width="60"/> | [b2_mambo](preview/c.sharp_zero/b2_mambo.stl) | 0 | 918 | 2.748 | 1.832 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b30_mambo.png" width="60"/> | [b30_mambo](preview/c.sharp_zero/b30_mambo.stl) | 0 | 712 | 2.130 | 1.420 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b34_mambo.png" width="60"/> | [b34_mambo](preview/c.sharp_zero/b34_mambo.stl) | 0 | 514 | 1.536 | 1.024 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b35_mambo.png" width="60"/> | [b35_mambo](preview/c.sharp_zero/b35_mambo.stl) | 0 | 2.115 | 6.339 | 4.226 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b36_mambo.png" width="60"/> | [b36_mambo](preview/c.sharp_zero/b36_mambo.stl) | 0 | 3.991 | 11.967 | 7.978 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b37_mambo.png" width="60"/> | [b37_mambo](preview/c.sharp_zero/b37_mambo.stl) | 0 | 2.668 | 7.998 | 5.332 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b38_mambo.png" width="60"/> | [b38_mambo](preview/c.sharp_zero/b38_mambo.stl) | 0 | 1.956 | 5.862 | 3.908 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b39_mambo.png" width="60"/> | [b39_mambo](preview/c.sharp_zero/b39_mambo.stl) | 0 | 3.628 | 10.878 | 7.252 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b40_mambo.png" width="60"/> | [b40_mambo](preview/c.sharp_zero/b40_mambo.stl) | 0 | 3.171 | 9.507 | 6.338 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b41_mambo.png" width="60"/> | [b41_mambo](preview/c.sharp_zero/b41_mambo.stl) | 0 | 3.529 | 10.581 | 7.054 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b42_mambo.png" width="60"/> | [b42_mambo](preview/c.sharp_zero/b42_mambo.stl) | 0 | 1.843 | 5.523 | 3.682 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b43_mambo.png" width="60"/> | [b43_mambo](preview/c.sharp_zero/b43_mambo.stl) | 0 | 2.626 | 7.872 | 5.248 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b45_mambo.png" width="60"/> | [b45_mambo](preview/c.sharp_zero/b45_mambo.stl) | 0 | 736 | 2.202 | 1.468 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b46_mambo.png" width="60"/> | [b46_mambo](preview/c.sharp_zero/b46_mambo.stl) | 0 | 827 | 2.475 | 1.650 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b48_mambo.png" width="60"/> | [b48_mambo](preview/c.sharp_zero/b48_mambo.stl) | 0 | 1.146 | 3.432 | 2.288 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b49_mambo.png" width="60"/> | [b49_mambo](preview/c.sharp_zero/b49_mambo.stl) | 0 | 528 | 1.578 | 1.052 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b4_mambo.png" width="60"/> | [b4_mambo](preview/c.sharp_zero/b4_mambo.stl) | 0 | 1.216 | 3.642 | 2.428 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b50_mambo.png" width="60"/> | [b50_mambo](preview/c.sharp_zero/b50_mambo.stl) | 0 | 643 | 1.923 | 1.282 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b52_mambo.png" width="60"/> | [b52_mambo](preview/c.sharp_zero/b52_mambo.stl) | 0 | 545 | 1.629 | 1.086 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b54_mambo.png" width="60"/> | [b54_mambo](preview/c.sharp_zero/b54_mambo.stl) | 0 | 425 | 1.269 | 846 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b56_mambo.png" width="60"/> | [b56_mambo](preview/c.sharp_zero/b56_mambo.stl) | 0 | 586 | 1.752 | 1.168 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b57_mambo.png" width="60"/> | [b57_mambo](preview/c.sharp_zero/b57_mambo.stl) | 0 | 4.951 | 14.847 | 9.898 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b58_mambo.png" width="60"/> | [b58_mambo](preview/c.sharp_zero/b58_mambo.stl) | 0 | 735 | 2.199 | 1.466 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b59_mambo.png" width="60"/> | [b59_mambo](preview/c.sharp_zero/b59_mambo.stl) | 0 | 598 | 1.788 | 1.192 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b5_mambo.png" width="60"/> | [b5_mambo](preview/c.sharp_zero/b5_mambo.stl) | 0 | 613 | 1.833 | 1.222 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b60_mambo.png" width="60"/> | [b60_mambo](preview/c.sharp_zero/b60_mambo.stl) | 0 | 1.043 | 3.123 | 2.082 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b61_mambo.png" width="60"/> | [b61_mambo](preview/c.sharp_zero/b61_mambo.stl) | 0 | 1.125 | 3.369 | 2.246 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b67_mambo.png" width="60"/> | [b67_mambo](preview/c.sharp_zero/b67_mambo.stl) | 0 | 1.279 | 3.831 | 2.554 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b68_mambo.png" width="60"/> | [b68_mambo](preview/c.sharp_zero/b68_mambo.stl) | 0 | 1.137 | 3.405 | 2.270 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b69_mambo.png" width="60"/> | [b69_mambo](preview/c.sharp_zero/b69_mambo.stl) | 0 | 2.119 | 6.351 | 4.234 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b6_mambo.png" width="60"/> | [b6_mambo](preview/c.sharp_zero/b6_mambo.stl) | 0 | 659 | 1.971 | 1.314 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b70_mambo.png" width="60"/> | [b70_mambo](preview/c.sharp_zero/b70_mambo.stl) | 0 | 2.280 | 6.834 | 4.556 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b71_mambo.png" width="60"/> | [b71_mambo](preview/c.sharp_zero/b71_mambo.stl) | 0 | 2.175 | 6.519 | 4.346 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b72_mambo.png" width="60"/> | [b72_mambo](preview/c.sharp_zero/b72_mambo.stl) | 0 | 1.685 | 5.049 | 3.366 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b74_mambo.png" width="60"/> | [b74_mambo](preview/c.sharp_zero/b74_mambo.stl) | 0 | 1.313 | 3.933 | 2.622 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b75_mambo.png" width="60"/> | [b75_mambo](preview/c.sharp_zero/b75_mambo.stl) | 0 | 1.709 | 5.121 | 3.414 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b76_mambo.png" width="60"/> | [b76_mambo](preview/c.sharp_zero/b76_mambo.stl) | 0 | 508 | 1.518 | 1.012 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b7_mambo.png" width="60"/> | [b7_mambo](preview/c.sharp_zero/b7_mambo.stl) | 0 | 498 | 1.488 | 992 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b8_mambo.png" width="60"/> | [b8_mambo](preview/c.sharp_zero/b8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/b9_mambo.png" width="60"/> | [b9_mambo](preview/c.sharp_zero/b9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [^23] (meshed) |
 | <img src="preview/c.sharp_zero/blade_quadwild.png" width="60"/> | [blade_quadwild](preview/c.sharp_zero/blade_quadwild.stl) | 0 | 37.378 | 112.128 | 74.752 | [^1] |
 | <img src="preview/c.sharp_zero/bladefem_loopy.png" width="60"/> | [bladefem_loopy](preview/c.sharp_zero/bladefem_loopy.stl) | 0 | 6.086 | 18.252 | 12.168 | [^9] |
 | <img src="preview/c.sharp_zero/blocktopus_snoep.png" width="60"/> | [blocktopus_snoep](preview/c.sharp_zero/blocktopus_snoep.stl) | 0 | 7.569 | 22.701 | 15.134 | [^14] (remeshed, re-oriented) |
@@ -421,13 +422,13 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/bmw_skel.png" width="60"/> | [bmw_skel](preview/c.sharp_zero/bmw_skel.stl) | 0 | 5.251 | 15.747 | 10.498 | [^8] (repaired) |
 | <img src="preview/c.sharp_zero/boat_loopy.png" width="60"/> | [boat_loopy](preview/c.sharp_zero/boat_loopy.stl) | 0 | 11.389 | 34.161 | 22.774 | [^9] |
 | <img src="preview/c.sharp_zero/boat_stein.png" width="60"/> | [boat_stein](preview/c.sharp_zero/boat_stein.stl) | 0 | 16.210 | 48.624 | 32.416 | [^6] |
-| <img src="preview/c.sharp_zero/bolt_esb.png" width="60"/> | [bolt_esb](preview/c.sharp_zero/bolt_esb.stl) | 0 | 244 | 726 | 484 | [^16] |
-| <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="60"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/chessrook_mambo.png" width="60"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/bolt_esb.png" width="60"/> | [bolt_esb](preview/c.sharp_zero/bolt_esb.stl) | 0 | 244 | 726 | 484 | [^17] |
+| <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="60"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/chessrook_mambo.png" width="60"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | [^23] (meshed) |
 | <img src="preview/c.sharp_zero/clef_loopy.png" width="60"/> | [clef_loopy](preview/c.sharp_zero/clef_loopy.stl) | 0 | 1.392 | 4.170 | 2.780 | [^9] |
-| <img src="preview/c.sharp_zero/container_esb.png" width="60"/> | [container_esb](preview/c.sharp_zero/container_esb.stl) | 0 | 3.173 | 9.513 | 6.342 | [^16] |
+| <img src="preview/c.sharp_zero/container_esb.png" width="60"/> | [container_esb](preview/c.sharp_zero/container_esb.stl) | 0 | 3.173 | 9.513 | 6.342 | [^17] |
 | <img src="preview/c.sharp_zero/coverrear_gao.png" width="60"/> | [coverrear_gao](preview/c.sharp_zero/coverrear_gao.stl) | 0 | 39.982 | 119.940 | 79.960 | [^2] |
-| <img src="preview/c.sharp_zero/crosscyls_hexme.png" width="60"/> | [crosscyls_hexme](preview/c.sharp_zero/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | [^21] (meshed) |
+| <img src="preview/c.sharp_zero/crosscyls_hexme.png" width="60"/> | [crosscyls_hexme](preview/c.sharp_zero/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | [^22] (meshed) |
 | <img src="preview/c.sharp_zero/cube_stein.png" width="60"/> | [cube_stein](preview/c.sharp_zero/cube_stein.stl) | 0 | 26 | 72 | 48 | [^6] |
 | <img src="preview/c.sharp_zero/cubecarved_loopy.png" width="60"/> | [cubecarved_loopy](preview/c.sharp_zero/cubecarved_loopy.stl) | 0 | 1.820 | 5.454 | 3.636 | [^9] |
 | <img src="preview/c.sharp_zero/cubeminussphere_loopy.png" width="60"/> | [cubeminussphere_loopy](preview/c.sharp_zero/cubeminussphere_loopy.stl) | 0 | 2.066 | 6.192 | 4.128 | [^9] |
@@ -435,29 +436,29 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/cylinderplate_loopy.png" width="60"/> | [cylinderplate_loopy](preview/c.sharp_zero/cylinderplate_loopy.stl) | 0 | 908 | 2.718 | 1.812 | [^9] |
 | <img src="preview/c.sharp_zero/dovetail1_quadwild.png" width="60"/> | [dovetail1_quadwild](preview/c.sharp_zero/dovetail1_quadwild.stl) | 0 | 6.956 | 20.862 | 13.908 | [^1] |
 | <img src="preview/c.sharp_zero/dovetail3_loopy.png" width="60"/> | [dovetail3_loopy](preview/c.sharp_zero/dovetail3_loopy.stl) | 0 | 32 | 90 | 60 | [^9] |
-| <img src="preview/c.sharp_zero/dpw6g0_nlr.png" width="60"/> | [dpw6g0_nlr](preview/c.sharp_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [^23] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/dpw7_nlr.png" width="60"/> | [dpw7_nlr](preview/c.sharp_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [^23] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/dpw6g0_nlr.png" width="60"/> | [dpw6g0_nlr](preview/c.sharp_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [^24] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/dpw7_nlr.png" width="60"/> | [dpw7_nlr](preview/c.sharp_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [^24] (meshed by Stevie-Ray Janssen) |
 | <img src="preview/c.sharp_zero/eraserball_loopy.png" width="60"/> | [eraserball_loopy](preview/c.sharp_zero/eraserball_loopy.stl) | 0 | 2.624 | 7.866 | 5.244 | [^9] |
 | <img src="preview/c.sharp_zero/fandisk_jacobson.png" width="60"/> | [fandisk_jacobson](preview/c.sharp_zero/fandisk_jacobson.stl) | 0 | 6.475 | 19.419 | 12.946 | [^5] |
-| <img src="preview/c.sharp_zero/fandisk_libigl.png" width="60"/> | [fandisk_libigl](preview/c.sharp_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | [^24] |
-| <img src="preview/c.sharp_zero/featureloft_mambo.png" width="60"/> | [featureloft_mambo](preview/c.sharp_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/fandisk_libigl.png" width="60"/> | [fandisk_libigl](preview/c.sharp_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | [^25] |
+| <img src="preview/c.sharp_zero/featureloft_mambo.png" width="60"/> | [featureloft_mambo](preview/c.sharp_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [^23] (meshed) |
 | <img src="preview/c.sharp_zero/focalocta_quadwild.png" width="60"/> | [focalocta_quadwild](preview/c.sharp_zero/focalocta_quadwild.stl) | 0 | 10.080 | 30.234 | 20.156 | [^1] |
 | <img src="preview/c.sharp_zero/gear_loopy.png" width="60"/> | [gear_loopy](preview/c.sharp_zero/gear_loopy.stl) | 0 | 3.931 | 11.787 | 7.858 | [^9] |
 | <img src="preview/c.sharp_zero/grandpiano_skel.png" width="60"/> | [grandpiano_skel](preview/c.sharp_zero/grandpiano_skel.stl) | 0 | 245 | 729 | 486 | [^8] (repaired) |
 | <img src="preview/c.sharp_zero/hammer_stein.png" width="60"/> | [hammer_stein](preview/c.sharp_zero/hammer_stein.stl) | 0 | 30.082 | 90.240 | 60.160 | [^6] |
 | <img src="preview/c.sharp_zero/heart_skel.png" width="60"/> | [heart_skel](preview/c.sharp_zero/heart_skel.stl) | 0 | 4.877 | 14.625 | 9.750 | [^8] (repaired) |
-| <img src="preview/c.sharp_zero/hlpw4_nlr.png" width="60"/> | [hlpw4_nlr](preview/c.sharp_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | [^25] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/hlpw5_nlr.png" width="60"/> | [hlpw5_nlr](preview/c.sharp_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | [^25] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/hlpw4_nlr.png" width="60"/> | [hlpw4_nlr](preview/c.sharp_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | [^26] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/hlpw5_nlr.png" width="60"/> | [hlpw5_nlr](preview/c.sharp_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | [^26] (meshed by Stevie-Ray Janssen) |
 | <img src="preview/c.sharp_zero/ico_skel.png" width="60"/> | [ico_skel](preview/c.sharp_zero/ico_skel.stl) | 0 | 40.962 | 122.880 | 81.920 | [^8] |
-| <img src="preview/c.sharp_zero/icosahedron_hexme.png" width="60"/> | [icosahedron_hexme](preview/c.sharp_zero/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | [^21] (meshed) |
+| <img src="preview/c.sharp_zero/icosahedron_hexme.png" width="60"/> | [icosahedron_hexme](preview/c.sharp_zero/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | [^22] (meshed) |
 | <img src="preview/c.sharp_zero/israel_quadwild.png" width="60"/> | [israel_quadwild](preview/c.sharp_zero/israel_quadwild.stl) | 0 | 2.737 | 8.205 | 5.470 | [^1] |
-| <img src="preview/c.sharp_zero/jwb_nasa.png" width="60"/> | [jwb_nasa](preview/c.sharp_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | [^26] (meshed) |
-| <img src="preview/c.sharp_zero/lblock_esb.png" width="60"/> | [lblock_esb](preview/c.sharp_zero/lblock_esb.stl) | 0 | 20 | 54 | 36 | [^16] |
+| <img src="preview/c.sharp_zero/jwb_nasa.png" width="60"/> | [jwb_nasa](preview/c.sharp_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | [^27] (meshed) |
+| <img src="preview/c.sharp_zero/lblock_esb.png" width="60"/> | [lblock_esb](preview/c.sharp_zero/lblock_esb.stl) | 0 | 20 | 54 | 36 | [^17] |
 | <img src="preview/c.sharp_zero/lego_quadwild.png" width="60"/> | [lego_quadwild](preview/c.sharp_zero/lego_quadwild.stl) | 0 | 10.602 | 31.800 | 21.200 | [^1] |
-| <img src="preview/c.sharp_zero/legoblock_mambo.png" width="60"/> | [legoblock_mambo](preview/c.sharp_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/legoman_mambo.png" width="60"/> | [legoman_mambo](preview/c.sharp_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/limitcycleg0_hexme.png" width="60"/> | [limitcycleg0_hexme](preview/c.sharp_zero/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/machinedblock_esb.png" width="60"/> | [machinedblock_esb](preview/c.sharp_zero/machinedblock_esb.stl) | 0 | 394 | 1.176 | 784 | [^16] |
+| <img src="preview/c.sharp_zero/legoblock_mambo.png" width="60"/> | [legoblock_mambo](preview/c.sharp_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/legoman_mambo.png" width="60"/> | [legoman_mambo](preview/c.sharp_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/limitcycleg0_hexme.png" width="60"/> | [limitcycleg0_hexme](preview/c.sharp_zero/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/machinedblock_esb.png" width="60"/> | [machinedblock_esb](preview/c.sharp_zero/machinedblock_esb.stl) | 0 | 394 | 1.176 | 784 | [^17] |
 | <img src="preview/c.sharp_zero/mech10_loopy.png" width="60"/> | [mech10_loopy](preview/c.sharp_zero/mech10_loopy.stl) | 0 | 256 | 762 | 508 | [^9] |
 | <img src="preview/c.sharp_zero/mechanical02_loopy.png" width="60"/> | [mechanical02_loopy](preview/c.sharp_zero/mechanical02_loopy.stl) | 0 | 3.588 | 10.758 | 7.172 | [^9] |
 | <img src="preview/c.sharp_zero/mechanical04_quadwild.png" width="60"/> | [mechanical04_quadwild](preview/c.sharp_zero/mechanical04_quadwild.stl) | 0 | 4.756 | 14.262 | 9.508 | [^1] |
@@ -467,10 +468,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/micscope_skel.png" width="60"/> | [micscope_skel](preview/c.sharp_zero/micscope_skel.stl) | 0 | 385 | 1.149 | 766 | [^8] (repaired) |
 | <img src="preview/c.sharp_zero/nugear_quadwild.png" width="60"/> | [nugear_quadwild](preview/c.sharp_zero/nugear_quadwild.stl) | 0 | 17.331 | 51.987 | 34.658 | [^1] |
 | <img src="preview/c.sharp_zero/octaflower_gao.png" width="60"/> | [octaflower_gao](preview/c.sharp_zero/octaflower_gao.stl) | 0 | 7.919 | 23.751 | 15.834 | [^2] |
-| <img src="preview/c.sharp_zero/octahedron_hexme.png" width="60"/> | [octahedron_hexme](preview/c.sharp_zero/octahedron_hexme.stl) | 0 | 3.366 | 10.092 | 6.728 | [^21] (meshed) |
+| <img src="preview/c.sharp_zero/octahedron_hexme.png" width="60"/> | [octahedron_hexme](preview/c.sharp_zero/octahedron_hexme.stl) | 0 | 3.366 | 10.092 | 6.728 | [^22] (meshed) |
 | <img src="preview/c.sharp_zero/oloid_crane.png" width="60"/> | [oloid_crane](preview/c.sharp_zero/oloid_crane.stl) | 0 | 4.098 | 12.288 | 8.192 | [^10] |
-| <img src="preview/c.sharp_zero/pentapyramid_hexme.png" width="60"/> | [pentapyramid_hexme](preview/c.sharp_zero/pentapyramid_hexme.stl) | 0 | 961 | 2.877 | 1.918 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/pin_esb.png" width="60"/> | [pin_esb](preview/c.sharp_zero/pin_esb.stl) | 0 | 3.399 | 10.191 | 6.794 | [^16] (repaired) |
+| <img src="preview/c.sharp_zero/pentapyramid_hexme.png" width="60"/> | [pentapyramid_hexme](preview/c.sharp_zero/pentapyramid_hexme.stl) | 0 | 961 | 2.877 | 1.918 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/pin_esb.png" width="60"/> | [pin_esb](preview/c.sharp_zero/pin_esb.stl) | 0 | 3.399 | 10.191 | 6.794 | [^17] (repaired) |
 | <img src="preview/c.sharp_zero/plane_stein.png" width="60"/> | [plane_stein](preview/c.sharp_zero/plane_stein.stl) | 0 | 8.730 | 26.184 | 17.456 | [^6] |
 | <img src="preview/c.sharp_zero/plate1_loopy.png" width="60"/> | [plate1_loopy](preview/c.sharp_zero/plate1_loopy.stl) | 0 | 5.980 | 17.934 | 11.956 | [^9] |
 | <img src="preview/c.sharp_zero/plate2_loopy.png" width="60"/> | [plate2_loopy](preview/c.sharp_zero/plate2_loopy.stl) | 0 | 4.199 | 12.591 | 8.394 | [^9] |
@@ -479,27 +480,27 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/plate5_quadwild.png" width="60"/> | [plate5_quadwild](preview/c.sharp_zero/plate5_quadwild.stl) | 0 | 10.179 | 30.531 | 20.354 | [^1] |
 | <img src="preview/c.sharp_zero/plate6_quadwild.png" width="60"/> | [plate6_quadwild](preview/c.sharp_zero/plate6_quadwild.stl) | 0 | 31.236 | 93.702 | 62.468 | [^1] |
 | <img src="preview/c.sharp_zero/prism_loopy.png" width="60"/> | [prism_loopy](preview/c.sharp_zero/prism_loopy.stl) | 0 | 990 | 2.964 | 1.976 | [^9] |
-| <img src="preview/c.sharp_zero/pyramid_hexme.png" width="60"/> | [pyramid_hexme](preview/c.sharp_zero/pyramid_hexme.stl) | 0 | 1.274 | 3.816 | 2.544 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/s37_mambo.png" width="60"/> | [s37_mambo](preview/c.sharp_zero/s37_mambo.stl) | 0 | 15.725 | 47.169 | 31.446 | [^22] (meshed) |
-| <img src="preview/c.sharp_zero/sbpw1_nlr.png" width="60"/> | [sbpw1_nlr](preview/c.sharp_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | [^26] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/sbpw2_nlr.png" width="60"/> | [sbpw2_nlr](preview/c.sharp_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | [^26] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/sbpw3_nlr.png" width="60"/> | [sbpw3_nlr](preview/c.sharp_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | [^26] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/pyramid_hexme.png" width="60"/> | [pyramid_hexme](preview/c.sharp_zero/pyramid_hexme.stl) | 0 | 1.274 | 3.816 | 2.544 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/s37_mambo.png" width="60"/> | [s37_mambo](preview/c.sharp_zero/s37_mambo.stl) | 0 | 15.725 | 47.169 | 31.446 | [^23] (meshed) |
+| <img src="preview/c.sharp_zero/sbpw1_nlr.png" width="60"/> | [sbpw1_nlr](preview/c.sharp_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | [^27] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/sbpw2_nlr.png" width="60"/> | [sbpw2_nlr](preview/c.sharp_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | [^27] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/sbpw3_nlr.png" width="60"/> | [sbpw3_nlr](preview/c.sharp_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | [^27] (meshed by Stevie-Ray Janssen) |
 | <img src="preview/c.sharp_zero/scarf1_quadwild.png" width="60"/> | [scarf1_quadwild](preview/c.sharp_zero/scarf1_quadwild.stl) | 0 | 1.174 | 3.516 | 2.344 | [^1] |
 | <img src="preview/c.sharp_zero/scarf2_quadwild.png" width="60"/> | [scarf2_quadwild](preview/c.sharp_zero/scarf2_quadwild.stl) | 0 | 5.566 | 16.692 | 11.128 | [^1] |
 | <img src="preview/c.sharp_zero/scarf3_loopy.png" width="60"/> | [scarf3_loopy](preview/c.sharp_zero/scarf3_loopy.stl) | 0 | 36 | 102 | 68 | [^9] |
 | <img src="preview/c.sharp_zero/sharpsphere_quadwild.png" width="60"/> | [sharpsphere_quadwild](preview/c.sharp_zero/sharpsphere_quadwild.stl) | 0 | 21.204 | 63.606 | 42.404 | [^1] |
 | <img src="preview/c.sharp_zero/shoulder1_quadwild.png" width="60"/> | [shoulder1_quadwild](preview/c.sharp_zero/shoulder1_quadwild.stl) | 0 | 3.836 | 11.502 | 7.668 | [^1] |
-| <img src="preview/c.sharp_zero/skijump_hexme.png" width="60"/> | [skijump_hexme](preview/c.sharp_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | [^21] (meshed) |
-| <img src="preview/c.sharp_zero/slenderplate_esb.png" width="60"/> | [slenderplate_esb](preview/c.sharp_zero/slenderplate_esb.stl) | 0 | 36 | 102 | 68 | [^16] |
-| <img src="preview/c.sharp_zero/slottedplate_esb.png" width="60"/> | [slottedplate_esb](preview/c.sharp_zero/slottedplate_esb.stl) | 0 | 24 | 66 | 44 | [^16] |
+| <img src="preview/c.sharp_zero/skijump_hexme.png" width="60"/> | [skijump_hexme](preview/c.sharp_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | [^22] (meshed) |
+| <img src="preview/c.sharp_zero/slenderplate_esb.png" width="60"/> | [slenderplate_esb](preview/c.sharp_zero/slenderplate_esb.stl) | 0 | 36 | 102 | 68 | [^17] |
+| <img src="preview/c.sharp_zero/slottedplate_esb.png" width="60"/> | [slottedplate_esb](preview/c.sharp_zero/slottedplate_esb.stl) | 0 | 24 | 66 | 44 | [^17] |
 | <img src="preview/c.sharp_zero/smoothfeature_quadwild.png" width="60"/> | [smoothfeature_quadwild](preview/c.sharp_zero/smoothfeature_quadwild.stl) | 0 | 16.834 | 50.496 | 33.664 | [^1] |
 | <img src="preview/c.sharp_zero/spiral_quadwild.png" width="60"/> | [spiral_quadwild](preview/c.sharp_zero/spiral_quadwild.stl) | 0 | 30.613 | 91.833 | 61.222 | [^1] |
 | <img src="preview/c.sharp_zero/spring2_quadwild.png" width="60"/> | [spring2_quadwild](preview/c.sharp_zero/spring2_quadwild.stl) | 0 | 1.130 | 3.384 | 2.256 | [^1] |
 | <img src="preview/c.sharp_zero/spring_quadwild.png" width="60"/> | [spring_quadwild](preview/c.sharp_zero/spring_quadwild.stl) | 0 | 3.620 | 10.854 | 7.236 | [^1] |
 | <img src="preview/c.sharp_zero/stab3_quadwild.png" width="60"/> | [stab3_quadwild](preview/c.sharp_zero/stab3_quadwild.stl) | 0 | 3.316 | 9.942 | 6.628 | [^1] |
-| <img src="preview/c.sharp_zero/stock_esb.png" width="60"/> | [stock_esb](preview/c.sharp_zero/stock_esb.stl) | 0 | 8 | 18 | 12 | [^16] |
+| <img src="preview/c.sharp_zero/stock_esb.png" width="60"/> | [stock_esb](preview/c.sharp_zero/stock_esb.stl) | 0 | 8 | 18 | 12 | [^17] |
 | <img src="preview/c.sharp_zero/trisclosed_loopy.png" width="60"/> | [trisclosed_loopy](preview/c.sharp_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | [^9] |
-| <img src="preview/c.sharp_zero/tshape_esb.png" width="60"/> | [tshape_esb](preview/c.sharp_zero/tshape_esb.stl) | 0 | 890 | 2.664 | 1.776 | [^16] |
+| <img src="preview/c.sharp_zero/tshape_esb.png" width="60"/> | [tshape_esb](preview/c.sharp_zero/tshape_esb.stl) | 0 | 890 | 2.664 | 1.776 | [^17] |
 | <img src="preview/c.sharp_zero/wave_loopy.png" width="60"/> | [wave_loopy](preview/c.sharp_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | [^9] (repaired) |
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="60"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^9] |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="60"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [^6] |
@@ -520,40 +521,40 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/anc101_quadwild.png" width="60"/> | [anc101_quadwild](preview/d.sharp_plus/anc101_quadwild.stl) | 5 | 58.952 | 176.880 | 117.920 | [^1] |
 | <img src="preview/d.sharp_plus/aries155_gao.png" width="60"/> | [aries155_gao](preview/d.sharp_plus/aries155_gao.stl) | 6 | 2.336 | 7.038 | 4.692 | [^2] |
 | <img src="preview/d.sharp_plus/asm007_quadwild.png" width="60"/> | [asm007_quadwild](preview/d.sharp_plus/asm007_quadwild.stl) | 2 | 10.019 | 30.063 | 20.042 | [^1] |
-| <img src="preview/d.sharp_plus/b10_mambo.png" width="60"/> | [b10_mambo](preview/d.sharp_plus/b10_mambo.stl) | 1 | 1.506 | 4.518 | 3.012 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b13_mambo.png" width="60"/> | [b13_mambo](preview/d.sharp_plus/b13_mambo.stl) | 1 | 2.065 | 6.195 | 4.130 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b1_mambo.png" width="60"/> | [b1_mambo](preview/d.sharp_plus/b1_mambo.stl) | 1 | 1.741 | 5.223 | 3.482 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b28_mambo.png" width="60"/> | [b28_mambo](preview/d.sharp_plus/b28_mambo.stl) | 1 | 1.128 | 3.384 | 2.256 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b29_mambo.png" width="60"/> | [b29_mambo](preview/d.sharp_plus/b29_mambo.stl) | 1 | 1.941 | 5.823 | 3.882 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b31_mambo.png" width="60"/> | [b31_mambo](preview/d.sharp_plus/b31_mambo.stl) | 1 | 1.317 | 3.951 | 2.634 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b32_mambo.png" width="60"/> | [b32_mambo](preview/d.sharp_plus/b32_mambo.stl) | 1 | 1.364 | 4.092 | 2.728 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b33_mambo.png" width="60"/> | [b33_mambo](preview/d.sharp_plus/b33_mambo.stl) | 1 | 2.268 | 6.804 | 4.536 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b3_mambo.png" width="60"/> | [b3_mambo](preview/d.sharp_plus/b3_mambo.stl) | 2 | 3.495 | 10.491 | 6.994 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b44_mambo.png" width="60"/> | [b44_mambo](preview/d.sharp_plus/b44_mambo.stl) | 1 | 2.265 | 6.795 | 4.530 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b47_mambo.png" width="60"/> | [b47_mambo](preview/d.sharp_plus/b47_mambo.stl) | 1 | 2.161 | 6.483 | 4.322 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b51_mambo.png" width="60"/> | [b51_mambo](preview/d.sharp_plus/b51_mambo.stl) | 1 | 1.169 | 3.507 | 2.338 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b53_mambo.png" width="60"/> | [b53_mambo](preview/d.sharp_plus/b53_mambo.stl) | 1 | 984 | 2.952 | 1.968 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b55_mambo.png" width="60"/> | [b55_mambo](preview/d.sharp_plus/b55_mambo.stl) | 1 | 802 | 2.406 | 1.604 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b62_mambo.png" width="60"/> | [b62_mambo](preview/d.sharp_plus/b62_mambo.stl) | 1 | 1.016 | 3.048 | 2.032 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b63_mambo.png" width="60"/> | [b63_mambo](preview/d.sharp_plus/b63_mambo.stl) | 1 | 990 | 2.970 | 1.980 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b64_mambo.png" width="60"/> | [b64_mambo](preview/d.sharp_plus/b64_mambo.stl) | 1 | 852 | 2.556 | 1.704 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b65_mambo.png" width="60"/> | [b65_mambo](preview/d.sharp_plus/b65_mambo.stl) | 1 | 936 | 2.808 | 1.872 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b66_mambo.png" width="60"/> | [b66_mambo](preview/d.sharp_plus/b66_mambo.stl) | 2 | 1.159 | 3.483 | 2.322 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/b73_mambo.png" width="60"/> | [b73_mambo](preview/d.sharp_plus/b73_mambo.stl) | 1 | 2.320 | 6.960 | 4.640 | [^22] (meshed) |
+| <img src="preview/d.sharp_plus/b10_mambo.png" width="60"/> | [b10_mambo](preview/d.sharp_plus/b10_mambo.stl) | 1 | 1.506 | 4.518 | 3.012 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b13_mambo.png" width="60"/> | [b13_mambo](preview/d.sharp_plus/b13_mambo.stl) | 1 | 2.065 | 6.195 | 4.130 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b1_mambo.png" width="60"/> | [b1_mambo](preview/d.sharp_plus/b1_mambo.stl) | 1 | 1.741 | 5.223 | 3.482 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b28_mambo.png" width="60"/> | [b28_mambo](preview/d.sharp_plus/b28_mambo.stl) | 1 | 1.128 | 3.384 | 2.256 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b29_mambo.png" width="60"/> | [b29_mambo](preview/d.sharp_plus/b29_mambo.stl) | 1 | 1.941 | 5.823 | 3.882 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b31_mambo.png" width="60"/> | [b31_mambo](preview/d.sharp_plus/b31_mambo.stl) | 1 | 1.317 | 3.951 | 2.634 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b32_mambo.png" width="60"/> | [b32_mambo](preview/d.sharp_plus/b32_mambo.stl) | 1 | 1.364 | 4.092 | 2.728 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b33_mambo.png" width="60"/> | [b33_mambo](preview/d.sharp_plus/b33_mambo.stl) | 1 | 2.268 | 6.804 | 4.536 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b3_mambo.png" width="60"/> | [b3_mambo](preview/d.sharp_plus/b3_mambo.stl) | 2 | 3.495 | 10.491 | 6.994 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b44_mambo.png" width="60"/> | [b44_mambo](preview/d.sharp_plus/b44_mambo.stl) | 1 | 2.265 | 6.795 | 4.530 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b47_mambo.png" width="60"/> | [b47_mambo](preview/d.sharp_plus/b47_mambo.stl) | 1 | 2.161 | 6.483 | 4.322 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b51_mambo.png" width="60"/> | [b51_mambo](preview/d.sharp_plus/b51_mambo.stl) | 1 | 1.169 | 3.507 | 2.338 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b53_mambo.png" width="60"/> | [b53_mambo](preview/d.sharp_plus/b53_mambo.stl) | 1 | 984 | 2.952 | 1.968 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b55_mambo.png" width="60"/> | [b55_mambo](preview/d.sharp_plus/b55_mambo.stl) | 1 | 802 | 2.406 | 1.604 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b62_mambo.png" width="60"/> | [b62_mambo](preview/d.sharp_plus/b62_mambo.stl) | 1 | 1.016 | 3.048 | 2.032 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b63_mambo.png" width="60"/> | [b63_mambo](preview/d.sharp_plus/b63_mambo.stl) | 1 | 990 | 2.970 | 1.980 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b64_mambo.png" width="60"/> | [b64_mambo](preview/d.sharp_plus/b64_mambo.stl) | 1 | 852 | 2.556 | 1.704 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b65_mambo.png" width="60"/> | [b65_mambo](preview/d.sharp_plus/b65_mambo.stl) | 1 | 936 | 2.808 | 1.872 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b66_mambo.png" width="60"/> | [b66_mambo](preview/d.sharp_plus/b66_mambo.stl) | 2 | 1.159 | 3.483 | 2.322 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/b73_mambo.png" width="60"/> | [b73_mambo](preview/d.sharp_plus/b73_mambo.stl) | 1 | 2.320 | 6.960 | 4.640 | [^23] (meshed) |
 | <img src="preview/d.sharp_plus/backlashnut_quadwild.png" width="60"/> | [backlashnut_quadwild](preview/d.sharp_plus/backlashnut_quadwild.stl) | 3 | 6.388 | 19.176 | 12.784 | [^1] |
-| <img src="preview/d.sharp_plus/bearing_esb.png" width="60"/> | [bearing_esb](preview/d.sharp_plus/bearing_esb.stl) | 1 | 310 | 930 | 620 | [^16] |
-| <img src="preview/d.sharp_plus/bearingblock_esb.png" width="60"/> | [bearingblock_esb](preview/d.sharp_plus/bearingblock_esb.stl) | 1 | 813 | 2.439 | 1.626 | [^16] |
+| <img src="preview/d.sharp_plus/bearing_esb.png" width="60"/> | [bearing_esb](preview/d.sharp_plus/bearing_esb.stl) | 1 | 310 | 930 | 620 | [^17] |
+| <img src="preview/d.sharp_plus/bearingblock_esb.png" width="60"/> | [bearingblock_esb](preview/d.sharp_plus/bearingblock_esb.stl) | 1 | 813 | 2.439 | 1.626 | [^17] |
 | <img src="preview/d.sharp_plus/bearingplate_loopy.png" width="60"/> | [bearingplate_loopy](preview/d.sharp_plus/bearingplate_loopy.stl) | 5 | 4.907 | 14.745 | 9.830 | [^9] |
 | <img src="preview/d.sharp_plus/bendtube_quadwild.png" width="60"/> | [bendtube_quadwild](preview/d.sharp_plus/bendtube_quadwild.stl) | 2 | 2.843 | 8.535 | 5.690 | [^1] |
 | <img src="preview/d.sharp_plus/blech_quadwild.png" width="60"/> | [blech_quadwild](preview/d.sharp_plus/blech_quadwild.stl) | 5 | 26.100 | 78.324 | 52.216 | [^1] |
 | <img src="preview/d.sharp_plus/block_gao.png" width="60"/> | [block_gao](preview/d.sharp_plus/block_gao.stl) | 3 | 8.052 | 24.168 | 16.112 | [^2] |
 | <img src="preview/d.sharp_plus/blocklp_quadwild.png" width="60"/> | [blocklp_quadwild](preview/d.sharp_plus/blocklp_quadwild.stl) | 3 | 2.032 | 6.108 | 4.072 | [^1] |
 | <img src="preview/d.sharp_plus/bolt_loopy.png" width="60"/> | [bolt_loopy](preview/d.sharp_plus/bolt_loopy.stl) | 1 | 4.752 | 14.256 | 9.504 | [^9] |
-| <img src="preview/d.sharp_plus/boxpcyls_hexme.png" width="60"/> | [boxpcyls_hexme](preview/d.sharp_plus/boxpcyls_hexme.stl) | 1 | 1.122 | 3.366 | 2.244 | [^21] (meshed) |
+| <img src="preview/d.sharp_plus/boxpcyls_hexme.png" width="60"/> | [boxpcyls_hexme](preview/d.sharp_plus/boxpcyls_hexme.stl) | 1 | 1.122 | 3.366 | 2.244 | [^22] (meshed) |
 | <img src="preview/d.sharp_plus/bracket2_gao.png" width="60"/> | [bracket2_gao](preview/d.sharp_plus/bracket2_gao.stl) | 3 | 1.328 | 3.996 | 2.664 | [^2] |
-| <img src="preview/d.sharp_plus/bracket_esb.png" width="60"/> | [bracket_esb](preview/d.sharp_plus/bracket_esb.stl) | 1 | 108 | 324 | 216 | [^16] |
+| <img src="preview/d.sharp_plus/bracket_esb.png" width="60"/> | [bracket_esb](preview/d.sharp_plus/bracket_esb.stl) | 1 | 108 | 324 | 216 | [^17] |
 | <img src="preview/d.sharp_plus/bracketinches_loopy.png" width="60"/> | [bracketinches_loopy](preview/d.sharp_plus/bracketinches_loopy.stl) | 6 | 8.301 | 24.933 | 16.622 | [^9] |
-| <img src="preview/d.sharp_plus/c25dflowthru_nasa.png" width="60"/> | [c25dflowthru_nasa](preview/d.sharp_plus/c25dflowthru_nasa.stl) | 1 | 32.818 | 98.454 | 65.636 | [^26] (meshed) |
+| <img src="preview/d.sharp_plus/c25dflowthru_nasa.png" width="60"/> | [c25dflowthru_nasa](preview/d.sharp_plus/c25dflowthru_nasa.stl) | 1 | 32.818 | 98.454 | 65.636 | [^27] (meshed) |
 | <img src="preview/d.sharp_plus/cad5_quadwild.png" width="60"/> | [cad5_quadwild](preview/d.sharp_plus/cad5_quadwild.stl) | 3 | 18.664 | 56.004 | 37.336 | [^1] |
 | <img src="preview/d.sharp_plus/cami1_gao.png" width="60"/> | [cami1_gao](preview/d.sharp_plus/cami1_gao.stl) | 5 | 1.210 | 3.654 | 2.436 | [^2] |
 | <img src="preview/d.sharp_plus/cami2_gao.png" width="60"/> | [cami2_gao](preview/d.sharp_plus/cami2_gao.stl) | 1 | 654 | 1.962 | 1.308 | [^2] |
@@ -567,15 +568,15 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/cimplex_gao.png" width="60"/> | [cimplex_gao](preview/d.sharp_plus/cimplex_gao.stl) | 6 | 14.806 | 44.448 | 29.632 | [^2] |
 | <img src="preview/d.sharp_plus/clamp_quadwild.png" width="60"/> | [clamp_quadwild](preview/d.sharp_plus/clamp_quadwild.stl) | 3 | 27.186 | 81.570 | 54.380 | [^1] |
 | <img src="preview/d.sharp_plus/clevis23_gao.png" width="60"/> | [clevis23_gao](preview/d.sharp_plus/clevis23_gao.stl) | 9 | 2.478 | 7.482 | 4.988 | [^2] |
-| <img src="preview/d.sharp_plus/clip_esb.png" width="60"/> | [clip_esb](preview/d.sharp_plus/clip_esb.stl) | 2 | 374 | 1.128 | 752 | [^16] |
+| <img src="preview/d.sharp_plus/clip_esb.png" width="60"/> | [clip_esb](preview/d.sharp_plus/clip_esb.stl) | 2 | 374 | 1.128 | 752 | [^17] |
 | <img src="preview/d.sharp_plus/cognit_quadwild.png" width="60"/> | [cognit_quadwild](preview/d.sharp_plus/cognit_quadwild.stl) | 10 | 44.657 | 134.025 | 89.350 | [^1] |
-| <img src="preview/d.sharp_plus/contoured_esb.png" width="60"/> | [contoured_esb](preview/d.sharp_plus/contoured_esb.stl) | 1 | 7.045 | 21.135 | 14.090 | [^16] |
+| <img src="preview/d.sharp_plus/contoured_esb.png" width="60"/> | [contoured_esb](preview/d.sharp_plus/contoured_esb.stl) | 1 | 7.045 | 21.135 | 14.090 | [^17] |
 | <img src="preview/d.sharp_plus/controlarm_quadwild.png" width="60"/> | [controlarm_quadwild](preview/d.sharp_plus/controlarm_quadwild.stl) | 3 | 9.317 | 27.963 | 18.642 | [^1] |
 | <img src="preview/d.sharp_plus/coverslipholder_quadwild.png" width="60"/> | [coverslipholder_quadwild](preview/d.sharp_plus/coverslipholder_quadwild.stl) | 51 | 12.653 | 38.259 | 25.506 | [^1] |
-| <img src="preview/d.sharp_plus/ctc01_nist.png" width="60"/> | [ctc01_nist](preview/d.sharp_plus/ctc01_nist.stl) | 10 | 24.141 | 72.477 | 48.318 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ctc03_nist.png" width="60"/> | [ctc03_nist](preview/d.sharp_plus/ctc03_nist.stl) | 17 | 39.785 | 119.451 | 79.634 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/curvedhousing_esb.png" width="60"/> | [curvedhousing_esb](preview/d.sharp_plus/curvedhousing_esb.stl) | 7 | 1.336 | 4.044 | 2.696 | [^16] |
-| <img src="preview/d.sharp_plus/cylinder_esb.png" width="60"/> | [cylinder_esb](preview/d.sharp_plus/cylinder_esb.stl) | 1 | 1.034 | 3.102 | 2.068 | [^16] |
+| <img src="preview/d.sharp_plus/ctc01_nist.png" width="60"/> | [ctc01_nist](preview/d.sharp_plus/ctc01_nist.stl) | 10 | 24.141 | 72.477 | 48.318 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ctc03_nist.png" width="60"/> | [ctc03_nist](preview/d.sharp_plus/ctc03_nist.stl) | 17 | 39.785 | 119.451 | 79.634 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/curvedhousing_esb.png" width="60"/> | [curvedhousing_esb](preview/d.sharp_plus/curvedhousing_esb.stl) | 7 | 1.336 | 4.044 | 2.696 | [^17] |
+| <img src="preview/d.sharp_plus/cylinder_esb.png" width="60"/> | [cylinder_esb](preview/d.sharp_plus/cylinder_esb.stl) | 1 | 1.034 | 3.102 | 2.068 | [^17] |
 | <img src="preview/d.sharp_plus/datatech2_quadwild.png" width="60"/> | [datatech2_quadwild](preview/d.sharp_plus/datatech2_quadwild.stl) | 7 | 65.466 | 196.434 | 130.956 | [^1] |
 | <img src="preview/d.sharp_plus/deckel_gao.png" width="60"/> | [deckel_gao](preview/d.sharp_plus/deckel_gao.stl) | 4 | 20.018 | 60.072 | 40.048 | [^2] |
 | <img src="preview/d.sharp_plus/deckel_loopy.png" width="60"/> | [deckel_loopy](preview/d.sharp_plus/deckel_loopy.stl) | 4 | 5.000 | 15.018 | 10.012 | [^9] |
@@ -583,29 +584,29 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/deltaarmbase_quadwild.png" width="60"/> | [deltaarmbase_quadwild](preview/d.sharp_plus/deltaarmbase_quadwild.stl) | 7 | 18.641 | 55.959 | 37.306 | [^1] |
 | <img src="preview/d.sharp_plus/des6_loopy.png" width="60"/> | [des6_loopy](preview/d.sharp_plus/des6_loopy.stl) | 1 | 5.695 | 17.085 | 11.390 | [^9] |
 | <img src="preview/d.sharp_plus/des7_quadwild.png" width="60"/> | [des7_quadwild](preview/d.sharp_plus/des7_quadwild.stl) | 2 | 11.061 | 33.189 | 22.126 | [^1] |
-| <img src="preview/d.sharp_plus/disc_esb.png" width="60"/> | [disc_esb](preview/d.sharp_plus/disc_esb.stl) | 1 | 484 | 1.452 | 968 | [^16] |
-| <img src="preview/d.sharp_plus/dpw6g1_nlr.png" width="60"/> | [dpw6g1_nlr](preview/d.sharp_plus/dpw6g1_nlr.stl) | 1 | 31.591 | 94.773 | 63.182 | [^23] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/d.sharp_plus/elbow90_esb.png" width="60"/> | [elbow90_esb](preview/d.sharp_plus/elbow90_esb.stl) | 6 | 1.910 | 5.760 | 3.840 | [^16] |
-| <img src="preview/d.sharp_plus/elbow_esb.png" width="60"/> | [elbow_esb](preview/d.sharp_plus/elbow_esb.stl) | 9 | 884 | 2.700 | 1.800 | [^16] |
+| <img src="preview/d.sharp_plus/disc_esb.png" width="60"/> | [disc_esb](preview/d.sharp_plus/disc_esb.stl) | 1 | 484 | 1.452 | 968 | [^17] |
+| <img src="preview/d.sharp_plus/dpw6g1_nlr.png" width="60"/> | [dpw6g1_nlr](preview/d.sharp_plus/dpw6g1_nlr.stl) | 1 | 31.591 | 94.773 | 63.182 | [^24] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/d.sharp_plus/elbow90_esb.png" width="60"/> | [elbow90_esb](preview/d.sharp_plus/elbow90_esb.stl) | 6 | 1.910 | 5.760 | 3.840 | [^17] |
+| <img src="preview/d.sharp_plus/elbow_esb.png" width="60"/> | [elbow_esb](preview/d.sharp_plus/elbow_esb.stl) | 9 | 884 | 2.700 | 1.800 | [^17] |
 | <img src="preview/d.sharp_plus/endeffector_quadwild.png" width="60"/> | [endeffector_quadwild](preview/d.sharp_plus/endeffector_quadwild.stl) | 4 | 16.543 | 49.647 | 33.098 | [^1] |
 | <img src="preview/d.sharp_plus/femhead_quadwild.png" width="60"/> | [femhead_quadwild](preview/d.sharp_plus/femhead_quadwild.stl) | 9 | 18.908 | 56.772 | 37.848 | [^1] |
-| <img src="preview/d.sharp_plus/flange_esb.png" width="60"/> | [flange_esb](preview/d.sharp_plus/flange_esb.stl) | 1 | 148 | 444 | 296 | [^16] |
+| <img src="preview/d.sharp_plus/flange_esb.png" width="60"/> | [flange_esb](preview/d.sharp_plus/flange_esb.stl) | 1 | 148 | 444 | 296 | [^17] |
 | <img src="preview/d.sharp_plus/freihand_quadwild.png" width="60"/> | [freihand_quadwild](preview/d.sharp_plus/freihand_quadwild.stl) | 1 | 48.514 | 145.542 | 97.028 | [^1] |
-| <img src="preview/d.sharp_plus/ftc06_nist.png" width="60"/> | [ftc06_nist](preview/d.sharp_plus/ftc06_nist.stl) | 10 | 69.446 | 208.392 | 138.928 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ftc07_nist.png" width="60"/> | [ftc07_nist](preview/d.sharp_plus/ftc07_nist.stl) | 15 | 258.863 | 776.673 | 517.782 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ftc08_nist.png" width="60"/> | [ftc08_nist](preview/d.sharp_plus/ftc08_nist.stl) | 25 | 167.330 | 502.134 | 334.756 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ftc09_nist.png" width="60"/> | [ftc09_nist](preview/d.sharp_plus/ftc09_nist.stl) | 34 | 41.888 | 125.862 | 83.908 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ftc10_nist.png" width="60"/> | [ftc10_nist](preview/d.sharp_plus/ftc10_nist.stl) | 22 | 106.281 | 318.969 | 212.646 | [^27] (meshed) |
-| <img src="preview/d.sharp_plus/ftc11_nist.png" width="60"/> | [ftc11_nist](preview/d.sharp_plus/ftc11_nist.stl) | 1 | 13.533 | 40.599 | 27.066 | [^27] (meshed) |
+| <img src="preview/d.sharp_plus/ftc06_nist.png" width="60"/> | [ftc06_nist](preview/d.sharp_plus/ftc06_nist.stl) | 10 | 69.446 | 208.392 | 138.928 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ftc07_nist.png" width="60"/> | [ftc07_nist](preview/d.sharp_plus/ftc07_nist.stl) | 15 | 258.863 | 776.673 | 517.782 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ftc08_nist.png" width="60"/> | [ftc08_nist](preview/d.sharp_plus/ftc08_nist.stl) | 25 | 167.330 | 502.134 | 334.756 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ftc09_nist.png" width="60"/> | [ftc09_nist](preview/d.sharp_plus/ftc09_nist.stl) | 34 | 41.888 | 125.862 | 83.908 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ftc10_nist.png" width="60"/> | [ftc10_nist](preview/d.sharp_plus/ftc10_nist.stl) | 22 | 106.281 | 318.969 | 212.646 | [^28] (meshed) |
+| <img src="preview/d.sharp_plus/ftc11_nist.png" width="60"/> | [ftc11_nist](preview/d.sharp_plus/ftc11_nist.stl) | 1 | 13.533 | 40.599 | 27.066 | [^28] (meshed) |
 | <img src="preview/d.sharp_plus/fusee_quadwild.png" width="60"/> | [fusee_quadwild](preview/d.sharp_plus/fusee_quadwild.stl) | 18 | 30.868 | 92.706 | 61.804 | [^1] |
 | <img src="preview/d.sharp_plus/gear2_quadwild.png" width="60"/> | [gear2_quadwild](preview/d.sharp_plus/gear2_quadwild.stl) | 1 | 10.976 | 32.928 | 21.952 | [^1] |
-| <img src="preview/d.sharp_plus/gear_esb.png" width="60"/> | [gear_esb](preview/d.sharp_plus/gear_esb.stl) | 1 | 554 | 1.662 | 1.108 | [^16] |
+| <img src="preview/d.sharp_plus/gear_esb.png" width="60"/> | [gear_esb](preview/d.sharp_plus/gear_esb.stl) | 1 | 554 | 1.662 | 1.108 | [^17] |
 | <img src="preview/d.sharp_plus/gearbox_quadwild.png" width="60"/> | [gearbox_quadwild](preview/d.sharp_plus/gearbox_quadwild.stl) | 78 | 64.149 | 192.909 | 128.606 | [^1] |
 | <img src="preview/d.sharp_plus/gehaeuse_gao.png" width="60"/> | [gehaeuse_gao](preview/d.sharp_plus/gehaeuse_gao.stl) | 3 | 4.241 | 12.735 | 8.490 | [^2] |
 | <img src="preview/d.sharp_plus/gimbal_gao.png" width="60"/> | [gimbal_gao](preview/d.sharp_plus/gimbal_gao.stl) | 5 | 838 | 2.538 | 1.692 | [^2] |
 | <img src="preview/d.sharp_plus/gps25_quadwild.png" width="60"/> | [gps25_quadwild](preview/d.sharp_plus/gps25_quadwild.stl) | 2 | 26.980 | 80.946 | 53.964 | [^1] |
 | <img src="preview/d.sharp_plus/gyroidpuzzle_loopy.png" width="60"/> | [gyroidpuzzle_loopy](preview/d.sharp_plus/gyroidpuzzle_loopy.stl) | 15 | 13.077 | 39.315 | 26.210 | [^9] |
-| <img src="preview/d.sharp_plus/handle_esb.png" width="60"/> | [handle_esb](preview/d.sharp_plus/handle_esb.stl) | 1 | 1.030 | 3.090 | 2.060 | [^16] |
+| <img src="preview/d.sharp_plus/handle_esb.png" width="60"/> | [handle_esb](preview/d.sharp_plus/handle_esb.stl) | 1 | 1.030 | 3.090 | 2.060 | [^17] |
 | <img src="preview/d.sharp_plus/hanger_gao.png" width="60"/> | [hanger_gao](preview/d.sharp_plus/hanger_gao.stl) | 2 | 16.110 | 48.336 | 32.224 | [^2] |
 | <img src="preview/d.sharp_plus/hanger_loopy.png" width="60"/> | [hanger_loopy](preview/d.sharp_plus/hanger_loopy.stl) | 2 | 4.026 | 12.084 | 8.056 | [^9] |
 | <img src="preview/d.sharp_plus/heptoroid_quadwild.png" width="60"/> | [heptoroid_quadwild](preview/d.sharp_plus/heptoroid_quadwild.stl) | 22 | 49.958 | 150.000 | 100.000 | [^1] |
@@ -613,7 +614,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/hinge_loopy.png" width="60"/> | [hinge_loopy](preview/d.sharp_plus/hinge_loopy.stl) | 5 | 9.544 | 28.656 | 19.104 | [^9] |
 | <img src="preview/d.sharp_plus/hip_quadwild.png" width="60"/> | [hip_quadwild](preview/d.sharp_plus/hip_quadwild.stl) | 2 | 48.104 | 144.318 | 96.212 | [^1] |
 | <img src="preview/d.sharp_plus/holes10_gao.png" width="60"/> | [holes10_gao](preview/d.sharp_plus/holes10_gao.stl) | 100 | 4.808 | 15.018 | 10.012 | [^2] |
-| <img src="preview/d.sharp_plus/housing_esb.png" width="60"/> | [housing_esb](preview/d.sharp_plus/housing_esb.stl) | 1 | 852 | 2.556 | 1.704 | [^16] |
+| <img src="preview/d.sharp_plus/housing_esb.png" width="60"/> | [housing_esb](preview/d.sharp_plus/housing_esb.stl) | 1 | 852 | 2.556 | 1.704 | [^17] |
 | <img src="preview/d.sharp_plus/hub2_quadwild.png" width="60"/> | [hub2_quadwild](preview/d.sharp_plus/hub2_quadwild.stl) | 6 | 21.211 | 63.663 | 42.442 | [^1] |
 | <img src="preview/d.sharp_plus/hub_quadwild.png" width="60"/> | [hub_quadwild](preview/d.sharp_plus/hub_quadwild.stl) | 21 | 6.450 | 19.470 | 12.980 | [^1] |
 | <img src="preview/d.sharp_plus/impeller_loopy.png" width="60"/> | [impeller_loopy](preview/d.sharp_plus/impeller_loopy.stl) | 1 | 13.063 | 39.189 | 26.126 | [^9] |
@@ -622,19 +623,19 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/joint_loopy.png" width="60"/> | [joint_loopy](preview/d.sharp_plus/joint_loopy.stl) | 2 | 4.381 | 13.149 | 8.766 | [^9] |
 | <img src="preview/d.sharp_plus/knob_loopy.png" width="60"/> | [knob_loopy](preview/d.sharp_plus/knob_loopy.stl) | 1 | 6.908 | 20.724 | 13.816 | [^9] |
 | <img src="preview/d.sharp_plus/leverarm_loopy.png" width="60"/> | [leverarm_loopy](preview/d.sharp_plus/leverarm_loopy.stl) | 2 | 4.028 | 12.090 | 8.060 | [^9] |
-| <img src="preview/d.sharp_plus/limitcycle_hexme.png" width="60"/> | [limitcycle_hexme](preview/d.sharp_plus/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | [^21] (meshed) |
-| <img src="preview/d.sharp_plus/link_esb.png" width="60"/> | [link_esb](preview/d.sharp_plus/link_esb.stl) | 1 | 2.534 | 7.602 | 5.068 | [^16] |
+| <img src="preview/d.sharp_plus/limitcycle_hexme.png" width="60"/> | [limitcycle_hexme](preview/d.sharp_plus/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | [^22] (meshed) |
+| <img src="preview/d.sharp_plus/link_esb.png" width="60"/> | [link_esb](preview/d.sharp_plus/link_esb.stl) | 1 | 2.534 | 7.602 | 5.068 | [^17] |
 | <img src="preview/d.sharp_plus/lock_gao.png" width="60"/> | [lock_gao](preview/d.sharp_plus/lock_gao.stl) | 3 | 85.084 | 255.264 | 170.176 | [^2] |
-| <img src="preview/d.sharp_plus/m1_mambo.png" width="60"/> | [m1_mambo](preview/d.sharp_plus/m1_mambo.stl) | 9 | 52.248 | 156.792 | 104.528 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m2_mambo.png" width="60"/> | [m2_mambo](preview/d.sharp_plus/m2_mambo.stl) | 3 | 4.268 | 12.816 | 8.544 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m3_mambo.png" width="60"/> | [m3_mambo](preview/d.sharp_plus/m3_mambo.stl) | 5 | 74.796 | 224.412 | 149.608 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m4_mambo.png" width="60"/> | [m4_mambo](preview/d.sharp_plus/m4_mambo.stl) | 3 | 31.868 | 95.616 | 63.744 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m5_mambo.png" width="60"/> | [m5_mambo](preview/d.sharp_plus/m5_mambo.stl) | 7 | 57.780 | 173.376 | 115.584 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m6_mambo.png" width="60"/> | [m6_mambo](preview/d.sharp_plus/m6_mambo.stl) | 4 | 54.507 | 163.539 | 109.026 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m8_mambo.png" width="60"/> | [m8_mambo](preview/d.sharp_plus/m8_mambo.stl) | 1 | 146.305 | 438.915 | 292.610 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/m9_mambo.png" width="60"/> | [m9_mambo](preview/d.sharp_plus/m9_mambo.stl) | 5 | 67.770 | 203.334 | 135.556 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/machinedplate_esb.png" width="60"/> | [machinedplate_esb](preview/d.sharp_plus/machinedplate_esb.stl) | 5 | 1.693 | 5.103 | 3.402 | [^16] |
-| <img src="preview/d.sharp_plus/machineelement_esb.png" width="60"/> | [machineelement_esb](preview/d.sharp_plus/machineelement_esb.stl) | 9 | 786 | 2.406 | 1.604 | [^16] |
+| <img src="preview/d.sharp_plus/m1_mambo.png" width="60"/> | [m1_mambo](preview/d.sharp_plus/m1_mambo.stl) | 9 | 52.248 | 156.792 | 104.528 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m2_mambo.png" width="60"/> | [m2_mambo](preview/d.sharp_plus/m2_mambo.stl) | 3 | 4.268 | 12.816 | 8.544 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m3_mambo.png" width="60"/> | [m3_mambo](preview/d.sharp_plus/m3_mambo.stl) | 5 | 74.796 | 224.412 | 149.608 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m4_mambo.png" width="60"/> | [m4_mambo](preview/d.sharp_plus/m4_mambo.stl) | 3 | 31.868 | 95.616 | 63.744 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m5_mambo.png" width="60"/> | [m5_mambo](preview/d.sharp_plus/m5_mambo.stl) | 7 | 57.780 | 173.376 | 115.584 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m6_mambo.png" width="60"/> | [m6_mambo](preview/d.sharp_plus/m6_mambo.stl) | 4 | 54.507 | 163.539 | 109.026 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m8_mambo.png" width="60"/> | [m8_mambo](preview/d.sharp_plus/m8_mambo.stl) | 1 | 146.305 | 438.915 | 292.610 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/m9_mambo.png" width="60"/> | [m9_mambo](preview/d.sharp_plus/m9_mambo.stl) | 5 | 67.770 | 203.334 | 135.556 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/machinedplate_esb.png" width="60"/> | [machinedplate_esb](preview/d.sharp_plus/machinedplate_esb.stl) | 5 | 1.693 | 5.103 | 3.402 | [^17] |
+| <img src="preview/d.sharp_plus/machineelement_esb.png" width="60"/> | [machineelement_esb](preview/d.sharp_plus/machineelement_esb.stl) | 9 | 786 | 2.406 | 1.604 | [^17] |
 | <img src="preview/d.sharp_plus/mazewheel_quadwild.png" width="60"/> | [mazewheel_quadwild](preview/d.sharp_plus/mazewheel_quadwild.stl) | 16 | 13.607 | 40.911 | 27.274 | [^1] |
 | <img src="preview/d.sharp_plus/mech09_quadwild.png" width="60"/> | [mech09_quadwild](preview/d.sharp_plus/mech09_quadwild.stl) | 2 | 4.045 | 12.141 | 8.094 | [^1] |
 | <img src="preview/d.sharp_plus/mechanical01_quadwild.png" width="60"/> | [mechanical01_quadwild](preview/d.sharp_plus/mechanical01_quadwild.stl) | 17 | 22.900 | 68.796 | 45.864 | [^1] |
@@ -644,102 +645,102 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/mesh12_quadwild.png" width="60"/> | [mesh12_quadwild](preview/d.sharp_plus/mesh12_quadwild.stl) | 25 | 15.711 | 47.277 | 31.518 | [^1] |
 | <img src="preview/d.sharp_plus/metatron_loopy.png" width="60"/> | [metatron_loopy](preview/d.sharp_plus/metatron_loopy.stl) | 11 | 7.171 | 21.573 | 14.382 | [^9] |
 | <img src="preview/d.sharp_plus/mid2fem_quadwild.png" width="60"/> | [mid2fem_quadwild](preview/d.sharp_plus/mid2fem_quadwild.stl) | 5 | 8.868 | 26.628 | 17.752 | [^1] |
-| <img src="preview/d.sharp_plus/motorbody_esb.png" width="60"/> | [motorbody_esb](preview/d.sharp_plus/motorbody_esb.stl) | 6 | 10.274 | 30.852 | 20.568 | [^16] (repaired) |
+| <img src="preview/d.sharp_plus/motorbody_esb.png" width="60"/> | [motorbody_esb](preview/d.sharp_plus/motorbody_esb.stl) | 6 | 10.274 | 30.852 | 20.568 | [^17] (repaired) |
 | <img src="preview/d.sharp_plus/motortail_loopy.png" width="60"/> | [motortail_loopy](preview/d.sharp_plus/motortail_loopy.stl) | 13 | 7.600 | 22.872 | 15.248 | [^9] |
 | <img src="preview/d.sharp_plus/mount_quadwild.png" width="60"/> | [mount_quadwild](preview/d.sharp_plus/mount_quadwild.stl) | 5 | 2.715 | 8.169 | 5.446 | [^1] |
 | <img src="preview/d.sharp_plus/nastycheese2_quadwild.png" width="60"/> | [nastycheese2_quadwild](preview/d.sharp_plus/nastycheese2_quadwild.stl) | 133 | 30.062 | 90.978 | 60.652 | [^1] |
 | <img src="preview/d.sharp_plus/nastycheese_quadwild.png" width="60"/> | [nastycheese_quadwild](preview/d.sharp_plus/nastycheese_quadwild.stl) | 133 | 194.722 | 584.958 | 389.972 | [^1] |
 | <img src="preview/d.sharp_plus/nautilus_quadwild.png" width="60"/> | [nautilus_quadwild](preview/d.sharp_plus/nautilus_quadwild.stl) | 7 | 25.207 | 75.657 | 50.438 | [^1] |
-| <img src="preview/d.sharp_plus/nut_esb.png" width="60"/> | [nut_esb](preview/d.sharp_plus/nut_esb.stl) | 1 | 1.251 | 3.753 | 2.502 | [^16] |
+| <img src="preview/d.sharp_plus/nut_esb.png" width="60"/> | [nut_esb](preview/d.sharp_plus/nut_esb.stl) | 1 | 1.251 | 3.753 | 2.502 | [^17] |
 | <img src="preview/d.sharp_plus/nut_quadwild.png" width="60"/> | [nut_quadwild](preview/d.sharp_plus/nut_quadwild.stl) | 1 | 24.243 | 72.729 | 48.486 | [^1] |
-| <img src="preview/d.sharp_plus/oilpan_esb.png" width="60"/> | [oilpan_esb](preview/d.sharp_plus/oilpan_esb.stl) | 11 | 1.445 | 4.395 | 2.930 | [^16] |
-| <img src="preview/d.sharp_plus/orion_nasa.png" width="60"/> | [orion_nasa](preview/d.sharp_plus/orion_nasa.stl) | 7 | 25.852 | 77.592 | 51.728 | [^28] (repaired) |
+| <img src="preview/d.sharp_plus/oilpan_esb.png" width="60"/> | [oilpan_esb](preview/d.sharp_plus/oilpan_esb.stl) | 11 | 1.445 | 4.395 | 2.930 | [^17] |
+| <img src="preview/d.sharp_plus/orion_nasa.png" width="60"/> | [orion_nasa](preview/d.sharp_plus/orion_nasa.stl) | 7 | 25.852 | 77.592 | 51.728 | [^29] (repaired) |
 | <img src="preview/d.sharp_plus/part10_gao.png" width="60"/> | [part10_gao](preview/d.sharp_plus/part10_gao.stl) | 3 | 1.288 | 3.876 | 2.584 | [^2] |
 | <img src="preview/d.sharp_plus/part11_gao.png" width="60"/> | [part11_gao](preview/d.sharp_plus/part11_gao.stl) | 6 | 4.530 | 13.620 | 9.080 | [^2] |
 | <img src="preview/d.sharp_plus/part2_quadwild.png" width="60"/> | [part2_quadwild](preview/d.sharp_plus/part2_quadwild.stl) | 8 | 5.341 | 16.065 | 10.710 | [^1] |
 | <img src="preview/d.sharp_plus/part_gao.png" width="60"/> | [part_gao](preview/d.sharp_plus/part_gao.stl) | 3 | 17.056 | 51.180 | 34.120 | [^2] |
 | <img src="preview/d.sharp_plus/pinion_gao.png" width="60"/> | [pinion_gao](preview/d.sharp_plus/pinion_gao.stl) | 1 | 1.298 | 3.894 | 2.596 | [^2] |
 | <img src="preview/d.sharp_plus/pinion_loopy.png" width="60"/> | [pinion_loopy](preview/d.sharp_plus/pinion_loopy.stl) | 1 | 21.439 | 64.317 | 42.878 | [^9] |
-| <img src="preview/d.sharp_plus/pipe_esb.png" width="60"/> | [pipe_esb](preview/d.sharp_plus/pipe_esb.stl) | 1 | 482 | 1.446 | 964 | [^16] |
+| <img src="preview/d.sharp_plus/pipe_esb.png" width="60"/> | [pipe_esb](preview/d.sharp_plus/pipe_esb.stl) | 1 | 482 | 1.446 | 964 | [^17] |
 | <img src="preview/d.sharp_plus/pipe_skel.png" width="60"/> | [pipe_skel](preview/d.sharp_plus/pipe_skel.stl) | 1 | 2.820 | 8.460 | 5.640 | [^8] |
-| <img src="preview/d.sharp_plus/pipes_esb.png" width="60"/> | [pipes_esb](preview/d.sharp_plus/pipes_esb.stl) | 8 | 1.625 | 4.917 | 3.278 | [^16] |
+| <img src="preview/d.sharp_plus/pipes_esb.png" width="60"/> | [pipes_esb](preview/d.sharp_plus/pipes_esb.stl) | 8 | 1.625 | 4.917 | 3.278 | [^17] |
 | <img src="preview/d.sharp_plus/plate_quadwild.png" width="60"/> | [plate_quadwild](preview/d.sharp_plus/plate_quadwild.stl) | 9 | 45.674 | 137.070 | 91.380 | [^1] |
 | <img src="preview/d.sharp_plus/platemid_quadwild.png" width="60"/> | [platemid_quadwild](preview/d.sharp_plus/platemid_quadwild.stl) | 9 | 39.233 | 117.747 | 78.498 | [^1] |
-| <img src="preview/d.sharp_plus/post_esb.png" width="60"/> | [post_esb](preview/d.sharp_plus/post_esb.stl) | 4 | 2.187 | 6.579 | 4.386 | [^16] |
-| <img src="preview/d.sharp_plus/prismmisc_esb.png" width="60"/> | [prismmisc_esb](preview/d.sharp_plus/prismmisc_esb.stl) | 24 | 3.668 | 11.142 | 7.428 | [^16] |
-| <img src="preview/d.sharp_plus/pulley_esb.png" width="60"/> | [pulley_esb](preview/d.sharp_plus/pulley_esb.stl) | 1 | 13.775 | 41.325 | 27.550 | [^16] |
+| <img src="preview/d.sharp_plus/post_esb.png" width="60"/> | [post_esb](preview/d.sharp_plus/post_esb.stl) | 4 | 2.187 | 6.579 | 4.386 | [^17] |
+| <img src="preview/d.sharp_plus/prismmisc_esb.png" width="60"/> | [prismmisc_esb](preview/d.sharp_plus/prismmisc_esb.stl) | 24 | 3.668 | 11.142 | 7.428 | [^17] |
+| <img src="preview/d.sharp_plus/pulley_esb.png" width="60"/> | [pulley_esb](preview/d.sharp_plus/pulley_esb.stl) | 1 | 13.775 | 41.325 | 27.550 | [^17] |
 | <img src="preview/d.sharp_plus/pulley_quadwild.png" width="60"/> | [pulley_quadwild](preview/d.sharp_plus/pulley_quadwild.stl) | 1 | 50.000 | 150.000 | 100.000 | [^1] |
 | <img src="preview/d.sharp_plus/pump2_quadwild.png" width="60"/> | [pump2_quadwild](preview/d.sharp_plus/pump2_quadwild.stl) | 6 | 41.888 | 125.694 | 83.796 | [^1] |
 | <img src="preview/d.sharp_plus/pump_quadwild.png" width="60"/> | [pump_quadwild](preview/d.sharp_plus/pump_quadwild.stl) | 10 | 10.318 | 31.008 | 20.672 | [^1] |
-| <img src="preview/d.sharp_plus/revolutionmisc_esb.png" width="60"/> | [revolutionmisc_esb](preview/d.sharp_plus/revolutionmisc_esb.stl) | 10 | 1.974 | 5.976 | 3.984 | [^16] |
+| <img src="preview/d.sharp_plus/revolutionmisc_esb.png" width="60"/> | [revolutionmisc_esb](preview/d.sharp_plus/revolutionmisc_esb.stl) | 10 | 1.974 | 5.976 | 3.984 | [^17] |
 | <img src="preview/d.sharp_plus/ring_gso.png" width="60"/> | [ring_gso](preview/d.sharp_plus/ring_gso.stl) | 1 | 9.136 | 27.408 | 18.272 | [^11] |
 | <img src="preview/d.sharp_plus/rocker_gao.png" width="60"/> | [rocker_gao](preview/d.sharp_plus/rocker_gao.stl) | 1 | 26.656 | 79.968 | 53.312 | [^2] |
 | <img src="preview/d.sharp_plus/rocker_jacobson.png" width="60"/> | [rocker_jacobson](preview/d.sharp_plus/rocker_jacobson.stl) | 1 | 10.044 | 30.132 | 20.088 | [^5] |
-| <img src="preview/d.sharp_plus/rockerarm_esb.png" width="60"/> | [rockerarm_esb](preview/d.sharp_plus/rockerarm_esb.stl) | 5 | 1.263 | 3.813 | 2.542 | [^16] |
+| <img src="preview/d.sharp_plus/rockerarm_esb.png" width="60"/> | [rockerarm_esb](preview/d.sharp_plus/rockerarm_esb.stl) | 5 | 1.263 | 3.813 | 2.542 | [^17] |
 | <img src="preview/d.sharp_plus/rockerarm_sweeping.png" width="60"/> | [rockerarm_sweeping](preview/d.sharp_plus/rockerarm_sweeping.stl) | 1 | 11.524 | 34.572 | 23.048 | [^12] |
 | <img src="preview/d.sharp_plus/rod_gao.png" width="60"/> | [rod_gao](preview/d.sharp_plus/rod_gao.stl) | 2 | 8.814 | 26.448 | 17.632 | [^2] |
 | <img src="preview/d.sharp_plus/rod_loopy.png" width="60"/> | [rod_loopy](preview/d.sharp_plus/rod_loopy.stl) | 2 | 2.202 | 6.612 | 4.408 | [^9] |
 | <img src="preview/d.sharp_plus/rollingstage_gao.png" width="60"/> | [rollingstage_gao](preview/d.sharp_plus/rollingstage_gao.stl) | 7 | 15.387 | 46.197 | 30.798 | [^2] |
 | <img src="preview/d.sharp_plus/rotor_skel.png" width="60"/> | [rotor_skel](preview/d.sharp_plus/rotor_skel.stl) | 21 | 2.328 | 7.104 | 4.736 | [^8] |
 | <img src="preview/d.sharp_plus/rotorhub_quadwild.png" width="60"/> | [rotorhub_quadwild](preview/d.sharp_plus/rotorhub_quadwild.stl) | 7 | 1.434 | 4.338 | 2.892 | [^1] |
-| <img src="preview/d.sharp_plus/roundend_esb.png" width="60"/> | [roundend_esb](preview/d.sharp_plus/roundend_esb.stl) | 2 | 676 | 2.034 | 1.356 | [^16] |
-| <img src="preview/d.sharp_plus/s0_mambo.png" width="60"/> | [s0_mambo](preview/d.sharp_plus/s0_mambo.stl) | 3 | 85.962 | 257.898 | 171.932 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s1_mambo.png" width="60"/> | [s1_mambo](preview/d.sharp_plus/s1_mambo.stl) | 3 | 60.440 | 181.332 | 120.888 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s20_mambo.png" width="60"/> | [s20_mambo](preview/d.sharp_plus/s20_mambo.stl) | 7 | 10.211 | 30.669 | 20.446 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s22_mambo.png" width="60"/> | [s22_mambo](preview/d.sharp_plus/s22_mambo.stl) | 3 | 42.465 | 127.407 | 84.938 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s23_mambo.png" width="60"/> | [s23_mambo](preview/d.sharp_plus/s23_mambo.stl) | 2 | 37.229 | 111.693 | 74.462 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s24_mambo.png" width="60"/> | [s24_mambo](preview/d.sharp_plus/s24_mambo.stl) | 3 | 59.706 | 179.130 | 119.420 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s25_mambo.png" width="60"/> | [s25_mambo](preview/d.sharp_plus/s25_mambo.stl) | 3 | 78.708 | 236.136 | 157.424 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s26_mambo.png" width="60"/> | [s26_mambo](preview/d.sharp_plus/s26_mambo.stl) | 4 | 107.960 | 323.898 | 215.932 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s27_mambo.png" width="60"/> | [s27_mambo](preview/d.sharp_plus/s27_mambo.stl) | 5 | 25.417 | 76.275 | 50.850 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s31_mambo.png" width="60"/> | [s31_mambo](preview/d.sharp_plus/s31_mambo.stl) | 7 | 13.704 | 41.148 | 27.432 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s33_mambo.png" width="60"/> | [s33_mambo](preview/d.sharp_plus/s33_mambo.stl) | 1 | 12.097 | 36.291 | 24.194 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s34_mambo.png" width="60"/> | [s34_mambo](preview/d.sharp_plus/s34_mambo.stl) | 3 | 51.472 | 154.428 | 102.952 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s35_mambo.png" width="60"/> | [s35_mambo](preview/d.sharp_plus/s35_mambo.stl) | 1 | 30.639 | 91.917 | 61.278 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s36_mambo.png" width="60"/> | [s36_mambo](preview/d.sharp_plus/s36_mambo.stl) | 1 | 126.068 | 378.204 | 252.136 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s38_mambo.png" width="60"/> | [s38_mambo](preview/d.sharp_plus/s38_mambo.stl) | 3 | 21.918 | 65.766 | 43.844 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s39_mambo.png" width="60"/> | [s39_mambo](preview/d.sharp_plus/s39_mambo.stl) | 2 | 23.428 | 70.290 | 46.860 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s3_mambo.png" width="60"/> | [s3_mambo](preview/d.sharp_plus/s3_mambo.stl) | 2 | 3.298 | 9.900 | 6.600 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s40_mambo.png" width="60"/> | [s40_mambo](preview/d.sharp_plus/s40_mambo.stl) | 1 | 37.574 | 112.722 | 75.148 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s41_mambo.png" width="60"/> | [s41_mambo](preview/d.sharp_plus/s41_mambo.stl) | 1 | 36.315 | 108.945 | 72.630 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s42_mambo.png" width="60"/> | [s42_mambo](preview/d.sharp_plus/s42_mambo.stl) | 1 | 35.625 | 106.875 | 71.250 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s43_mambo.png" width="60"/> | [s43_mambo](preview/d.sharp_plus/s43_mambo.stl) | 1 | 35.242 | 105.726 | 70.484 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s44_mambo.png" width="60"/> | [s44_mambo](preview/d.sharp_plus/s44_mambo.stl) | 1 | 35.363 | 106.089 | 70.726 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s45_mambo.png" width="60"/> | [s45_mambo](preview/d.sharp_plus/s45_mambo.stl) | 1 | 34.921 | 104.763 | 69.842 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s4_mambo.png" width="60"/> | [s4_mambo](preview/d.sharp_plus/s4_mambo.stl) | 3 | 31.644 | 94.944 | 63.296 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s5_mambo.png" width="60"/> | [s5_mambo](preview/d.sharp_plus/s5_mambo.stl) | 7 | 41.492 | 124.512 | 83.008 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s6_mambo.png" width="60"/> | [s6_mambo](preview/d.sharp_plus/s6_mambo.stl) | 5 | 68.976 | 206.952 | 137.968 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s7_mambo.png" width="60"/> | [s7_mambo](preview/d.sharp_plus/s7_mambo.stl) | 2 | 61.013 | 183.045 | 122.030 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s8_mambo.png" width="60"/> | [s8_mambo](preview/d.sharp_plus/s8_mambo.stl) | 1 | 48.998 | 146.994 | 97.996 | [^22] (meshed) |
-| <img src="preview/d.sharp_plus/s9_mambo.png" width="60"/> | [s9_mambo](preview/d.sharp_plus/s9_mambo.stl) | 3 | 281.281 | 843.855 | 562.570 | [^22] (meshed) |
+| <img src="preview/d.sharp_plus/roundend_esb.png" width="60"/> | [roundend_esb](preview/d.sharp_plus/roundend_esb.stl) | 2 | 676 | 2.034 | 1.356 | [^17] |
+| <img src="preview/d.sharp_plus/s0_mambo.png" width="60"/> | [s0_mambo](preview/d.sharp_plus/s0_mambo.stl) | 3 | 85.962 | 257.898 | 171.932 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s1_mambo.png" width="60"/> | [s1_mambo](preview/d.sharp_plus/s1_mambo.stl) | 3 | 60.440 | 181.332 | 120.888 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s20_mambo.png" width="60"/> | [s20_mambo](preview/d.sharp_plus/s20_mambo.stl) | 7 | 10.211 | 30.669 | 20.446 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s22_mambo.png" width="60"/> | [s22_mambo](preview/d.sharp_plus/s22_mambo.stl) | 3 | 42.465 | 127.407 | 84.938 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s23_mambo.png" width="60"/> | [s23_mambo](preview/d.sharp_plus/s23_mambo.stl) | 2 | 37.229 | 111.693 | 74.462 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s24_mambo.png" width="60"/> | [s24_mambo](preview/d.sharp_plus/s24_mambo.stl) | 3 | 59.706 | 179.130 | 119.420 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s25_mambo.png" width="60"/> | [s25_mambo](preview/d.sharp_plus/s25_mambo.stl) | 3 | 78.708 | 236.136 | 157.424 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s26_mambo.png" width="60"/> | [s26_mambo](preview/d.sharp_plus/s26_mambo.stl) | 4 | 107.960 | 323.898 | 215.932 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s27_mambo.png" width="60"/> | [s27_mambo](preview/d.sharp_plus/s27_mambo.stl) | 5 | 25.417 | 76.275 | 50.850 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s31_mambo.png" width="60"/> | [s31_mambo](preview/d.sharp_plus/s31_mambo.stl) | 7 | 13.704 | 41.148 | 27.432 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s33_mambo.png" width="60"/> | [s33_mambo](preview/d.sharp_plus/s33_mambo.stl) | 1 | 12.097 | 36.291 | 24.194 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s34_mambo.png" width="60"/> | [s34_mambo](preview/d.sharp_plus/s34_mambo.stl) | 3 | 51.472 | 154.428 | 102.952 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s35_mambo.png" width="60"/> | [s35_mambo](preview/d.sharp_plus/s35_mambo.stl) | 1 | 30.639 | 91.917 | 61.278 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s36_mambo.png" width="60"/> | [s36_mambo](preview/d.sharp_plus/s36_mambo.stl) | 1 | 126.068 | 378.204 | 252.136 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s38_mambo.png" width="60"/> | [s38_mambo](preview/d.sharp_plus/s38_mambo.stl) | 3 | 21.918 | 65.766 | 43.844 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s39_mambo.png" width="60"/> | [s39_mambo](preview/d.sharp_plus/s39_mambo.stl) | 2 | 23.428 | 70.290 | 46.860 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s3_mambo.png" width="60"/> | [s3_mambo](preview/d.sharp_plus/s3_mambo.stl) | 2 | 3.298 | 9.900 | 6.600 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s40_mambo.png" width="60"/> | [s40_mambo](preview/d.sharp_plus/s40_mambo.stl) | 1 | 37.574 | 112.722 | 75.148 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s41_mambo.png" width="60"/> | [s41_mambo](preview/d.sharp_plus/s41_mambo.stl) | 1 | 36.315 | 108.945 | 72.630 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s42_mambo.png" width="60"/> | [s42_mambo](preview/d.sharp_plus/s42_mambo.stl) | 1 | 35.625 | 106.875 | 71.250 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s43_mambo.png" width="60"/> | [s43_mambo](preview/d.sharp_plus/s43_mambo.stl) | 1 | 35.242 | 105.726 | 70.484 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s44_mambo.png" width="60"/> | [s44_mambo](preview/d.sharp_plus/s44_mambo.stl) | 1 | 35.363 | 106.089 | 70.726 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s45_mambo.png" width="60"/> | [s45_mambo](preview/d.sharp_plus/s45_mambo.stl) | 1 | 34.921 | 104.763 | 69.842 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s4_mambo.png" width="60"/> | [s4_mambo](preview/d.sharp_plus/s4_mambo.stl) | 3 | 31.644 | 94.944 | 63.296 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s5_mambo.png" width="60"/> | [s5_mambo](preview/d.sharp_plus/s5_mambo.stl) | 7 | 41.492 | 124.512 | 83.008 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s6_mambo.png" width="60"/> | [s6_mambo](preview/d.sharp_plus/s6_mambo.stl) | 5 | 68.976 | 206.952 | 137.968 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s7_mambo.png" width="60"/> | [s7_mambo](preview/d.sharp_plus/s7_mambo.stl) | 2 | 61.013 | 183.045 | 122.030 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s8_mambo.png" width="60"/> | [s8_mambo](preview/d.sharp_plus/s8_mambo.stl) | 1 | 48.998 | 146.994 | 97.996 | [^23] (meshed) |
+| <img src="preview/d.sharp_plus/s9_mambo.png" width="60"/> | [s9_mambo](preview/d.sharp_plus/s9_mambo.stl) | 3 | 281.281 | 843.855 | 562.570 | [^23] (meshed) |
 | <img src="preview/d.sharp_plus/sbracket_gao.png" width="60"/> | [sbracket_gao](preview/d.sharp_plus/sbracket_gao.stl) | 2 | 1.300 | 3.906 | 2.604 | [^2] |
 | <img src="preview/d.sharp_plus/sculpt_gao.png" width="60"/> | [sculpt_gao](preview/d.sharp_plus/sculpt_gao.stl) | 2 | 14.682 | 44.052 | 29.368 | [^2] |
 | <img src="preview/d.sharp_plus/sculpt_loopy.png" width="60"/> | [sculpt_loopy](preview/d.sharp_plus/sculpt_loopy.stl) | 2 | 3.669 | 11.013 | 7.342 | [^9] |
 | <img src="preview/d.sharp_plus/shoulder2_loopy.png" width="60"/> | [shoulder2_loopy](preview/d.sharp_plus/shoulder2_loopy.stl) | 1 | 22 | 66 | 44 | [^9] |
-| <img src="preview/d.sharp_plus/simp_hexme.png" width="60"/> | [simp_hexme](preview/d.sharp_plus/simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [^21] (meshed) |
-| <img src="preview/d.sharp_plus/sls_nasa.png" width="60"/> | [sls_nasa](preview/d.sharp_plus/sls_nasa.stl) | 7 | 29.988 | 90.000 | 60.000 | [^28] (repaired, simplified) |
-| <img src="preview/d.sharp_plus/smallblock_esb.png" width="60"/> | [smallblock_esb](preview/d.sharp_plus/smallblock_esb.stl) | 1 | 216 | 648 | 432 | [^16] |
+| <img src="preview/d.sharp_plus/simp_hexme.png" width="60"/> | [simp_hexme](preview/d.sharp_plus/simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [^22] (meshed) |
+| <img src="preview/d.sharp_plus/sls_nasa.png" width="60"/> | [sls_nasa](preview/d.sharp_plus/sls_nasa.stl) | 7 | 29.988 | 90.000 | 60.000 | [^29] (repaired, simplified) |
+| <img src="preview/d.sharp_plus/smallblock_esb.png" width="60"/> | [smallblock_esb](preview/d.sharp_plus/smallblock_esb.stl) | 1 | 216 | 648 | 432 | [^17] |
 | <img src="preview/d.sharp_plus/socket1_gao.png" width="60"/> | [socket1_gao](preview/d.sharp_plus/socket1_gao.stl) | 7 | 1.194 | 3.618 | 2.412 | [^2] |
 | <img src="preview/d.sharp_plus/socket2_gao.png" width="60"/> | [socket2_gao](preview/d.sharp_plus/socket2_gao.stl) | 7 | 1.198 | 3.630 | 2.420 | [^2] |
 | <img src="preview/d.sharp_plus/supportframe_gao.png" width="60"/> | [supportframe_gao](preview/d.sharp_plus/supportframe_gao.stl) | 5 | 554 | 1.686 | 1.124 | [^2] |
-| <img src="preview/d.sharp_plus/switch_esb.png" width="60"/> | [switch_esb](preview/d.sharp_plus/switch_esb.stl) | 5 | 923 | 2.793 | 1.862 | [^16] |
+| <img src="preview/d.sharp_plus/switch_esb.png" width="60"/> | [switch_esb](preview/d.sharp_plus/switch_esb.stl) | 5 | 923 | 2.793 | 1.862 | [^17] |
 | <img src="preview/d.sharp_plus/switchmec_quadwild.png" width="60"/> | [switchmec_quadwild](preview/d.sharp_plus/switchmec_quadwild.stl) | 8 | 5.000 | 15.042 | 10.028 | [^1] |
 | <img src="preview/d.sharp_plus/swivel2_gao.png" width="60"/> | [swivel2_gao](preview/d.sharp_plus/swivel2_gao.stl) | 2 | 406 | 1.224 | 816 | [^2] |
 | <img src="preview/d.sharp_plus/team2_gao.png" width="60"/> | [team2_gao](preview/d.sharp_plus/team2_gao.stl) | 9 | 4.303 | 12.957 | 8.638 | [^2] |
-| <img src="preview/d.sharp_plus/thickplate_esb.png" width="60"/> | [thickplate_esb](preview/d.sharp_plus/thickplate_esb.stl) | 2 | 894 | 2.688 | 1.792 | [^16] |
-| <img src="preview/d.sharp_plus/thinplate_esb.png" width="60"/> | [thinplate_esb](preview/d.sharp_plus/thinplate_esb.stl) | 1 | 278 | 834 | 556 | [^16] |
-| <img src="preview/d.sharp_plus/thinwallmisc_esb.png" width="60"/> | [thinwallmisc_esb](preview/d.sharp_plus/thinwallmisc_esb.stl) | 9 | 212 | 684 | 456 | [^16] |
-| <img src="preview/d.sharp_plus/threecees_paardekooper.png" width="60"/> | [threecees_paardekooper](preview/d.sharp_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | [^29] |
+| <img src="preview/d.sharp_plus/thickplate_esb.png" width="60"/> | [thickplate_esb](preview/d.sharp_plus/thickplate_esb.stl) | 2 | 894 | 2.688 | 1.792 | [^17] |
+| <img src="preview/d.sharp_plus/thinplate_esb.png" width="60"/> | [thinplate_esb](preview/d.sharp_plus/thinplate_esb.stl) | 1 | 278 | 834 | 556 | [^17] |
+| <img src="preview/d.sharp_plus/thinwallmisc_esb.png" width="60"/> | [thinwallmisc_esb](preview/d.sharp_plus/thinwallmisc_esb.stl) | 9 | 212 | 684 | 456 | [^17] |
+| <img src="preview/d.sharp_plus/threecees_paardekooper.png" width="60"/> | [threecees_paardekooper](preview/d.sharp_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | [^30] |
 | <img src="preview/d.sharp_plus/toothbrush_quadwild.png" width="60"/> | [toothbrush_quadwild](preview/d.sharp_plus/toothbrush_quadwild.stl) | 12 | 2.702 | 8.172 | 5.448 | [^1] |
 | <img src="preview/d.sharp_plus/transmissionhousing_quadwild.png" width="60"/> | [transmissionhousing_quadwild](preview/d.sharp_plus/transmissionhousing_quadwild.stl) | 9 | 14.596 | 43.836 | 29.224 | [^1] |
-| <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="60"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [^22] (meshed) |
+| <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="60"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [^23] (meshed) |
 | <img src="preview/d.sharp_plus/trimstar_quadwild.png" width="60"/> | [trimstar_quadwild](preview/d.sharp_plus/trimstar_quadwild.stl) | 1 | 18.117 | 54.351 | 36.234 | [^1] |
 | <img src="preview/d.sharp_plus/trisopen_loopy.png" width="60"/> | [trisopen_loopy](preview/d.sharp_plus/trisopen_loopy.stl) | 1 | 720 | 2.160 | 1.440 | [^9] |
 | <img src="preview/d.sharp_plus/turbine_quadwild.png" width="60"/> | [turbine_quadwild](preview/d.sharp_plus/turbine_quadwild.stl) | 11 | 57.000 | 171.060 | 114.040 | [^1] |
 | <img src="preview/d.sharp_plus/twirl_quadwild.png" width="60"/> | [twirl_quadwild](preview/d.sharp_plus/twirl_quadwild.stl) | 1 | 5.201 | 15.603 | 10.402 | [^1] |
 | <img src="preview/d.sharp_plus/ujoint_loopy.png" width="60"/> | [ujoint_loopy](preview/d.sharp_plus/ujoint_loopy.stl) | 2 | 5.574 | 16.728 | 11.152 | [^9] |
-| <img src="preview/d.sharp_plus/ushape_esb.png" width="60"/> | [ushape_esb](preview/d.sharp_plus/ushape_esb.stl) | 2 | 2.159 | 6.483 | 4.322 | [^16] |
-| <img src="preview/d.sharp_plus/wheel_esb.png" width="60"/> | [wheel_esb](preview/d.sharp_plus/wheel_esb.stl) | 9 | 988 | 3.012 | 2.008 | [^16] |
+| <img src="preview/d.sharp_plus/ushape_esb.png" width="60"/> | [ushape_esb](preview/d.sharp_plus/ushape_esb.stl) | 2 | 2.159 | 6.483 | 4.322 | [^17] |
+| <img src="preview/d.sharp_plus/wheel_esb.png" width="60"/> | [wheel_esb](preview/d.sharp_plus/wheel_esb.stl) | 9 | 988 | 3.012 | 2.008 | [^17] |
 | <img src="preview/d.sharp_plus/wheeldassault_quadwild.png" width="60"/> | [wheeldassault_quadwild](preview/d.sharp_plus/wheeldassault_quadwild.stl) | 5 | 39.852 | 119.580 | 79.720 | [^1] |
 | <img src="preview/d.sharp_plus/wrench_loopy.png" width="60"/> | [wrench_loopy](preview/d.sharp_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [^9] |
 | <img src="preview/d.sharp_plus/wwwre_quadwild.png" width="60"/> | [wwwre_quadwild](preview/d.sharp_plus/wwwre_quadwild.stl) | 1 | 28.712 | 86.136 | 57.424 | [^1] |
@@ -747,26 +748,26 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 ### (e) nightmares (g≥0, n=21)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
-| <img src="preview/e.nightmares/7connected_nop.png" width="60"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | [^30] |
-| <img src="preview/e.nightmares/7connected_snoep.png" width="60"/> | [7connected_snoep](preview/e.nightmares/7connected_snoep.stl) | 0 | 6.890 | 20.664 | 13.776 | [^30] (simplified) |
-| <img src="preview/e.nightmares/8connected_nop.png" width="60"/> | [8connected_nop](preview/e.nightmares/8connected_nop.stl) | 0 | 114.112 | 342.330 | 228.220 | [^30] |
-| <img src="preview/e.nightmares/8connected_snoep.png" width="60"/> | [8connected_snoep](preview/e.nightmares/8connected_snoep.stl) | 0 | 10.424 | 31.266 | 20.844 | [^30] (simplified) |
+| <img src="preview/e.nightmares/7connected_nop.png" width="60"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | [^31] |
+| <img src="preview/e.nightmares/7connected_snoep.png" width="60"/> | [7connected_snoep](preview/e.nightmares/7connected_snoep.stl) | 0 | 6.890 | 20.664 | 13.776 | [^31] (simplified) |
+| <img src="preview/e.nightmares/8connected_nop.png" width="60"/> | [8connected_nop](preview/e.nightmares/8connected_nop.stl) | 0 | 114.112 | 342.330 | 228.220 | [^31] |
+| <img src="preview/e.nightmares/8connected_snoep.png" width="60"/> | [8connected_snoep](preview/e.nightmares/8connected_snoep.stl) | 0 | 10.424 | 31.266 | 20.844 | [^31] (simplified) |
 | <img src="preview/e.nightmares/catalanwire_thingi.png" width="60"/> | [catalanwire_thingi](preview/e.nightmares/catalanwire_thingi.stl) | 119 | 28.564 | 86.400 | 57.600 | [^14] |
 | <img src="preview/e.nightmares/csaszar_crane.png" width="60"/> | [csaszar_crane](preview/e.nightmares/csaszar_crane.stl) | 1 | 448 | 1.344 | 896 | [^10] (remeshed) |
-| <img src="preview/e.nightmares/encrusted_nop.png" width="60"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | [^30] |
-| <img src="preview/e.nightmares/encrusted_snoep.png" width="60"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | [^30] (simplified) |
-| <img src="preview/e.nightmares/involumeknot_nop.png" width="60"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [^30] (meshed) |
-| <img src="preview/e.nightmares/pipehelix7_nop.png" width="60"/> | [pipehelix7_nop](preview/e.nightmares/pipehelix7_nop.stl) | 7 | 90.136 | 270.444 | 180.296 | [^30] |
-| <img src="preview/e.nightmares/pipehelix_nop.png" width="60"/> | [pipehelix_nop](preview/e.nightmares/pipehelix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | [^30] |
-| <img src="preview/e.nightmares/screw_nop.png" width="60"/> | [screw_nop](preview/e.nightmares/screw_nop.stl) | 0 | 88.075 | 264.219 | 176.146 | [^30] |
-| <img src="preview/e.nightmares/screw_snoep.png" width="60"/> | [screw_snoep](preview/e.nightmares/screw_snoep.stl) | 0 | 15.424 | 46.266 | 30.844 | [^30] (simplified) |
-| <img src="preview/e.nightmares/torusstep_nop.png" width="60"/> | [torusstep_nop](preview/e.nightmares/torusstep_nop.stl) | 1 | 80.371 | 241.113 | 160.742 | [^30] |
-| <img src="preview/e.nightmares/torusstep_snoep.png" width="60"/> | [torusstep_snoep](preview/e.nightmares/torusstep_snoep.stl) | 1 | 4.268 | 12.804 | 8.536 | [^30] (simplified) |
-| <img src="preview/e.nightmares/traystep_nop.png" width="60"/> | [traystep_nop](preview/e.nightmares/traystep_nop.stl) | 0 | 79.151 | 237.447 | 158.298 | [^30] |
-| <img src="preview/e.nightmares/traystep_snoep.png" width="60"/> | [traystep_snoep](preview/e.nightmares/traystep_snoep.stl) | 0 | 8.562 | 25.680 | 17.120 | [^30] (simplified) |
-| <img src="preview/e.nightmares/twins_nop.png" width="60"/> | [twins_nop](preview/e.nightmares/twins_nop.stl) | 0 | 63.873 | 191.613 | 127.742 | [^30] |
-| <img src="preview/e.nightmares/twins_snoep.png" width="60"/> | [twins_snoep](preview/e.nightmares/twins_snoep.stl) | 0 | 9.272 | 27.810 | 18.540 | [^30] (simplified) |
-| <img src="preview/e.nightmares/twist_nop.png" width="60"/> | [twist_nop](preview/e.nightmares/twist_nop.stl) | 2 | 78.524 | 235.578 | 157.052 | [^30] |
+| <img src="preview/e.nightmares/encrusted_nop.png" width="60"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | [^31] |
+| <img src="preview/e.nightmares/encrusted_snoep.png" width="60"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | [^31] (simplified) |
+| <img src="preview/e.nightmares/involumeknot_nop.png" width="60"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [^31] (meshed) |
+| <img src="preview/e.nightmares/pipehelix7_nop.png" width="60"/> | [pipehelix7_nop](preview/e.nightmares/pipehelix7_nop.stl) | 7 | 90.136 | 270.444 | 180.296 | [^31] |
+| <img src="preview/e.nightmares/pipehelix_nop.png" width="60"/> | [pipehelix_nop](preview/e.nightmares/pipehelix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | [^31] |
+| <img src="preview/e.nightmares/screw_nop.png" width="60"/> | [screw_nop](preview/e.nightmares/screw_nop.stl) | 0 | 88.075 | 264.219 | 176.146 | [^31] |
+| <img src="preview/e.nightmares/screw_snoep.png" width="60"/> | [screw_snoep](preview/e.nightmares/screw_snoep.stl) | 0 | 15.424 | 46.266 | 30.844 | [^31] (simplified) |
+| <img src="preview/e.nightmares/torusstep_nop.png" width="60"/> | [torusstep_nop](preview/e.nightmares/torusstep_nop.stl) | 1 | 80.371 | 241.113 | 160.742 | [^31] |
+| <img src="preview/e.nightmares/torusstep_snoep.png" width="60"/> | [torusstep_snoep](preview/e.nightmares/torusstep_snoep.stl) | 1 | 4.268 | 12.804 | 8.536 | [^31] (simplified) |
+| <img src="preview/e.nightmares/traystep_nop.png" width="60"/> | [traystep_nop](preview/e.nightmares/traystep_nop.stl) | 0 | 79.151 | 237.447 | 158.298 | [^31] |
+| <img src="preview/e.nightmares/traystep_snoep.png" width="60"/> | [traystep_snoep](preview/e.nightmares/traystep_snoep.stl) | 0 | 8.562 | 25.680 | 17.120 | [^31] (simplified) |
+| <img src="preview/e.nightmares/twins_nop.png" width="60"/> | [twins_nop](preview/e.nightmares/twins_nop.stl) | 0 | 63.873 | 191.613 | 127.742 | [^31] |
+| <img src="preview/e.nightmares/twins_snoep.png" width="60"/> | [twins_snoep](preview/e.nightmares/twins_snoep.stl) | 0 | 9.272 | 27.810 | 18.540 | [^31] (simplified) |
+| <img src="preview/e.nightmares/twist_nop.png" width="60"/> | [twist_nop](preview/e.nightmares/twist_nop.stl) | 2 | 78.524 | 235.578 | 157.052 | [^31] |
 | <img src="preview/e.nightmares/yeahright_crane.png" width="60"/> | [yeahright_crane](preview/e.nightmares/yeahright_crane.stl) | 131 | 377.084 | 1.132.032 | 754.688 | [^10] |
 
 [^1]: PIETRONI N., NUVOLI S., ALDERIGHI T., CIGNONI P., TARINI M., PANOZZO D.: Reliable feature-line driven quad-remeshing. _ACM Transactions on Graphics 40_, 4 (2021). [doi:10.1145/3450626.3459941](https://doi.org/10.1145/3450626.3459941)
@@ -783,19 +784,20 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 [^12]: GAO X., MARTIN T., DENG S., COHEN E., DENG Z., CHEN G.: Structured volume decomposition via generalized sweeping. _IEEE Transactions on Visualization and Computer Graphics 22_, 7 (2016). [doi:10.1109/TVCG.2015.2473835](https://doi.org/10.1109/TVCG.2015.2473835). Input meshes via [HexaLab](https://github.com/cnr-isti-vclab/HexaLab)
 [^13]: LIVESU M., VINING N., SHEFFER A., GREGSON J., SCATENI R.: PolyCut: monotone graph-cuts for polycube base-complex construction. _ACM Transactions on Graphics 32_, 6 (2013). [doi:10.1145/2508363.2508388](https://doi.org/10.1145/2508363.2508388)
 [^14]: ZHOU Q., JACOBSON A.: Thingi10K: a dataset of 10,000 3D-printing models. arXiv:1605.04797 (2016). [doi:10.48550/arXiv.1605.04797](https://doi.org/10.48550/arXiv.1605.04797)
-[^15]: LÄHNER Z., RODOLÀ E., BRONSTEIN M. M., CREMERS D., ET AL.: SHREC'16: matching of deformable shapes with topological noise. In _Eurographics Workshop on 3D Object Retrieval_ (2016). [cvg.cit.tum.de/data/datasets/topkids](https://cvg.cit.tum.de/data/datasets/topkids)
-[^16]: JAYANTI S., KALYANARAMAN Y., IYER N., RAMANI K.: Developing an engineering shape benchmark for CAD models. _Computer-Aided Design 38_, 9 (2006). [doi:10.1016/j.cad.2006.06.007](https://doi.org/10.1016/j.cad.2006.06.007)
-[^17]: CURLESS B., LEVOY M.: A volumetric method for building complex models from range images. In _SIGGRAPH_ (1996). [doi:10.1145/237170.237269](https://doi.org/10.1145/237170.237269). Via the [Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/)
-[^18]: LARIC O.: Three D Scans. [threedscans.com](https://threedscans.com), via [huggingface.co/datasets/alecjacobson/threedscans](https://huggingface.co/datasets/alecjacobson/threedscans)
-[^19]: SCHAREIN R., BOOTH K. S.: Interactive knot theory with KnotPlot. In _Multimedia Tools for Communicating Mathematics_, Mathematics and Visualization (2002). [doi:10.1007/978-3-642-56240-2_17](https://doi.org/10.1007/978-3-642-56240-2_17)
-[^20]: THE CGAL PROJECT: _CGAL User and Reference Manual_. CGAL Editorial Board. Test meshes from [github.com/CGAL/cgal/tree/main/Data/data/meshes](https://github.com/CGAL/cgal/tree/main/Data/data/meshes)
-[^21]: BEAUFORT P.-A., REBEROL M., KALMYKOV D., LIU H., LEDOUX F., BOMMES D.: Hex me if you can. _Computer Graphics Forum (SGP) 41_, 5 (2022). [doi:10.1111/cgf.14608](https://doi.org/10.1111/cgf.14608)
-[^22]: LEDOUX F.: MAMBO: Model dAtabase Mesh BlOcking. [gitlab.com/franck.ledoux/mambo](https://gitlab.com/franck.ledoux/mambo)
-[^23]: VASSBERG J. C., DEHAAN M. A., RIVERS S. M., WAHLS R. A.: Development of a common research model for applied CFD validation studies. In _26th AIAA Applied Aerodynamics Conference_ (2008). [doi:10.2514/6.2008-6919](https://doi.org/10.2514/6.2008-6919). Geometry from the [AIAA CFD Drag Prediction Workshop](https://aiaa-dpw.larc.nasa.gov/)
-[^24]: JACOBSON A., PANOZZO D.: libigl: prototyping geometry processing research in C++. In _SIGGRAPH Asia Courses_ (2017). [doi:10.1145/3134472.3134497](https://doi.org/10.1145/3134472.3134497). Data from [github.com/libigl/libigl-tutorial-data](https://github.com/libigl/libigl-tutorial-data)
-[^25]: LACY D. S., SCLAFANI A. J.: Development of the High Lift Common Research Model (HL-CRM): a representative high lift configuration for transonic transports. In _54th AIAA Aerospace Sciences Meeting_ (2016). [doi:10.2514/6.2016-0308](https://doi.org/10.2514/6.2016-0308). Geometry from the [AIAA CFD High Lift Prediction Workshop](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/)
-[^26]: PARK M. A., MORGENSTERN J. M.: Summary and statistical analysis of the first AIAA sonic boom prediction workshop. _Journal of Aircraft 53_, 2 (2016). [doi:10.2514/1.C033449](https://doi.org/10.2514/1.C033449). Geometry from the [AIAA Sonic Boom Prediction Workshop](https://lbpw.larc.nasa.gov/)
-[^27]: LIPMAN R., LUBELL J.: Conformance checking of PMI representation in CAD model STEP data exchange files. _Computer-Aided Design 66_ (2015). [doi:10.1016/j.cad.2015.04.002](https://doi.org/10.1016/j.cad.2015.04.002). Models from the [NIST MBE PMI test system](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0)
-[^28]: NASA: NASA 3D Resources. [github.com/nasa/NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources)
-[^29]: PAARDEKOOPER B.: threecees. Personal communication.
-[^30]: MESTRALLET S., BOURCIER C., LEDOUX F.: Nightmare of polycubes, version 2.0.0 (dataset). [github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes)
+[^15]: DECARLO D., FINKELSTEIN A., RUSINKIEWICZ S., SANTELLA A.: Suggestive contours for conveying shape. _ACM Transactions on Graphics (SIGGRAPH) 22_, 3 (2003). [doi:10.1145/882262.882354](https://doi.org/10.1145/882262.882354). Models from [gfx.cs.princeton.edu/proj/sugcon/models](https://gfx.cs.princeton.edu/proj/sugcon/models/)
+[^16]: LÄHNER Z., RODOLÀ E., BRONSTEIN M. M., CREMERS D., ET AL.: SHREC'16: matching of deformable shapes with topological noise. In _Eurographics Workshop on 3D Object Retrieval_ (2016). [cvg.cit.tum.de/data/datasets/topkids](https://cvg.cit.tum.de/data/datasets/topkids)
+[^17]: JAYANTI S., KALYANARAMAN Y., IYER N., RAMANI K.: Developing an engineering shape benchmark for CAD models. _Computer-Aided Design 38_, 9 (2006). [doi:10.1016/j.cad.2006.06.007](https://doi.org/10.1016/j.cad.2006.06.007)
+[^18]: CURLESS B., LEVOY M.: A volumetric method for building complex models from range images. In _SIGGRAPH_ (1996). [doi:10.1145/237170.237269](https://doi.org/10.1145/237170.237269). Via the [Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/)
+[^19]: LARIC O.: Three D Scans. [threedscans.com](https://threedscans.com), via [huggingface.co/datasets/alecjacobson/threedscans](https://huggingface.co/datasets/alecjacobson/threedscans)
+[^20]: SCHAREIN R., BOOTH K. S.: Interactive knot theory with KnotPlot. In _Multimedia Tools for Communicating Mathematics_, Mathematics and Visualization (2002). [doi:10.1007/978-3-642-56240-2_17](https://doi.org/10.1007/978-3-642-56240-2_17)
+[^21]: THE CGAL PROJECT: _CGAL User and Reference Manual_. CGAL Editorial Board. Test meshes from [github.com/CGAL/cgal/tree/main/Data/data/meshes](https://github.com/CGAL/cgal/tree/main/Data/data/meshes)
+[^22]: BEAUFORT P.-A., REBEROL M., KALMYKOV D., LIU H., LEDOUX F., BOMMES D.: Hex me if you can. _Computer Graphics Forum (SGP) 41_, 5 (2022). [doi:10.1111/cgf.14608](https://doi.org/10.1111/cgf.14608)
+[^23]: LEDOUX F.: MAMBO: Model dAtabase Mesh BlOcking. [gitlab.com/franck.ledoux/mambo](https://gitlab.com/franck.ledoux/mambo)
+[^24]: VASSBERG J. C., DEHAAN M. A., RIVERS S. M., WAHLS R. A.: Development of a common research model for applied CFD validation studies. In _26th AIAA Applied Aerodynamics Conference_ (2008). [doi:10.2514/6.2008-6919](https://doi.org/10.2514/6.2008-6919). Geometry from the [AIAA CFD Drag Prediction Workshop](https://aiaa-dpw.larc.nasa.gov/)
+[^25]: JACOBSON A., PANOZZO D.: libigl: prototyping geometry processing research in C++. In _SIGGRAPH Asia Courses_ (2017). [doi:10.1145/3134472.3134497](https://doi.org/10.1145/3134472.3134497). Data from [github.com/libigl/libigl-tutorial-data](https://github.com/libigl/libigl-tutorial-data)
+[^26]: LACY D. S., SCLAFANI A. J.: Development of the High Lift Common Research Model (HL-CRM): a representative high lift configuration for transonic transports. In _54th AIAA Aerospace Sciences Meeting_ (2016). [doi:10.2514/6.2016-0308](https://doi.org/10.2514/6.2016-0308). Geometry from the [AIAA CFD High Lift Prediction Workshop](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/)
+[^27]: PARK M. A., MORGENSTERN J. M.: Summary and statistical analysis of the first AIAA sonic boom prediction workshop. _Journal of Aircraft 53_, 2 (2016). [doi:10.2514/1.C033449](https://doi.org/10.2514/1.C033449). Geometry from the [AIAA Sonic Boom Prediction Workshop](https://lbpw.larc.nasa.gov/)
+[^28]: LIPMAN R., LUBELL J.: Conformance checking of PMI representation in CAD model STEP data exchange files. _Computer-Aided Design 66_ (2015). [doi:10.1016/j.cad.2015.04.002](https://doi.org/10.1016/j.cad.2015.04.002). Models from the [NIST MBE PMI test system](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0)
+[^29]: NASA: NASA 3D Resources. [github.com/nasa/NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources)
+[^30]: PAARDEKOOPER B.: threecees. Personal communication.
+[^31]: MESTRALLET S., BOURCIER C., LEDOUX F.: Nightmare of polycubes, version 2.0.0 (dataset). [github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes)
