@@ -1,4 +1,4 @@
-This repository contains a curated collection of 459 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 458 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model name in the tables below to preview it interactively in 3D.
 
@@ -8,7 +8,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=131)
+### (a) bouba (g=0, n=130)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.bouba_zero/airplane1_gao.png" width="40"/> | [airplane1_gao](preview/a.bouba_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -41,7 +41,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.bouba_zero/buste_gao.png" width="40"/> | [buste_gao](preview/a.bouba_zero/buste_gao.stl) | 0 | 17.341 | 52.017 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/buste_loopy.png" width="40"/> | [buste_loopy](preview/a.bouba_zero/buste_loopy.stl) | 0 | 6.070 | 18.204 | 12.136 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/buste_snoep.png" width="40"/> | [buste_snoep](preview/a.bouba_zero/buste_snoep.stl) | 0 | 6.070 | 18.204 | 12.136 | [Marco Livesu + Maxim Snoep (re-oriented)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/a.bouba_zero/bustobimba_loopy.png" width="40"/> | [bustobimba_loopy](preview/a.bouba_zero/bustobimba_loopy.stl) | 0 | 1.948 | 5.838 | 3.892 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/cactus_loopy.png" width="40"/> | [cactus_loopy](preview/a.bouba_zero/cactus_loopy.stl) | 0 | 700 | 2.094 | 1.396 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/camillehand_gao.png" width="40"/> | [camillehand_gao](preview/a.bouba_zero/camillehand_gao.stl) | 0 | 16.565 | 49.689 | 33.126 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/camillehand_loopy.png" width="40"/> | [camillehand_loopy](preview/a.bouba_zero/camillehand_loopy.stl) | 0 | 3.705 | 11.109 | 7.406 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |

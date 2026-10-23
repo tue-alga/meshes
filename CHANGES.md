@@ -79,7 +79,7 @@ Credit changes in this version:
 
 ## Added
 
-209 models that were not in the previous version (the `_snoep` meshes are previous versions under a new name and are listed under *Changed geometry or pose*).
+208 models that were not in the previous version (the `_snoep` meshes are previous versions under a new name and are listed under *Changed geometry or pose*).
 
 | new name | folder | genus | triangles | source |
 |---|---|---|---|---|
@@ -100,7 +100,6 @@ Credit changes in this version:
 | `bunny_jacobson` | a.bouba_zero | 0 | 70.372 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bunny_stein` | a.bouba_zero | 0 | 6.598 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/bunny) |
 | `buste_gao` | a.bouba_zero | 0 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `bustobimba_loopy` | a.bouba_zero | 0 | 3.892 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cactus_loopy` | a.bouba_zero | 0 | 1.396 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `camillehand_loopy` | a.bouba_zero | 0 | 7.406 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cat_loopy` | a.bouba_zero | 0 | 4.660 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
