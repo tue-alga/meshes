@@ -24,7 +24,7 @@ Credit changes in this version:
 - **Mambo** (118 meshes, `*_mambo`): now credited as *Franck Ledoux + Maxim Snoep (meshed)*. The Mambo repository only provides CAD files; the meshes are tessellations made with `tools/step_to_obj.py` (gmsh). The 110 meshes from the previous version that could be rebuilt are identical to before. `M4_mambo` and `M5_mambo` are Maxim Snoep's own remeshes and were kept as they were (meshing the upstream STEP with gmsh gives degenerate triangles for M4 and does not finish for M5).
 - **Aerospace workshop models** (`dpw6g0`, `dpw6g1`, `dpw7`, `hlpw4`, `hlpw5`, `sbpw1`, `sbpw2`, `sbpw3`): credited as *NASA + Stevie-Ray Janssen (meshed)* and named `*_nlr`.
 - **`*_snoep`**: previous versions of changed meshes, credited as *<original source> + Maxim Snoep (simplified / re-oriented)*.
-- **`blocktopus_snoep`**: a new feature-preserving isotropic remesh of `blocktopus_thingi`, credited to Thingi10K + Maxim Snoep (remeshed).
+- **`blocktopus_snoep`**: a new feature-preserving isotropic remesh of `blocktopus_thingi`, re-oriented upright with the face towards +Z, credited to Thingi10K + Maxim Snoep (remeshed, re-oriented).
 - **`amogus_snoep`**: a new feature-preserving isotropic remesh of `amogus_sketchfab` (6.118 triangles), credited to Maxim Snoep.
 
 - **Meshed from CAD by us**: the HexMe models (`*_hexme`), `involumeknot_nop`, `c25dflowthru_nasa`, `jwb_nasa` and the NIST parts (`*_nist`) are credited as *<source> + Maxim Snoep (meshed)*.
@@ -90,7 +90,7 @@ Credit changes in this version:
 | `bimba_loopy` | a.bouba_zero | 0 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blade_loopy` | a.bouba_zero | 0 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `bladefem_loopy` | c.kiki_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `blocktopus_snoep` | a.bouba_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
+| `blocktopus_snoep` | a.bouba_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed, re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
 | `boat_loopy` | a.bouba_zero | 0 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boat_stein` | a.bouba_zero | 0 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
 | `bone1_loopy` | a.bouba_zero | 0 | 3.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |

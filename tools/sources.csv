@@ -103,7 +103,7 @@ blade_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
 blade_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bladefem_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 block_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-blocktopus_snoep,Thingi10K + Maxim Snoep (remeshed),https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+blocktopus_snoep,"Thingi10K + Maxim Snoep (remeshed, re-oriented)",https://ten-thousand-models.appspot.com/detail.html?file_id=86849
 blocktopus_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=86849
 blub_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 boat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
