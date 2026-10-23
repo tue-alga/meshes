@@ -1,4 +1,4 @@
-"""Measure how bouba (smooth/organic) or kiki (CAD/mechanical) each mesh is.
+"""Measure how smooth or sharp (CAD-like) each mesh is.
 
 Per mesh it computes three scale- and (mostly) tessellation-independent features:
 
@@ -9,13 +9,13 @@ Per mesh it computes three scale- and (mostly) tessellation-independent features
   sharp        total length of edges with a dihedral angle above 30 degrees,
                divided by sqrt(total area)
 
-and combines them into a kikiness score in [0, 1] with a logistic regression fitted on the
-current bouba/kiki folder labels (nightmares are scored but not used for fitting). It reports
+and combines them into a sharpness score in [0, 1] with a logistic regression fitted on the
+current smooth/sharp folder labels (nightmares are scored but not used for fitting). It reports
 the cross-validated accuracy and lists the meshes whose geometry disagrees with their folder.
 
-The scores are written to tools/kikiness.csv, which tools/parser.py uses for the README tables.
+The scores are written to tools/sharpness.csv, which tools/parser.py uses for the README tables.
 
-Usage:  python tools/boubakiki.py [--csv details.csv]
+Usage:  python tools/sharpness.py [--csv details.csv]
 Needs:  pip install trimesh numpy scipy
 """
 
@@ -27,7 +27,7 @@ import numpy as np
 import trimesh
 
 ROOT = Path(__file__).resolve().parent.parent
-LABEL = {"a.bouba_zero": 0, "b.bouba_plus": 0, "c.kiki_zero": 1, "d.kiki_plus": 1}
+LABEL = {"a.smooth_zero": 0, "b.smooth_plus": 0, "c.sharp_zero": 1, "d.sharp_plus": 1}
 
 
 def features(mesh: trimesh.Trimesh) -> dict:
@@ -88,32 +88,32 @@ def main() -> None:
     w, b = fit_logistic(Xn, y)
     for r in rows:
         x = (design([r])[0] - mu) / sd
-        r["kikiness"] = float(1 / (1 + np.exp(-(x @ w + b))))
+        r["sharpness"] = float(1 / (1 + np.exp(-(x @ w + b))))
     for r, p in zip(train, cv):
-        r["kikiness_cv"] = float(p)
+        r["sharpness_cv"] = float(p)
 
-    print(f"meshes: {len(rows)}  (bouba {int((y == 0).sum())}, kiki {int((y == 1).sum())})")
+    print(f"meshes: {len(rows)}  (smooth {int((y == 0).sum())}, sharp {int((y == 1).sum())})")
     print(f"10-fold cross-validated accuracy: {acc:.1%}")
     print("weights (standardised): planar {:.2f}, developable {:.2f}, log sharp {:.2f}".format(*w))
-    print("\nIn bouba but looks kiki (cross-validated kikiness > 0.5):")
-    for r in sorted((r for r in train if LABEL[r["folder"]] == 0 and r["kikiness_cv"] > 0.5), key=lambda r: -r["kikiness_cv"]):
-        print(f"  {r['kikiness_cv']:.2f}  {r['name']:28} planar {r['planar']:.2f}  developable {r['developable']:.2f}  sharp {r['sharp']:.1f}")
-    print("\nIn kiki but looks bouba (cross-validated kikiness < 0.5):")
-    for r in sorted((r for r in train if LABEL[r["folder"]] == 1 and r["kikiness_cv"] < 0.5), key=lambda r: r["kikiness_cv"]):
-        print(f"  {r['kikiness_cv']:.2f}  {r['name']:28} planar {r['planar']:.2f}  developable {r['developable']:.2f}  sharp {r['sharp']:.1f}")
+    print("\nIn smooth but looks sharp (cross-validated sharpness > 0.5):")
+    for r in sorted((r for r in train if LABEL[r["folder"]] == 0 and r["sharpness_cv"] > 0.5), key=lambda r: -r["sharpness_cv"]):
+        print(f"  {r['sharpness_cv']:.2f}  {r['name']:28} planar {r['planar']:.2f}  developable {r['developable']:.2f}  sharp {r['sharp']:.1f}")
+    print("\nIn sharp but looks smooth (cross-validated sharpness < 0.5):")
+    for r in sorted((r for r in train if LABEL[r["folder"]] == 1 and r["sharpness_cv"] < 0.5), key=lambda r: r["sharpness_cv"]):
+        print(f"  {r['sharpness_cv']:.2f}  {r['name']:28} planar {r['planar']:.2f}  developable {r['developable']:.2f}  sharp {r['sharp']:.1f}")
     print("\nNightmares:")
-    for r in sorted((r for r in rows if r["folder"] == "e.nightmares"), key=lambda r: r["kikiness"]):
-        print(f"  {r['kikiness']:.2f}  {r['name']}")
+    for r in sorted((r for r in rows if r["folder"] == "e.nightmares"), key=lambda r: r["sharpness"]):
+        print(f"  {r['sharpness']:.2f}  {r['name']}")
 
-    with open(ROOT / "tools" / "kikiness.csv", "w", newline="", encoding="utf-8") as f:
+    with open(ROOT / "tools" / "sharpness.csv", "w", newline="", encoding="utf-8") as f:
         out = csv.writer(f, lineterminator="\r\n")
-        out.writerow(["name", "kikiness"])
+        out.writerow(["name", "sharpness"])
         for r in sorted(rows, key=lambda r: r["name"].lower()):
-            out.writerow([r["name"], f"{r['kikiness']:.4f}"])
+            out.writerow([r["name"], f"{r['sharpness']:.4f}"])
 
     if args.csv:
         with open(args.csv, "w", newline="", encoding="utf-8") as f:
-            w_ = csv.DictWriter(f, fieldnames=["name", "folder", "planar", "developable", "sharp", "kikiness", "kikiness_cv"])
+            w_ = csv.DictWriter(f, fieldnames=["name", "folder", "planar", "developable", "sharp", "sharpness", "sharpness_cv"])
             w_.writeheader()
             for r in rows:
                 w_.writerow({k: (round(v, 4) if isinstance(v, float) else v) for k, v in r.items()})

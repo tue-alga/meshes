@@ -1,6 +1,6 @@
 """Render a small PNG thumbnail for every mesh in dataset/ into preview/.
 
-Bouba meshes get smooth shading, kiki and nightmare meshes flat
+Smooth meshes get smooth shading, sharp and nightmare meshes flat
 shading. The camera is a Y-up dimetric orthographic view, and every mesh is
 drawn in ALGO blue (#00a2de) with a dark outline.
 
@@ -28,7 +28,7 @@ PREVIEW = PROJECT_ROOT / "preview"
 
 ALGO = "#00a2de"
 OUTLINE = "#004f6e"
-SMOOTH_FOLDERS = {"a.bouba_zero", "b.bouba_plus"}
+SMOOTH_FOLDERS = {"a.smooth_zero", "b.smooth_plus"}
 AZIMUTH, ELEVATION = 30.0, 20.0  # degrees; azimuth around +Y measured from +Z
 SUPERSAMPLE = 3
 
