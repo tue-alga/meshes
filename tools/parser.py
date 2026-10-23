@@ -429,8 +429,8 @@ def print_dataset(
         print()
         print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
 
-        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column 120 px wide
-        spacer = "&nbsp;" * 34
+        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column 80 px wide
+        spacer = "&nbsp;" * 23
         print(f"| {spacer} | model | genus | vertices | edges | triangles | source |")
         print("|-|-------|-------|----------|-------|-----------|--------|")
 
@@ -440,7 +440,7 @@ def print_dataset(
             ).relative_to(PROJECT_ROOT).as_posix()
             stl_path = f"{preview_stem}.stl"
             png_path = f"{preview_stem}.png"
-            thumb_cell = f'<img src="{png_path}" width="120"/>'
+            thumb_cell = f'<img src="{png_path}" width="80"/>'
             source_info = sources.get(file_path.stem)
 
             source_cell = ""
