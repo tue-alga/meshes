@@ -10,7 +10,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) smooth (g=0, n=127)
+### (a) smooth (g=0, n=130)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/a.smooth_zero/airplane1_gao.png" width="640"/> | [airplane1_gao](preview/a.smooth_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | 0.18 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -129,8 +129,10 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/spot_crane.png" width="640"/> | [spot_crane](preview/a.smooth_zero/spot_crane.stl) | 0 | 2.930 | 8.784 | 5.856 | 0.12 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | <img src="preview/a.smooth_zero/spot_snoep.png" width="640"/> | [spot_snoep](preview/a.smooth_zero/spot_snoep.stl) | 0 | 11.533 | 34.593 | 23.062 | 0.10 | [Oded Stein + Maxim Snoep (re-oriented)](https://github.com/odedstein/meshes/tree/master/objects/spot) |
 | <img src="preview/a.smooth_zero/spot_stein.png" width="640"/> | [spot_stein](preview/a.smooth_zero/spot_stein.stl) | 0 | 11.533 | 34.593 | 23.062 | 0.10 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/spot) |
+| <img src="preview/a.smooth_zero/springer_stein.png" width="640"/> | [springer_stein](preview/a.smooth_zero/springer_stein.stl) | 0 | 9.686 | 29.052 | 19.368 | 0.15 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/springer) |
 | <img src="preview/a.smooth_zero/strawberry_stein.png" width="640"/> | [strawberry_stein](preview/a.smooth_zero/strawberry_stein.stl) | 0 | 29.992 | 89.970 | 59.980 | 0.21 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
 | <img src="preview/a.smooth_zero/stuffedtoy_stein.png" width="640"/> | [stuffedtoy_stein](preview/a.smooth_zero/stuffedtoy_stein.stl) | 0 | 6.669 | 20.001 | 13.334 | 0.11 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy) |
+| <img src="preview/a.smooth_zero/sword_stein.png" width="640"/> | [sword_stein](preview/a.smooth_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | 0.24 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sword) |
 | <img src="preview/a.smooth_zero/torque1_loopy.png" width="640"/> | [torque1_loopy](preview/a.smooth_zero/torque1_loopy.stl) | 0 | 2.850 | 8.544 | 5.696 | 0.10 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/torque_loopy.png" width="640"/> | [torque_loopy](preview/a.smooth_zero/torque_loopy.stl) | 0 | 1.652 | 4.950 | 3.300 | 0.13 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/toy1_gao.png" width="640"/> | [toy1_gao](preview/a.smooth_zero/toy1_gao.stl) | 0 | 13.452 | 40.350 | 26.900 | 0.09 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -139,6 +141,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/tree_stein.png" width="640"/> | [tree_stein](preview/a.smooth_zero/tree_stein.stl) | 0 | 30.000 | 89.994 | 59.996 | 0.24 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/tree) |
 | <img src="preview/a.smooth_zero/uumemento_gao.png" width="640"/> | [uumemento_gao](preview/a.smooth_zero/uumemento_gao.stl) | 0 | 46.510 | 139.524 | 93.016 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/venus_gao.png" width="640"/> | [venus_gao](preview/a.smooth_zero/venus_gao.stl) | 0 | 10.874 | 32.616 | 21.744 | 0.13 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| <img src="preview/a.smooth_zero/vessel_loopy.png" width="640"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | 0.17 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="640"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
 ### (b) smooth (g≥1, n=55)
@@ -200,7 +203,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.smooth_plus/violin_stein.png" width="640"/> | [violin_stein](preview/b.smooth_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.53 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="640"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.15 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (c) sharp (g=0, n=119)
+### (c) sharp (g=0, n=116)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.sharp_zero/3035_gao.png" width="640"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.91 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -315,10 +318,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.sharp_zero/sbpw2_nlr.png" width="640"/> | [sbpw2_nlr](preview/c.sharp_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | 0.60 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
 | <img src="preview/c.sharp_zero/sbpw3_nlr.png" width="640"/> | [sbpw3_nlr](preview/c.sharp_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | 0.91 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
 | <img src="preview/c.sharp_zero/skijump_hexme.png" width="640"/> | [skijump_hexme](preview/c.sharp_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | 1.00 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| <img src="preview/c.sharp_zero/springer_stein.png" width="640"/> | [springer_stein](preview/c.sharp_zero/springer_stein.stl) | 0 | 9.686 | 29.052 | 19.368 | 0.15 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/springer) |
-| <img src="preview/c.sharp_zero/sword_stein.png" width="640"/> | [sword_stein](preview/c.sharp_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | 0.24 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sword) |
 | <img src="preview/c.sharp_zero/trisclosed_loopy.png" width="640"/> | [trisclosed_loopy](preview/c.sharp_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/c.sharp_zero/vessel_loopy.png" width="640"/> | [vessel_loopy](preview/c.sharp_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | 0.17 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wave_loopy.png" width="640"/> | [wave_loopy](preview/c.sharp_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | 0.97 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="640"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="640"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | 0.95 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
