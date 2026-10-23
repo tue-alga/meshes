@@ -745,3 +745,13 @@ wrench_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_
 wwwre_quadwild,QuadWild,https://www.quadmesh.cloud/
 yeahright_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 golfball_princeton,Princeton suggestive contours + Maxim Snoep (simplified),https://gfx.cs.princeton.edu/proj/sugcon/models/
+armadillo_stanford,Stanford + Maxim Snoep (simplified),https://graphics.stanford.edu/data/3Dscanrep/#armadillo
+lucy_stanford,Stanford + Maxim Snoep (simplified),https://graphics.stanford.edu/data/3Dscanrep/#lucy
+lion_stanford,"Stanford Graphics Lab + Maxim Snoep (repaired, simplified)",https://gfx.cs.princeton.edu/proj/sugcon/models/#lion
+santa_cyberware,Cyberware + Maxim Snoep (simplified),https://gfx.cs.princeton.edu/proj/sugcon/models/#cyberware
+max_mpi,MPI Informatik,https://gfx.cs.princeton.edu/proj/sugcon/models/#mpi
+elephant_espona,Espona + Maxim Snoep (repaired),https://gfx.cs.princeton.edu/proj/sugcon/models/#espona
+hippo_espona,Espona + Maxim Snoep (repaired),https://gfx.cs.princeton.edu/proj/sugcon/models/#espona
+heptoroid_berkeley,UC Berkeley + Maxim Snoep (simplified),https://gfx.cs.princeton.edu/proj/sugcon/models/#heptoroid
+brain_princeton,"Princeton suggestive contours + Maxim Snoep (repaired, simplified)",https://gfx.cs.princeton.edu/proj/sugcon/models/
+torus_princeton,Princeton suggestive contours,https://gfx.cs.princeton.edu/proj/sugcon/models/

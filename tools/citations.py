@@ -94,6 +94,21 @@ CITATIONS = {
         "PARK M. A., MORGENSTERN J. M.: Summary and statistical analysis of the first AIAA sonic boom prediction "
         "workshop. _Journal of Aircraft 53_, 2 (2016). [doi:10.2514/1.C033449](https://doi.org/10.2514/1.C033449). "
         "Geometry from the [AIAA Sonic Boom Prediction Workshop](https://lbpw.larc.nasa.gov/)",
+    "https://graphics.stanford.edu/data/3Dscanrep/#lucy":
+        "Stanford Computer Graphics Laboratory: Lucy. "
+        "[Stanford 3D scanning repository](https://graphics.stanford.edu/data/3Dscanrep/). Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/#lion":
+        "Stanford Computer Graphics Laboratory: lion. Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/#cyberware":
+        "Cyberware Inc.: Cyberware sample models (offline). "
+        "[web.archive.org/web/2008/http://www.cyberware.com/samples/](https://web.archive.org/web/2008/http://www.cyberware.com/samples/). Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/#mpi":
+        "Max Planck Institute for Informatics: Max Planck bust. Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/#espona":
+        "Espona: Espona 3D model library. Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
+    "https://gfx.cs.princeton.edu/proj/sugcon/models/#heptoroid":
+        "SÉQUIN C. H.: Heptoroid. UC Berkeley Rapid Prototyping Project, "
+        "[people.eecs.berkeley.edu/~sequin/SFF/spec.heptoroid.html](https://people.eecs.berkeley.edu/~sequin/SFF/spec.heptoroid.html). Obtained from the [Princeton suggestive contour gallery](https://gfx.cs.princeton.edu/proj/sugcon/models/)",
     "https://gfx.cs.princeton.edu/proj/sugcon/models/":
         "DECARLO D., FINKELSTEIN A., RUSINKIEWICZ S., SANTELLA A.: Suggestive contours for conveying shape. "
         "_ACM Transactions on Graphics (SIGGRAPH) 22_, 3 (2003). "
