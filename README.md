@@ -213,7 +213,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/vessel_loopy.png" width="120"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | [^9] |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="120"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [^4] |
 
-### (b) smooth (g≥1, n=96)
+### (b) smooth (g≥1, n=95)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/10.102_knotplot.png" width="120"/> | [10.102_knotplot](preview/b.smooth_plus/10.102_knotplot.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 4.312 | 12.936 | 8.624 | [^14] |
@@ -269,7 +269,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/holes3_gao.png" width="120"/> | [holes3_gao](preview/b.smooth_plus/holes3_gao.stl) | 3 | 14.396 | 43.200 | 28.800 | [^4] |
 | <img src="preview/b.smooth_plus/hound_skel.png" width="120"/> | [hound_skel](preview/b.smooth_plus/hound_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 6 | 7.538 | 22.644 | 15.096 | [^3] (repaired) |
 | <img src="preview/b.smooth_plus/house_stein.png" width="120"/> | [house_stein](preview/b.smooth_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | [^8] (repaired, simplified) |
-| <img src="preview/b.smooth_plus/In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso.png" width="120"/> | [In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso](preview/b.smooth_plus/In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 9.136 | 27.408 | 18.272 | [^6] |
 | <img src="preview/b.smooth_plus/indorelax_loopy.png" width="120"/> | [indorelax_loopy](preview/b.smooth_plus/indorelax_loopy.stl) | 2 | 12.128 | 36.390 | 24.260 | [^9] |
 | <img src="preview/b.smooth_plus/jbs_003_quadwild.png" width="120"/> | [jbs_003_quadwild](preview/b.smooth_plus/jbs_003_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 4 | 24.994 | 75.000 | 50.000 | [^1] |
 | <img src="preview/b.smooth_plus/Kiss_gao.png" width="120"/> | [Kiss_gao](preview/b.smooth_plus/Kiss_gao.stl) | 3 | 10.192 | 30.588 | 20.392 | [^4] |
@@ -478,7 +477,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="120"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^9] |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="120"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [^8] |
 
-### (d) sharp (g≥1, n=237)
+### (d) sharp (g≥1, n=238)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/1012A_esb.png" width="120"/> | [1012A_esb](preview/d.sharp_plus/1012A_esb.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 5 | 1.693 | 5.103 | 3.402 | [^18] |
@@ -608,6 +607,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/i10o_simp_hexme.png" width="120"/> | [i10o_simp_hexme](preview/d.sharp_plus/i10o_simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [^24] (meshed) |
 | <img src="preview/d.sharp_plus/impeller_housing_1_gao.png" width="120"/> | [impeller_housing_1_gao](preview/d.sharp_plus/impeller_housing_1_gao.stl) | 1 | 1.024 | 3.072 | 2.048 | [^4] |
 | <img src="preview/d.sharp_plus/impeller_loopy.png" width="120"/> | [impeller_loopy](preview/d.sharp_plus/impeller_loopy.stl) | 1 | 13.063 | 39.189 | 26.126 | [^9] |
+| <img src="preview/d.sharp_plus/In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso.png" width="120"/> | [In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso](preview/d.sharp_plus/In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 9.136 | 27.408 | 18.272 | [^6] |
 | <img src="preview/d.sharp_plus/joint_gao.png" width="120"/> | [joint_gao](preview/d.sharp_plus/joint_gao.stl) | 2 | 8.014 | 24.048 | 16.032 | [^4] |
 | <img src="preview/d.sharp_plus/joint_loopy.png" width="120"/> | [joint_loopy](preview/d.sharp_plus/joint_loopy.stl) | 2 | 4.381 | 13.149 | 8.766 | [^9] |
 | <img src="preview/d.sharp_plus/knob_loopy.png" width="120"/> | [knob_loopy](preview/d.sharp_plus/knob_loopy.stl) | 1 | 6.908 | 20.724 | 13.816 | [^9] |
