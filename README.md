@@ -204,117 +204,117 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/c.sharp_zero/3035_gao.png" width="160"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | [^1] |
-| <img src="preview/c.sharp_zero/acuteline_hexme.png" width="160"/> | [acuteline_hexme](preview/c.sharp_zero/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [^11] (meshed) |
-| <img src="preview/c.sharp_zero/antipentapyramid_hexme.png" width="160"/> | [antipentapyramid_hexme](preview/c.sharp_zero/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [^11] (meshed) |
-| <img src="preview/c.sharp_zero/antipyramid_hexme.png" width="160"/> | [antipyramid_hexme](preview/c.sharp_zero/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [^11] (meshed) |
-| <img src="preview/c.sharp_zero/antiskijump_hexme.png" width="160"/> | [antiskijump_hexme](preview/c.sharp_zero/antiskijump_hexme.stl) | 0 | 726 | 2.172 | 1.448 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/acuteline_hexme.png" width="160"/> | [acuteline_hexme](preview/c.sharp_zero/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [^11] (triangulated) |
+| <img src="preview/c.sharp_zero/antipentapyramid_hexme.png" width="160"/> | [antipentapyramid_hexme](preview/c.sharp_zero/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [^11] (triangulated) |
+| <img src="preview/c.sharp_zero/antipyramid_hexme.png" width="160"/> | [antipyramid_hexme](preview/c.sharp_zero/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [^11] (triangulated) |
+| <img src="preview/c.sharp_zero/antiskijump_hexme.png" width="160"/> | [antiskijump_hexme](preview/c.sharp_zero/antiskijump_hexme.stl) | 0 | 726 | 2.172 | 1.448 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/aries70_gao.png" width="160"/> | [aries70_gao](preview/c.sharp_zero/aries70_gao.stl) | 0 | 4.357 | 13.065 | 8.710 | [^1] |
-| <img src="preview/c.sharp_zero/B0_mambo.png" width="160"/> | [B0_mambo](preview/c.sharp_zero/B0_mambo.stl) | 0 | 560 | 1.674 | 1.116 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B11_mambo.png" width="160"/> | [B11_mambo](preview/c.sharp_zero/B11_mambo.stl) | 0 | 1.139 | 3.411 | 2.274 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B12_mambo.png" width="160"/> | [B12_mambo](preview/c.sharp_zero/B12_mambo.stl) | 0 | 885 | 2.649 | 1.766 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B14_mambo.png" width="160"/> | [B14_mambo](preview/c.sharp_zero/B14_mambo.stl) | 0 | 74.218 | 222.648 | 148.432 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B15_mambo.png" width="160"/> | [B15_mambo](preview/c.sharp_zero/B15_mambo.stl) | 0 | 10.769 | 32.301 | 21.534 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B16_mambo.png" width="160"/> | [B16_mambo](preview/c.sharp_zero/B16_mambo.stl) | 0 | 217 | 645 | 430 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B17_mambo.png" width="160"/> | [B17_mambo](preview/c.sharp_zero/B17_mambo.stl) | 0 | 363 | 1.083 | 722 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B18_mambo.png" width="160"/> | [B18_mambo](preview/c.sharp_zero/B18_mambo.stl) | 0 | 329 | 981 | 654 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B19_mambo.png" width="160"/> | [B19_mambo](preview/c.sharp_zero/B19_mambo.stl) | 0 | 1.641 | 4.917 | 3.278 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B20_mambo.png" width="160"/> | [B20_mambo](preview/c.sharp_zero/B20_mambo.stl) | 0 | 159 | 471 | 314 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B21_mambo.png" width="160"/> | [B21_mambo](preview/c.sharp_zero/B21_mambo.stl) | 0 | 478 | 1.428 | 952 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B23_mambo.png" width="160"/> | [B23_mambo](preview/c.sharp_zero/B23_mambo.stl) | 0 | 211 | 627 | 418 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B25_mambo.png" width="160"/> | [B25_mambo](preview/c.sharp_zero/B25_mambo.stl) | 0 | 1.816 | 5.442 | 3.628 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B27_mambo.png" width="160"/> | [B27_mambo](preview/c.sharp_zero/B27_mambo.stl) | 0 | 459 | 1.371 | 914 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B2_mambo.png" width="160"/> | [B2_mambo](preview/c.sharp_zero/B2_mambo.stl) | 0 | 918 | 2.748 | 1.832 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B30_mambo.png" width="160"/> | [B30_mambo](preview/c.sharp_zero/B30_mambo.stl) | 0 | 712 | 2.130 | 1.420 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B34_mambo.png" width="160"/> | [B34_mambo](preview/c.sharp_zero/B34_mambo.stl) | 0 | 514 | 1.536 | 1.024 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B35_mambo.png" width="160"/> | [B35_mambo](preview/c.sharp_zero/B35_mambo.stl) | 0 | 2.115 | 6.339 | 4.226 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B36_mambo.png" width="160"/> | [B36_mambo](preview/c.sharp_zero/B36_mambo.stl) | 0 | 3.991 | 11.967 | 7.978 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B37_mambo.png" width="160"/> | [B37_mambo](preview/c.sharp_zero/B37_mambo.stl) | 0 | 2.668 | 7.998 | 5.332 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B38_mambo.png" width="160"/> | [B38_mambo](preview/c.sharp_zero/B38_mambo.stl) | 0 | 1.956 | 5.862 | 3.908 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B39_mambo.png" width="160"/> | [B39_mambo](preview/c.sharp_zero/B39_mambo.stl) | 0 | 3.628 | 10.878 | 7.252 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B40_mambo.png" width="160"/> | [B40_mambo](preview/c.sharp_zero/B40_mambo.stl) | 0 | 3.171 | 9.507 | 6.338 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B41_mambo.png" width="160"/> | [B41_mambo](preview/c.sharp_zero/B41_mambo.stl) | 0 | 3.529 | 10.581 | 7.054 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B42_mambo.png" width="160"/> | [B42_mambo](preview/c.sharp_zero/B42_mambo.stl) | 0 | 1.843 | 5.523 | 3.682 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B43_mambo.png" width="160"/> | [B43_mambo](preview/c.sharp_zero/B43_mambo.stl) | 0 | 2.626 | 7.872 | 5.248 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B45_mambo.png" width="160"/> | [B45_mambo](preview/c.sharp_zero/B45_mambo.stl) | 0 | 736 | 2.202 | 1.468 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B46_mambo.png" width="160"/> | [B46_mambo](preview/c.sharp_zero/B46_mambo.stl) | 0 | 827 | 2.475 | 1.650 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B48_mambo.png" width="160"/> | [B48_mambo](preview/c.sharp_zero/B48_mambo.stl) | 0 | 1.146 | 3.432 | 2.288 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B49_mambo.png" width="160"/> | [B49_mambo](preview/c.sharp_zero/B49_mambo.stl) | 0 | 528 | 1.578 | 1.052 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B4_mambo.png" width="160"/> | [B4_mambo](preview/c.sharp_zero/B4_mambo.stl) | 0 | 1.216 | 3.642 | 2.428 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B50_mambo.png" width="160"/> | [B50_mambo](preview/c.sharp_zero/B50_mambo.stl) | 0 | 643 | 1.923 | 1.282 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B52_mambo.png" width="160"/> | [B52_mambo](preview/c.sharp_zero/B52_mambo.stl) | 0 | 545 | 1.629 | 1.086 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B54_mambo.png" width="160"/> | [B54_mambo](preview/c.sharp_zero/B54_mambo.stl) | 0 | 425 | 1.269 | 846 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B56_mambo.png" width="160"/> | [B56_mambo](preview/c.sharp_zero/B56_mambo.stl) | 0 | 586 | 1.752 | 1.168 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B57_mambo.png" width="160"/> | [B57_mambo](preview/c.sharp_zero/B57_mambo.stl) | 0 | 4.951 | 14.847 | 9.898 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B58_mambo.png" width="160"/> | [B58_mambo](preview/c.sharp_zero/B58_mambo.stl) | 0 | 735 | 2.199 | 1.466 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B59_mambo.png" width="160"/> | [B59_mambo](preview/c.sharp_zero/B59_mambo.stl) | 0 | 598 | 1.788 | 1.192 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B5_mambo.png" width="160"/> | [B5_mambo](preview/c.sharp_zero/B5_mambo.stl) | 0 | 613 | 1.833 | 1.222 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B60_mambo.png" width="160"/> | [B60_mambo](preview/c.sharp_zero/B60_mambo.stl) | 0 | 1.043 | 3.123 | 2.082 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B61_mambo.png" width="160"/> | [B61_mambo](preview/c.sharp_zero/B61_mambo.stl) | 0 | 1.125 | 3.369 | 2.246 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B67_mambo.png" width="160"/> | [B67_mambo](preview/c.sharp_zero/B67_mambo.stl) | 0 | 1.279 | 3.831 | 2.554 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B68_mambo.png" width="160"/> | [B68_mambo](preview/c.sharp_zero/B68_mambo.stl) | 0 | 1.137 | 3.405 | 2.270 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B69_mambo.png" width="160"/> | [B69_mambo](preview/c.sharp_zero/B69_mambo.stl) | 0 | 2.119 | 6.351 | 4.234 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B6_mambo.png" width="160"/> | [B6_mambo](preview/c.sharp_zero/B6_mambo.stl) | 0 | 659 | 1.971 | 1.314 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B70_mambo.png" width="160"/> | [B70_mambo](preview/c.sharp_zero/B70_mambo.stl) | 0 | 2.280 | 6.834 | 4.556 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B71_mambo.png" width="160"/> | [B71_mambo](preview/c.sharp_zero/B71_mambo.stl) | 0 | 2.175 | 6.519 | 4.346 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B72_mambo.png" width="160"/> | [B72_mambo](preview/c.sharp_zero/B72_mambo.stl) | 0 | 1.685 | 5.049 | 3.366 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B74_mambo.png" width="160"/> | [B74_mambo](preview/c.sharp_zero/B74_mambo.stl) | 0 | 1.313 | 3.933 | 2.622 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B75_mambo.png" width="160"/> | [B75_mambo](preview/c.sharp_zero/B75_mambo.stl) | 0 | 1.709 | 5.121 | 3.414 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B76_mambo.png" width="160"/> | [B76_mambo](preview/c.sharp_zero/B76_mambo.stl) | 0 | 508 | 1.518 | 1.012 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B7_mambo.png" width="160"/> | [B7_mambo](preview/c.sharp_zero/B7_mambo.stl) | 0 | 498 | 1.488 | 992 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B8_mambo.png" width="160"/> | [B8_mambo](preview/c.sharp_zero/B8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/B9_mambo.png" width="160"/> | [B9_mambo](preview/c.sharp_zero/B9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [^12] (meshed) |
+| <img src="preview/c.sharp_zero/B0_mambo.png" width="160"/> | [B0_mambo](preview/c.sharp_zero/B0_mambo.stl) | 0 | 560 | 1.674 | 1.116 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B11_mambo.png" width="160"/> | [B11_mambo](preview/c.sharp_zero/B11_mambo.stl) | 0 | 1.139 | 3.411 | 2.274 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B12_mambo.png" width="160"/> | [B12_mambo](preview/c.sharp_zero/B12_mambo.stl) | 0 | 885 | 2.649 | 1.766 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B14_mambo.png" width="160"/> | [B14_mambo](preview/c.sharp_zero/B14_mambo.stl) | 0 | 74.218 | 222.648 | 148.432 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B15_mambo.png" width="160"/> | [B15_mambo](preview/c.sharp_zero/B15_mambo.stl) | 0 | 10.769 | 32.301 | 21.534 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B16_mambo.png" width="160"/> | [B16_mambo](preview/c.sharp_zero/B16_mambo.stl) | 0 | 217 | 645 | 430 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B17_mambo.png" width="160"/> | [B17_mambo](preview/c.sharp_zero/B17_mambo.stl) | 0 | 363 | 1.083 | 722 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B18_mambo.png" width="160"/> | [B18_mambo](preview/c.sharp_zero/B18_mambo.stl) | 0 | 329 | 981 | 654 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B19_mambo.png" width="160"/> | [B19_mambo](preview/c.sharp_zero/B19_mambo.stl) | 0 | 1.641 | 4.917 | 3.278 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B20_mambo.png" width="160"/> | [B20_mambo](preview/c.sharp_zero/B20_mambo.stl) | 0 | 159 | 471 | 314 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B21_mambo.png" width="160"/> | [B21_mambo](preview/c.sharp_zero/B21_mambo.stl) | 0 | 478 | 1.428 | 952 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B23_mambo.png" width="160"/> | [B23_mambo](preview/c.sharp_zero/B23_mambo.stl) | 0 | 211 | 627 | 418 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B25_mambo.png" width="160"/> | [B25_mambo](preview/c.sharp_zero/B25_mambo.stl) | 0 | 1.816 | 5.442 | 3.628 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B27_mambo.png" width="160"/> | [B27_mambo](preview/c.sharp_zero/B27_mambo.stl) | 0 | 459 | 1.371 | 914 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B2_mambo.png" width="160"/> | [B2_mambo](preview/c.sharp_zero/B2_mambo.stl) | 0 | 918 | 2.748 | 1.832 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B30_mambo.png" width="160"/> | [B30_mambo](preview/c.sharp_zero/B30_mambo.stl) | 0 | 712 | 2.130 | 1.420 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B34_mambo.png" width="160"/> | [B34_mambo](preview/c.sharp_zero/B34_mambo.stl) | 0 | 514 | 1.536 | 1.024 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B35_mambo.png" width="160"/> | [B35_mambo](preview/c.sharp_zero/B35_mambo.stl) | 0 | 2.115 | 6.339 | 4.226 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B36_mambo.png" width="160"/> | [B36_mambo](preview/c.sharp_zero/B36_mambo.stl) | 0 | 3.991 | 11.967 | 7.978 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B37_mambo.png" width="160"/> | [B37_mambo](preview/c.sharp_zero/B37_mambo.stl) | 0 | 2.668 | 7.998 | 5.332 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B38_mambo.png" width="160"/> | [B38_mambo](preview/c.sharp_zero/B38_mambo.stl) | 0 | 1.956 | 5.862 | 3.908 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B39_mambo.png" width="160"/> | [B39_mambo](preview/c.sharp_zero/B39_mambo.stl) | 0 | 3.628 | 10.878 | 7.252 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B40_mambo.png" width="160"/> | [B40_mambo](preview/c.sharp_zero/B40_mambo.stl) | 0 | 3.171 | 9.507 | 6.338 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B41_mambo.png" width="160"/> | [B41_mambo](preview/c.sharp_zero/B41_mambo.stl) | 0 | 3.529 | 10.581 | 7.054 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B42_mambo.png" width="160"/> | [B42_mambo](preview/c.sharp_zero/B42_mambo.stl) | 0 | 1.843 | 5.523 | 3.682 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B43_mambo.png" width="160"/> | [B43_mambo](preview/c.sharp_zero/B43_mambo.stl) | 0 | 2.626 | 7.872 | 5.248 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B45_mambo.png" width="160"/> | [B45_mambo](preview/c.sharp_zero/B45_mambo.stl) | 0 | 736 | 2.202 | 1.468 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B46_mambo.png" width="160"/> | [B46_mambo](preview/c.sharp_zero/B46_mambo.stl) | 0 | 827 | 2.475 | 1.650 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B48_mambo.png" width="160"/> | [B48_mambo](preview/c.sharp_zero/B48_mambo.stl) | 0 | 1.146 | 3.432 | 2.288 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B49_mambo.png" width="160"/> | [B49_mambo](preview/c.sharp_zero/B49_mambo.stl) | 0 | 528 | 1.578 | 1.052 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B4_mambo.png" width="160"/> | [B4_mambo](preview/c.sharp_zero/B4_mambo.stl) | 0 | 1.216 | 3.642 | 2.428 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B50_mambo.png" width="160"/> | [B50_mambo](preview/c.sharp_zero/B50_mambo.stl) | 0 | 643 | 1.923 | 1.282 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B52_mambo.png" width="160"/> | [B52_mambo](preview/c.sharp_zero/B52_mambo.stl) | 0 | 545 | 1.629 | 1.086 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B54_mambo.png" width="160"/> | [B54_mambo](preview/c.sharp_zero/B54_mambo.stl) | 0 | 425 | 1.269 | 846 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B56_mambo.png" width="160"/> | [B56_mambo](preview/c.sharp_zero/B56_mambo.stl) | 0 | 586 | 1.752 | 1.168 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B57_mambo.png" width="160"/> | [B57_mambo](preview/c.sharp_zero/B57_mambo.stl) | 0 | 4.951 | 14.847 | 9.898 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B58_mambo.png" width="160"/> | [B58_mambo](preview/c.sharp_zero/B58_mambo.stl) | 0 | 735 | 2.199 | 1.466 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B59_mambo.png" width="160"/> | [B59_mambo](preview/c.sharp_zero/B59_mambo.stl) | 0 | 598 | 1.788 | 1.192 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B5_mambo.png" width="160"/> | [B5_mambo](preview/c.sharp_zero/B5_mambo.stl) | 0 | 613 | 1.833 | 1.222 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B60_mambo.png" width="160"/> | [B60_mambo](preview/c.sharp_zero/B60_mambo.stl) | 0 | 1.043 | 3.123 | 2.082 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B61_mambo.png" width="160"/> | [B61_mambo](preview/c.sharp_zero/B61_mambo.stl) | 0 | 1.125 | 3.369 | 2.246 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B67_mambo.png" width="160"/> | [B67_mambo](preview/c.sharp_zero/B67_mambo.stl) | 0 | 1.279 | 3.831 | 2.554 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B68_mambo.png" width="160"/> | [B68_mambo](preview/c.sharp_zero/B68_mambo.stl) | 0 | 1.137 | 3.405 | 2.270 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B69_mambo.png" width="160"/> | [B69_mambo](preview/c.sharp_zero/B69_mambo.stl) | 0 | 2.119 | 6.351 | 4.234 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B6_mambo.png" width="160"/> | [B6_mambo](preview/c.sharp_zero/B6_mambo.stl) | 0 | 659 | 1.971 | 1.314 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B70_mambo.png" width="160"/> | [B70_mambo](preview/c.sharp_zero/B70_mambo.stl) | 0 | 2.280 | 6.834 | 4.556 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B71_mambo.png" width="160"/> | [B71_mambo](preview/c.sharp_zero/B71_mambo.stl) | 0 | 2.175 | 6.519 | 4.346 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B72_mambo.png" width="160"/> | [B72_mambo](preview/c.sharp_zero/B72_mambo.stl) | 0 | 1.685 | 5.049 | 3.366 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B74_mambo.png" width="160"/> | [B74_mambo](preview/c.sharp_zero/B74_mambo.stl) | 0 | 1.313 | 3.933 | 2.622 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B75_mambo.png" width="160"/> | [B75_mambo](preview/c.sharp_zero/B75_mambo.stl) | 0 | 1.709 | 5.121 | 3.414 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B76_mambo.png" width="160"/> | [B76_mambo](preview/c.sharp_zero/B76_mambo.stl) | 0 | 508 | 1.518 | 1.012 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B7_mambo.png" width="160"/> | [B7_mambo](preview/c.sharp_zero/B7_mambo.stl) | 0 | 498 | 1.488 | 992 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B8_mambo.png" width="160"/> | [B8_mambo](preview/c.sharp_zero/B8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/B9_mambo.png" width="160"/> | [B9_mambo](preview/c.sharp_zero/B9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [^12] (triangulated) |
 | <img src="preview/c.sharp_zero/bladefem_loopy.png" width="160"/> | [bladefem_loopy](preview/c.sharp_zero/bladefem_loopy.stl) | 0 | 6.086 | 18.252 | 12.168 | [^5] |
 | <img src="preview/c.sharp_zero/blocktopus_snoep.png" width="160"/> | [blocktopus_snoep](preview/c.sharp_zero/blocktopus_snoep.stl) | 0 | 7.569 | 22.701 | 15.134 | [^7] (remeshed, re-oriented) |
 | <img src="preview/c.sharp_zero/blocktopus_thingi.png" width="160"/> | [blocktopus_thingi](preview/c.sharp_zero/blocktopus_thingi.stl) | 0 | 5.054 | 15.156 | 10.104 | [^7] |
 | <img src="preview/c.sharp_zero/boat_loopy.png" width="160"/> | [boat_loopy](preview/c.sharp_zero/boat_loopy.stl) | 0 | 11.389 | 34.161 | 22.774 | [^5] |
 | <img src="preview/c.sharp_zero/boat_stein.png" width="160"/> | [boat_stein](preview/c.sharp_zero/boat_stein.stl) | 0 | 16.210 | 48.624 | 32.416 | [^4] |
-| <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="160"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/chessrook_mambo.png" width="160"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | [^12] (meshed) |
+| <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="160"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/chessrook_mambo.png" width="160"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | [^12] (triangulated) |
 | <img src="preview/c.sharp_zero/clef_loopy.png" width="160"/> | [clef_loopy](preview/c.sharp_zero/clef_loopy.stl) | 0 | 1.392 | 4.170 | 2.780 | [^5] |
 | <img src="preview/c.sharp_zero/coverrear_gao.png" width="160"/> | [coverrear_gao](preview/c.sharp_zero/coverrear_gao.stl) | 0 | 39.982 | 119.940 | 79.960 | [^1] |
-| <img src="preview/c.sharp_zero/crosscyls_hexme.png" width="160"/> | [crosscyls_hexme](preview/c.sharp_zero/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/crosscyls_hexme.png" width="160"/> | [crosscyls_hexme](preview/c.sharp_zero/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/cube_stein.png" width="160"/> | [cube_stein](preview/c.sharp_zero/cube_stein.stl) | 0 | 26 | 72 | 48 | [^4] |
 | <img src="preview/c.sharp_zero/cubecarved_loopy.png" width="160"/> | [cubecarved_loopy](preview/c.sharp_zero/cubecarved_loopy.stl) | 0 | 1.820 | 5.454 | 3.636 | [^5] |
 | <img src="preview/c.sharp_zero/cubeminussphere_loopy.png" width="160"/> | [cubeminussphere_loopy](preview/c.sharp_zero/cubeminussphere_loopy.stl) | 0 | 2.066 | 6.192 | 4.128 | [^5] |
 | <img src="preview/c.sharp_zero/cup_loopy.png" width="160"/> | [cup_loopy](preview/c.sharp_zero/cup_loopy.stl) | 0 | 214 | 636 | 424 | [^5] |
 | <img src="preview/c.sharp_zero/cylinderplate_loopy.png" width="160"/> | [cylinderplate_loopy](preview/c.sharp_zero/cylinderplate_loopy.stl) | 0 | 908 | 2.718 | 1.812 | [^5] |
-| <img src="preview/c.sharp_zero/dpw6g0_nlr.png" width="160"/> | [dpw6g0_nlr](preview/c.sharp_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [^13] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/dpw7_nlr.png" width="160"/> | [dpw7_nlr](preview/c.sharp_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [^13] (meshed by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/dpw6g0_nlr.png" width="160"/> | [dpw6g0_nlr](preview/c.sharp_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [^13] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/dpw7_nlr.png" width="160"/> | [dpw7_nlr](preview/c.sharp_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [^13] (triangulated by Stevie-Ray Janssen) |
 | <img src="preview/c.sharp_zero/eraserball_loopy.png" width="160"/> | [eraserball_loopy](preview/c.sharp_zero/eraserball_loopy.stl) | 0 | 2.624 | 7.866 | 5.244 | [^5] |
 | <img src="preview/c.sharp_zero/fandisk_jacobson.png" width="160"/> | [fandisk_jacobson](preview/c.sharp_zero/fandisk_jacobson.stl) | 0 | 6.475 | 19.419 | 12.946 | [^3] |
 | <img src="preview/c.sharp_zero/fandisk_libigl.png" width="160"/> | [fandisk_libigl](preview/c.sharp_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | [^14] |
-| <img src="preview/c.sharp_zero/featureloft_mambo.png" width="160"/> | [featureloft_mambo](preview/c.sharp_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [^12] (meshed) |
+| <img src="preview/c.sharp_zero/featureloft_mambo.png" width="160"/> | [featureloft_mambo](preview/c.sharp_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [^12] (triangulated) |
 | <img src="preview/c.sharp_zero/gear_loopy.png" width="160"/> | [gear_loopy](preview/c.sharp_zero/gear_loopy.stl) | 0 | 3.931 | 11.787 | 7.858 | [^5] |
 | <img src="preview/c.sharp_zero/halvedobliquescarf3_loopy.png" width="160"/> | [halvedobliquescarf3_loopy](preview/c.sharp_zero/halvedobliquescarf3_loopy.stl) | 0 | 36 | 102 | 68 | [^5] |
 | <img src="preview/c.sharp_zero/hammer_stein.png" width="160"/> | [hammer_stein](preview/c.sharp_zero/hammer_stein.stl) | 0 | 30.082 | 90.240 | 60.160 | [^4] |
-| <img src="preview/c.sharp_zero/hlpw4_nlr.png" width="160"/> | [hlpw4_nlr](preview/c.sharp_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | [^15] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/hlpw5_nlr.png" width="160"/> | [hlpw5_nlr](preview/c.sharp_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | [^15] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/icosahedron_hexme.png" width="160"/> | [icosahedron_hexme](preview/c.sharp_zero/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/hlpw4_nlr.png" width="160"/> | [hlpw4_nlr](preview/c.sharp_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | [^15] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/hlpw5_nlr.png" width="160"/> | [hlpw5_nlr](preview/c.sharp_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | [^15] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/icosahedron_hexme.png" width="160"/> | [icosahedron_hexme](preview/c.sharp_zero/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/inlaydovetail3_loopy.png" width="160"/> | [inlaydovetail3_loopy](preview/c.sharp_zero/inlaydovetail3_loopy.stl) | 0 | 32 | 90 | 60 | [^5] |
-| <img src="preview/c.sharp_zero/jwb_nasa.png" width="160"/> | [jwb_nasa](preview/c.sharp_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | [^16] (meshed) |
-| <img src="preview/c.sharp_zero/legoblock_mambo.png" width="160"/> | [legoblock_mambo](preview/c.sharp_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/legoman_mambo.png" width="160"/> | [legoman_mambo](preview/c.sharp_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/limitcycleg0_hexme.png" width="160"/> | [limitcycleg0_hexme](preview/c.sharp_zero/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/jwb_nasa.png" width="160"/> | [jwb_nasa](preview/c.sharp_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | [^16] (triangulated) |
+| <img src="preview/c.sharp_zero/legoblock_mambo.png" width="160"/> | [legoblock_mambo](preview/c.sharp_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/legoman_mambo.png" width="160"/> | [legoman_mambo](preview/c.sharp_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/limitcycleg0_hexme.png" width="160"/> | [limitcycleg0_hexme](preview/c.sharp_zero/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/mech10_loopy.png" width="160"/> | [mech10_loopy](preview/c.sharp_zero/mech10_loopy.stl) | 0 | 256 | 762 | 508 | [^5] |
 | <img src="preview/c.sharp_zero/mechanical02_loopy.png" width="160"/> | [mechanical02_loopy](preview/c.sharp_zero/mechanical02_loopy.stl) | 0 | 3.588 | 10.758 | 7.172 | [^5] |
 | <img src="preview/c.sharp_zero/mechanical05_loopy.png" width="160"/> | [mechanical05_loopy](preview/c.sharp_zero/mechanical05_loopy.stl) | 0 | 4.082 | 12.240 | 8.160 | [^5] |
 | <img src="preview/c.sharp_zero/mechpiece_loopy.png" width="160"/> | [mechpiece_loopy](preview/c.sharp_zero/mechpiece_loopy.stl) | 0 | 2.089 | 6.261 | 4.174 | [^5] |
 | <img src="preview/c.sharp_zero/octaflower_gao.png" width="160"/> | [octaflower_gao](preview/c.sharp_zero/octaflower_gao.stl) | 0 | 7.919 | 23.751 | 15.834 | [^1] |
-| <img src="preview/c.sharp_zero/octahedron_hexme.png" width="160"/> | [octahedron_hexme](preview/c.sharp_zero/octahedron_hexme.stl) | 0 | 3.366 | 10.092 | 6.728 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/octahedron_hexme.png" width="160"/> | [octahedron_hexme](preview/c.sharp_zero/octahedron_hexme.stl) | 0 | 3.366 | 10.092 | 6.728 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/oloid_crane.png" width="160"/> | [oloid_crane](preview/c.sharp_zero/oloid_crane.stl) | 0 | 4.098 | 12.288 | 8.192 | [^6] |
-| <img src="preview/c.sharp_zero/pentapyramid_hexme.png" width="160"/> | [pentapyramid_hexme](preview/c.sharp_zero/pentapyramid_hexme.stl) | 0 | 961 | 2.877 | 1.918 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/pentapyramid_hexme.png" width="160"/> | [pentapyramid_hexme](preview/c.sharp_zero/pentapyramid_hexme.stl) | 0 | 961 | 2.877 | 1.918 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/plane_stein.png" width="160"/> | [plane_stein](preview/c.sharp_zero/plane_stein.stl) | 0 | 8.730 | 26.184 | 17.456 | [^4] |
 | <img src="preview/c.sharp_zero/plate1_loopy.png" width="160"/> | [plate1_loopy](preview/c.sharp_zero/plate1_loopy.stl) | 0 | 5.980 | 17.934 | 11.956 | [^5] |
 | <img src="preview/c.sharp_zero/plate2_loopy.png" width="160"/> | [plate2_loopy](preview/c.sharp_zero/plate2_loopy.stl) | 0 | 4.199 | 12.591 | 8.394 | [^5] |
 | <img src="preview/c.sharp_zero/plate3_loopy.png" width="160"/> | [plate3_loopy](preview/c.sharp_zero/plate3_loopy.stl) | 0 | 2.467 | 7.395 | 4.930 | [^5] |
 | <img src="preview/c.sharp_zero/plate4_loopy.png" width="160"/> | [plate4_loopy](preview/c.sharp_zero/plate4_loopy.stl) | 0 | 17.795 | 53.379 | 35.586 | [^5] |
 | <img src="preview/c.sharp_zero/prism_loopy.png" width="160"/> | [prism_loopy](preview/c.sharp_zero/prism_loopy.stl) | 0 | 990 | 2.964 | 1.976 | [^5] |
-| <img src="preview/c.sharp_zero/pyramid_hexme.png" width="160"/> | [pyramid_hexme](preview/c.sharp_zero/pyramid_hexme.stl) | 0 | 1.274 | 3.816 | 2.544 | [^11] (meshed) |
-| <img src="preview/c.sharp_zero/S37_mambo.png" width="160"/> | [S37_mambo](preview/c.sharp_zero/S37_mambo.stl) | 0 | 15.725 | 47.169 | 31.446 | [^12] (meshed) |
-| <img src="preview/c.sharp_zero/sbpw1_nlr.png" width="160"/> | [sbpw1_nlr](preview/c.sharp_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | [^16] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/sbpw2_nlr.png" width="160"/> | [sbpw2_nlr](preview/c.sharp_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | [^16] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/sbpw3_nlr.png" width="160"/> | [sbpw3_nlr](preview/c.sharp_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | [^16] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/c.sharp_zero/skijump_hexme.png" width="160"/> | [skijump_hexme](preview/c.sharp_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | [^11] (meshed) |
+| <img src="preview/c.sharp_zero/pyramid_hexme.png" width="160"/> | [pyramid_hexme](preview/c.sharp_zero/pyramid_hexme.stl) | 0 | 1.274 | 3.816 | 2.544 | [^11] (triangulated) |
+| <img src="preview/c.sharp_zero/S37_mambo.png" width="160"/> | [S37_mambo](preview/c.sharp_zero/S37_mambo.stl) | 0 | 15.725 | 47.169 | 31.446 | [^12] (triangulated) |
+| <img src="preview/c.sharp_zero/sbpw1_nlr.png" width="160"/> | [sbpw1_nlr](preview/c.sharp_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | [^16] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/sbpw2_nlr.png" width="160"/> | [sbpw2_nlr](preview/c.sharp_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | [^16] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/sbpw3_nlr.png" width="160"/> | [sbpw3_nlr](preview/c.sharp_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | [^16] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/c.sharp_zero/skijump_hexme.png" width="160"/> | [skijump_hexme](preview/c.sharp_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | [^11] (triangulated) |
 | <img src="preview/c.sharp_zero/trisclosed_loopy.png" width="160"/> | [trisclosed_loopy](preview/c.sharp_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | [^5] |
 | <img src="preview/c.sharp_zero/wave_loopy.png" width="160"/> | [wave_loopy](preview/c.sharp_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | [^5] (repaired) |
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="160"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^5] |
@@ -325,34 +325,34 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/anc101_gao.png" width="160"/> | [anc101_gao](preview/d.sharp_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | [^1] |
 | <img src="preview/d.sharp_plus/aries155_gao.png" width="160"/> | [aries155_gao](preview/d.sharp_plus/aries155_gao.stl) | 6 | 2.336 | 7.038 | 4.692 | [^1] |
-| <img src="preview/d.sharp_plus/B10_mambo.png" width="160"/> | [B10_mambo](preview/d.sharp_plus/B10_mambo.stl) | 1 | 1.506 | 4.518 | 3.012 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B13_mambo.png" width="160"/> | [B13_mambo](preview/d.sharp_plus/B13_mambo.stl) | 1 | 2.065 | 6.195 | 4.130 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B1_mambo.png" width="160"/> | [B1_mambo](preview/d.sharp_plus/B1_mambo.stl) | 1 | 1.741 | 5.223 | 3.482 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B28_mambo.png" width="160"/> | [B28_mambo](preview/d.sharp_plus/B28_mambo.stl) | 1 | 1.128 | 3.384 | 2.256 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B29_mambo.png" width="160"/> | [B29_mambo](preview/d.sharp_plus/B29_mambo.stl) | 1 | 1.941 | 5.823 | 3.882 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B31_mambo.png" width="160"/> | [B31_mambo](preview/d.sharp_plus/B31_mambo.stl) | 1 | 1.317 | 3.951 | 2.634 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B32_mambo.png" width="160"/> | [B32_mambo](preview/d.sharp_plus/B32_mambo.stl) | 1 | 1.364 | 4.092 | 2.728 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B33_mambo.png" width="160"/> | [B33_mambo](preview/d.sharp_plus/B33_mambo.stl) | 1 | 2.268 | 6.804 | 4.536 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B3_mambo.png" width="160"/> | [B3_mambo](preview/d.sharp_plus/B3_mambo.stl) | 2 | 3.495 | 10.491 | 6.994 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B44_mambo.png" width="160"/> | [B44_mambo](preview/d.sharp_plus/B44_mambo.stl) | 1 | 2.265 | 6.795 | 4.530 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B47_mambo.png" width="160"/> | [B47_mambo](preview/d.sharp_plus/B47_mambo.stl) | 1 | 2.161 | 6.483 | 4.322 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B51_mambo.png" width="160"/> | [B51_mambo](preview/d.sharp_plus/B51_mambo.stl) | 1 | 1.169 | 3.507 | 2.338 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B53_mambo.png" width="160"/> | [B53_mambo](preview/d.sharp_plus/B53_mambo.stl) | 1 | 984 | 2.952 | 1.968 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B55_mambo.png" width="160"/> | [B55_mambo](preview/d.sharp_plus/B55_mambo.stl) | 1 | 802 | 2.406 | 1.604 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B62_mambo.png" width="160"/> | [B62_mambo](preview/d.sharp_plus/B62_mambo.stl) | 1 | 1.016 | 3.048 | 2.032 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B63_mambo.png" width="160"/> | [B63_mambo](preview/d.sharp_plus/B63_mambo.stl) | 1 | 990 | 2.970 | 1.980 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B64_mambo.png" width="160"/> | [B64_mambo](preview/d.sharp_plus/B64_mambo.stl) | 1 | 852 | 2.556 | 1.704 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B65_mambo.png" width="160"/> | [B65_mambo](preview/d.sharp_plus/B65_mambo.stl) | 1 | 936 | 2.808 | 1.872 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B66_mambo.png" width="160"/> | [B66_mambo](preview/d.sharp_plus/B66_mambo.stl) | 2 | 1.159 | 3.483 | 2.322 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/B73_mambo.png" width="160"/> | [B73_mambo](preview/d.sharp_plus/B73_mambo.stl) | 1 | 2.320 | 6.960 | 4.640 | [^12] (meshed) |
+| <img src="preview/d.sharp_plus/B10_mambo.png" width="160"/> | [B10_mambo](preview/d.sharp_plus/B10_mambo.stl) | 1 | 1.506 | 4.518 | 3.012 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B13_mambo.png" width="160"/> | [B13_mambo](preview/d.sharp_plus/B13_mambo.stl) | 1 | 2.065 | 6.195 | 4.130 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B1_mambo.png" width="160"/> | [B1_mambo](preview/d.sharp_plus/B1_mambo.stl) | 1 | 1.741 | 5.223 | 3.482 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B28_mambo.png" width="160"/> | [B28_mambo](preview/d.sharp_plus/B28_mambo.stl) | 1 | 1.128 | 3.384 | 2.256 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B29_mambo.png" width="160"/> | [B29_mambo](preview/d.sharp_plus/B29_mambo.stl) | 1 | 1.941 | 5.823 | 3.882 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B31_mambo.png" width="160"/> | [B31_mambo](preview/d.sharp_plus/B31_mambo.stl) | 1 | 1.317 | 3.951 | 2.634 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B32_mambo.png" width="160"/> | [B32_mambo](preview/d.sharp_plus/B32_mambo.stl) | 1 | 1.364 | 4.092 | 2.728 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B33_mambo.png" width="160"/> | [B33_mambo](preview/d.sharp_plus/B33_mambo.stl) | 1 | 2.268 | 6.804 | 4.536 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B3_mambo.png" width="160"/> | [B3_mambo](preview/d.sharp_plus/B3_mambo.stl) | 2 | 3.495 | 10.491 | 6.994 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B44_mambo.png" width="160"/> | [B44_mambo](preview/d.sharp_plus/B44_mambo.stl) | 1 | 2.265 | 6.795 | 4.530 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B47_mambo.png" width="160"/> | [B47_mambo](preview/d.sharp_plus/B47_mambo.stl) | 1 | 2.161 | 6.483 | 4.322 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B51_mambo.png" width="160"/> | [B51_mambo](preview/d.sharp_plus/B51_mambo.stl) | 1 | 1.169 | 3.507 | 2.338 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B53_mambo.png" width="160"/> | [B53_mambo](preview/d.sharp_plus/B53_mambo.stl) | 1 | 984 | 2.952 | 1.968 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B55_mambo.png" width="160"/> | [B55_mambo](preview/d.sharp_plus/B55_mambo.stl) | 1 | 802 | 2.406 | 1.604 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B62_mambo.png" width="160"/> | [B62_mambo](preview/d.sharp_plus/B62_mambo.stl) | 1 | 1.016 | 3.048 | 2.032 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B63_mambo.png" width="160"/> | [B63_mambo](preview/d.sharp_plus/B63_mambo.stl) | 1 | 990 | 2.970 | 1.980 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B64_mambo.png" width="160"/> | [B64_mambo](preview/d.sharp_plus/B64_mambo.stl) | 1 | 852 | 2.556 | 1.704 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B65_mambo.png" width="160"/> | [B65_mambo](preview/d.sharp_plus/B65_mambo.stl) | 1 | 936 | 2.808 | 1.872 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B66_mambo.png" width="160"/> | [B66_mambo](preview/d.sharp_plus/B66_mambo.stl) | 2 | 1.159 | 3.483 | 2.322 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/B73_mambo.png" width="160"/> | [B73_mambo](preview/d.sharp_plus/B73_mambo.stl) | 1 | 2.320 | 6.960 | 4.640 | [^12] (triangulated) |
 | <img src="preview/d.sharp_plus/bearingplate_loopy.png" width="160"/> | [bearingplate_loopy](preview/d.sharp_plus/bearingplate_loopy.stl) | 5 | 4.907 | 14.745 | 9.830 | [^5] |
 | <img src="preview/d.sharp_plus/beveledshoulder2_loopy.png" width="160"/> | [beveledshoulder2_loopy](preview/d.sharp_plus/beveledshoulder2_loopy.stl) | 1 | 22 | 66 | 44 | [^5] |
 | <img src="preview/d.sharp_plus/block_gao.png" width="160"/> | [block_gao](preview/d.sharp_plus/block_gao.stl) | 3 | 8.052 | 24.168 | 16.112 | [^1] |
 | <img src="preview/d.sharp_plus/bolt_loopy.png" width="160"/> | [bolt_loopy](preview/d.sharp_plus/bolt_loopy.stl) | 1 | 4.752 | 14.256 | 9.504 | [^5] |
-| <img src="preview/d.sharp_plus/boxpcyls_hexme.png" width="160"/> | [boxpcyls_hexme](preview/d.sharp_plus/boxpcyls_hexme.stl) | 1 | 1.122 | 3.366 | 2.244 | [^11] (meshed) |
+| <img src="preview/d.sharp_plus/boxpcyls_hexme.png" width="160"/> | [boxpcyls_hexme](preview/d.sharp_plus/boxpcyls_hexme.stl) | 1 | 1.122 | 3.366 | 2.244 | [^11] (triangulated) |
 | <img src="preview/d.sharp_plus/bracket2_gao.png" width="160"/> | [bracket2_gao](preview/d.sharp_plus/bracket2_gao.stl) | 3 | 1.328 | 3.996 | 2.664 | [^1] |
 | <img src="preview/d.sharp_plus/bracketinches_loopy.png" width="160"/> | [bracketinches_loopy](preview/d.sharp_plus/bracketinches_loopy.stl) | 6 | 8.301 | 24.933 | 16.622 | [^5] |
-| <img src="preview/d.sharp_plus/c25dflowthru_nasa.png" width="160"/> | [c25dflowthru_nasa](preview/d.sharp_plus/c25dflowthru_nasa.stl) | 1 | 32.818 | 98.454 | 65.636 | [^16] (meshed) |
+| <img src="preview/d.sharp_plus/c25dflowthru_nasa.png" width="160"/> | [c25dflowthru_nasa](preview/d.sharp_plus/c25dflowthru_nasa.stl) | 1 | 32.818 | 98.454 | 65.636 | [^16] (triangulated) |
 | <img src="preview/d.sharp_plus/cami1_gao.png" width="160"/> | [cami1_gao](preview/d.sharp_plus/cami1_gao.stl) | 5 | 1.210 | 3.654 | 2.436 | [^1] |
 | <img src="preview/d.sharp_plus/cami2_gao.png" width="160"/> | [cami2_gao](preview/d.sharp_plus/cami2_gao.stl) | 1 | 654 | 1.962 | 1.308 | [^1] |
 | <img src="preview/d.sharp_plus/carter_gao.png" width="160"/> | [carter_gao](preview/d.sharp_plus/carter_gao.stl) | 7 | 67.436 | 202.344 | 134.896 | [^1] |
@@ -362,18 +362,18 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/cheese_gao.png" width="160"/> | [cheese_gao](preview/d.sharp_plus/cheese_gao.stl) | 176 | 31.240 | 94.770 | 63.180 | [^1] |
 | <img src="preview/d.sharp_plus/cimplex_gao.png" width="160"/> | [cimplex_gao](preview/d.sharp_plus/cimplex_gao.stl) | 6 | 14.806 | 44.448 | 29.632 | [^1] |
 | <img src="preview/d.sharp_plus/clevis23_gao.png" width="160"/> | [clevis23_gao](preview/d.sharp_plus/clevis23_gao.stl) | 9 | 2.478 | 7.482 | 4.988 | [^1] |
-| <img src="preview/d.sharp_plus/ctc01_nist.png" width="160"/> | [ctc01_nist](preview/d.sharp_plus/ctc01_nist.stl) | 10 | 24.141 | 72.477 | 48.318 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ctc03_nist.png" width="160"/> | [ctc03_nist](preview/d.sharp_plus/ctc03_nist.stl) | 17 | 39.785 | 119.451 | 79.634 | [^17] (meshed) |
+| <img src="preview/d.sharp_plus/ctc01_nist.png" width="160"/> | [ctc01_nist](preview/d.sharp_plus/ctc01_nist.stl) | 10 | 24.141 | 72.477 | 48.318 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ctc03_nist.png" width="160"/> | [ctc03_nist](preview/d.sharp_plus/ctc03_nist.stl) | 17 | 39.785 | 119.451 | 79.634 | [^17] (triangulated) |
 | <img src="preview/d.sharp_plus/deckel_gao.png" width="160"/> | [deckel_gao](preview/d.sharp_plus/deckel_gao.stl) | 4 | 20.018 | 60.072 | 40.048 | [^1] |
 | <img src="preview/d.sharp_plus/deckel_loopy.png" width="160"/> | [deckel_loopy](preview/d.sharp_plus/deckel_loopy.stl) | 4 | 5.000 | 15.018 | 10.012 | [^5] |
 | <img src="preview/d.sharp_plus/des6_loopy.png" width="160"/> | [des6_loopy](preview/d.sharp_plus/des6_loopy.stl) | 1 | 5.695 | 17.085 | 11.390 | [^5] |
-| <img src="preview/d.sharp_plus/dpw6g1_nlr.png" width="160"/> | [dpw6g1_nlr](preview/d.sharp_plus/dpw6g1_nlr.stl) | 1 | 31.591 | 94.773 | 63.182 | [^13] (meshed by Stevie-Ray Janssen) |
-| <img src="preview/d.sharp_plus/ftc06_nist.png" width="160"/> | [ftc06_nist](preview/d.sharp_plus/ftc06_nist.stl) | 10 | 69.446 | 208.392 | 138.928 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ftc07_nist.png" width="160"/> | [ftc07_nist](preview/d.sharp_plus/ftc07_nist.stl) | 15 | 258.863 | 776.673 | 517.782 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ftc08_nist.png" width="160"/> | [ftc08_nist](preview/d.sharp_plus/ftc08_nist.stl) | 25 | 167.330 | 502.134 | 334.756 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ftc09_nist.png" width="160"/> | [ftc09_nist](preview/d.sharp_plus/ftc09_nist.stl) | 34 | 41.888 | 125.862 | 83.908 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ftc10_nist.png" width="160"/> | [ftc10_nist](preview/d.sharp_plus/ftc10_nist.stl) | 22 | 106.281 | 318.969 | 212.646 | [^17] (meshed) |
-| <img src="preview/d.sharp_plus/ftc11_nist.png" width="160"/> | [ftc11_nist](preview/d.sharp_plus/ftc11_nist.stl) | 1 | 13.533 | 40.599 | 27.066 | [^17] (meshed) |
+| <img src="preview/d.sharp_plus/dpw6g1_nlr.png" width="160"/> | [dpw6g1_nlr](preview/d.sharp_plus/dpw6g1_nlr.stl) | 1 | 31.591 | 94.773 | 63.182 | [^13] (triangulated by Stevie-Ray Janssen) |
+| <img src="preview/d.sharp_plus/ftc06_nist.png" width="160"/> | [ftc06_nist](preview/d.sharp_plus/ftc06_nist.stl) | 10 | 69.446 | 208.392 | 138.928 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ftc07_nist.png" width="160"/> | [ftc07_nist](preview/d.sharp_plus/ftc07_nist.stl) | 15 | 258.863 | 776.673 | 517.782 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ftc08_nist.png" width="160"/> | [ftc08_nist](preview/d.sharp_plus/ftc08_nist.stl) | 25 | 167.330 | 502.134 | 334.756 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ftc09_nist.png" width="160"/> | [ftc09_nist](preview/d.sharp_plus/ftc09_nist.stl) | 34 | 41.888 | 125.862 | 83.908 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ftc10_nist.png" width="160"/> | [ftc10_nist](preview/d.sharp_plus/ftc10_nist.stl) | 22 | 106.281 | 318.969 | 212.646 | [^17] (triangulated) |
+| <img src="preview/d.sharp_plus/ftc11_nist.png" width="160"/> | [ftc11_nist](preview/d.sharp_plus/ftc11_nist.stl) | 1 | 13.533 | 40.599 | 27.066 | [^17] (triangulated) |
 | <img src="preview/d.sharp_plus/gehaeuse_gao.png" width="160"/> | [gehaeuse_gao](preview/d.sharp_plus/gehaeuse_gao.stl) | 3 | 4.241 | 12.735 | 8.490 | [^1] |
 | <img src="preview/d.sharp_plus/gimbal_gao.png" width="160"/> | [gimbal_gao](preview/d.sharp_plus/gimbal_gao.stl) | 5 | 838 | 2.538 | 1.692 | [^1] |
 | <img src="preview/d.sharp_plus/gyroidpuzzle_loopy.png" width="160"/> | [gyroidpuzzle_loopy](preview/d.sharp_plus/gyroidpuzzle_loopy.stl) | 15 | 13.077 | 39.315 | 26.210 | [^5] |
@@ -388,16 +388,16 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/joint_loopy.png" width="160"/> | [joint_loopy](preview/d.sharp_plus/joint_loopy.stl) | 2 | 4.381 | 13.149 | 8.766 | [^5] |
 | <img src="preview/d.sharp_plus/knob_loopy.png" width="160"/> | [knob_loopy](preview/d.sharp_plus/knob_loopy.stl) | 1 | 6.908 | 20.724 | 13.816 | [^5] |
 | <img src="preview/d.sharp_plus/leverarm_loopy.png" width="160"/> | [leverarm_loopy](preview/d.sharp_plus/leverarm_loopy.stl) | 2 | 4.028 | 12.090 | 8.060 | [^5] |
-| <img src="preview/d.sharp_plus/limitcycle_hexme.png" width="160"/> | [limitcycle_hexme](preview/d.sharp_plus/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | [^11] (meshed) |
+| <img src="preview/d.sharp_plus/limitcycle_hexme.png" width="160"/> | [limitcycle_hexme](preview/d.sharp_plus/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | [^11] (triangulated) |
 | <img src="preview/d.sharp_plus/lock_gao.png" width="160"/> | [lock_gao](preview/d.sharp_plus/lock_gao.stl) | 3 | 85.084 | 255.264 | 170.176 | [^1] |
-| <img src="preview/d.sharp_plus/M1_mambo.png" width="160"/> | [M1_mambo](preview/d.sharp_plus/M1_mambo.stl) | 9 | 52.248 | 156.792 | 104.528 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M2_mambo.png" width="160"/> | [M2_mambo](preview/d.sharp_plus/M2_mambo.stl) | 3 | 4.268 | 12.816 | 8.544 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M3_mambo.png" width="160"/> | [M3_mambo](preview/d.sharp_plus/M3_mambo.stl) | 5 | 74.796 | 224.412 | 149.608 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M4_mambo.png" width="160"/> | [M4_mambo](preview/d.sharp_plus/M4_mambo.stl) | 3 | 31.868 | 95.616 | 63.744 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M5_mambo.png" width="160"/> | [M5_mambo](preview/d.sharp_plus/M5_mambo.stl) | 7 | 57.780 | 173.376 | 115.584 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M6_mambo.png" width="160"/> | [M6_mambo](preview/d.sharp_plus/M6_mambo.stl) | 4 | 54.507 | 163.539 | 109.026 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M8_mambo.png" width="160"/> | [M8_mambo](preview/d.sharp_plus/M8_mambo.stl) | 1 | 146.305 | 438.915 | 292.610 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/M9_mambo.png" width="160"/> | [M9_mambo](preview/d.sharp_plus/M9_mambo.stl) | 5 | 67.770 | 203.334 | 135.556 | [^12] (meshed) |
+| <img src="preview/d.sharp_plus/M1_mambo.png" width="160"/> | [M1_mambo](preview/d.sharp_plus/M1_mambo.stl) | 9 | 52.248 | 156.792 | 104.528 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M2_mambo.png" width="160"/> | [M2_mambo](preview/d.sharp_plus/M2_mambo.stl) | 3 | 4.268 | 12.816 | 8.544 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M3_mambo.png" width="160"/> | [M3_mambo](preview/d.sharp_plus/M3_mambo.stl) | 5 | 74.796 | 224.412 | 149.608 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M4_mambo.png" width="160"/> | [M4_mambo](preview/d.sharp_plus/M4_mambo.stl) | 3 | 31.868 | 95.616 | 63.744 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M5_mambo.png" width="160"/> | [M5_mambo](preview/d.sharp_plus/M5_mambo.stl) | 7 | 57.780 | 173.376 | 115.584 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M6_mambo.png" width="160"/> | [M6_mambo](preview/d.sharp_plus/M6_mambo.stl) | 4 | 54.507 | 163.539 | 109.026 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M8_mambo.png" width="160"/> | [M8_mambo](preview/d.sharp_plus/M8_mambo.stl) | 1 | 146.305 | 438.915 | 292.610 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/M9_mambo.png" width="160"/> | [M9_mambo](preview/d.sharp_plus/M9_mambo.stl) | 5 | 67.770 | 203.334 | 135.556 | [^12] (triangulated) |
 | <img src="preview/d.sharp_plus/mechanical06_loopy.png" width="160"/> | [mechanical06_loopy](preview/d.sharp_plus/mechanical06_loopy.stl) | 1 | 4.545 | 13.635 | 9.090 | [^5] |
 | <img src="preview/d.sharp_plus/mechanical08_loopy.png" width="160"/> | [mechanical08_loopy](preview/d.sharp_plus/mechanical08_loopy.stl) | 1 | 1.464 | 4.392 | 2.928 | [^5] |
 | <img src="preview/d.sharp_plus/metatron_loopy.png" width="160"/> | [metatron_loopy](preview/d.sharp_plus/metatron_loopy.stl) | 11 | 7.171 | 21.573 | 14.382 | [^5] |
@@ -412,39 +412,39 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/rocker_jacobson.png" width="160"/> | [rocker_jacobson](preview/d.sharp_plus/rocker_jacobson.stl) | 1 | 10.044 | 30.132 | 20.088 | [^3] |
 | <img src="preview/d.sharp_plus/rod_gao.png" width="160"/> | [rod_gao](preview/d.sharp_plus/rod_gao.stl) | 2 | 8.814 | 26.448 | 17.632 | [^1] |
 | <img src="preview/d.sharp_plus/rod_loopy.png" width="160"/> | [rod_loopy](preview/d.sharp_plus/rod_loopy.stl) | 2 | 2.202 | 6.612 | 4.408 | [^5] |
-| <img src="preview/d.sharp_plus/S0_mambo.png" width="160"/> | [S0_mambo](preview/d.sharp_plus/S0_mambo.stl) | 3 | 85.962 | 257.898 | 171.932 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S1_mambo.png" width="160"/> | [S1_mambo](preview/d.sharp_plus/S1_mambo.stl) | 3 | 60.440 | 181.332 | 120.888 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S20_mambo.png" width="160"/> | [S20_mambo](preview/d.sharp_plus/S20_mambo.stl) | 7 | 10.211 | 30.669 | 20.446 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S22_mambo.png" width="160"/> | [S22_mambo](preview/d.sharp_plus/S22_mambo.stl) | 3 | 42.465 | 127.407 | 84.938 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S23_mambo.png" width="160"/> | [S23_mambo](preview/d.sharp_plus/S23_mambo.stl) | 2 | 37.229 | 111.693 | 74.462 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S24_mambo.png" width="160"/> | [S24_mambo](preview/d.sharp_plus/S24_mambo.stl) | 3 | 59.706 | 179.130 | 119.420 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S25_mambo.png" width="160"/> | [S25_mambo](preview/d.sharp_plus/S25_mambo.stl) | 3 | 78.708 | 236.136 | 157.424 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S26_mambo.png" width="160"/> | [S26_mambo](preview/d.sharp_plus/S26_mambo.stl) | 4 | 107.960 | 323.898 | 215.932 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S27_mambo.png" width="160"/> | [S27_mambo](preview/d.sharp_plus/S27_mambo.stl) | 5 | 25.417 | 76.275 | 50.850 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S31_mambo.png" width="160"/> | [S31_mambo](preview/d.sharp_plus/S31_mambo.stl) | 7 | 13.704 | 41.148 | 27.432 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S33_mambo.png" width="160"/> | [S33_mambo](preview/d.sharp_plus/S33_mambo.stl) | 1 | 12.097 | 36.291 | 24.194 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S34_mambo.png" width="160"/> | [S34_mambo](preview/d.sharp_plus/S34_mambo.stl) | 3 | 51.472 | 154.428 | 102.952 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S35_mambo.png" width="160"/> | [S35_mambo](preview/d.sharp_plus/S35_mambo.stl) | 1 | 30.639 | 91.917 | 61.278 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S36_mambo.png" width="160"/> | [S36_mambo](preview/d.sharp_plus/S36_mambo.stl) | 1 | 126.068 | 378.204 | 252.136 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S38_mambo.png" width="160"/> | [S38_mambo](preview/d.sharp_plus/S38_mambo.stl) | 3 | 21.918 | 65.766 | 43.844 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S39_mambo.png" width="160"/> | [S39_mambo](preview/d.sharp_plus/S39_mambo.stl) | 2 | 23.428 | 70.290 | 46.860 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S3_mambo.png" width="160"/> | [S3_mambo](preview/d.sharp_plus/S3_mambo.stl) | 2 | 3.298 | 9.900 | 6.600 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S40_mambo.png" width="160"/> | [S40_mambo](preview/d.sharp_plus/S40_mambo.stl) | 1 | 37.574 | 112.722 | 75.148 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S41_mambo.png" width="160"/> | [S41_mambo](preview/d.sharp_plus/S41_mambo.stl) | 1 | 36.315 | 108.945 | 72.630 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S42_mambo.png" width="160"/> | [S42_mambo](preview/d.sharp_plus/S42_mambo.stl) | 1 | 35.625 | 106.875 | 71.250 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S43_mambo.png" width="160"/> | [S43_mambo](preview/d.sharp_plus/S43_mambo.stl) | 1 | 35.242 | 105.726 | 70.484 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S44_mambo.png" width="160"/> | [S44_mambo](preview/d.sharp_plus/S44_mambo.stl) | 1 | 35.363 | 106.089 | 70.726 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S45_mambo.png" width="160"/> | [S45_mambo](preview/d.sharp_plus/S45_mambo.stl) | 1 | 34.921 | 104.763 | 69.842 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S4_mambo.png" width="160"/> | [S4_mambo](preview/d.sharp_plus/S4_mambo.stl) | 3 | 31.644 | 94.944 | 63.296 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S5_mambo.png" width="160"/> | [S5_mambo](preview/d.sharp_plus/S5_mambo.stl) | 7 | 41.492 | 124.512 | 83.008 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S6_mambo.png" width="160"/> | [S6_mambo](preview/d.sharp_plus/S6_mambo.stl) | 5 | 68.976 | 206.952 | 137.968 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S7_mambo.png" width="160"/> | [S7_mambo](preview/d.sharp_plus/S7_mambo.stl) | 2 | 61.013 | 183.045 | 122.030 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S8_mambo.png" width="160"/> | [S8_mambo](preview/d.sharp_plus/S8_mambo.stl) | 1 | 48.998 | 146.994 | 97.996 | [^12] (meshed) |
-| <img src="preview/d.sharp_plus/S9_mambo.png" width="160"/> | [S9_mambo](preview/d.sharp_plus/S9_mambo.stl) | 3 | 281.281 | 843.855 | 562.570 | [^12] (meshed) |
+| <img src="preview/d.sharp_plus/S0_mambo.png" width="160"/> | [S0_mambo](preview/d.sharp_plus/S0_mambo.stl) | 3 | 85.962 | 257.898 | 171.932 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S1_mambo.png" width="160"/> | [S1_mambo](preview/d.sharp_plus/S1_mambo.stl) | 3 | 60.440 | 181.332 | 120.888 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S20_mambo.png" width="160"/> | [S20_mambo](preview/d.sharp_plus/S20_mambo.stl) | 7 | 10.211 | 30.669 | 20.446 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S22_mambo.png" width="160"/> | [S22_mambo](preview/d.sharp_plus/S22_mambo.stl) | 3 | 42.465 | 127.407 | 84.938 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S23_mambo.png" width="160"/> | [S23_mambo](preview/d.sharp_plus/S23_mambo.stl) | 2 | 37.229 | 111.693 | 74.462 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S24_mambo.png" width="160"/> | [S24_mambo](preview/d.sharp_plus/S24_mambo.stl) | 3 | 59.706 | 179.130 | 119.420 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S25_mambo.png" width="160"/> | [S25_mambo](preview/d.sharp_plus/S25_mambo.stl) | 3 | 78.708 | 236.136 | 157.424 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S26_mambo.png" width="160"/> | [S26_mambo](preview/d.sharp_plus/S26_mambo.stl) | 4 | 107.960 | 323.898 | 215.932 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S27_mambo.png" width="160"/> | [S27_mambo](preview/d.sharp_plus/S27_mambo.stl) | 5 | 25.417 | 76.275 | 50.850 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S31_mambo.png" width="160"/> | [S31_mambo](preview/d.sharp_plus/S31_mambo.stl) | 7 | 13.704 | 41.148 | 27.432 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S33_mambo.png" width="160"/> | [S33_mambo](preview/d.sharp_plus/S33_mambo.stl) | 1 | 12.097 | 36.291 | 24.194 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S34_mambo.png" width="160"/> | [S34_mambo](preview/d.sharp_plus/S34_mambo.stl) | 3 | 51.472 | 154.428 | 102.952 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S35_mambo.png" width="160"/> | [S35_mambo](preview/d.sharp_plus/S35_mambo.stl) | 1 | 30.639 | 91.917 | 61.278 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S36_mambo.png" width="160"/> | [S36_mambo](preview/d.sharp_plus/S36_mambo.stl) | 1 | 126.068 | 378.204 | 252.136 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S38_mambo.png" width="160"/> | [S38_mambo](preview/d.sharp_plus/S38_mambo.stl) | 3 | 21.918 | 65.766 | 43.844 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S39_mambo.png" width="160"/> | [S39_mambo](preview/d.sharp_plus/S39_mambo.stl) | 2 | 23.428 | 70.290 | 46.860 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S3_mambo.png" width="160"/> | [S3_mambo](preview/d.sharp_plus/S3_mambo.stl) | 2 | 3.298 | 9.900 | 6.600 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S40_mambo.png" width="160"/> | [S40_mambo](preview/d.sharp_plus/S40_mambo.stl) | 1 | 37.574 | 112.722 | 75.148 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S41_mambo.png" width="160"/> | [S41_mambo](preview/d.sharp_plus/S41_mambo.stl) | 1 | 36.315 | 108.945 | 72.630 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S42_mambo.png" width="160"/> | [S42_mambo](preview/d.sharp_plus/S42_mambo.stl) | 1 | 35.625 | 106.875 | 71.250 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S43_mambo.png" width="160"/> | [S43_mambo](preview/d.sharp_plus/S43_mambo.stl) | 1 | 35.242 | 105.726 | 70.484 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S44_mambo.png" width="160"/> | [S44_mambo](preview/d.sharp_plus/S44_mambo.stl) | 1 | 35.363 | 106.089 | 70.726 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S45_mambo.png" width="160"/> | [S45_mambo](preview/d.sharp_plus/S45_mambo.stl) | 1 | 34.921 | 104.763 | 69.842 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S4_mambo.png" width="160"/> | [S4_mambo](preview/d.sharp_plus/S4_mambo.stl) | 3 | 31.644 | 94.944 | 63.296 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S5_mambo.png" width="160"/> | [S5_mambo](preview/d.sharp_plus/S5_mambo.stl) | 7 | 41.492 | 124.512 | 83.008 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S6_mambo.png" width="160"/> | [S6_mambo](preview/d.sharp_plus/S6_mambo.stl) | 5 | 68.976 | 206.952 | 137.968 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S7_mambo.png" width="160"/> | [S7_mambo](preview/d.sharp_plus/S7_mambo.stl) | 2 | 61.013 | 183.045 | 122.030 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S8_mambo.png" width="160"/> | [S8_mambo](preview/d.sharp_plus/S8_mambo.stl) | 1 | 48.998 | 146.994 | 97.996 | [^12] (triangulated) |
+| <img src="preview/d.sharp_plus/S9_mambo.png" width="160"/> | [S9_mambo](preview/d.sharp_plus/S9_mambo.stl) | 3 | 281.281 | 843.855 | 562.570 | [^12] (triangulated) |
 | <img src="preview/d.sharp_plus/sbracket_gao.png" width="160"/> | [sbracket_gao](preview/d.sharp_plus/sbracket_gao.stl) | 2 | 1.300 | 3.906 | 2.604 | [^1] |
 | <img src="preview/d.sharp_plus/sculpt_gao.png" width="160"/> | [sculpt_gao](preview/d.sharp_plus/sculpt_gao.stl) | 2 | 14.682 | 44.052 | 29.368 | [^1] |
 | <img src="preview/d.sharp_plus/sculpt_loopy.png" width="160"/> | [sculpt_loopy](preview/d.sharp_plus/sculpt_loopy.stl) | 2 | 3.669 | 11.013 | 7.342 | [^5] |
-| <img src="preview/d.sharp_plus/simp_hexme.png" width="160"/> | [simp_hexme](preview/d.sharp_plus/simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [^11] (meshed) |
+| <img src="preview/d.sharp_plus/simp_hexme.png" width="160"/> | [simp_hexme](preview/d.sharp_plus/simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [^11] (triangulated) |
 | <img src="preview/d.sharp_plus/sls_nasa.png" width="160"/> | [sls_nasa](preview/d.sharp_plus/sls_nasa.stl) | 7 | 29.988 | 90.000 | 60.000 | [^18] (repaired, simplified) |
 | <img src="preview/d.sharp_plus/socket1_gao.png" width="160"/> | [socket1_gao](preview/d.sharp_plus/socket1_gao.stl) | 7 | 1.194 | 3.618 | 2.412 | [^1] |
 | <img src="preview/d.sharp_plus/socket2_gao.png" width="160"/> | [socket2_gao](preview/d.sharp_plus/socket2_gao.stl) | 7 | 1.198 | 3.630 | 2.420 | [^1] |
@@ -452,7 +452,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/swivel2_gao.png" width="160"/> | [swivel2_gao](preview/d.sharp_plus/swivel2_gao.stl) | 2 | 406 | 1.224 | 816 | [^1] |
 | <img src="preview/d.sharp_plus/team2_gao.png" width="160"/> | [team2_gao](preview/d.sharp_plus/team2_gao.stl) | 9 | 4.303 | 12.957 | 8.638 | [^1] |
 | <img src="preview/d.sharp_plus/threecees_paardekooper.png" width="160"/> | [threecees_paardekooper](preview/d.sharp_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | [^19] |
-| <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="160"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [^12] (meshed) |
+| <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="160"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [^12] (triangulated) |
 | <img src="preview/d.sharp_plus/trisopen_loopy.png" width="160"/> | [trisopen_loopy](preview/d.sharp_plus/trisopen_loopy.stl) | 1 | 720 | 2.160 | 1.440 | [^5] |
 | <img src="preview/d.sharp_plus/ujoint_loopy.png" width="160"/> | [ujoint_loopy](preview/d.sharp_plus/ujoint_loopy.stl) | 2 | 5.574 | 16.728 | 11.152 | [^5] |
 | <img src="preview/d.sharp_plus/wrench_loopy.png" width="160"/> | [wrench_loopy](preview/d.sharp_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [^5] |
@@ -468,7 +468,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/e.nightmares/csaszar_crane.png" width="160"/> | [csaszar_crane](preview/e.nightmares/csaszar_crane.stl) | 1 | 448 | 1.344 | 896 | [^6] (remeshed) |
 | <img src="preview/e.nightmares/encrusted_nop.png" width="160"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | [^20] |
 | <img src="preview/e.nightmares/encrusted_snoep.png" width="160"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | [^20] (simplified) |
-| <img src="preview/e.nightmares/involumeknot_nop.png" width="160"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [^20] (meshed) |
+| <img src="preview/e.nightmares/involumeknot_nop.png" width="160"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [^20] (triangulated) |
 | <img src="preview/e.nightmares/pipehelix7_nop.png" width="160"/> | [pipehelix7_nop](preview/e.nightmares/pipehelix7_nop.stl) | 7 | 90.136 | 270.444 | 180.296 | [^20] |
 | <img src="preview/e.nightmares/pipehelix_nop.png" width="160"/> | [pipehelix_nop](preview/e.nightmares/pipehelix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | [^20] |
 | <img src="preview/e.nightmares/screw_nop.png" width="160"/> | [screw_nop](preview/e.nightmares/screw_nop.stl) | 0 | 88.075 | 264.219 | 176.146 | [^20] |
