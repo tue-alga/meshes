@@ -89,7 +89,7 @@ Credit changes in this version:
 | `bimba_jacobson` | a.bouba_zero | 0 | 59.986 | [Alec Jacobson + Maxim Snoep (simplified)](https://github.com/alecjacobson/common-3d-test-models) |
 | `bimba_loopy` | a.bouba_zero | 0 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blade_loopy` | a.bouba_zero | 0 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `bladefem_loopy` | a.bouba_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `bladefem_loopy` | c.kiki_zero | 0 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `blocktopus_snoep` | a.bouba_zero | 0 | 15.134 | [Thingi10K + Maxim Snoep (remeshed)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
 | `boat_loopy` | a.bouba_zero | 0 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boat_stein` | a.bouba_zero | 0 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
