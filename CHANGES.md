@@ -78,6 +78,8 @@ Still to be checked: these new meshes were also meshed from CAD with our pipelin
 
 ## Added
 
+210 models that were not in the previous version (the `_snoep` meshes are previous versions under a new name and are listed under *Changed geometry or pose*).
+
 | new name | folder | genus | triangles | source |
 |---|---|---|---|---|
 | `amogus_snoep` | a.bouba_zero | 0 | 6.118 | Maxim Snoep (feature-preserving isotropic remesh of `amogus_sketchfab`) |
