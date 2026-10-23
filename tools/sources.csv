@@ -144,7 +144,7 @@ casting_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 cat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
 catalanwire_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
-centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified)",https://huggingface.co/datasets/alecjacobson/threedscans
+centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified, rescaled)",https://huggingface.co/datasets/alecjacobson/threedscans
 chair1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 chair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cheese2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html

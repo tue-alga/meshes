@@ -16,6 +16,7 @@ When a mesh was made by someone other than the original author, the source is cr
 - **meshed**: tessellated from a CAD file (STEP/BREP/IGES), because the source provides no mesh.
 - **remeshed**: retriangulated, for example finer or more uniform.
 - **simplified**: remeshed to fewer triangles (decimated or coarsened).
+- **rescaled**: uniformly scaled; `centaur_tds` was scaled by 1000× because the original is so small (0.00087 units) that GitHub's 3D viewer cannot display it.
 - **re-oriented**: rotated (and possibly moved) without changing the triangulation.
 - **repaired**: small holes closed and stray parts or non-manifold spots removed (MeshFix).
 
@@ -144,13 +145,13 @@ Credit changes in this version:
 | `wave_loopy` | c.kiki_zero | 0 | 1.148 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `boot_stein` | b.bouba_plus | 12 | 39.906 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boot) |
 | `buddha_stanford` | b.bouba_plus | 10 | 58.874 | [Stanford + Maxim Snoep (repaired, simplified)](https://graphics.stanford.edu/data/3Dscanrep/) |
-| `centaur_tds` | b.bouba_plus | 9 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| `centaur_tds` | b.bouba_plus | 9 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified, rescaled)](https://huggingface.co/datasets/alecjacobson/threedscans) |
 | `cow_stein` | b.bouba_plus | 1 | 59.982 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/cow) |
 | `dancer_loopy` | b.bouba_plus | 1 | 49.996 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `demosthenes_stein` | b.bouba_plus | 1 | 59.930 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/demosthenes) |
 | `desertrose_crane` | b.bouba_plus | 1 | 63.360 | [Keenan Crane + Maxim Snoep (repaired)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `dragon_stanford` | b.bouba_plus | 3 | 59.508 | [Stanford + Maxim Snoep (repaired, simplified)](https://graphics.stanford.edu/data/3Dscanrep/) |
-| `greyhounds_tds` | b.bouba_plus | 5 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified)](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| `greyhounds_tds` | b.bouba_plus | 5 | 59.978 | [Three D Scans + Maxim Snoep (repaired, simplified, rescaled)](https://huggingface.co/datasets/alecjacobson/threedscans) |
 | `holes2_loopy` | b.bouba_plus | 2 | 5.848 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `indorelax_loopy` | b.bouba_plus | 2 | 24.260 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `kiss_loopy` | b.bouba_plus | 3 | 25.484 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
