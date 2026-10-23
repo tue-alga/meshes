@@ -19,16 +19,6 @@ DEFAULT_DATASET_PATH = PROJECT_ROOT / "dataset"
 DEFAULT_SOURCES_PATH = SCRIPT_DIR / "sources.csv"
 # STL copies (for GitHub's 3D viewer) and thumbnails live here, mirroring dataset/
 DEFAULT_PREVIEW_PATH = PROJECT_ROOT / "preview"
-# Sharpness scores written by tools/sharpness.py
-DEFAULT_SHARPNESS_PATH = SCRIPT_DIR / "sharpness.csv"
-
-
-def load_sharpness(csv_path=DEFAULT_SHARPNESS_PATH) -> dict[str, float]:
-    path = Path(csv_path)
-    if not path.is_file():
-        return {}
-    with open(path, "r", encoding="utf-8", newline="") as fin:
-        return {row["name"]: float(row["sharpness"]) for row in csv.DictReader(fin)}
 
 
 def rewrite_obj_without_header(obj_path: str) -> None:
@@ -349,7 +339,6 @@ def print_dataset(
 ) -> None:
     base = Path(base_path)
     sources = load_sources(sources_path)
-    sharpness = load_sharpness()
 
     folders = {
         "a.smooth_zero": ("a", "smooth"),
@@ -401,8 +390,8 @@ def print_dataset(
         print()
         print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
 
-        print("| | model | genus | vertices | edges | triangles | sharpness | source |")
-        print("|-|-------|-------|----------|-------|-----------|----------|--------|")
+        print("| | model | genus | vertices | edges | triangles | source |")
+        print("|-|-------|-------|----------|-------|-----------|--------|")
 
         for file_path, g, V, E, F in rows:
             preview_stem = (
@@ -411,8 +400,6 @@ def print_dataset(
             stl_path = f"{preview_stem}.stl"
             png_path = f"{preview_stem}.png"
             thumb_cell = f'<img src="{png_path}" width="640"/>'
-            mech = sharpness.get(file_path.stem)
-            mech_cell = f"{mech:.2f}" if mech is not None else ""
             source_info = sources.get(file_path.stem)
 
             if source_info is None:
@@ -425,8 +412,7 @@ def print_dataset(
                 )
 
             print(
-                f"| {thumb_cell} | [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
-                f"| {mech_cell} | {source_cell} |"
+                f"| {thumb_cell} | [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} | {source_cell} |"
             )
 
     unused_sources = sorted(set(sources) - dataset_names)
