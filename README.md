@@ -6,7 +6,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 
 The **sharpness** column is a score between 0 (smooth) and 1 (sharp) computed from the geometry by `tools/sharpness.py`. It combines three scale-independent measures: the fraction of the surface covered by flat patches, the fraction with near-zero Gaussian curvature (planes, cylinders, cones), and the length of sharp edges (dihedral angle above 30°). A logistic regression fitted on the smooth/sharp folders agrees with them for 92.4% of the meshes (10-fold cross-validated). Smooth CAD parts and noisy scans of buildings are its main blind spots.
 
-Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`), so the same shape can be included once per source. Meshes are taken from their original source without rotating or rescaling them; see [CHANGES.md](CHANGES.md) for what changed compared to the previous release.
+Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`), so the same shape can be included once per source. Meshes are taken from their original source without rotating or rescaling them.
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
