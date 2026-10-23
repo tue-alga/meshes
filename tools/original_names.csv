@@ -1,0 +1,728 @@
+name,original_name,source
+17674_skel,17674,Skeleton benchmark
+18020_skel,18020,Skeleton benchmark
+20304_skel,20304,Skeleton benchmark
+20306_skel,20306,Skeleton benchmark
+21362_skel,21362,Skeleton benchmark
+21464_skel,21464,Skeleton benchmark
+21747_skel,21747,Skeleton benchmark
+21788_skel,21788,Skeleton benchmark
+22081_skel,22081,Skeleton benchmark
+22290_skel,22290,Skeleton benchmark
+22601_skel,22601,Skeleton benchmark
+22669_skel,22669,Skeleton benchmark
+22701_skel,22701,Skeleton benchmark
+22711_skel,22711,Skeleton benchmark
+22808_skel,22808,Skeleton benchmark
+22826_skel,22826,Skeleton benchmark
+23091_skel,23091,Skeleton benchmark
+3035_gao,3035,Xifeng Gao
+3holes_quadwild,3_holes,QuadWild
+7connected_nop,7-connected,Sébastien Mestrallet
+7connected_snoep,7-connected,Sébastien Mestrallet
+8connected_nop,8-connected,Sébastien Mestrallet
+8connected_snoep,8-connected,Sébastien Mestrallet
+acuteline_hexme,n13o_acute_line,HexMe
+aircraft_quadwild,aircraft,QuadWild
+airplane1_gao,airplane1,Xifeng Gao
+airplane2_gao,airplane2,Xifeng Gao
+alien_shrec11,T137,SHREC'11
+amogus_sketchfab,among-us-crewmate,joshua facunla
+amogus_snoep,among-us-crewmate,joshua facunla
+anc101_gao,anc101,Xifeng Gao
+anc101_quadwild,anc_101_a1,QuadWild
+angel_quadwild,angel,QuadWild
+antipentapyramid_hexme,n06o_anti_pentapyr,HexMe
+antipyramid_hexme,n07o_anti_pyramid,HexMe
+antiskijump_hexme,n02o_skijump_anti_box_cyl,HexMe
+ants_shrec11,T200,SHREC'11
+aries155_gao,aries155_1,Xifeng Gao
+aries70_gao,aries70_new1a_1,Xifeng Gao
+armadillo_gao,armadillo,Xifeng Gao
+armadillo_jacobson,armadillo,Alec Jacobson
+armadillo_shrec11,T473,SHREC'11
+armadillo_stein,armadillo,Oded Stein
+armchair_gao,armchair,Xifeng Gao
+asiandragon_skel,asiandragon,Skeleton benchmark
+asm007_quadwild,asm007,QuadWild
+b0_mambo,B0,Franck Ledoux
+b10_mambo,B10,Franck Ledoux
+b11_mambo,B11,Franck Ledoux
+b12_mambo,B12,Franck Ledoux
+b13_mambo,B13,Franck Ledoux
+b14_mambo,B14,Franck Ledoux
+b15_mambo,B15,Franck Ledoux
+b16_mambo,B16,Franck Ledoux
+b17_mambo,B17,Franck Ledoux
+b18_mambo,B18,Franck Ledoux
+b19_mambo,B19,Franck Ledoux
+b1_mambo,B1,Franck Ledoux
+b20_mambo,B20,Franck Ledoux
+b21_mambo,B21,Franck Ledoux
+b23_mambo,B23,Franck Ledoux
+b25_mambo,B25,Franck Ledoux
+b27_mambo,B27,Franck Ledoux
+b28_mambo,B28,Franck Ledoux
+b29_mambo,B29,Franck Ledoux
+b2_mambo,B2,Franck Ledoux
+b30_mambo,B30,Franck Ledoux
+b31_mambo,B31,Franck Ledoux
+b32_mambo,B32,Franck Ledoux
+b33_mambo,B33,Franck Ledoux
+b34_mambo,B34,Franck Ledoux
+b35_mambo,B35,Franck Ledoux
+b36_mambo,B36,Franck Ledoux
+b37_mambo,B37,Franck Ledoux
+b38_mambo,B38,Franck Ledoux
+b39_mambo,B39,Franck Ledoux
+b3_mambo,B3,Franck Ledoux
+b40_mambo,B40,Franck Ledoux
+b41_mambo,B41,Franck Ledoux
+b42_mambo,B42,Franck Ledoux
+b43_mambo,B43,Franck Ledoux
+b44_mambo,B44,Franck Ledoux
+b45_mambo,B45,Franck Ledoux
+b46_mambo,B46,Franck Ledoux
+b47_mambo,B47,Franck Ledoux
+b48_mambo,B48,Franck Ledoux
+b49_mambo,B49,Franck Ledoux
+b4_mambo,B4,Franck Ledoux
+b50_mambo,B50,Franck Ledoux
+b51_mambo,B51,Franck Ledoux
+b52_mambo,B52,Franck Ledoux
+b53_mambo,B53,Franck Ledoux
+b54_mambo,B54,Franck Ledoux
+b55_mambo,B55,Franck Ledoux
+b56_mambo,B56,Franck Ledoux
+b57_mambo,B57,Franck Ledoux
+b58_mambo,B58,Franck Ledoux
+b59_mambo,B59,Franck Ledoux
+b5_mambo,B5,Franck Ledoux
+b60_mambo,B60,Franck Ledoux
+b61_mambo,B61,Franck Ledoux
+b62_mambo,B62,Franck Ledoux
+b63_mambo,B63,Franck Ledoux
+b64_mambo,B64,Franck Ledoux
+b65_mambo,B65,Franck Ledoux
+b66_mambo,B66,Franck Ledoux
+b67_mambo,B67,Franck Ledoux
+b68_mambo,B68,Franck Ledoux
+b69_mambo,B69,Franck Ledoux
+b6_mambo,B6,Franck Ledoux
+b70_mambo,B70,Franck Ledoux
+b71_mambo,B71,Franck Ledoux
+b72_mambo,B72,Franck Ledoux
+b73_mambo,B73,Franck Ledoux
+b74_mambo,B74,Franck Ledoux
+b75_mambo,B75,Franck Ledoux
+b76_mambo,B76,Franck Ledoux
+b7_mambo,B7,Franck Ledoux
+b8_mambo,B8,Franck Ledoux
+b9_mambo,B9,Franck Ledoux
+backdoor_esb,backdoor,Engineering Shape Benchmark
+backlashnut_quadwild,anti_backlash_nut,QuadWild
+balljoint_skel,ballJoint,Skeleton benchmark
+bamboopen_quadwild,bamboo_pen,QuadWild
+bearing_esb,bearing_208,Engineering Shape Benchmark
+bearingblock_esb,advgr01,Engineering Shape Benchmark
+bearingplate_loopy,bearing_plate,Marco Livesu
+beast_jacobson,beast,Alec Jacobson
+bendtube_quadwild,BendTube,QuadWild
+bigguy_quadwild,bigguy,QuadWild
+bimba_gao,bimba,Xifeng Gao
+bimba_jacobson,bimba,Alec Jacobson
+bimba_loopy,bimba,Marco Livesu
+bird1_shrec11,T60,SHREC'11
+bird2_shrec11,T80,SHREC'11
+bird_gao,bird,Xifeng Gao
+blade_gao,blade,Xifeng Gao
+blade_loopy,blade,Marco Livesu
+blade_quadwild,blacde,QuadWild
+bladefem_loopy,bladefem,Marco Livesu
+blech_quadwild,blech,QuadWild
+block_gao,block,Xifeng Gao
+blocklp_quadwild,blockLP,QuadWild
+blocktopus_snoep,86849,Thingi10K
+blocktopus_thingi,86849,Thingi10K
+blub_crane,blub,Keenan Crane
+bmw_skel,bmw,Skeleton benchmark
+boat_loopy,boat,Marco Livesu
+boat_stein,boat,Oded Stein
+bob_crane,bob,Keenan Crane
+bolt_esb,1MOTOR,Engineering Shape Benchmark
+bolt_loopy,bolt,Marco Livesu
+bone1_loopy,bone1,Marco Livesu
+bone_gao,bone,Xifeng Gao
+bonefemur_loopy,bone_femur,Marco Livesu
+boot_stein,boot,Oded Stein
+botijo_gao,botijo,Xifeng Gao
+bottle1_gao,bottle1,Xifeng Gao
+bottle2_gao,bottle2,Xifeng Gao
+boxpcyls_hexme,n05o_box_min_pcyls,HexMe
+bozbezbozzel_quadwild,bozbezbozzel50K,QuadWild
+bracket2_gao,bracket2-Part,Xifeng Gao
+bracket_esb,assem_catch,Engineering Shape Benchmark
+bracketinches_loopy,BracketInches,Marco Livesu
+brain_quadwild,brain,QuadWild
+brain_skel,brain2,Skeleton benchmark
+brucewick_stein,brucewick,Oded Stein
+buddha_stanford,happy_vrip,Stanford
+bumpysphere_gao,bumpy_sphere,Xifeng Gao
+bumpytorus_gao,bumpy_torus,Xifeng Gao
+bundtpan_gso,Nordic_Ware_Original_Bundt_Pan,Google Scanned Objects
+bunny_gao,bunny,Xifeng Gao
+bunny_jacobson,stanford-bunny,Alec Jacobson
+bunny_loopy,bunny,Marco Livesu
+bunny_quadwild,bunny_alessia,QuadWild
+bunny_skel,bun_zipper,Skeleton benchmark
+bunny_snoep,bunny,Marco Livesu
+bunny_stein,bunny,Oded Stein
+buste_gao,buste,Xifeng Gao
+buste_loopy,buste,Marco Livesu
+buste_polycut,BU,PolyCut
+buste_snoep,buste,Marco Livesu
+c0089_quadwild,C0089,QuadWild
+c25dflowthru_nasa,c25d-flowthru-geom-v1-mm,NASA
+cactus_loopy,cactus,Marco Livesu
+cad5_quadwild,cad5-tri,QuadWild
+camel_gao,camel,Xifeng Gao
+camel_shrec11,T431,SHREC'11
+cami1_gao,cami1,Xifeng Gao
+cami2_gao,cami2,Xifeng Gao
+camillehand_gao,camille_hand,Xifeng Gao
+camillehand_loopy,camille_hand,Marco Livesu
+capthing_quadwild,cap_thing,QuadWild
+carter_gao,carter,Xifeng Gao
+casting2_quadwild,casting2,QuadWild
+casting_gao,casting,Xifeng Gao
+cat_loopy,cat,Marco Livesu
+cat_shrec11,T44,SHREC'11
+cat_stein,cat,Oded Stein
+catalanwire_thingi,509316,Thingi10K
+centaur_shrec11,T95,SHREC'11
+centaur_tds,Centaur,Three D Scans
+chair1_gao,chair1,Xifeng Gao
+chair_gao,chair,Xifeng Gao
+cheese2_gao,cheese2,Xifeng Gao
+cheese3_gao,cheese3,Xifeng Gao
+cheese_gao,cheese,Xifeng Gao
+cheese_stein,cheese,Oded Stein
+chesspawn_mambo,chess_pawn,Franck Ledoux
+chessrook_mambo,chess_rook_v1,Franck Ledoux
+chicken_skel,chicken_high,Skeleton benchmark
+chineselion_gao,chinese_lion,Xifeng Gao
+chineselion_loopy,chinese_lion,Marco Livesu
+chineselion_snoep,chinese_lion,Marco Livesu
+cimplex_gao,cimplex,Xifeng Gao
+clamp_quadwild,clamp,QuadWild
+clef_loopy,clef,Marco Livesu
+clevis23_gao,clevis23,Xifeng Gao
+clip_esb,gerwah_peter_dxk1501,Engineering Shape Benchmark
+coffeemug_gso,ACE_Coffee_Mug_Kristen_16_oz_cup,Google Scanned Objects
+cognit_quadwild,cognit,QuadWild
+completepart16_gao,CompletePart_16,Xifeng Gao
+completepart63_gao,CompletePart_63,Xifeng Gao
+constantwidth_crane,constant-width,Keenan Crane
+container_esb,COLLECTOR_13920,Engineering Shape Benchmark
+contoured_esb,DEMO_REF,Engineering Shape Benchmark
+controlarm_quadwild,LowerControlArm,QuadWild
+coverrear_gao,coverrear,Xifeng Gao
+coverslipholder_quadwild,CoverSlipCleaningHolder2b,QuadWild
+cow2_quadwild,cow2,QuadWild
+cow_jacobson,cow,Alec Jacobson
+cow_stein,cow,Oded Stein
+crosscyls_hexme,n01o_cross_cyls_sr,HexMe
+csaszar_crane,Csaszar,Keenan Crane
+ctc01_nist,nist_ctc_01_asme1_rd,NIST
+ctc03_nist,nist_ctc_03_asme1_rc,NIST
+cube_stein,cube,Oded Stein
+cubecarved_loopy,cube_carved,Marco Livesu
+cubeminussphere_loopy,cube_minus_sphere,Marco Livesu
+cup1_gao,Cup1,Xifeng Gao
+cup_gao,cup,Xifeng Gao
+cup_loopy,cup,Marco Livesu
+curvedhousing_esb,fender-gearbox2-left,Engineering Shape Benchmark
+cylinder_esb,atlanta2422220,Engineering Shape Benchmark
+cylinderplate_loopy,cylinder_plate,Marco Livesu
+dancer2_gao,dancer2,Xifeng Gao
+dancer_gao,dancer,Xifeng Gao
+dancer_loopy,dancer,Marco Livesu
+dancingchildren_gao,dancing_children,Xifeng Gao
+datatech2_quadwild,datatech_2,QuadWild
+david_gao,david,Xifeng Gao
+deckel_gao,deckel,Xifeng Gao
+deckel_loopy,deckel,Marco Livesu
+deformedarmadillo_gao,deformed_armadillo,Xifeng Gao
+deltaarm2_quadwild,delta_arm2_remesh,QuadWild
+deltaarmbase_quadwild,delta_arm_base,QuadWild
+demosthenes_stein,demosthenes,Oded Stein
+dente_gao,dente,Xifeng Gao
+dente_skel,711_dente,Skeleton benchmark
+des6_loopy,des6,Marco Livesu
+des7_quadwild,des7,QuadWild
+desertrose_crane,desertrose,Keenan Crane
+dilo_gao,dilo,Xifeng Gao
+dino0_quadwild,dino0,QuadWild
+dino1_quadwild,dino1,QuadWild
+dino2_gao,dino2,Xifeng Gao
+dino_gao,dino,Xifeng Gao
+dinosaur_shrec11,T595,SHREC'11
+dinoskeleton_shrec11,T222,SHREC'11
+disc_esb,1274417,Engineering Shape Benchmark
+dog1_shrec11,T216,SHREC'11
+dog2_shrec11,T8,SHREC'11
+dog_loopy,dog,Marco Livesu
+doubletorus_quadwild,double_torus,QuadWild
+dovetail1_quadwild,inlay_dovetail_1,QuadWild
+dovetail3_loopy,inlay_dovetail_3,Marco Livesu
+dpw6g0_nlr,dpw6g0,NASA
+dpw6g1_nlr,dpw6g1,NASA
+dpw7_nlr,dpw7,NASA
+dragon0_quadwild,dragon0,QuadWild
+dragon_stanford,dragon_vrip,Stanford
+dragonstand2_gao,dragonstand2,Xifeng Gao
+dragonstand_gao,dragon_stand,Xifeng Gao
+dtorus_gao,dtorus,Xifeng Gao
+duck2_gao,duck2,Xifeng Gao
+duck_gao,duck,Xifeng Gao
+dustpan_gso,Ocedar_Snap_On_Dust_Pan_And_Brush_1_ct,Google Scanned Objects
+eight_gao,eight,Xifeng Gao
+elbow90_esb,1142040,Engineering Shape Benchmark
+elbow_esb,1181651,Engineering Shape Benchmark
+ele_skel,ele12a,Skeleton benchmark
+elephant_gao,elephant,Xifeng Gao
+elk_gao,elk,Xifeng Gao
+ellipse_loopy,ellipse,Marco Livesu
+encrusted_nop,encrusted_cube,Sébastien Mestrallet
+encrusted_snoep,encrusted_cube,Sébastien Mestrallet
+endeffector_quadwild,delta_arm_end_effector_remesh,QuadWild
+eraserball_loopy,eraser_ball,Marco Livesu
+eros_gao,eros,Xifeng Gao
+falconstatue_stein,falconstatue,Oded Stein
+fandisk_jacobson,fandisk,Alec Jacobson
+fandisk_libigl,fandisk,libigl
+featureloft_mambo,feature_loft,Franck Ledoux
+feline_quadwild,feline,QuadWild
+femhead_quadwild,mnf07HeadFem,QuadWild
+femur_quadwild,femur,QuadWild
+fertility_gao,fertility,Xifeng Gao
+filigree_quadwild,filigree100k,QuadWild
+fish0_quadwild,fish0,QuadWild
+fish1_gao,fish1,Xifeng Gao
+fish2_gao,fish2,Xifeng Gao
+fish_stein,fish,Oded Stein
+flamingo_shrec11,T248,SHREC'11
+flange_esb,54teeth2,Engineering Shape Benchmark
+focalocta_quadwild,focal-octa,QuadWild
+foot_gao,foot,Xifeng Gao
+freihand_quadwild,freihand,QuadWild
+frog_skel,frog,Skeleton benchmark
+ftc06_nist,nist_ftc_06_asme1_rd,NIST
+ftc07_nist,nist_ftc_07_asme1_rd,NIST
+ftc08_nist,nist_ftc_08_asme1_rc,NIST
+ftc09_nist,nist_ftc_09_asme1_rd,NIST
+ftc10_nist,ftc10,NIST
+ftc11_nist,nist_ftc_11_asme1_rb,NIST
+fusee_quadwild,fusee_Lp,QuadWild
+gargoyle2_quadwild,gargoyle2_100K,QuadWild
+gargoyle_gao,gargoyle,Xifeng Gao
+gear2_quadwild,gear_2,QuadWild
+gear_esb,16t_2d_05w,Engineering Shape Benchmark
+gear_loopy,gear,Marco Livesu
+gearbox_quadwild,gearbox,QuadWild
+gehaeuse_gao,gehaeuse,Xifeng Gao
+genus3_gao,genus3,Xifeng Gao
+ghost_snoep,40746,Thingi10K
+ghost_thingi,40746,Thingi10K
+gimbal_gao,gimbal_1,Xifeng Gao
+glass1_gao,glass1,Xifeng Gao
+glass2_gao,glass2,Xifeng Gao
+glasses_shrec11,T441,SHREC'11
+goathead_snoep,goathead,Oded Stein
+goathead_stein,goathead,Oded Stein
+gorilla_shrec11,T340,SHREC'11
+gps25_quadwild,gps_25_cut,QuadWild
+grandpiano_skel,grandpiano,Skeleton benchmark
+grayloc_gao,grayloc,Xifeng Gao
+greek_gao,greek_sculpture,Xifeng Gao
+greeksculpture_quadwild,greek_sculpture,QuadWild
+greyhounds_tds,Townley-Greyhounds,Three D Scans
+guy_quadwild,guy,QuadWild
+gyroidpuzzle_loopy,gyroidpuzzle,Marco Livesu
+hammer_stein,hammer,Oded Stein
+hand_gao,hand,Xifeng Gao
+hand_loopy,hand,Marco Livesu
+hand_shrec11,T280,SHREC'11
+hand_stein,hand,Oded Stein
+handle_esb,din444,Engineering Shape Benchmark
+hanger_gao,hanger,Xifeng Gao
+hanger_loopy,hanger,Marco Livesu
+head1_gao,head1,Xifeng Gao
+head2_gao,head2,Xifeng Gao
+heart_skel,heart,Skeleton benchmark
+helmet_quadwild,helmet,QuadWild
+heptoroid_quadwild,heptoroid100k,QuadWild
+heptoroid_skel,heptoroid,Skeleton benchmark
+hh_skel,hh,Skeleton benchmark
+hht_skel,hht,Skeleton benchmark
+hilbertcube_thingi,53757,Thingi10K
+hinge_loopy,hinge,Marco Livesu
+hip_quadwild,hip,QuadWild
+hippo_skel,hippo,Skeleton benchmark
+hlpw4_nlr,hlpw4,NASA
+hlpw5_nlr,hlpw5,NASA
+holes10_gao,holes10_1,Xifeng Gao
+holes2_loopy,holes2,Marco Livesu
+holes3_gao,holes3,Xifeng Gao
+homer_gao,homer,Xifeng Gao
+homer_jacobson,homer,Alec Jacobson
+horse_gao,horse,Xifeng Gao
+horse_jacobson,horse,Alec Jacobson
+horse_shrec11,T402,SHREC'11
+hound_skel,hound,Skeleton benchmark
+house_stein,house,Oded Stein
+housing_esb,arm_group17,Engineering Shape Benchmark
+hub2_quadwild,hub2,QuadWild
+hub_quadwild,Hub,QuadWild
+human1_gao,human1,Xifeng Gao
+human2_gao,human2,Xifeng Gao
+human3_gao,human3,Xifeng Gao
+humanhand_skel,human_hand,Skeleton benchmark
+humanman_stein,human_man,Oded Stein
+humanneutral_stein,human_neutral,Oded Stein
+humanwoman_stein,human_woman,Oded Stein
+humerus_skel,humerus,Skeleton benchmark
+ico_skel,ico,Skeleton benchmark
+icosahedron_hexme,n15o_icosahedron,HexMe
+igea_gao,igea,Xifeng Gao
+igea_jacobson,igea,Alec Jacobson
+impeller_loopy,impeller,Marco Livesu
+impellerhousing_gao,impeller_housing_1,Xifeng Gao
+indorelax_loopy,indorelax,Marco Livesu
+inigo_crane,inigo,Keenan Crane
+insect_gao,insect,Xifeng Gao
+involumeknot_nop,in-volume_knot,Sébastien Mestrallet
+isidorehorse_gao,isidore_horse,Xifeng Gao
+israel_quadwild,israel,QuadWild
+jbs003_quadwild,jbs_003,QuadWild
+joint_gao,joint,Xifeng Gao
+joint_loopy,joint,Marco Livesu
+jwb_nasa,jwb-geom-v2-mm,NASA
+kid00_topkids,kid00,TOPKIDS
+kid14_topkids,kid14,TOPKIDS
+kid15_topkids,kid15,TOPKIDS
+kid18_topkids,kid18,TOPKIDS
+kiss_gao,Kiss,Xifeng Gao
+kiss_loopy,kiss,Marco Livesu
+kitten_gao,kitten,Xifeng Gao
+kitten_loopy,kitten,Marco Livesu
+knob_loopy,knob,Marco Livesu
+knot10102_knotplot,10.102,KnotPlot
+knot1_cgal,knot1,CGAL
+knot_cgal,knot,CGAL
+koala_stein,koala,Oded Stein
+kong_loopy,kong,Marco Livesu
+lamp_shrec11,T165,SHREC'11
+laptop_shrec11,T266,SHREC'11
+laurenthand_quadwild,laurent_hand,QuadWild
+lblock_esb,22,Engineering Shape Benchmark
+lego_quadwild,lego,QuadWild
+legoblock_mambo,lego_block,Franck Ledoux
+legoman_mambo,lego_man,Franck Ledoux
+lenka_quadwild,lenka_new,QuadWild
+leverarm_loopy,lever_arm,Marco Livesu
+limitcycle_hexme,n11o_limit_cycle,HexMe
+limitcycleg0_hexme,n12o_limit_cycle_genus0,HexMe
+link_esb,center_link,Engineering Shape Benchmark
+lion_gao,lion_recon,Xifeng Gao
+lionstatue_stein,lionstatue,Oded Stein
+lissajous_knotplot,lissajous,KnotPlot
+loafer_gso,Mens_Gold_Cup_ASV_Capetown_Penny_Loafer_in_Black_EjPnk3E8fCs,Google Scanned Objects
+lock_gao,lock,Xifeng Gao
+lucy_quadwild,lucy,QuadWild
+lucy_skel,lucy,Skeleton benchmark
+m1_mambo,M1,Franck Ledoux
+m2_mambo,M2,Franck Ledoux
+m3_mambo,M3,Franck Ledoux
+m4_mambo,M4,Franck Ledoux
+m5_mambo,M5,Franck Ledoux
+m6_mambo,M6,Franck Ledoux
+m8_mambo,M8,Franck Ledoux
+m9_mambo,M9,Franck Ledoux
+machinedblock_esb,HMJ,Engineering Shape Benchmark
+machinedplate_esb,1012A,Engineering Shape Benchmark
+machineelement_esb,CLAMP_FINGER,Engineering Shape Benchmark
+magaliehand_quadwild,magalie_hand100K,QuadWild
+man_shrec11,T360,SHREC'11
+mannequindevil_quadwild,mannequin-devil,QuadWild
+mannequinmc_quadwild,mannequin_mc,QuadWild
+mastercylinder_gao,master_cylinder,Xifeng Gao
+max_gao,max,Xifeng Gao
+max_jacobson,max-planck,Alec Jacobson
+maxplanck_quadwild,max-planck,QuadWild
+mazewheel_quadwild,mazewheel,QuadWild
+mech09_quadwild,mech09,QuadWild
+mech10_loopy,mech10,Marco Livesu
+mechanical01_quadwild,mechanical01,QuadWild
+mechanical02_loopy,mechanical02,Marco Livesu
+mechanical03_quadwild,mechanical03,QuadWild
+mechanical04_quadwild,mechanical04,QuadWild
+mechanical05_loopy,mechanical05,Marco Livesu
+mechanical06_loopy,mechanical06,Marco Livesu
+mechanical07_quadwild,mechanical07,QuadWild
+mechanical08_loopy,mechanical08,Marco Livesu
+mechpiece_loopy,mech_piece,Marco Livesu
+memento_skel,memento,Skeleton benchmark
+mesh12_quadwild,12,QuadWild
+mesh18_quadwild,18,QuadWild
+metatron_loopy,metatron,Marco Livesu
+micscope_skel,micscope,Skeleton benchmark
+mid2fem_quadwild,mid2Fem,QuadWild
+milkfrother_gso,Aroma_Stainless_Steel_Milk_Frother_2_Cup,Google Scanned Objects
+moai_gao,moai,Xifeng Gao
+motorbody_esb,groschopp_IGK65-40-2pole,Engineering Shape Benchmark
+motortail_loopy,motor_tail,Marco Livesu
+mount_quadwild,mount,QuadWild
+mouse_gao,mouse,Xifeng Gao
+mug_gso,Cole_Hardware_Mug_Classic_Blue,Google Scanned Objects
+mushroom_stein,mushroom,Oded Stein
+nastycheese2_quadwild,nasty_cheese2,QuadWild
+nastycheese_quadwild,nasty_cheese-tri,QuadWild
+nautilus_quadwild,nautilus-20k-closed-tri,QuadWild
+nefertiti_crane,Nefertiti,Keenan Crane
+nefertiti_jacobson,nefertiti,Alec Jacobson
+nefertiti_stein,nefertiti,Oded Stein
+neptune_quadwild,neptune,QuadWild
+neptune_skel,neptune,Skeleton benchmark
+noisydino_skel,noisydino,Skeleton benchmark
+nugear_quadwild,nugear,QuadWild
+nut_esb,ganter_din_6330,Engineering Shape Benchmark
+nut_quadwild,nut_refine_tet_surf,QuadWild
+octaflower_gao,3_octa-flower,Xifeng Gao
+octahedron_hexme,n14o_octahedron,HexMe
+octopus_quadwild,octopus,QuadWild
+octopus_shrec11,T380,SHREC'11
+ogre_crane,ogre,Keenan Crane
+ogre_jacobson,ogre,Alec Jacobson
+oilpan_esb,2473396,Engineering Shape Benchmark
+oilpump_gao,oil_pump,Xifeng Gao
+oloid_crane,oloid,Keenan Crane
+oni_gao,oni,Xifeng Gao
+orion_nasa,Orion_Capsule_no_fbc,NASA
+panda_gso,Android_Figure_Panda,Google Scanned Objects
+parsnip_stein,parsnip,Oded Stein
+part10_gao,part10,Xifeng Gao
+part11_gao,part11,Xifeng Gao
+part2_quadwild,part2,QuadWild
+part_gao,part,Xifeng Gao
+pear_gao,pear,Xifeng Gao
+pegaso_quadwild,pegaso,QuadWild
+penguin_stein,penguin,Oded Stein
+pensatore_gao,pensatore,Xifeng Gao
+pentapyramid_hexme,n08o_pentapyr,HexMe
+pierrot_gao,pierrot,Xifeng Gao
+pig_crane,pig,Keenan Crane
+pig_gao,pig,Xifeng Gao
+pig_loopy,pig,Marco Livesu
+pin_esb,0_1875_BALL_CUTTER,Engineering Shape Benchmark
+pinion_gao,pinion_1,Xifeng Gao
+pinion_loopy,pinion,Marco Livesu
+pipe_esb,1236922,Engineering Shape Benchmark
+pipe_skel,pipe,Skeleton benchmark
+pipehelix7_nop,pipe_helix_7,Sébastien Mestrallet
+pipehelix_nop,pipe_helix,Sébastien Mestrallet
+pipes_esb,1305432,Engineering Shape Benchmark
+pittsburghbridge_crane,PittsburghBridge,Keenan Crane
+pizza_stein,pizza,Oded Stein
+plane_stein,plane,Oded Stein
+plate1_loopy,Plate1,Marco Livesu
+plate2_loopy,Plate2,Marco Livesu
+plate3_loopy,Plate3,Marco Livesu
+plate4_loopy,Plate4,Marco Livesu
+plate5_quadwild,plate_5,QuadWild
+plate6_quadwild,plate_6,QuadWild
+plate_quadwild,plate_Lp-tri,QuadWild
+platemid_quadwild,plate_lp_mid,QuadWild
+pliers_shrec11,T366,SHREC'11
+polygirl_quadwild,polygirl,QuadWild
+post_esb,aries63,Engineering Shape Benchmark
+prism_loopy,prism,Marco Livesu
+prismmisc_esb,1797609IN,Engineering Shape Benchmark
+pulley_esb,BOOT,Engineering Shape Benchmark
+pulley_quadwild,pulley100K,QuadWild
+pump2_quadwild,pump_2,QuadWild
+pump_quadwild,pump,QuadWild
+pyramid_hexme,n09o_pyramid,HexMe
+rabbit_loopy,rabbit,Marco Livesu
+rabbit_shrec11,T594,SHREC'11
+ramses_gao,ramses,Xifeng Gao
+raptor_quadwild,raptor50K,QuadWild
+rcube_skel,rcube,Skeleton benchmark
+redbox_gao,red_circular_box,Xifeng Gao
+redcircularbox_quadwild,red_circular_box100K,QuadWild
+retinal_gao,retinal,Xifeng Gao
+revolutionmisc_esb,1145480,Engineering Shape Benchmark
+rgbdragon_quadwild,rgb_dragon,QuadWild
+rhino_skel,rhino,Skeleton benchmark
+ring_gso,In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta,Google Scanned Objects
+robocatdeci_quadwild,robocat_deci,QuadWild
+rocker_gao,rocker,Xifeng Gao
+rocker_jacobson,rocker-arm,Alec Jacobson
+rockerarm_esb,1546387,Engineering Shape Benchmark
+rockerarm_skel,rockerArm,Skeleton benchmark
+rod_gao,rod,Xifeng Gao
+rod_loopy,rod,Marco Livesu
+rollingstage_gao,rolling_stage,Xifeng Gao
+rotor_skel,rotor,Skeleton benchmark
+rotorhub_quadwild,RotorHub,QuadWild
+roundend_esb,disk,Engineering Shape Benchmark
+s0_mambo,S0,Franck Ledoux
+s1_mambo,S1,Franck Ledoux
+s20_mambo,S20,Franck Ledoux
+s22_mambo,S22,Franck Ledoux
+s23_mambo,S23,Franck Ledoux
+s24_mambo,S24,Franck Ledoux
+s25_mambo,S25,Franck Ledoux
+s26_mambo,S26,Franck Ledoux
+s27_mambo,S27,Franck Ledoux
+s31_mambo,S31,Franck Ledoux
+s33_mambo,S33,Franck Ledoux
+s34_mambo,S34,Franck Ledoux
+s35_mambo,S35,Franck Ledoux
+s36_mambo,S36,Franck Ledoux
+s37_mambo,S37,Franck Ledoux
+s38_mambo,S38,Franck Ledoux
+s39_mambo,S39,Franck Ledoux
+s3_mambo,S3,Franck Ledoux
+s40_mambo,S40,Franck Ledoux
+s41_mambo,S41,Franck Ledoux
+s42_mambo,S42,Franck Ledoux
+s43_mambo,S43,Franck Ledoux
+s44_mambo,S44,Franck Ledoux
+s45_mambo,S45,Franck Ledoux
+s4_mambo,S4,Franck Ledoux
+s5_mambo,S5,Franck Ledoux
+s6_mambo,S6,Franck Ledoux
+s7_mambo,S7,Franck Ledoux
+s8_mambo,S8,Franck Ledoux
+s9_mambo,S9,Franck Ledoux
+sacrum_skel,sacrum,Skeleton benchmark
+santa_gao,santa,Xifeng Gao
+santa_shrec11,T2,SHREC'11
+sbpw1_nlr,sbpw1,NASA
+sbpw2_nlr,sbpw2,NASA
+sbpw3_nlr,sbpw3,NASA
+sbracket_gao,s_bracket_1,Xifeng Gao
+scapula_skel,scapula,Skeleton benchmark
+scarf1_quadwild,halved_oblique_scarf_1,QuadWild
+scarf2_quadwild,halved_oblique_scarf_2,QuadWild
+scarf3_loopy,halved_oblique_scarf_3,Marco Livesu
+scissors_gso,Diamond_Visions_Scissors_Red,Google Scanned Objects
+scissors_shrec11,T211,SHREC'11
+scorpion_stein,scorpion,Oded Stein
+screw_nop,cuboid_screw_thread,Sébastien Mestrallet
+screw_snoep,cuboid_screw_thread,Sébastien Mestrallet
+screwdriver_gao,screwdriver,Xifeng Gao
+sculpt_gao,sculpt,Xifeng Gao
+sculpt_loopy,sculpt,Marco Livesu
+seabowl_skel,seabowl,Skeleton benchmark
+seahorse2_quadwild,seahorse2_100K,QuadWild
+sediapatch_gao,sediapatch,Xifeng Gao
+shark_quadwild,shark,QuadWild
+shark_shrec11,T351,SHREC'11
+sharpsphere_quadwild,sharp_sphere10k,QuadWild
+shoulder1_quadwild,beveled_shoulder_1,QuadWild
+shoulder2_loopy,beveled_shoulder_2,Marco Livesu
+simp_hexme,i10o_simp,HexMe
+skijump_hexme,n03o_skijump_box_cyl,HexMe
+skotknot_knotplot,skotknot,KnotPlot
+skull_stein,skull,Oded Stein
+slenderplate_esb,bed2_left_sidepannel,Engineering Shape Benchmark
+slottedplate_esb,20,Engineering Shape Benchmark
+sls_nasa,Space_Launch_System_SLS_Block_1,NASA
+smallblock_esb,EXTSUPPORT1,Engineering Shape Benchmark
+smoothfeature_quadwild,smooth-feature,QuadWild
+snake_shrec11,T235,SHREC'11
+socket1_gao,socket1-Part,Xifeng Gao
+socket2_gao,socket2-Part,Xifeng Gao
+sphere_stein,sphere,Oded Stein
+sphinx_gao,sphinx,Xifeng Gao
+sphinx_loopy,sphinx,Marco Livesu
+spider_skel,spider,Skeleton benchmark
+spiders_shrec11,T535,SHREC'11
+spiral_quadwild,spiral,QuadWild
+spot_crane,spot,Keenan Crane
+spot_snoep,spot,Oded Stein
+spot_stein,spot,Oded Stein
+spring2_quadwild,spring2,QuadWild
+spring_quadwild,spring,QuadWild
+springer_stein,springer,Oded Stein
+squirrel_polycut,squirrel,PolyCut
+stab3_quadwild,stab3,QuadWild
+stock_esb,CC0805,Engineering Shape Benchmark
+strawberry_stein,strawberry,Oded Stein
+stuffedtoy_stein,stuffedtoy,Oded Stein
+supportframe_gao,support_frame_1,Xifeng Gao
+switch_esb,schmersal_AZ-17-1,Engineering Shape Benchmark
+switchmec_quadwild,switchmec_Lp,QuadWild
+swivel2_gao,swivel2-Part,Xifeng Gao
+sword_stein,sword,Oded Stein
+team2_gao,team2,Xifeng Gao
+teapot_gao,teaport,Xifeng Gao
+teapot_loopy,teapot,Marco Livesu
+thaistatue_gao,thai_statue,Xifeng Gao
+thickplate_esb,2568b,Engineering Shape Benchmark
+thinplate_esb,back_plate,Engineering Shape Benchmark
+thinwallmisc_esb,a-arm2,Engineering Shape Benchmark
+threecees_paardekooper,threecees,Bas Paardekooper
+toothbrush_quadwild,toothbrush_holder,QuadWild
+torque1_loopy,torque1,Marco Livesu
+torque_loopy,torque,Marco Livesu
+torso_quadwild,torso,QuadWild
+torus2_quadwild,torus2,QuadWild
+torus_stein,torus,Oded Stein
+torusstep_nop,cuboid_torus_with_step,Sébastien Mestrallet
+torusstep_snoep,cuboid_torus_with_step,Sébastien Mestrallet
+tower_stein,tower,Oded Stein
+toy1_gao,toy1,Xifeng Gao
+toy1_quadwild,bear0,QuadWild
+toy2_gao,toy2,Xifeng Gao
+toy2_quadwild,bear1,QuadWild
+transmissionhousing_quadwild,TransmissionHousingFem,QuadWild
+traystep_nop,cuboid_tray_with_step,Sébastien Mestrallet
+traystep_snoep,cuboid_tray_with_step,Sébastien Mestrallet
+trebol_loopy,trebol,Marco Livesu
+tree_stein,tree,Oded Stein
+triangularbase_mambo,triangular_base,Franck Ledoux
+trimstar_quadwild,trim-star,QuadWild
+trisclosed_loopy,tris_closed,Marco Livesu
+trisopen_loopy,tris_open,Marco Livesu
+tshape_esb,din6304,Engineering Shape Benchmark
+turbine_quadwild,turbine_Lp,QuadWild
+twins_nop,conjoined_twins,Sébastien Mestrallet
+twins_snoep,conjoined_twins,Sébastien Mestrallet
+twirl_quadwild,twirl,QuadWild
+twist_nop,in-volume_twist,Sébastien Mestrallet
+twoballs_shrec11,T85,SHREC'11
+ujoint_loopy,ujoint,Marco Livesu
+ushape_esb,Asm11,Engineering Shape Benchmark
+uumemento_gao,uu-memento,Xifeng Gao
+vase0_quadwild,vase0,QuadWild
+vaselion_quadwild,vase-lion100K,QuadWild
+venus_gao,venus,Xifeng Gao
+vertebrae_quadwild,Vertebrae,QuadWild
+vessel_loopy,vessel,Marco Livesu
+violin_stein,violin,Oded Stein
+wagon_gso,Granimals_20_Wooden_ABC_Blocks_Wagon_g2TinmUGGHI,Google Scanned Objects
+wave_loopy,wave,Marco Livesu
+wedge_loopy,wedge,Marco Livesu
+well_stein,well,Oded Stein
+wheel_esb,48tooth-sprocket,Engineering Shape Benchmark
+wheeldassault_quadwild,WheelDassault,QuadWild
+wingnut_stein,wingnut,Oded Stein
+woman_shrec11,T345,SHREC'11
+woodenfish_gao,woodenfish,Xifeng Gao
+wrench_gao,wrench,Xifeng Gao
+wrench_loopy,wrench,Marco Livesu
+wwwre_quadwild,www_re,QuadWild
+yeahright_crane,yeahright,Keenan Crane
