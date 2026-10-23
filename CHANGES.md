@@ -289,5 +289,5 @@ Credit changes in this version:
 | `octahedron_hexme` | c.kiki_zero | 0 | 6.728 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `oloid_crane` | c.kiki_zero | 0 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `pentapyramid_hexme` | c.kiki_zero | 0 | 1.918 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `pyramid_hexme` | e.nightmares | 0 | 2.544 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `pyramid_hexme` | c.kiki_zero | 0 | 2.544 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `skijump_hexme` | e.nightmares | 0 | 1.692 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
