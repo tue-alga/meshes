@@ -13,7 +13,9 @@ and combines them into a kikiness score in [0, 1] with a logistic regression fit
 current bouba/kiki folder labels (nightmares are scored but not used for fitting). It reports
 the cross-validated accuracy and lists the meshes whose geometry disagrees with their folder.
 
-Usage:  python tools/boubakiki.py [--csv out.csv]
+The scores are written to tools/kikiness.csv, which tools/parser.py uses for the README tables.
+
+Usage:  python tools/boubakiki.py [--csv details.csv]
 Needs:  pip install trimesh numpy scipy
 """
 
@@ -102,6 +104,12 @@ def main() -> None:
     print("\nNightmares:")
     for r in sorted((r for r in rows if r["folder"] == "e.nightmares"), key=lambda r: r["kikiness"]):
         print(f"  {r['kikiness']:.2f}  {r['name']}")
+
+    with open(ROOT / "tools" / "kikiness.csv", "w", newline="", encoding="utf-8") as f:
+        out = csv.writer(f, lineterminator="\r\n")
+        out.writerow(["name", "kikiness"])
+        for r in sorted(rows, key=lambda r: r["name"].lower()):
+            out.writerow([r["name"], f"{r['kikiness']:.4f}"])
 
     if args.csv:
         with open(args.csv, "w", newline="", encoding="utf-8") as f:
