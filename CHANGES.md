@@ -265,14 +265,14 @@ Credit changes in this version:
 | `ujoint_loopy` | d.kiki_plus | 2 | 11.152 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `well_stein` | d.kiki_plus | 48 | 59.832 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | `wrench_loopy` | d.kiki_plus | 1 | 4.496 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `acuteline_hexme` | e.nightmares | 0 | 1.316 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antipentapyramid_hexme` | e.nightmares | 0 | 11.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antipyramid_hexme` | e.nightmares | 0 | 12.018 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `antiskijump_hexme` | e.nightmares | 0 | 1.448 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `beveledshoulder2_loopy` | e.nightmares | 1 | 44 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `boxpcyls_hexme` | e.nightmares | 1 | 2.244 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `acuteline_hexme` | c.kiki_zero | 0 | 1.316 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antipentapyramid_hexme` | c.kiki_zero | 0 | 11.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antipyramid_hexme` | c.kiki_zero | 0 | 12.018 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `antiskijump_hexme` | c.kiki_zero | 0 | 1.448 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `beveledshoulder2_loopy` | d.kiki_plus | 1 | 44 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `boxpcyls_hexme` | d.kiki_plus | 1 | 2.244 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `catalanwire_thingi` | e.nightmares | 119 | 57.600 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=509316) |
-| `constantwidth_crane` | e.nightmares | 0 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| `constantwidth_crane` | a.bouba_zero | 0 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `crosscyls_hexme` | e.nightmares | 0 | 686 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `csaszar_crane` | e.nightmares | 1 | 896 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `halvedobliquescarf3_loopy` | e.nightmares | 0 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
