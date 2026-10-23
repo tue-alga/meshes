@@ -273,7 +273,7 @@ Credit changes in this version:
 | `boxpcyls_hexme` | d.kiki_plus | 1 | 2.244 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `catalanwire_thingi` | e.nightmares | 119 | 57.600 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=509316) |
 | `constantwidth_crane` | a.bouba_zero | 0 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `crosscyls_hexme` | e.nightmares | 0 | 686 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `crosscyls_hexme` | c.kiki_zero | 0 | 686 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `csaszar_crane` | e.nightmares | 1 | 896 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `halvedobliquescarf3_loopy` | e.nightmares | 0 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `hilbertcube_thingi` | e.nightmares | 8 | 508 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
