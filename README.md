@@ -201,7 +201,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.bouba_plus/violin_stein.png" width="160"/> | [violin_stein](preview/b.bouba_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.51 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.bouba_plus/wrench_gao.png" width="160"/> | [wrench_gao](preview/b.bouba_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (c) kiki (g=0, n=118)
+### (c) kiki (g=0, n=119)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.kiki_zero/3035_gao.png" width="160"/> | [3035_gao](preview/c.kiki_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.89 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -315,6 +315,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.kiki_zero/sbpw1_nlr.png" width="160"/> | [sbpw1_nlr](preview/c.kiki_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | 0.94 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
 | <img src="preview/c.kiki_zero/sbpw2_nlr.png" width="160"/> | [sbpw2_nlr](preview/c.kiki_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | 0.58 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
 | <img src="preview/c.kiki_zero/sbpw3_nlr.png" width="160"/> | [sbpw3_nlr](preview/c.kiki_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | 0.91 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/skijump_hexme.png" width="160"/> | [skijump_hexme](preview/c.kiki_zero/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | 1.00 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | <img src="preview/c.kiki_zero/springer_stein.png" width="160"/> | [springer_stein](preview/c.kiki_zero/springer_stein.stl) | 0 | 9.686 | 29.052 | 19.368 | 0.13 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/springer) |
 | <img src="preview/c.kiki_zero/sword_stein.png" width="160"/> | [sword_stein](preview/c.kiki_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | 0.23 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sword) |
 | <img src="preview/c.kiki_zero/trisclosed_loopy.png" width="160"/> | [trisclosed_loopy](preview/c.kiki_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
@@ -462,7 +463,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.kiki_plus/well_stein.png" width="160"/> | [well_stein](preview/d.kiki_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | 0.37 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | <img src="preview/d.kiki_plus/wrench_loopy.png" width="160"/> | [wrench_loopy](preview/d.kiki_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | 0.99 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 
-### (e) nightmares (g≥0, n=22)
+### (e) nightmares (g≥0, n=21)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/e.nightmares/7connected_nop.png" width="160"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
@@ -478,7 +479,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/e.nightmares/pipehelix_nop.png" width="160"/> | [pipehelix_nop](preview/e.nightmares/pipehelix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | 0.99 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/screw_nop.png" width="160"/> | [screw_nop](preview/e.nightmares/screw_nop.stl) | 0 | 88.075 | 264.219 | 176.146 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/screw_snoep.png" width="160"/> | [screw_snoep](preview/e.nightmares/screw_snoep.stl) | 0 | 15.424 | 46.266 | 30.844 | 1.00 | [Sébastien Mestrallet + Maxim Snoep (simplified)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| <img src="preview/e.nightmares/skijump_hexme.png" width="160"/> | [skijump_hexme](preview/e.nightmares/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | 1.00 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | <img src="preview/e.nightmares/torusstep_nop.png" width="160"/> | [torusstep_nop](preview/e.nightmares/torusstep_nop.stl) | 1 | 80.371 | 241.113 | 160.742 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/torusstep_snoep.png" width="160"/> | [torusstep_snoep](preview/e.nightmares/torusstep_snoep.stl) | 1 | 4.268 | 12.804 | 8.536 | 1.00 | [Sébastien Mestrallet + Maxim Snoep (simplified)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/traystep_nop.png" width="160"/> | [traystep_nop](preview/e.nightmares/traystep_nop.stl) | 0 | 79.151 | 237.447 | 158.298 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
