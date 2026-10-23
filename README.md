@@ -138,7 +138,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/vessel_loopy.png" width="320"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="320"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (b) smooth (g≥1, n=56)
+### (b) smooth (g≥1, n=57)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/bob_crane.png" width="320"/> | [bob_crane](preview/b.smooth_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -196,6 +196,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/thaistatue_gao.png" width="320"/> | [thaistatue_gao](preview/b.smooth_plus/thaistatue_gao.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/b.smooth_plus/torus_stein.png" width="320"/> | [torus_stein](preview/b.smooth_plus/torus_stein.stl) | 1 | 2.304 | 6.912 | 4.608 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/torus) |
 | <img src="preview/b.smooth_plus/violin_stein.png" width="320"/> | [violin_stein](preview/b.smooth_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
+| <img src="preview/b.smooth_plus/well_stein.png" width="320"/> | [well_stein](preview/b.smooth_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="320"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
 ### (c) sharp (g=0, n=116)
@@ -318,7 +319,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="320"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="320"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
-### (d) sharp (g≥1, n=135)
+### (d) sharp (g≥1, n=134)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/anc101_gao.png" width="320"/> | [anc101_gao](preview/d.sharp_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -454,7 +455,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/triangularbase_mambo.png" width="320"/> | [triangularbase_mambo](preview/d.sharp_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/d.sharp_plus/trisopen_loopy.png" width="320"/> | [trisopen_loopy](preview/d.sharp_plus/trisopen_loopy.stl) | 1 | 720 | 2.160 | 1.440 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/d.sharp_plus/ujoint_loopy.png" width="320"/> | [ujoint_loopy](preview/d.sharp_plus/ujoint_loopy.stl) | 2 | 5.574 | 16.728 | 11.152 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/d.sharp_plus/well_stein.png" width="320"/> | [well_stein](preview/d.sharp_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | <img src="preview/d.sharp_plus/wrench_loopy.png" width="320"/> | [wrench_loopy](preview/d.sharp_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 
 ### (e) nightmares (g≥0, n=21)
