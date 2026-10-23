@@ -10,7 +10,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) smooth (g=0, n=125)
+### (a) smooth (g=0, n=127)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/a.smooth_zero/airplane1_gao.png" width="640"/> | [airplane1_gao](preview/a.smooth_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | 0.18 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -50,6 +50,8 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.smooth_zero/chineselion_gao.png" width="640"/> | [chineselion_gao](preview/a.smooth_zero/chineselion_gao.stl) | 0 | 25.194 | 75.576 | 50.384 | 0.18 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/chineselion_loopy.png" width="640"/> | [chineselion_loopy](preview/a.smooth_zero/chineselion_loopy.stl) | 0 | 4.248 | 12.738 | 8.492 | 0.23 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.smooth_zero/chineselion_snoep.png" width="640"/> | [chineselion_snoep](preview/a.smooth_zero/chineselion_snoep.stl) | 0 | 4.248 | 12.738 | 8.492 | 0.23 | [Marco Livesu + Maxim Snoep (re-oriented)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.smooth_zero/completepart16_gao.png" width="640"/> | [completepart16_gao](preview/a.smooth_zero/completepart16_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
+| <img src="preview/a.smooth_zero/completepart63_gao.png" width="640"/> | [completepart63_gao](preview/a.smooth_zero/completepart63_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | 0.08 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/constantwidth_crane.png" width="640"/> | [constantwidth_crane](preview/a.smooth_zero/constantwidth_crane.stl) | 0 | 19.802 | 59.400 | 39.600 | 0.11 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | <img src="preview/a.smooth_zero/david_gao.png" width="640"/> | [david_gao](preview/a.smooth_zero/david_gao.stl) | 0 | 25.434 | 76.296 | 50.864 | 0.16 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.smooth_zero/deformedarmadillo_gao.png" width="640"/> | [deformedarmadillo_gao](preview/a.smooth_zero/deformedarmadillo_gao.stl) | 0 | 87.286 | 261.852 | 174.568 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -198,7 +200,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.smooth_plus/violin_stein.png" width="640"/> | [violin_stein](preview/b.smooth_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.53 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="640"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.15 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (c) sharp (g=0, n=121)
+### (c) sharp (g=0, n=119)
 | | model | genus | vertices | edges | triangles | sharpness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.sharp_zero/3035_gao.png" width="640"/> | [3035_gao](preview/c.sharp_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.91 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -269,8 +271,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.sharp_zero/chesspawn_mambo.png" width="640"/> | [chesspawn_mambo](preview/c.sharp_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | 0.39 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.sharp_zero/chessrook_mambo.png" width="640"/> | [chessrook_mambo](preview/c.sharp_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | 0.72 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.sharp_zero/clef_loopy.png" width="640"/> | [clef_loopy](preview/c.sharp_zero/clef_loopy.stl) | 0 | 1.392 | 4.170 | 2.780 | 0.79 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/c.sharp_zero/completepart16_gao.png" width="640"/> | [completepart16_gao](preview/c.sharp_zero/completepart16_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | 0.07 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
-| <img src="preview/c.sharp_zero/completepart63_gao.png" width="640"/> | [completepart63_gao](preview/c.sharp_zero/completepart63_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | 0.08 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/c.sharp_zero/coverrear_gao.png" width="640"/> | [coverrear_gao](preview/c.sharp_zero/coverrear_gao.stl) | 0 | 39.982 | 119.940 | 79.960 | 0.99 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/c.sharp_zero/crosscyls_hexme.png" width="640"/> | [crosscyls_hexme](preview/c.sharp_zero/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | 0.59 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | <img src="preview/c.sharp_zero/cube_stein.png" width="640"/> | [cube_stein](preview/c.sharp_zero/cube_stein.stl) | 0 | 26 | 72 | 48 | 1.00 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/cube) |
