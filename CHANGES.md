@@ -280,8 +280,8 @@ Credit changes in this version:
 | `icosahedron_hexme` | c.kiki_zero | 0 | 12.500 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `inlaydovetail3_loopy` | c.kiki_zero | 0 | 60 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `involumeknot_nop` | e.nightmares | 1 | 26.750 | [Sébastien Mestrallet + Maxim Snoep (meshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| `knot1_cgal` | e.nightmares | 1 | 6.400 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
-| `knot_cgal` | e.nightmares | 1 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
+| `knot1_cgal` | b.bouba_plus | 1 | 6.400 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
+| `knot_cgal` | b.bouba_plus | 1 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | `limitcycle_hexme` | e.nightmares | 1 | 16.826 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `limitcycleg0_hexme` | e.nightmares | 0 | 15.276 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `metatron_loopy` | e.nightmares | 11 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |

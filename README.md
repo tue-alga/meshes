@@ -141,7 +141,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.bouba_zero/venus_gao.png" width="160"/> | [venus_gao](preview/a.bouba_zero/venus_gao.stl) | 0 | 10.874 | 32.616 | 21.744 | 0.12 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/a.bouba_zero/woodenfish_gao.png" width="160"/> | [woodenfish_gao](preview/a.bouba_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | 0.13 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (b) bouba (g≥1, n=54)
+### (b) bouba (g≥1, n=56)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/b.bouba_plus/bob_crane.png" width="160"/> | [bob_crane](preview/b.bouba_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | 0.08 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
@@ -183,6 +183,8 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.bouba_plus/kiss_loopy.png" width="160"/> | [kiss_loopy](preview/b.bouba_plus/kiss_loopy.stl) | 3 | 12.738 | 38.226 | 25.484 | 0.12 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/b.bouba_plus/kitten_gao.png" width="160"/> | [kitten_gao](preview/b.bouba_plus/kitten_gao.stl) | 1 | 10.183 | 30.549 | 20.366 | 0.06 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/b.bouba_plus/kitten_loopy.png" width="160"/> | [kitten_loopy](preview/b.bouba_plus/kitten_loopy.stl) | 1 | 3.178 | 9.534 | 6.356 | 0.11 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/knot1_cgal.png" width="160"/> | [knot1_cgal](preview/b.bouba_plus/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | 0.06 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
+| <img src="preview/b.bouba_plus/knot_cgal.png" width="160"/> | [knot_cgal](preview/b.bouba_plus/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | 0.07 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | <img src="preview/b.bouba_plus/lionstatue_stein.png" width="160"/> | [lionstatue_stein](preview/b.bouba_plus/lionstatue_stein.stl) | 3 | 37.159 | 111.489 | 74.326 | 0.28 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/lionstatue) |
 | <img src="preview/b.bouba_plus/mastercylinder_gao.png" width="160"/> | [mastercylinder_gao](preview/b.bouba_plus/mastercylinder_gao.stl) | 3 | 13.689 | 41.079 | 27.386 | 0.10 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/b.bouba_plus/oilpump_gao.png" width="160"/> | [oilpump_gao](preview/b.bouba_plus/oilpump_gao.stl) | 4 | 68.742 | 206.244 | 137.496 | 0.10 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -452,7 +454,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.kiki_plus/well_stein.png" width="160"/> | [well_stein](preview/d.kiki_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | 0.37 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | <img src="preview/d.kiki_plus/wrench_loopy.png" width="160"/> | [wrench_loopy](preview/d.kiki_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | 0.99 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 
-### (e) nightmares (g≥0, n=32)
+### (e) nightmares (g≥0, n=30)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/e.nightmares/7connected_nop.png" width="160"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
@@ -464,8 +466,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/e.nightmares/encrusted_nop.png" width="160"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | 0.99 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/encrusted_snoep.png" width="160"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | 0.99 | [Sébastien Mestrallet + Maxim Snoep (simplified)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/involumeknot_nop.png" width="160"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | 1.00 | [Sébastien Mestrallet + Maxim Snoep (meshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| <img src="preview/e.nightmares/knot1_cgal.png" width="160"/> | [knot1_cgal](preview/e.nightmares/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | 0.06 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
-| <img src="preview/e.nightmares/knot_cgal.png" width="160"/> | [knot_cgal](preview/e.nightmares/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | 0.07 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | <img src="preview/e.nightmares/limitcycle_hexme.png" width="160"/> | [limitcycle_hexme](preview/e.nightmares/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | 0.96 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | <img src="preview/e.nightmares/limitcycleg0_hexme.png" width="160"/> | [limitcycleg0_hexme](preview/e.nightmares/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | 0.99 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | <img src="preview/e.nightmares/metatron_loopy.png" width="160"/> | [metatron_loopy](preview/e.nightmares/metatron_loopy.stl) | 11 | 7.171 | 21.573 | 14.382 | 0.17 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
