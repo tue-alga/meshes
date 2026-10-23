@@ -218,7 +218,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/vessel_loopy.png" width="120"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | [^9] |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="120"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [^4] |
 
-### (b) smooth (g≥1, n=98)
+### (b) smooth (g≥1, n=101)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/10.102_knotplot.png" width="120"/> | [10.102_knotplot](preview/b.smooth_plus/10.102_knotplot.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 4.312 | 12.936 | 8.624 | [^14] |
@@ -279,6 +279,9 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/house_stein.png" width="120"/> | [house_stein](preview/b.smooth_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | [^8] (repaired, simplified) |
 | <img src="preview/b.smooth_plus/indorelax_loopy.png" width="120"/> | [indorelax_loopy](preview/b.smooth_plus/indorelax_loopy.stl) | 2 | 12.128 | 36.390 | 24.260 | [^9] |
 | <img src="preview/b.smooth_plus/jbs_003_quadwild.png" width="120"/> | [jbs_003_quadwild](preview/b.smooth_plus/jbs_003_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 4 | 24.994 | 75.000 | 50.000 | [^1] |
+| <img src="preview/b.smooth_plus/kid14_topkids.png" width="120"/> | [kid14_topkids](preview/b.smooth_plus/kid14_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 8 | 9.585 | 28.797 | 19.198 | [^12] (repaired) |
+| <img src="preview/b.smooth_plus/kid15_topkids.png" width="120"/> | [kid15_topkids](preview/b.smooth_plus/kid15_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 6 | 8.860 | 26.610 | 17.740 | [^12] (repaired) |
+| <img src="preview/b.smooth_plus/kid18_topkids.png" width="120"/> | [kid18_topkids](preview/b.smooth_plus/kid18_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 5 | 11.176 | 33.552 | 22.368 | [^12] (repaired) |
 | <img src="preview/b.smooth_plus/Kiss_gao.png" width="120"/> | [Kiss_gao](preview/b.smooth_plus/Kiss_gao.stl) | 3 | 10.192 | 30.588 | 20.392 | [^4] |
 | <img src="preview/b.smooth_plus/kiss_loopy.png" width="120"/> | [kiss_loopy](preview/b.smooth_plus/kiss_loopy.stl) | 3 | 12.738 | 38.226 | 25.484 | [^9] |
 | <img src="preview/b.smooth_plus/kitten_gao.png" width="120"/> | [kitten_gao](preview/b.smooth_plus/kitten_gao.stl) | 1 | 10.183 | 30.549 | 20.366 | [^4] |
@@ -719,7 +722,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/wrench_loopy.png" width="120"/> | [wrench_loopy](preview/d.sharp_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [^9] |
 | <img src="preview/d.sharp_plus/www_re_quadwild.png" width="120"/> | [www_re_quadwild](preview/d.sharp_plus/www_re_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 28.712 | 86.136 | 57.424 | [^1] |
 
-### (e) nightmares (g≥0, n=24)
+### (e) nightmares (g≥0, n=21)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/e.nightmares/509316_thingi.png" width="120"/> | [509316_thingi](preview/e.nightmares/509316_thingi.stl) | 119 | 28.564 | 86.400 | 57.600 | [^2] |
@@ -740,9 +743,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/e.nightmares/encrusted_cube_snoep.png" width="120"/> | [encrusted_cube_snoep](preview/e.nightmares/encrusted_cube_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | [^28] (simplified) |
 | <img src="preview/e.nightmares/in-volume_knot_nop.png" width="120"/> | [in-volume_knot_nop](preview/e.nightmares/in-volume_knot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [^28] (meshed) |
 | <img src="preview/e.nightmares/in-volume_twist_nop.png" width="120"/> | [in-volume_twist_nop](preview/e.nightmares/in-volume_twist_nop.stl) | 2 | 78.524 | 235.578 | 157.052 | [^28] |
-| <img src="preview/e.nightmares/kid14_topkids.png" width="120"/> | [kid14_topkids](preview/e.nightmares/kid14_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 8 | 9.585 | 28.797 | 19.198 | [^12] (repaired) |
-| <img src="preview/e.nightmares/kid15_topkids.png" width="120"/> | [kid15_topkids](preview/e.nightmares/kid15_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 6 | 8.860 | 26.610 | 17.740 | [^12] (repaired) |
-| <img src="preview/e.nightmares/kid18_topkids.png" width="120"/> | [kid18_topkids](preview/e.nightmares/kid18_topkids.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 5 | 11.176 | 33.552 | 22.368 | [^12] (repaired) |
 | <img src="preview/e.nightmares/pipe_helix_7_nop.png" width="120"/> | [pipe_helix_7_nop](preview/e.nightmares/pipe_helix_7_nop.stl) | 7 | 90.136 | 270.444 | 180.296 | [^28] |
 | <img src="preview/e.nightmares/pipe_helix_nop.png" width="120"/> | [pipe_helix_nop](preview/e.nightmares/pipe_helix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | [^28] |
 | <img src="preview/e.nightmares/yeahright_crane.png" width="120"/> | [yeahright_crane](preview/e.nightmares/yeahright_crane.stl) | 131 | 377.084 | 1.132.032 | 754.688 | [^10] |
