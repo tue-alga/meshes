@@ -1,0 +1,12 @@
+trimesh
+numpy
+scipy
+networkx
+rtree
+pyvista
+pillow
+gmsh
+pymeshlab
+pymeshfix
+fast-simplification
+markdown

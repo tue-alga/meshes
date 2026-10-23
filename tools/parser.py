@@ -17,6 +17,8 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 DEFAULT_DATASET_PATH = PROJECT_ROOT / "dataset"
 DEFAULT_SOURCES_PATH = SCRIPT_DIR / "sources.csv"
+# STL copies (for GitHub's 3D viewer) and thumbnails live here, mirroring dataset/
+DEFAULT_PREVIEW_PATH = PROJECT_ROOT / "preview"
 
 
 def rewrite_obj_without_header(obj_path: str) -> None:
@@ -179,8 +181,11 @@ def is_valid(mesh) -> bool:
     return orientable and connected and vertex_manifold and closed
 
 
-def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
+def normalize_dataset(
+    base_path=DEFAULT_DATASET_PATH, preview_path=DEFAULT_PREVIEW_PATH
+) -> None:
     base = Path(base_path)
+    preview = Path(preview_path)
 
     if not base.is_dir():
         raise FileNotFoundError(f"{base_path} is not a valid directory")
@@ -219,7 +224,9 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
             print(f"[INFO]   [{index}/{total_in_folder}] Processing mesh '{stem}'.")
 
             obj_path = folder / f"{stem}.obj"
-            stl_path = folder / f"{stem}.stl"
+            legacy_stl_path = folder / f"{stem}.stl"
+            stl_path = preview / folder.name / f"{stem}.stl"
+            stl_path.parent.mkdir(parents=True, exist_ok=True)
 
             try:
                 if ".obj" in exts:
@@ -228,6 +235,7 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
 
                     export_obj_safely(mesh, obj_path)
                     export_stl_safely(mesh, stl_path)
+                    legacy_stl_path.unlink(missing_ok=True)
 
                     processed_from_obj += 1
                     print(
@@ -235,11 +243,12 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
                     )
 
                 elif ".stl" in exts:
-                    mesh = load_trimesh(stl_path)
-                    check_mesh(mesh, str(stl_path))
+                    mesh = load_trimesh(legacy_stl_path)
+                    check_mesh(mesh, str(legacy_stl_path))
 
                     export_obj_safely(mesh, obj_path)
                     export_stl_safely(mesh, stl_path)
+                    legacy_stl_path.unlink(missing_ok=True)
 
                     processed_from_stl += 1
                     print(
@@ -342,12 +351,15 @@ def print_dataset(
     dataset_names = set()
     missing_sources = set()
 
-    for folder in base.iterdir():
+    for folder in sorted(base.iterdir()):
         if not folder.is_dir() or folder.name not in folders:
             continue
 
         letter, name = folders[folder.name]
-        files = [p for p in folder.iterdir() if p.is_file() and p.suffix == ".obj"]
+        files = sorted(
+            (p for p in folder.iterdir() if p.is_file() and p.suffix == ".obj"),
+            key=lambda p: p.stem.lower(),
+        )
         if not files:
             continue
 
@@ -378,13 +390,16 @@ def print_dataset(
         print()
         print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
 
-        print("| model | genus | vertices | edges | triangles | source |")
-        print("|-------|-------|----------|-------|-----------|--------|")
+        print("| | model | genus | vertices | edges | triangles | source |")
+        print("|-|-------|-------|----------|-------|-----------|--------|")
 
         for file_path, g, V, E, F in rows:
-            stl_path = (
-                file_path.with_suffix(".stl").relative_to(PROJECT_ROOT).as_posix()
-            )
+            preview_stem = (
+                DEFAULT_PREVIEW_PATH / folder.name / file_path.stem
+            ).relative_to(PROJECT_ROOT).as_posix()
+            stl_path = f"{preview_stem}.stl"
+            png_path = f"{preview_stem}.png"
+            thumb_cell = f'<img src="{png_path}" width="40"/>'
             source_info = sources.get(file_path.stem)
 
             if source_info is None:
@@ -392,10 +407,12 @@ def print_dataset(
                 missing_sources.add(file_path.stem)
             else:
                 source_name, source_url = source_info
-                source_cell = f"[{source_name}]({source_url})"
+                source_cell = (
+                    f"[{source_name}]({source_url})" if source_url else source_name
+                )
 
             print(
-                f"| [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} | {source_cell} |"
+                f"| {thumb_cell} | [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} | {source_cell} |"
             )
 
     unused_sources = sorted(set(sources) - dataset_names)

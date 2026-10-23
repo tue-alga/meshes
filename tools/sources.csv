@@ -1,230 +1,461 @@
 name,source,url
-airplane1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-airplane2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-amogus,joshua facunla,https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
-armadillo,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/armadillo
-bimba,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-blub,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-bone,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bottle1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bottle2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bumpysphere,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bumpytorus,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bunny,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
-buste,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-B0,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B1,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B2,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B3,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B5,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B7,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B8,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B9,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B10,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B11,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B12,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B13,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B14,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B15,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B16,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B17,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B18,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B19,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B20,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B21,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B23,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B25,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B27,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B28,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B30,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B32,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B33,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B34,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B35,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B36,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B38,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B39,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B40,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B41,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B43,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B46,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B47,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B48,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B49,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B50,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B51,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B57,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B59,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B60,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B61,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B62,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B65,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B66,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B68,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B70,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B71,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B73,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B75,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-block,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-cat,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
-chineselion,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-dino2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dtorus,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-fandisk,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-ghost,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=40746
-goathead,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/goathead
-homer,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
-igea,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-koala,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-moai,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-rocker,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-rod,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-screw,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-sphinx,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-spot,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/spot
-teapot,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-torusstep,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-traystep,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-twins,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-venus,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-7connected,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-8connected,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-encrusted,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-pipehelix7,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-pipehelix,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-twist,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-cup1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-blocktopus,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=86849
-armchair,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-bird,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-blade,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-botijo,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-camel,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-camillehand,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-carter,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-chair,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-chair1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-cup,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dancer,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dancer2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dancingchildren,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-david,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-deformedarmadillo,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dente,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dilo,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dino,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dragonstand,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-dragonstand2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-duck,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-duck2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-eight,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-elephant,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-elk,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-fertility,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-fish1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-fish2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-foot,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-gargoyle,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-genus3,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-grayloc,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-insect,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-oilpump,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-toy1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-toy2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-yeahright,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-bob,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-B29,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B31,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B37,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B4,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B42,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B44,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B45,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B52,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B53,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B54,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B55,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B56,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B58,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B6,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B63,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B64,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B67,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B69,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B72,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B74,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-B76,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M1,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M2,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M3,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M4,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M5,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M6,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M8,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-M9,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S0,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S1,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S20,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S22,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S23,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S24,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S25,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S26,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S27,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S3,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S33,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S34,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S35,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S36,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S37,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S38,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S39,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S4,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S40,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S41,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S42,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S43,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S44,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S45,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S5,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S6,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S7,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S8,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S9,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-S31,Franck Ledoux,https://gitlab.com/franck.ledoux/mambo
-eros,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-glass1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-glass2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-greek,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-hand,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-head1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-head2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-holes3,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-horse,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-human1,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-human2,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-human3,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-isidorehorse,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-kiss,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-kitten,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-lion,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-mastercylinder,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-max,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-mouse,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-oni,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pear,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pensatore,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pierrot,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-pig,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-ramses,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-redbox,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-retinal,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-rollingstage,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-santa,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-screwdriver,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-sediapatch,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-thaistatue,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-uumemento,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-woodenfish,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-wrench,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
-threecees,Bas Paardekooper,
+3035_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+7connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+7connected_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+8connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+8connected_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+acuteline_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+airplane1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+airplane2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+amogus_sketchfab,joshua facunla,https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
+amogus_snoep,Maxim Snoep,
+anc101_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+antipentapyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+antipyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+antiskijump_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+aries155_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+aries70_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+armadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+armadillo_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+armadillo_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/armadillo
+armchair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+B0_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B10_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B11_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B12_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B13_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B14_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B15_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B16_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B17_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B18_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B19_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B20_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B21_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B23_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B25_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B27_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B28_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B29_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B2_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B30_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B31_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B32_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B33_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B34_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B35_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B36_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B37_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B38_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B39_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B3_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B40_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B41_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B42_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B43_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B44_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B45_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B46_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B47_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B48_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B49_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B4_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B50_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B51_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B52_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B53_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B54_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B55_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B56_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B57_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B58_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B59_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B5_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B60_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B61_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B62_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B63_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B64_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B65_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B66_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B67_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B68_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B69_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B6_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B70_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B71_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B72_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B73_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B74_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B75_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B76_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B7_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+B9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+bearingplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+beveledshoulder2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bimba_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bimba_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+bimba_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bird_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+blade_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+blade_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bladefem_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+block_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+blocktopus_snoep,Thingi10K + Maxim Snoep (remeshed),https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+blocktopus_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+blub_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+boat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+boat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/boat
+bob_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+bolt_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bone1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bone_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bonefemur_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+boot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/boot
+botijo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bottle1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bottle2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+boxpcyls_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+bracket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bracketinches_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+brucewick_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/brucewick
+buddha_stanford,Stanford,https://graphics.stanford.edu/data/3Dscanrep/
+bumpysphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bumpytorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bunny_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+bunny_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+bunny_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bunny_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bunny_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
+buste_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+buste_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+buste_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bustobimba_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+c25dflowthru_nasa,NASA,https://lbpw.larc.nasa.gov/
+cactus_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+camel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cami1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cami2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+camillehand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+camillehand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+carter_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+casting_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
+catalanwire_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
+centaur_tds,Three D Scans,https://huggingface.co/datasets/alecjacobson/threedscans
+chair1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+chair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cheese2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cheese3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cheese_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cheese_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/cheese
+chesspawn_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+chessrook_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+chineselion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+chineselion_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+chineselion_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cimplex_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+clef_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+clevis23_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+completepart16_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+completepart63_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+constantwidth_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+coverrear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cow_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/cow
+crosscyls_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+csaszar_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+ctc01_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ctc03_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+cube_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cube
+cubecarved_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cubeminussphere_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cup1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cup_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+cup_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cylinderplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+dancer2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dancer_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dancer_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+dancingchildren_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+david_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+deckel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+deckel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+deformedarmadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+demosthenes_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/demosthenes
+dente_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+des6_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+desertrose_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+dilo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dino2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dino_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dog_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+dpw6g0_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
+dpw6g1_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
+dpw7_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
+dragon_stanford,Stanford,https://graphics.stanford.edu/data/3Dscanrep/
+dragonstand2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dragonstand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+dtorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+duck2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+duck_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+eight_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+elephant_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+elk_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+ellipse_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+encrusted_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+encrusted_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+eraserball_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+eros_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+falconstatue_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/falconstatue
+fandisk_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+fandisk_libigl,libigl,https://github.com/libigl/libigl-tutorial-data
+featureloft_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+fertility_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+fish1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+fish2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+fish_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/fish
+foot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+ftc06_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ftc07_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ftc08_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ftc09_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ftc10_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+ftc11_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+gargoyle_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+gear_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+gehaeuse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+genus3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+ghost_snoep,Thingi10K + Maxim Snoep (re-oriented),https://ten-thousand-models.appspot.com/detail.html?file_id=40746
+ghost_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=40746
+gimbal_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+glass1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+glass2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+goathead_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedstein/meshes/tree/master/objects/goathead
+goathead_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/goathead
+grayloc_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+greek_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+greyhounds_tds,Three D Scans,https://huggingface.co/datasets/alecjacobson/threedscans
+gyroidpuzzle_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+halvedobliquescarf3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+hammer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hammer
+hand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+hand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+hand_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hand
+hanger_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+hanger_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+head1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+head2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+hilbertcube_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=53757
+hinge_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+hlpw4_nlr,NASA + Stevie-Ray Janssen (meshed),https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/
+hlpw5_nlr,NASA + Stevie-Ray Janssen (meshed),https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/
+holes10_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+holes2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+holes3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+homer_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+horse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+horse_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+house_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/house
+human1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+human2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+human3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+humanman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
+humanneutral_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/human
+humanwoman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
+icosahedron_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+igea_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+igea_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+impeller_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+impellerhousing_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+indorelax_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+inigo_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+inlaydovetail3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+insect_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+involumeknot_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+isidorehorse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+joint_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+joint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+jwb_nasa,NASA,https://lbpw.larc.nasa.gov/
+kiss_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+kiss_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+kitten_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+kitten_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+knob_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+knot1_cgal,CGAL,https://github.com/CGAL/cgal/tree/main/Data/data/meshes
+knot_cgal,CGAL,https://github.com/CGAL/cgal/tree/main/Data/data/meshes
+koala_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/koala
+kong_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+legoblock_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+legoman_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+leverarm_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+limitcycle_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+limitcycleg0_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+lion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+lionstatue_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/lionstatue
+lock_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+M1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M2_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M3_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M4_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M5_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M6_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+M9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+mastercylinder_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+max_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+max_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+mech10_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mechanical02_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mechanical05_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mechanical06_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mechanical08_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mechpiece_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+metatron_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+moai_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+motortail_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mouse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+mushroom_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/mushroom
+nefertiti_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+nefertiti_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/nefertiti
+octaflower_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+octahedron_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+ogre_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+ogre_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+oilpump_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+oloid_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+oni_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+orion_nasa,NASA,https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule
+parsnip_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/parsnip
+part10_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+part11_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+pear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+penguin_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/penguin
+pensatore_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+pentapyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+pierrot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+pig_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+pig_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+pig_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+pinion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+pinion_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+pipehelix7_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+pipehelix_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+pittsburghbridge_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+pizza_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/pizza
+plane_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/plane
+plate1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+plate2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+plate3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+plate4_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+prism_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+pyramid_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+rabbit_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+ramses_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+redbox_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+retinal_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+rocker_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+rocker_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+rod_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+rod_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+rollingstage_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+S0_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S20_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S22_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S23_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S24_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S25_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S26_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S27_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S31_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S33_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S34_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S35_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S36_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S37_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S38_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S39_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S3_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S40_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S41_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S42_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S43_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S44_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S45_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S4_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S5_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S6_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S7_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+S9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+santa_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sbpw1_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
+sbpw2_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
+sbpw3_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
+sbracket_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+scorpion_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/scorpion
+screw_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+screw_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+screwdriver_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sculpt_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sculpt_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+sediapatch_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+simp_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+skijump_hexme,HexMe,https://github.com/cgg-bern/hex-me-if-you-can
+skull_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/skull
+sls_nasa,NASA,https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201
+socket1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+socket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sphere_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sphere
+sphinx_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sphinx_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+spot_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+spot_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedstein/meshes/tree/master/objects/spot
+spot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/spot
+springer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/springer
+strawberry_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/strawberry
+stuffedtoy_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy
+supportframe_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+swivel2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+sword_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sword
+team2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+teapot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+teapot_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
+teapot_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+thaistatue_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+threecees_paardekooper,Bas Paardekooper,
+torque1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+torque_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+torus_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/torus
+torusstep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+torusstep_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+tower_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/tower
+toy1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+toy2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+traystep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+traystep_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+trebol_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+tree_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/tree
+triangularbase_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+trisclosed_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+trisopen_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+twins_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+twins_snoep,Sébastien Mestrallet + Maxim Snoep (remeshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+twist_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+ujoint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+uumemento_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+venus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+vessel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+violin_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/violin
+wave_loopy,Marco Livesu + Maxim Snoep (repaired),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+wedge_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+well_stein,Oded Stein + Maxim Snoep (remeshed),https://github.com/odedstein/meshes/tree/master/objects/well
+wingnut_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/wingnut
+woodenfish_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+wrench_gao,Xifeng Gao,https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip
+wrench_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+yeahright_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/

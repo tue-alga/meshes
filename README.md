@@ -1,256 +1,489 @@
-This repository contains a curated collection of 229 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 460 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
-> 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model in the repository to preview it interactively in 3D.
+> 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model name in the tables below to preview it interactively in 3D.
 
-All meshes are provided in `.obj` and `.stl` format. The collection is organized into five categories based on geometric character and topological complexity: (a) **bouba genus 0**, (b) **bouba genus ≥ 1**, (c) **kiki genus 0**, (d) **kiki genus ≥ 1**, and (e) **nightmares**. Here, *bouba* refers to smooth or organic shapes, *kiki* to CAD or mechanical shapes, and *nightmares* to very challenging shapes with unusual geometric or topological quirks. The naming system is inspired by [the bouba/kiki effect](https://en.wikipedia.org/wiki/Bouba/kiki_effect).
+The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder contains a thumbnail and `.stl` copy such that the models can be viewed using GitHub's built-in 3D viewer. The collection is organized into five categories based on geometric character and topological complexity: (a) **bouba genus 0**, (b) **bouba genus ≥ 1**, (c) **kiki genus 0**, (d) **kiki genus ≥ 1**, and (e) **nightmares**. Here, *bouba* refers to smooth or organic shapes, *kiki* to CAD or mechanical shapes (including aircraft, rockets and capsules), and *nightmares* to very challenging shapes with unusual geometric or topological quirks. The naming system is inspired by [the bouba/kiki effect](https://en.wikipedia.org/wiki/Bouba/kiki_effect).
+
+Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`), so the same shape can be included once per source. Meshes are taken from their original source without rotating or rescaling them; see [CHANGES.md](CHANGES.md) for what changed compared to the previous release.
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=68)
-| model | genus | vertices | edges | triangles | source |
-|-------|-------|----------|-------|-----------|--------|
-| [airplane1](dataset/a.bouba_zero/airplane1.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [airplane2](dataset/a.bouba_zero/airplane2.stl) | 0 | 26.806 | 80.412 | 53.608 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [amogus](dataset/a.bouba_zero/amogus.stl) | 0 | 964 | 2.886 | 1.924 | [joshua facunla](https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0) |
-| [armadillo](dataset/a.bouba_zero/armadillo.stl) | 0 | 14.587 | 43.755 | 29.170 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/armadillo) |
-| [armchair](dataset/a.bouba_zero/armchair.stl) | 0 | 12.972 | 38.910 | 25.940 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bimba](dataset/a.bouba_zero/bimba.stl) | 0 | 10.797 | 32.385 | 21.590 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bird](dataset/a.bouba_zero/bird.stl) | 0 | 17.318 | 51.948 | 34.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [blade](dataset/a.bouba_zero/blade.stl) | 0 | 14.106 | 42.312 | 28.208 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [blocktopus](dataset/a.bouba_zero/blocktopus.stl) | 0 | 5.054 | 15.156 | 10.104 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
-| [blub](dataset/a.bouba_zero/blub.stl) | 0 | 7.106 | 21.312 | 14.208 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| [bone](dataset/a.bouba_zero/bone.stl) | 0 | 6.046 | 18.132 | 12.088 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bumpysphere](dataset/a.bouba_zero/bumpysphere.stl) | 0 | 22.890 | 68.664 | 45.776 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bunny](dataset/a.bouba_zero/bunny.stl) | 0 | 11.120 | 33.354 | 22.236 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/bunny) |
-| [buste](dataset/a.bouba_zero/buste.stl) | 0 | 6.070 | 18.204 | 12.136 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| [camillehand](dataset/a.bouba_zero/camillehand.stl) | 0 | 16.565 | 49.689 | 33.126 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [cat](dataset/a.bouba_zero/cat.stl) | 0 | 7.949 | 23.841 | 15.894 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/cat) |
-| [chineselion](dataset/a.bouba_zero/chineselion.stl) | 0 | 4.248 | 12.738 | 8.492 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| [david](dataset/a.bouba_zero/david.stl) | 0 | 25.434 | 76.296 | 50.864 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [deformedarmadillo](dataset/a.bouba_zero/deformedarmadillo.stl) | 0 | 87.286 | 261.852 | 174.568 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dente](dataset/a.bouba_zero/dente.stl) | 0 | 12.195 | 36.579 | 24.386 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dilo](dataset/a.bouba_zero/dilo.stl) | 0 | 22.154 | 66.456 | 44.304 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dino](dataset/a.bouba_zero/dino.stl) | 0 | 16.634 | 49.896 | 33.264 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dino2](dataset/a.bouba_zero/dino2.stl) | 0 | 10.178 | 30.528 | 20.352 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [duck](dataset/a.bouba_zero/duck.stl) | 0 | 3.598 | 10.788 | 7.192 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [duck2](dataset/a.bouba_zero/duck2.stl) | 0 | 9.640 | 28.914 | 19.276 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [eros](dataset/b.bouba_plus/eros.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [fish1](dataset/a.bouba_zero/fish1.stl) | 0 | 11.895 | 35.679 | 23.786 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [fish2](dataset/a.bouba_zero/fish2.stl) | 0 | 10.604 | 31.806 | 21.204 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [foot](dataset/a.bouba_zero/foot.stl) | 0 | 10.342 | 31.020 | 20.680 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [gargoyle](dataset/a.bouba_zero/gargoyle.stl) | 0 | 13.024 | 39.066 | 26.044 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [ghost](dataset/a.bouba_zero/ghost.stl) | 0 | 1.698 | 5.088 | 3.392 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=40746) |
-| [glass1](dataset/a.bouba_zero/glass1.stl) | 0 | 29.674 | 89.016 | 59.344 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [glass2](dataset/a.bouba_zero/glass2.stl) | 0 | 11.710 | 35.124 | 23.416 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [goathead](dataset/a.bouba_zero/goathead.stl) | 0 | 2.763 | 8.283 | 5.522 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/goathead) |
-| [hand](dataset/a.bouba_zero/hand.stl) | 0 | 13.982 | 41.940 | 27.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [head1](dataset/a.bouba_zero/head1.stl) | 0 | 14.399 | 43.191 | 28.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [head2](dataset/a.bouba_zero/head2.stl) | 0 | 14.754 | 44.256 | 29.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [homer](dataset/a.bouba_zero/homer.stl) | 0 | 13.639 | 40.911 | 27.274 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
-| [horse](dataset/a.bouba_zero/horse.stl) | 0 | 19.851 | 59.547 | 39.698 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [human1](dataset/a.bouba_zero/human1.stl) | 0 | 10.231 | 30.687 | 20.458 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [human2](dataset/a.bouba_zero/human2.stl) | 0 | 12.794 | 38.376 | 25.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [human3](dataset/a.bouba_zero/human3.stl) | 0 | 12.329 | 36.981 | 24.654 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [igea](dataset/a.bouba_zero/igea.stl) | 0 | 25.282 | 75.840 | 50.560 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [insect](dataset/a.bouba_zero/insect.stl) | 0 | 39.370 | 118.104 | 78.736 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [isidorehorse](dataset/a.bouba_zero/isidorehorse.stl) | 0 | 19.465 | 58.389 | 38.926 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [koala](dataset/a.bouba_zero/koala.stl) | 0 | 3.560 | 10.674 | 7.116 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [lion](dataset/a.bouba_zero/lion.stl) | 0 | 27.899 | 83.691 | 55.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [max](dataset/a.bouba_zero/max.stl) | 0 | 9.936 | 29.802 | 19.868 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [moai](dataset/a.bouba_zero/moai.stl) | 0 | 10.002 | 30.000 | 20.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [mouse](dataset/a.bouba_zero/mouse.stl) | 0 | 13.961 | 41.877 | 27.918 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [oni](dataset/a.bouba_zero/oni.stl) | 0 | 12.887 | 38.655 | 25.770 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [pear](dataset/a.bouba_zero/pear.stl) | 0 | 10.754 | 32.256 | 21.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [pensatore](dataset/a.bouba_zero/pensatore.stl) | 0 | 19.624 | 58.866 | 39.244 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [pierrot](dataset/a.bouba_zero/pierrot.stl) | 0 | 16.551 | 49.647 | 33.098 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [pig](dataset/a.bouba_zero/pig.stl) | 0 | 15.594 | 46.776 | 31.184 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [ramses](dataset/a.bouba_zero/ramses.stl) | 0 | 13.505 | 40.509 | 27.006 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [redbox](dataset/a.bouba_zero/redbox.stl) | 0 | 50.002 | 150.000 | 100.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [retinal](dataset/a.bouba_zero/retinal.stl) | 0 | 14.566 | 43.692 | 29.128 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [santa](dataset/a.bouba_zero/santa.stl) | 0 | 10.406 | 31.212 | 20.808 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [screwdriver](dataset/a.bouba_zero/screwdriver.stl) | 0 | 24.568 | 73.698 | 49.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [sediapatch](dataset/a.bouba_zero/sediapatch.stl) | 0 | 15.584 | 46.746 | 31.164 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [sphinx](dataset/a.bouba_zero/sphinx.stl) | 0 | 10.608 | 31.818 | 21.212 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [spot](dataset/a.bouba_zero/spot.stl) | 0 | 11.533 | 34.593 | 23.062 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/spot) |
-| [toy1](dataset/a.bouba_zero/toy1.stl) | 0 | 13.452 | 40.350 | 26.900 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [toy2](dataset/a.bouba_zero/toy2.stl) | 0 | 10.755 | 32.259 | 21.506 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [uumemento](dataset/a.bouba_zero/uumemento.stl) | 0 | 46.510 | 139.524 | 93.016 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [venus](dataset/a.bouba_zero/venus.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [woodenfish](dataset/a.bouba_zero/woodenfish.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+### (a) bouba (g=0, n=135)
+| | model | genus | vertices | edges | triangles | source |
+|-|-------|-------|----------|-------|-----------|--------|
+| <img src="preview/a.bouba_zero/airplane1_gao.png" width="40"/> | [airplane1_gao](preview/a.bouba_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/airplane2_gao.png" width="40"/> | [airplane2_gao](preview/a.bouba_zero/airplane2_gao.stl) | 0 | 26.806 | 80.412 | 53.608 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/amogus_sketchfab.png" width="40"/> | [amogus_sketchfab](preview/a.bouba_zero/amogus_sketchfab.stl) | 0 | 964 | 2.886 | 1.924 | [joshua facunla](https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0) |
+| <img src="preview/a.bouba_zero/amogus_snoep.png" width="40"/> | [amogus_snoep](preview/a.bouba_zero/amogus_snoep.stl) | 0 | 3.061 | 9.177 | 6.118 | Maxim Snoep |
+| <img src="preview/a.bouba_zero/armadillo_gao.png" width="40"/> | [armadillo_gao](preview/a.bouba_zero/armadillo_gao.stl) | 0 | 15.508 | 46.518 | 31.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/armadillo_jacobson.png" width="40"/> | [armadillo_jacobson](preview/a.bouba_zero/armadillo_jacobson.stl) | 0 | 49.990 | 149.964 | 99.976 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/armadillo_stein.png" width="40"/> | [armadillo_stein](preview/a.bouba_zero/armadillo_stein.stl) | 0 | 14.587 | 43.755 | 29.170 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/armadillo) |
+| <img src="preview/a.bouba_zero/armchair_gao.png" width="40"/> | [armchair_gao](preview/a.bouba_zero/armchair_gao.stl) | 0 | 12.972 | 38.910 | 25.940 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/bimba_gao.png" width="40"/> | [bimba_gao](preview/a.bouba_zero/bimba_gao.stl) | 0 | 10.797 | 32.385 | 21.590 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/bimba_jacobson.png" width="40"/> | [bimba_jacobson](preview/a.bouba_zero/bimba_jacobson.stl) | 0 | 29.995 | 89.979 | 59.986 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/bimba_loopy.png" width="40"/> | [bimba_loopy](preview/a.bouba_zero/bimba_loopy.stl) | 0 | 11.772 | 35.310 | 23.540 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bird_gao.png" width="40"/> | [bird_gao](preview/a.bouba_zero/bird_gao.stl) | 0 | 17.318 | 51.948 | 34.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/blade_gao.png" width="40"/> | [blade_gao](preview/a.bouba_zero/blade_gao.stl) | 0 | 14.106 | 42.312 | 28.208 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/blade_loopy.png" width="40"/> | [blade_loopy](preview/a.bouba_zero/blade_loopy.stl) | 0 | 14.532 | 43.590 | 29.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bladefem_loopy.png" width="40"/> | [bladefem_loopy](preview/a.bouba_zero/bladefem_loopy.stl) | 0 | 6.086 | 18.252 | 12.168 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/blocktopus_snoep.png" width="40"/> | [blocktopus_snoep](preview/a.bouba_zero/blocktopus_snoep.stl) | 0 | 7.569 | 22.701 | 15.134 | [Thingi10K + Maxim Snoep (remeshed)](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
+| <img src="preview/a.bouba_zero/blocktopus_thingi.png" width="40"/> | [blocktopus_thingi](preview/a.bouba_zero/blocktopus_thingi.stl) | 0 | 5.054 | 15.156 | 10.104 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=86849) |
+| <img src="preview/a.bouba_zero/blub_crane.png" width="40"/> | [blub_crane](preview/a.bouba_zero/blub_crane.stl) | 0 | 7.106 | 21.312 | 14.208 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/boat_loopy.png" width="40"/> | [boat_loopy](preview/a.bouba_zero/boat_loopy.stl) | 0 | 11.389 | 34.161 | 22.774 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/boat_stein.png" width="40"/> | [boat_stein](preview/a.bouba_zero/boat_stein.stl) | 0 | 16.210 | 48.624 | 32.416 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boat) |
+| <img src="preview/a.bouba_zero/bone1_loopy.png" width="40"/> | [bone1_loopy](preview/a.bouba_zero/bone1_loopy.stl) | 0 | 1.566 | 4.692 | 3.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bone_gao.png" width="40"/> | [bone_gao](preview/a.bouba_zero/bone_gao.stl) | 0 | 6.046 | 18.132 | 12.088 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/bonefemur_loopy.png" width="40"/> | [bonefemur_loopy](preview/a.bouba_zero/bonefemur_loopy.stl) | 0 | 4.666 | 13.992 | 9.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/brucewick_stein.png" width="40"/> | [brucewick_stein](preview/a.bouba_zero/brucewick_stein.stl) | 0 | 1.431 | 4.287 | 2.858 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/brucewick) |
+| <img src="preview/a.bouba_zero/bumpysphere_gao.png" width="40"/> | [bumpysphere_gao](preview/a.bouba_zero/bumpysphere_gao.stl) | 0 | 22.890 | 68.664 | 45.776 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/bunny_gao.png" width="40"/> | [bunny_gao](preview/a.bouba_zero/bunny_gao.stl) | 0 | 11.247 | 33.735 | 22.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/bunny_jacobson.png" width="40"/> | [bunny_jacobson](preview/a.bouba_zero/bunny_jacobson.stl) | 0 | 35.188 | 105.558 | 70.372 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/bunny_loopy.png" width="40"/> | [bunny_loopy](preview/a.bouba_zero/bunny_loopy.stl) | 0 | 11.120 | 33.354 | 22.236 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bunny_snoep.png" width="40"/> | [bunny_snoep](preview/a.bouba_zero/bunny_snoep.stl) | 0 | 11.120 | 33.354 | 22.236 | [Marco Livesu + Maxim Snoep (re-oriented)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bunny_stein.png" width="40"/> | [bunny_stein](preview/a.bouba_zero/bunny_stein.stl) | 0 | 3.301 | 9.897 | 6.598 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/bunny) |
+| <img src="preview/a.bouba_zero/buste_gao.png" width="40"/> | [buste_gao](preview/a.bouba_zero/buste_gao.stl) | 0 | 17.341 | 52.017 | 34.678 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/buste_loopy.png" width="40"/> | [buste_loopy](preview/a.bouba_zero/buste_loopy.stl) | 0 | 6.070 | 18.204 | 12.136 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/buste_snoep.png" width="40"/> | [buste_snoep](preview/a.bouba_zero/buste_snoep.stl) | 0 | 6.070 | 18.204 | 12.136 | [Marco Livesu + Maxim Snoep (re-oriented)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/bustobimba_loopy.png" width="40"/> | [bustobimba_loopy](preview/a.bouba_zero/bustobimba_loopy.stl) | 0 | 1.948 | 5.838 | 3.892 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/cactus_loopy.png" width="40"/> | [cactus_loopy](preview/a.bouba_zero/cactus_loopy.stl) | 0 | 700 | 2.094 | 1.396 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/camillehand_gao.png" width="40"/> | [camillehand_gao](preview/a.bouba_zero/camillehand_gao.stl) | 0 | 16.565 | 49.689 | 33.126 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/camillehand_loopy.png" width="40"/> | [camillehand_loopy](preview/a.bouba_zero/camillehand_loopy.stl) | 0 | 3.705 | 11.109 | 7.406 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/cat_loopy.png" width="40"/> | [cat_loopy](preview/a.bouba_zero/cat_loopy.stl) | 0 | 2.332 | 6.990 | 4.660 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/cat_stein.png" width="40"/> | [cat_stein](preview/a.bouba_zero/cat_stein.stl) | 0 | 7.949 | 23.841 | 15.894 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/cat) |
+| <img src="preview/a.bouba_zero/cheese_stein.png" width="40"/> | [cheese_stein](preview/a.bouba_zero/cheese_stein.stl) | 0 | 30.002 | 90.000 | 60.000 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/cheese) |
+| <img src="preview/a.bouba_zero/chineselion_gao.png" width="40"/> | [chineselion_gao](preview/a.bouba_zero/chineselion_gao.stl) | 0 | 25.194 | 75.576 | 50.384 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/chineselion_loopy.png" width="40"/> | [chineselion_loopy](preview/a.bouba_zero/chineselion_loopy.stl) | 0 | 4.248 | 12.738 | 8.492 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/chineselion_snoep.png" width="40"/> | [chineselion_snoep](preview/a.bouba_zero/chineselion_snoep.stl) | 0 | 4.248 | 12.738 | 8.492 | [Marco Livesu + Maxim Snoep (re-oriented)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/clef_loopy.png" width="40"/> | [clef_loopy](preview/a.bouba_zero/clef_loopy.stl) | 0 | 1.392 | 4.170 | 2.780 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/cup_loopy.png" width="40"/> | [cup_loopy](preview/a.bouba_zero/cup_loopy.stl) | 0 | 214 | 636 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/david_gao.png" width="40"/> | [david_gao](preview/a.bouba_zero/david_gao.stl) | 0 | 25.434 | 76.296 | 50.864 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/deformedarmadillo_gao.png" width="40"/> | [deformedarmadillo_gao](preview/a.bouba_zero/deformedarmadillo_gao.stl) | 0 | 87.286 | 261.852 | 174.568 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/dente_gao.png" width="40"/> | [dente_gao](preview/a.bouba_zero/dente_gao.stl) | 0 | 12.195 | 36.579 | 24.386 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/dilo_gao.png" width="40"/> | [dilo_gao](preview/a.bouba_zero/dilo_gao.stl) | 0 | 22.154 | 66.456 | 44.304 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/dino2_gao.png" width="40"/> | [dino2_gao](preview/a.bouba_zero/dino2_gao.stl) | 0 | 10.178 | 30.528 | 20.352 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/dino_gao.png" width="40"/> | [dino_gao](preview/a.bouba_zero/dino_gao.stl) | 0 | 16.634 | 49.896 | 33.264 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/dog_loopy.png" width="40"/> | [dog_loopy](preview/a.bouba_zero/dog_loopy.stl) | 0 | 3.084 | 9.246 | 6.164 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/duck2_gao.png" width="40"/> | [duck2_gao](preview/a.bouba_zero/duck2_gao.stl) | 0 | 9.640 | 28.914 | 19.276 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/duck_gao.png" width="40"/> | [duck_gao](preview/a.bouba_zero/duck_gao.stl) | 0 | 3.598 | 10.788 | 7.192 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/ellipse_loopy.png" width="40"/> | [ellipse_loopy](preview/a.bouba_zero/ellipse_loopy.stl) | 0 | 554 | 1.656 | 1.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/eraserball_loopy.png" width="40"/> | [eraserball_loopy](preview/a.bouba_zero/eraserball_loopy.stl) | 0 | 2.624 | 7.866 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/eros_gao.png" width="40"/> | [eros_gao](preview/a.bouba_zero/eros_gao.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/falconstatue_stein.png" width="40"/> | [falconstatue_stein](preview/a.bouba_zero/falconstatue_stein.stl) | 0 | 25.839 | 77.511 | 51.674 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/falconstatue) |
+| <img src="preview/a.bouba_zero/fish1_gao.png" width="40"/> | [fish1_gao](preview/a.bouba_zero/fish1_gao.stl) | 0 | 11.895 | 35.679 | 23.786 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/fish2_gao.png" width="40"/> | [fish2_gao](preview/a.bouba_zero/fish2_gao.stl) | 0 | 10.604 | 31.806 | 21.204 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/fish_stein.png" width="40"/> | [fish_stein](preview/a.bouba_zero/fish_stein.stl) | 0 | 10.786 | 32.352 | 21.568 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/fish) |
+| <img src="preview/a.bouba_zero/foot_gao.png" width="40"/> | [foot_gao](preview/a.bouba_zero/foot_gao.stl) | 0 | 10.342 | 31.020 | 20.680 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/gargoyle_gao.png" width="40"/> | [gargoyle_gao](preview/a.bouba_zero/gargoyle_gao.stl) | 0 | 13.024 | 39.066 | 26.044 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/ghost_snoep.png" width="40"/> | [ghost_snoep](preview/a.bouba_zero/ghost_snoep.stl) | 0 | 1.698 | 5.088 | 3.392 | [Thingi10K + Maxim Snoep (re-oriented)](https://ten-thousand-models.appspot.com/detail.html?file_id=40746) |
+| <img src="preview/a.bouba_zero/ghost_thingi.png" width="40"/> | [ghost_thingi](preview/a.bouba_zero/ghost_thingi.stl) | 0 | 1.698 | 5.088 | 3.392 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=40746) |
+| <img src="preview/a.bouba_zero/glass1_gao.png" width="40"/> | [glass1_gao](preview/a.bouba_zero/glass1_gao.stl) | 0 | 29.674 | 89.016 | 59.344 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/glass2_gao.png" width="40"/> | [glass2_gao](preview/a.bouba_zero/glass2_gao.stl) | 0 | 11.710 | 35.124 | 23.416 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/goathead_snoep.png" width="40"/> | [goathead_snoep](preview/a.bouba_zero/goathead_snoep.stl) | 0 | 2.763 | 8.283 | 5.522 | [Oded Stein + Maxim Snoep (re-oriented)](https://github.com/odedstein/meshes/tree/master/objects/goathead) |
+| <img src="preview/a.bouba_zero/goathead_stein.png" width="40"/> | [goathead_stein](preview/a.bouba_zero/goathead_stein.stl) | 0 | 2.763 | 8.283 | 5.522 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/goathead) |
+| <img src="preview/a.bouba_zero/hand_gao.png" width="40"/> | [hand_gao](preview/a.bouba_zero/hand_gao.stl) | 0 | 13.982 | 41.940 | 27.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/hand_loopy.png" width="40"/> | [hand_loopy](preview/a.bouba_zero/hand_loopy.stl) | 0 | 2.474 | 7.416 | 4.944 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/hand_stein.png" width="40"/> | [hand_stein](preview/a.bouba_zero/hand_stein.stl) | 0 | 7.993 | 23.973 | 15.982 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/hand) |
+| <img src="preview/a.bouba_zero/head1_gao.png" width="40"/> | [head1_gao](preview/a.bouba_zero/head1_gao.stl) | 0 | 14.399 | 43.191 | 28.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/head2_gao.png" width="40"/> | [head2_gao](preview/a.bouba_zero/head2_gao.stl) | 0 | 14.754 | 44.256 | 29.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/homer_gao.png" width="40"/> | [homer_gao](preview/a.bouba_zero/homer_gao.stl) | 0 | 13.639 | 40.911 | 27.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/horse_gao.png" width="40"/> | [horse_gao](preview/a.bouba_zero/horse_gao.stl) | 0 | 19.851 | 59.547 | 39.698 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/horse_jacobson.png" width="40"/> | [horse_jacobson](preview/a.bouba_zero/horse_jacobson.stl) | 0 | 48.485 | 145.449 | 96.966 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/human1_gao.png" width="40"/> | [human1_gao](preview/a.bouba_zero/human1_gao.stl) | 0 | 10.231 | 30.687 | 20.458 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/human2_gao.png" width="40"/> | [human2_gao](preview/a.bouba_zero/human2_gao.stl) | 0 | 12.794 | 38.376 | 25.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/human3_gao.png" width="40"/> | [human3_gao](preview/a.bouba_zero/human3_gao.stl) | 0 | 12.329 | 36.981 | 24.654 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/humanman_stein.png" width="40"/> | [humanman_stein](preview/a.bouba_zero/humanman_stein.stl) | 0 | 6.890 | 20.664 | 13.776 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/human) |
+| <img src="preview/a.bouba_zero/humanneutral_stein.png" width="40"/> | [humanneutral_stein](preview/a.bouba_zero/humanneutral_stein.stl) | 0 | 9.437 | 28.305 | 18.870 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/human) |
+| <img src="preview/a.bouba_zero/humanwoman_stein.png" width="40"/> | [humanwoman_stein](preview/a.bouba_zero/humanwoman_stein.stl) | 0 | 6.890 | 20.664 | 13.776 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/human) |
+| <img src="preview/a.bouba_zero/igea_gao.png" width="40"/> | [igea_gao](preview/a.bouba_zero/igea_gao.stl) | 0 | 25.282 | 75.840 | 50.560 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/igea_jacobson.png" width="40"/> | [igea_jacobson](preview/a.bouba_zero/igea_jacobson.stl) | 0 | 30.001 | 89.997 | 59.998 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/inigo_crane.png" width="40"/> | [inigo_crane](preview/a.bouba_zero/inigo_crane.stl) | 0 | 29.995 | 89.979 | 59.986 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/insect_gao.png" width="40"/> | [insect_gao](preview/a.bouba_zero/insect_gao.stl) | 0 | 39.370 | 118.104 | 78.736 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/isidorehorse_gao.png" width="40"/> | [isidorehorse_gao](preview/a.bouba_zero/isidorehorse_gao.stl) | 0 | 19.465 | 58.389 | 38.926 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/koala_stein.png" width="40"/> | [koala_stein](preview/a.bouba_zero/koala_stein.stl) | 0 | 3.560 | 10.674 | 7.116 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/koala) |
+| <img src="preview/a.bouba_zero/kong_loopy.png" width="40"/> | [kong_loopy](preview/a.bouba_zero/kong_loopy.stl) | 0 | 15.778 | 47.328 | 31.552 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/lion_gao.png" width="40"/> | [lion_gao](preview/a.bouba_zero/lion_gao.stl) | 0 | 27.899 | 83.691 | 55.794 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/max_gao.png" width="40"/> | [max_gao](preview/a.bouba_zero/max_gao.stl) | 0 | 9.936 | 29.802 | 19.868 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/max_jacobson.png" width="40"/> | [max_jacobson](preview/a.bouba_zero/max_jacobson.stl) | 0 | 51.212 | 153.630 | 102.420 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/moai_gao.png" width="40"/> | [moai_gao](preview/a.bouba_zero/moai_gao.stl) | 0 | 10.002 | 30.000 | 20.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/mouse_gao.png" width="40"/> | [mouse_gao](preview/a.bouba_zero/mouse_gao.stl) | 0 | 13.961 | 41.877 | 27.918 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/mushroom_stein.png" width="40"/> | [mushroom_stein](preview/a.bouba_zero/mushroom_stein.stl) | 0 | 11.585 | 34.749 | 23.166 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/mushroom) |
+| <img src="preview/a.bouba_zero/nefertiti_crane.png" width="40"/> | [nefertiti_crane](preview/a.bouba_zero/nefertiti_crane.stl) | 0 | 29.999 | 89.991 | 59.994 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/nefertiti_stein.png" width="40"/> | [nefertiti_stein](preview/a.bouba_zero/nefertiti_stein.stl) | 0 | 29.999 | 89.991 | 59.994 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/nefertiti) |
+| <img src="preview/a.bouba_zero/ogre_crane.png" width="40"/> | [ogre_crane](preview/a.bouba_zero/ogre_crane.stl) | 0 | 19.446 | 58.332 | 38.888 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/ogre_jacobson.png" width="40"/> | [ogre_jacobson](preview/a.bouba_zero/ogre_jacobson.stl) | 0 | 25.669 | 77.001 | 51.334 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/oni_gao.png" width="40"/> | [oni_gao](preview/a.bouba_zero/oni_gao.stl) | 0 | 12.887 | 38.655 | 25.770 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/pear_gao.png" width="40"/> | [pear_gao](preview/a.bouba_zero/pear_gao.stl) | 0 | 10.754 | 32.256 | 21.504 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/penguin_stein.png" width="40"/> | [penguin_stein](preview/a.bouba_zero/penguin_stein.stl) | 0 | 3.362 | 10.080 | 6.720 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/penguin) |
+| <img src="preview/a.bouba_zero/pensatore_gao.png" width="40"/> | [pensatore_gao](preview/a.bouba_zero/pensatore_gao.stl) | 0 | 19.624 | 58.866 | 39.244 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/pierrot_gao.png" width="40"/> | [pierrot_gao](preview/a.bouba_zero/pierrot_gao.stl) | 0 | 16.551 | 49.647 | 33.098 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/pig_crane.png" width="40"/> | [pig_crane](preview/a.bouba_zero/pig_crane.stl) | 0 | 4.434 | 13.296 | 8.864 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/pig_gao.png" width="40"/> | [pig_gao](preview/a.bouba_zero/pig_gao.stl) | 0 | 15.594 | 46.776 | 31.184 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/pig_loopy.png" width="40"/> | [pig_loopy](preview/a.bouba_zero/pig_loopy.stl) | 0 | 3.166 | 9.492 | 6.328 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/rabbit_loopy.png" width="40"/> | [rabbit_loopy](preview/a.bouba_zero/rabbit_loopy.stl) | 0 | 8.002 | 24.000 | 16.000 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/ramses_gao.png" width="40"/> | [ramses_gao](preview/a.bouba_zero/ramses_gao.stl) | 0 | 13.505 | 40.509 | 27.006 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/redbox_gao.png" width="40"/> | [redbox_gao](preview/a.bouba_zero/redbox_gao.stl) | 0 | 50.002 | 150.000 | 100.000 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/retinal_gao.png" width="40"/> | [retinal_gao](preview/a.bouba_zero/retinal_gao.stl) | 0 | 14.566 | 43.692 | 29.128 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/santa_gao.png" width="40"/> | [santa_gao](preview/a.bouba_zero/santa_gao.stl) | 0 | 10.406 | 31.212 | 20.808 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/scorpion_stein.png" width="40"/> | [scorpion_stein](preview/a.bouba_zero/scorpion_stein.stl) | 0 | 6.315 | 18.939 | 12.626 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/scorpion) |
+| <img src="preview/a.bouba_zero/screwdriver_gao.png" width="40"/> | [screwdriver_gao](preview/a.bouba_zero/screwdriver_gao.stl) | 0 | 24.568 | 73.698 | 49.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/sediapatch_gao.png" width="40"/> | [sediapatch_gao](preview/a.bouba_zero/sediapatch_gao.stl) | 0 | 15.584 | 46.746 | 31.164 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/sphere_stein.png" width="40"/> | [sphere_stein](preview/a.bouba_zero/sphere_stein.stl) | 0 | 642 | 1.920 | 1.280 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sphere) |
+| <img src="preview/a.bouba_zero/sphinx_gao.png" width="40"/> | [sphinx_gao](preview/a.bouba_zero/sphinx_gao.stl) | 0 | 10.608 | 31.818 | 21.212 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/sphinx_loopy.png" width="40"/> | [sphinx_loopy](preview/a.bouba_zero/sphinx_loopy.stl) | 0 | 10.184 | 30.546 | 20.364 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/spot_crane.png" width="40"/> | [spot_crane](preview/a.bouba_zero/spot_crane.stl) | 0 | 2.930 | 8.784 | 5.856 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/a.bouba_zero/spot_snoep.png" width="40"/> | [spot_snoep](preview/a.bouba_zero/spot_snoep.stl) | 0 | 11.533 | 34.593 | 23.062 | [Oded Stein + Maxim Snoep (re-oriented)](https://github.com/odedstein/meshes/tree/master/objects/spot) |
+| <img src="preview/a.bouba_zero/spot_stein.png" width="40"/> | [spot_stein](preview/a.bouba_zero/spot_stein.stl) | 0 | 11.533 | 34.593 | 23.062 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/spot) |
+| <img src="preview/a.bouba_zero/strawberry_stein.png" width="40"/> | [strawberry_stein](preview/a.bouba_zero/strawberry_stein.stl) | 0 | 29.992 | 89.970 | 59.980 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
+| <img src="preview/a.bouba_zero/stuffedtoy_stein.png" width="40"/> | [stuffedtoy_stein](preview/a.bouba_zero/stuffedtoy_stein.stl) | 0 | 6.669 | 20.001 | 13.334 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy) |
+| <img src="preview/a.bouba_zero/teapot_jacobson.png" width="40"/> | [teapot_jacobson](preview/a.bouba_zero/teapot_jacobson.stl) | 0 | 1.805 | 5.409 | 3.606 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/a.bouba_zero/torque1_loopy.png" width="40"/> | [torque1_loopy](preview/a.bouba_zero/torque1_loopy.stl) | 0 | 2.850 | 8.544 | 5.696 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/torque_loopy.png" width="40"/> | [torque_loopy](preview/a.bouba_zero/torque_loopy.stl) | 0 | 1.652 | 4.950 | 3.300 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/toy1_gao.png" width="40"/> | [toy1_gao](preview/a.bouba_zero/toy1_gao.stl) | 0 | 13.452 | 40.350 | 26.900 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/toy2_gao.png" width="40"/> | [toy2_gao](preview/a.bouba_zero/toy2_gao.stl) | 0 | 10.755 | 32.259 | 21.506 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/trebol_loopy.png" width="40"/> | [trebol_loopy](preview/a.bouba_zero/trebol_loopy.stl) | 0 | 18.176 | 54.522 | 36.348 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/tree_stein.png" width="40"/> | [tree_stein](preview/a.bouba_zero/tree_stein.stl) | 0 | 30.000 | 89.994 | 59.996 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/tree) |
+| <img src="preview/a.bouba_zero/uumemento_gao.png" width="40"/> | [uumemento_gao](preview/a.bouba_zero/uumemento_gao.stl) | 0 | 46.510 | 139.524 | 93.016 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/venus_gao.png" width="40"/> | [venus_gao](preview/a.bouba_zero/venus_gao.stl) | 0 | 10.874 | 32.616 | 21.744 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/a.bouba_zero/wave_loopy.png" width="40"/> | [wave_loopy](preview/a.bouba_zero/wave_loopy.stl) | 0 | 576 | 1.722 | 1.148 | [Marco Livesu + Maxim Snoep (repaired)](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/a.bouba_zero/woodenfish_gao.png" width="40"/> | [woodenfish_gao](preview/a.bouba_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (b) bouba (g≥0, n=34)
-| model | genus | vertices | edges | triangles | source |
-|-------|-------|----------|-------|-----------|--------|
-| [bob](dataset/b.bouba_plus/bob.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| [botijo](dataset/b.bouba_plus/botijo.stl) | 5 | 12.127 | 36.405 | 24.270 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bottle1](dataset/b.bouba_plus/bottle1.stl) | 1 | 14.832 | 44.496 | 29.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bottle2](dataset/b.bouba_plus/bottle2.stl) | 1 | 14.595 | 43.785 | 29.190 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [bumpytorus](dataset/b.bouba_plus/bumpytorus.stl) | 1 | 15.279 | 45.837 | 30.558 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [camel](dataset/b.bouba_plus/camel.stl) | 1 | 34.546 | 103.638 | 69.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [carter](dataset/b.bouba_plus/carter.stl) | 7 | 67.436 | 202.344 | 134.896 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [chair](dataset/b.bouba_plus/chair.stl) | 7 | 23.081 | 69.279 | 46.186 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [chair1](dataset/b.bouba_plus/chair1.stl) | 4 | 11.421 | 34.281 | 22.854 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [cup](dataset/b.bouba_plus/cup.stl) | 2 | 10.495 | 31.491 | 20.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [cup1](dataset/b.bouba_plus/cup1.stl) | 1 | 15.564 | 46.692 | 31.128 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dancer](dataset/b.bouba_plus/dancer.stl) | 1 | 12.048 | 36.144 | 24.096 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dancer2](dataset/b.bouba_plus/dancer2.stl) | 1 | 30.248 | 90.744 | 60.496 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dancingchildren](dataset/b.bouba_plus/dancingchildren.stl) | 8 | 12.163 | 36.531 | 24.354 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dragonstand](dataset/b.bouba_plus/dragonstand.stl) | 1 | 21.042 | 63.126 | 42.084 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dragonstand2](dataset/b.bouba_plus/dragonstand2.stl) | 1 | 30.561 | 91.683 | 61.122 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [dtorus](dataset/b.bouba_plus/dtorus.stl) | 2 | 10.090 | 30.276 | 20.184 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [eight](dataset/b.bouba_plus/eight.stl) | 2 | 5.544 | 16.638 | 11.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [elephant](dataset/b.bouba_plus/elephant.stl) | 3 | 38.084 | 114.264 | 76.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [elk](dataset/b.bouba_plus/elk.stl) | 1 | 23.114 | 69.342 | 46.228 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [fertility](dataset/b.bouba_plus/fertility.stl) | 4 | 26.222 | 78.684 | 52.456 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [genus3](dataset/b.bouba_plus/genus3.stl) | 3 | 33.952 | 101.868 | 67.912 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [grayloc](dataset/b.bouba_plus/grayloc.stl) | 9 | 11.339 | 34.065 | 22.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [greek](dataset/b.bouba_plus/greek.stl) | 4 | 12.501 | 37.521 | 25.014 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [holes3](dataset/b.bouba_plus/holes3.stl) | 3 | 14.396 | 43.200 | 28.800 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [kiss](dataset/b.bouba_plus/kiss.stl) | 3 | 10.192 | 30.588 | 20.392 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [kitten](dataset/b.bouba_plus/kitten.stl) | 1 | 10.183 | 30.549 | 20.366 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [mastercylinder](dataset/b.bouba_plus/mastercylinder.stl) | 3 | 13.689 | 41.079 | 27.386 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [oilpump](dataset/b.bouba_plus/oilpump.stl) | 4 | 68.742 | 206.244 | 137.496 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [rollingstage](dataset/b.bouba_plus/rollingstage.stl) | 7 | 15.387 | 46.197 | 30.798 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [teapot](dataset/b.bouba_plus/teapot.stl) | 1 | 13.464 | 40.392 | 26.928 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [thaistatue](dataset/b.bouba_plus/thaistatue.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [wrench](dataset/b.bouba_plus/wrench.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [threecees](dataset/b.bouba_plus/threecees.stl) | 1 | 1.788 | 5.364 | 3.576 | Bas Paardekooper |
+### (b) bouba (g≥1, n=55)
+| | model | genus | vertices | edges | triangles | source |
+|-|-------|-------|----------|-------|-----------|--------|
+| <img src="preview/b.bouba_plus/bob_crane.png" width="40"/> | [bob_crane](preview/b.bouba_plus/bob_crane.stl) | 1 | 5.344 | 16.032 | 10.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/b.bouba_plus/boot_stein.png" width="40"/> | [boot_stein](preview/b.bouba_plus/boot_stein.stl) | 12 | 19.931 | 59.859 | 39.906 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/boot) |
+| <img src="preview/b.bouba_plus/botijo_gao.png" width="40"/> | [botijo_gao](preview/b.bouba_plus/botijo_gao.stl) | 5 | 12.127 | 36.405 | 24.270 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/bottle1_gao.png" width="40"/> | [bottle1_gao](preview/b.bouba_plus/bottle1_gao.stl) | 1 | 14.832 | 44.496 | 29.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/bottle2_gao.png" width="40"/> | [bottle2_gao](preview/b.bouba_plus/bottle2_gao.stl) | 1 | 14.595 | 43.785 | 29.190 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/buddha_stanford.png" width="40"/> | [buddha_stanford](preview/b.bouba_plus/buddha_stanford.stl) | 10 | 29.419 | 88.311 | 58.874 | [Stanford](https://graphics.stanford.edu/data/3Dscanrep/) |
+| <img src="preview/b.bouba_plus/bumpytorus_gao.png" width="40"/> | [bumpytorus_gao](preview/b.bouba_plus/bumpytorus_gao.stl) | 1 | 15.279 | 45.837 | 30.558 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/camel_gao.png" width="40"/> | [camel_gao](preview/b.bouba_plus/camel_gao.stl) | 1 | 34.546 | 103.638 | 69.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/carter_gao.png" width="40"/> | [carter_gao](preview/b.bouba_plus/carter_gao.stl) | 7 | 67.436 | 202.344 | 134.896 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/centaur_tds.png" width="40"/> | [centaur_tds](preview/b.bouba_plus/centaur_tds.stl) | 9 | 29.973 | 89.967 | 59.978 | [Three D Scans](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| <img src="preview/b.bouba_plus/chair1_gao.png" width="40"/> | [chair1_gao](preview/b.bouba_plus/chair1_gao.stl) | 4 | 11.421 | 34.281 | 22.854 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/chair_gao.png" width="40"/> | [chair_gao](preview/b.bouba_plus/chair_gao.stl) | 7 | 23.081 | 69.279 | 46.186 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/cow_stein.png" width="40"/> | [cow_stein](preview/b.bouba_plus/cow_stein.stl) | 1 | 29.991 | 89.973 | 59.982 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/cow) |
+| <img src="preview/b.bouba_plus/cup1_gao.png" width="40"/> | [cup1_gao](preview/b.bouba_plus/cup1_gao.stl) | 1 | 15.564 | 46.692 | 31.128 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/cup_gao.png" width="40"/> | [cup_gao](preview/b.bouba_plus/cup_gao.stl) | 2 | 10.495 | 31.491 | 20.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/dancer2_gao.png" width="40"/> | [dancer2_gao](preview/b.bouba_plus/dancer2_gao.stl) | 1 | 30.248 | 90.744 | 60.496 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/dancer_gao.png" width="40"/> | [dancer_gao](preview/b.bouba_plus/dancer_gao.stl) | 1 | 12.048 | 36.144 | 24.096 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/dancer_loopy.png" width="40"/> | [dancer_loopy](preview/b.bouba_plus/dancer_loopy.stl) | 1 | 24.998 | 74.994 | 49.996 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/dancingchildren_gao.png" width="40"/> | [dancingchildren_gao](preview/b.bouba_plus/dancingchildren_gao.stl) | 8 | 12.163 | 36.531 | 24.354 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/demosthenes_stein.png" width="40"/> | [demosthenes_stein](preview/b.bouba_plus/demosthenes_stein.stl) | 1 | 29.965 | 89.895 | 59.930 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/demosthenes) |
+| <img src="preview/b.bouba_plus/desertrose_crane.png" width="40"/> | [desertrose_crane](preview/b.bouba_plus/desertrose_crane.stl) | 1 | 31.680 | 95.040 | 63.360 | [Keenan Crane + Maxim Snoep (repaired)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/b.bouba_plus/dragon_stanford.png" width="40"/> | [dragon_stanford](preview/b.bouba_plus/dragon_stanford.stl) | 3 | 29.750 | 89.262 | 59.508 | [Stanford](https://graphics.stanford.edu/data/3Dscanrep/) |
+| <img src="preview/b.bouba_plus/dragonstand2_gao.png" width="40"/> | [dragonstand2_gao](preview/b.bouba_plus/dragonstand2_gao.stl) | 1 | 30.561 | 91.683 | 61.122 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/dragonstand_gao.png" width="40"/> | [dragonstand_gao](preview/b.bouba_plus/dragonstand_gao.stl) | 1 | 21.042 | 63.126 | 42.084 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/dtorus_gao.png" width="40"/> | [dtorus_gao](preview/b.bouba_plus/dtorus_gao.stl) | 2 | 10.090 | 30.276 | 20.184 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/eight_gao.png" width="40"/> | [eight_gao](preview/b.bouba_plus/eight_gao.stl) | 2 | 5.544 | 16.638 | 11.092 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/elephant_gao.png" width="40"/> | [elephant_gao](preview/b.bouba_plus/elephant_gao.stl) | 3 | 38.084 | 114.264 | 76.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/elk_gao.png" width="40"/> | [elk_gao](preview/b.bouba_plus/elk_gao.stl) | 1 | 23.114 | 69.342 | 46.228 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/fertility_gao.png" width="40"/> | [fertility_gao](preview/b.bouba_plus/fertility_gao.stl) | 4 | 26.222 | 78.684 | 52.456 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/genus3_gao.png" width="40"/> | [genus3_gao](preview/b.bouba_plus/genus3_gao.stl) | 3 | 33.952 | 101.868 | 67.912 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/grayloc_gao.png" width="40"/> | [grayloc_gao](preview/b.bouba_plus/grayloc_gao.stl) | 9 | 11.339 | 34.065 | 22.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/greek_gao.png" width="40"/> | [greek_gao](preview/b.bouba_plus/greek_gao.stl) | 4 | 12.501 | 37.521 | 25.014 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/greyhounds_tds.png" width="40"/> | [greyhounds_tds](preview/b.bouba_plus/greyhounds_tds.stl) | 5 | 29.981 | 89.967 | 59.978 | [Three D Scans](https://huggingface.co/datasets/alecjacobson/threedscans) |
+| <img src="preview/b.bouba_plus/holes2_loopy.png" width="40"/> | [holes2_loopy](preview/b.bouba_plus/holes2_loopy.stl) | 2 | 2.922 | 8.772 | 5.848 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/holes3_gao.png" width="40"/> | [holes3_gao](preview/b.bouba_plus/holes3_gao.stl) | 3 | 14.396 | 43.200 | 28.800 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/indorelax_loopy.png" width="40"/> | [indorelax_loopy](preview/b.bouba_plus/indorelax_loopy.stl) | 2 | 12.128 | 36.390 | 24.260 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/kiss_gao.png" width="40"/> | [kiss_gao](preview/b.bouba_plus/kiss_gao.stl) | 3 | 10.192 | 30.588 | 20.392 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/kiss_loopy.png" width="40"/> | [kiss_loopy](preview/b.bouba_plus/kiss_loopy.stl) | 3 | 12.738 | 38.226 | 25.484 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/kitten_gao.png" width="40"/> | [kitten_gao](preview/b.bouba_plus/kitten_gao.stl) | 1 | 10.183 | 30.549 | 20.366 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/kitten_loopy.png" width="40"/> | [kitten_loopy](preview/b.bouba_plus/kitten_loopy.stl) | 1 | 3.178 | 9.534 | 6.356 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/lionstatue_stein.png" width="40"/> | [lionstatue_stein](preview/b.bouba_plus/lionstatue_stein.stl) | 3 | 37.159 | 111.489 | 74.326 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/lionstatue) |
+| <img src="preview/b.bouba_plus/mastercylinder_gao.png" width="40"/> | [mastercylinder_gao](preview/b.bouba_plus/mastercylinder_gao.stl) | 3 | 13.689 | 41.079 | 27.386 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/oilpump_gao.png" width="40"/> | [oilpump_gao](preview/b.bouba_plus/oilpump_gao.stl) | 4 | 68.742 | 206.244 | 137.496 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/parsnip_stein.png" width="40"/> | [parsnip_stein](preview/b.bouba_plus/parsnip_stein.stl) | 12 | 29.715 | 89.211 | 59.474 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/parsnip) |
+| <img src="preview/b.bouba_plus/pittsburghbridge_crane.png" width="40"/> | [pittsburghbridge_crane](preview/b.bouba_plus/pittsburghbridge_crane.stl) | 3 | 29.995 | 89.997 | 59.998 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/b.bouba_plus/pizza_stein.png" width="40"/> | [pizza_stein](preview/b.bouba_plus/pizza_stein.stl) | 65 | 28.664 | 86.376 | 57.584 | [Oded Stein + Maxim Snoep (repaired)](https://github.com/odedstein/meshes/tree/master/objects/pizza) |
+| <img src="preview/b.bouba_plus/rollingstage_gao.png" width="40"/> | [rollingstage_gao](preview/b.bouba_plus/rollingstage_gao.stl) | 7 | 15.387 | 46.197 | 30.798 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/skull_stein.png" width="40"/> | [skull_stein](preview/b.bouba_plus/skull_stein.stl) | 2 | 5.154 | 15.468 | 10.312 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/skull) |
+| <img src="preview/b.bouba_plus/teapot_gao.png" width="40"/> | [teapot_gao](preview/b.bouba_plus/teapot_gao.stl) | 1 | 13.464 | 40.392 | 26.928 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/teapot_loopy.png" width="40"/> | [teapot_loopy](preview/b.bouba_plus/teapot_loopy.stl) | 1 | 6.544 | 19.632 | 13.088 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/b.bouba_plus/thaistatue_gao.png" width="40"/> | [thaistatue_gao](preview/b.bouba_plus/thaistatue_gao.stl) | 3 | 20.133 | 60.411 | 40.274 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/b.bouba_plus/threecees_paardekooper.png" width="40"/> | [threecees_paardekooper](preview/b.bouba_plus/threecees_paardekooper.stl) | 1 | 1.788 | 5.364 | 3.576 | Bas Paardekooper |
+| <img src="preview/b.bouba_plus/torus_stein.png" width="40"/> | [torus_stein](preview/b.bouba_plus/torus_stein.stl) | 1 | 2.304 | 6.912 | 4.608 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/torus) |
+| <img src="preview/b.bouba_plus/violin_stein.png" width="40"/> | [violin_stein](preview/b.bouba_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
+| <img src="preview/b.bouba_plus/wrench_gao.png" width="40"/> | [wrench_gao](preview/b.bouba_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (c) kiki (g=0, n=56)
-| model | genus | vertices | edges | triangles | source |
-|-------|-------|----------|-------|-----------|--------|
-| [B0](dataset/c.kiki_zero/B0.stl) | 0 | 560 | 1.674 | 1.116 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B11](dataset/c.kiki_zero/B11.stl) | 0 | 1.139 | 3.411 | 2.274 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B12](dataset/c.kiki_zero/B12.stl) | 0 | 885 | 2.649 | 1.766 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B14](dataset/c.kiki_zero/B14.stl) | 0 | 74.218 | 222.648 | 148.432 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B15](dataset/c.kiki_zero/B15.stl) | 0 | 10.769 | 32.301 | 21.534 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B16](dataset/c.kiki_zero/B16.stl) | 0 | 217 | 645 | 430 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B17](dataset/c.kiki_zero/B17.stl) | 0 | 363 | 1.083 | 722 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B18](dataset/c.kiki_zero/B18.stl) | 0 | 329 | 981 | 654 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B19](dataset/c.kiki_zero/B19.stl) | 0 | 1.641 | 4.917 | 3.278 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B2](dataset/c.kiki_zero/B2.stl) | 0 | 918 | 2.748 | 1.832 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B20](dataset/c.kiki_zero/B20.stl) | 0 | 159 | 471 | 314 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B21](dataset/c.kiki_zero/B21.stl) | 0 | 478 | 1.428 | 952 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B23](dataset/c.kiki_zero/B23.stl) | 0 | 211 | 627 | 418 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B25](dataset/c.kiki_zero/B25.stl) | 0 | 1.816 | 5.442 | 3.628 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B27](dataset/c.kiki_zero/B27.stl) | 0 | 459 | 1.371 | 914 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B30](dataset/c.kiki_zero/B30.stl) | 0 | 712 | 2.130 | 1.420 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B34](dataset/c.kiki_zero/B34.stl) | 0 | 514 | 1.536 | 1.024 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B35](dataset/c.kiki_zero/B35.stl) | 0 | 2.115 | 6.339 | 4.226 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B36](dataset/c.kiki_zero/B36.stl) | 0 | 3.991 | 11.967 | 7.978 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B37](dataset/c.kiki_zero/B37.stl) | 0 | 2.668 | 7.998 | 5.332 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B38](dataset/c.kiki_zero/B38.stl) | 0 | 1.956 | 5.862 | 3.908 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B39](dataset/c.kiki_zero/B39.stl) | 0 | 3.628 | 10.878 | 7.252 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B4](dataset/c.kiki_zero/B4.stl) | 0 | 1.216 | 3.642 | 2.428 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B40](dataset/c.kiki_zero/B40.stl) | 0 | 3.171 | 9.507 | 6.338 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B41](dataset/c.kiki_zero/B41.stl) | 0 | 3.529 | 10.581 | 7.054 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B42](dataset/c.kiki_zero/B42.stl) | 0 | 1.843 | 5.523 | 3.682 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B43](dataset/c.kiki_zero/B43.stl) | 0 | 2.626 | 7.872 | 5.248 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B45](dataset/c.kiki_zero/B45.stl) | 0 | 736 | 2.202 | 1.468 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B46](dataset/c.kiki_zero/B46.stl) | 0 | 827 | 2.475 | 1.650 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B48](dataset/c.kiki_zero/B48.stl) | 0 | 1.146 | 3.432 | 2.288 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B49](dataset/c.kiki_zero/B49.stl) | 0 | 528 | 1.578 | 1.052 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B5](dataset/c.kiki_zero/B5.stl) | 0 | 613 | 1.833 | 1.222 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B50](dataset/c.kiki_zero/B50.stl) | 0 | 643 | 1.923 | 1.282 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B52](dataset/c.kiki_zero/B52.stl) | 0 | 545 | 1.629 | 1.086 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B54](dataset/c.kiki_zero/B54.stl) | 0 | 425 | 1.269 | 846 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B56](dataset/c.kiki_zero/B56.stl) | 0 | 586 | 1.752 | 1.168 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B57](dataset/c.kiki_zero/B57.stl) | 0 | 4.951 | 14.847 | 9.898 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B58](dataset/c.kiki_zero/B58.stl) | 0 | 735 | 2.199 | 1.466 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B59](dataset/c.kiki_zero/B59.stl) | 0 | 598 | 1.788 | 1.192 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B6](dataset/c.kiki_zero/B6.stl) | 0 | 659 | 1.971 | 1.314 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B60](dataset/c.kiki_zero/B60.stl) | 0 | 1.043 | 3.123 | 2.082 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B61](dataset/c.kiki_zero/B61.stl) | 0 | 1.125 | 3.369 | 2.246 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B67](dataset/c.kiki_zero/B67.stl) | 0 | 1.279 | 3.831 | 2.554 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B68](dataset/c.kiki_zero/B68.stl) | 0 | 1.137 | 3.405 | 2.270 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B69](dataset/c.kiki_zero/B69.stl) | 0 | 2.119 | 6.351 | 4.234 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B7](dataset/c.kiki_zero/B7.stl) | 0 | 498 | 1.488 | 992 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B70](dataset/c.kiki_zero/B70.stl) | 0 | 2.280 | 6.834 | 4.556 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B71](dataset/c.kiki_zero/B71.stl) | 0 | 2.175 | 6.519 | 4.346 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B72](dataset/c.kiki_zero/B72.stl) | 0 | 1.685 | 5.049 | 3.366 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B74](dataset/c.kiki_zero/B74.stl) | 0 | 1.313 | 3.933 | 2.622 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B75](dataset/c.kiki_zero/B75.stl) | 0 | 1.709 | 5.121 | 3.414 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B76](dataset/c.kiki_zero/B76.stl) | 0 | 508 | 1.518 | 1.012 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B8](dataset/c.kiki_zero/B8.stl) | 0 | 2.794 | 8.376 | 5.584 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B9](dataset/c.kiki_zero/B9.stl) | 0 | 790 | 2.364 | 1.576 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [fandisk](dataset/c.kiki_zero/fandisk.stl) | 0 | 7.229 | 21.681 | 14.454 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [S37](dataset/c.kiki_zero/S37.stl) | 0 | 15.725 | 47.169 | 31.446 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
+### (c) kiki (g=0, n=97)
+| | model | genus | vertices | edges | triangles | source |
+|-|-------|-------|----------|-------|-----------|--------|
+| <img src="preview/c.kiki_zero/3035_gao.png" width="40"/> | [3035_gao](preview/c.kiki_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/c.kiki_zero/aries70_gao.png" width="40"/> | [aries70_gao](preview/c.kiki_zero/aries70_gao.stl) | 0 | 4.357 | 13.065 | 8.710 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/c.kiki_zero/B0_mambo.png" width="40"/> | [B0_mambo](preview/c.kiki_zero/B0_mambo.stl) | 0 | 560 | 1.674 | 1.116 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B11_mambo.png" width="40"/> | [B11_mambo](preview/c.kiki_zero/B11_mambo.stl) | 0 | 1.139 | 3.411 | 2.274 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B12_mambo.png" width="40"/> | [B12_mambo](preview/c.kiki_zero/B12_mambo.stl) | 0 | 885 | 2.649 | 1.766 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B14_mambo.png" width="40"/> | [B14_mambo](preview/c.kiki_zero/B14_mambo.stl) | 0 | 74.218 | 222.648 | 148.432 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B15_mambo.png" width="40"/> | [B15_mambo](preview/c.kiki_zero/B15_mambo.stl) | 0 | 10.769 | 32.301 | 21.534 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B16_mambo.png" width="40"/> | [B16_mambo](preview/c.kiki_zero/B16_mambo.stl) | 0 | 217 | 645 | 430 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B17_mambo.png" width="40"/> | [B17_mambo](preview/c.kiki_zero/B17_mambo.stl) | 0 | 363 | 1.083 | 722 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B18_mambo.png" width="40"/> | [B18_mambo](preview/c.kiki_zero/B18_mambo.stl) | 0 | 329 | 981 | 654 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B19_mambo.png" width="40"/> | [B19_mambo](preview/c.kiki_zero/B19_mambo.stl) | 0 | 1.641 | 4.917 | 3.278 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B20_mambo.png" width="40"/> | [B20_mambo](preview/c.kiki_zero/B20_mambo.stl) | 0 | 159 | 471 | 314 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B21_mambo.png" width="40"/> | [B21_mambo](preview/c.kiki_zero/B21_mambo.stl) | 0 | 478 | 1.428 | 952 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B23_mambo.png" width="40"/> | [B23_mambo](preview/c.kiki_zero/B23_mambo.stl) | 0 | 211 | 627 | 418 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B25_mambo.png" width="40"/> | [B25_mambo](preview/c.kiki_zero/B25_mambo.stl) | 0 | 1.816 | 5.442 | 3.628 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B27_mambo.png" width="40"/> | [B27_mambo](preview/c.kiki_zero/B27_mambo.stl) | 0 | 459 | 1.371 | 914 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B2_mambo.png" width="40"/> | [B2_mambo](preview/c.kiki_zero/B2_mambo.stl) | 0 | 918 | 2.748 | 1.832 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B30_mambo.png" width="40"/> | [B30_mambo](preview/c.kiki_zero/B30_mambo.stl) | 0 | 712 | 2.130 | 1.420 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B34_mambo.png" width="40"/> | [B34_mambo](preview/c.kiki_zero/B34_mambo.stl) | 0 | 514 | 1.536 | 1.024 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B35_mambo.png" width="40"/> | [B35_mambo](preview/c.kiki_zero/B35_mambo.stl) | 0 | 2.115 | 6.339 | 4.226 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B36_mambo.png" width="40"/> | [B36_mambo](preview/c.kiki_zero/B36_mambo.stl) | 0 | 3.991 | 11.967 | 7.978 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B37_mambo.png" width="40"/> | [B37_mambo](preview/c.kiki_zero/B37_mambo.stl) | 0 | 2.668 | 7.998 | 5.332 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B38_mambo.png" width="40"/> | [B38_mambo](preview/c.kiki_zero/B38_mambo.stl) | 0 | 1.956 | 5.862 | 3.908 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B39_mambo.png" width="40"/> | [B39_mambo](preview/c.kiki_zero/B39_mambo.stl) | 0 | 3.628 | 10.878 | 7.252 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B40_mambo.png" width="40"/> | [B40_mambo](preview/c.kiki_zero/B40_mambo.stl) | 0 | 3.171 | 9.507 | 6.338 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B41_mambo.png" width="40"/> | [B41_mambo](preview/c.kiki_zero/B41_mambo.stl) | 0 | 3.529 | 10.581 | 7.054 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B42_mambo.png" width="40"/> | [B42_mambo](preview/c.kiki_zero/B42_mambo.stl) | 0 | 1.843 | 5.523 | 3.682 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B43_mambo.png" width="40"/> | [B43_mambo](preview/c.kiki_zero/B43_mambo.stl) | 0 | 2.626 | 7.872 | 5.248 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B45_mambo.png" width="40"/> | [B45_mambo](preview/c.kiki_zero/B45_mambo.stl) | 0 | 736 | 2.202 | 1.468 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B46_mambo.png" width="40"/> | [B46_mambo](preview/c.kiki_zero/B46_mambo.stl) | 0 | 827 | 2.475 | 1.650 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B48_mambo.png" width="40"/> | [B48_mambo](preview/c.kiki_zero/B48_mambo.stl) | 0 | 1.146 | 3.432 | 2.288 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B49_mambo.png" width="40"/> | [B49_mambo](preview/c.kiki_zero/B49_mambo.stl) | 0 | 528 | 1.578 | 1.052 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B4_mambo.png" width="40"/> | [B4_mambo](preview/c.kiki_zero/B4_mambo.stl) | 0 | 1.216 | 3.642 | 2.428 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B50_mambo.png" width="40"/> | [B50_mambo](preview/c.kiki_zero/B50_mambo.stl) | 0 | 643 | 1.923 | 1.282 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B52_mambo.png" width="40"/> | [B52_mambo](preview/c.kiki_zero/B52_mambo.stl) | 0 | 545 | 1.629 | 1.086 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B54_mambo.png" width="40"/> | [B54_mambo](preview/c.kiki_zero/B54_mambo.stl) | 0 | 425 | 1.269 | 846 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B56_mambo.png" width="40"/> | [B56_mambo](preview/c.kiki_zero/B56_mambo.stl) | 0 | 586 | 1.752 | 1.168 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B57_mambo.png" width="40"/> | [B57_mambo](preview/c.kiki_zero/B57_mambo.stl) | 0 | 4.951 | 14.847 | 9.898 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B58_mambo.png" width="40"/> | [B58_mambo](preview/c.kiki_zero/B58_mambo.stl) | 0 | 735 | 2.199 | 1.466 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B59_mambo.png" width="40"/> | [B59_mambo](preview/c.kiki_zero/B59_mambo.stl) | 0 | 598 | 1.788 | 1.192 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B5_mambo.png" width="40"/> | [B5_mambo](preview/c.kiki_zero/B5_mambo.stl) | 0 | 613 | 1.833 | 1.222 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B60_mambo.png" width="40"/> | [B60_mambo](preview/c.kiki_zero/B60_mambo.stl) | 0 | 1.043 | 3.123 | 2.082 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B61_mambo.png" width="40"/> | [B61_mambo](preview/c.kiki_zero/B61_mambo.stl) | 0 | 1.125 | 3.369 | 2.246 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B67_mambo.png" width="40"/> | [B67_mambo](preview/c.kiki_zero/B67_mambo.stl) | 0 | 1.279 | 3.831 | 2.554 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B68_mambo.png" width="40"/> | [B68_mambo](preview/c.kiki_zero/B68_mambo.stl) | 0 | 1.137 | 3.405 | 2.270 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B69_mambo.png" width="40"/> | [B69_mambo](preview/c.kiki_zero/B69_mambo.stl) | 0 | 2.119 | 6.351 | 4.234 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B6_mambo.png" width="40"/> | [B6_mambo](preview/c.kiki_zero/B6_mambo.stl) | 0 | 659 | 1.971 | 1.314 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B70_mambo.png" width="40"/> | [B70_mambo](preview/c.kiki_zero/B70_mambo.stl) | 0 | 2.280 | 6.834 | 4.556 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B71_mambo.png" width="40"/> | [B71_mambo](preview/c.kiki_zero/B71_mambo.stl) | 0 | 2.175 | 6.519 | 4.346 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B72_mambo.png" width="40"/> | [B72_mambo](preview/c.kiki_zero/B72_mambo.stl) | 0 | 1.685 | 5.049 | 3.366 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B74_mambo.png" width="40"/> | [B74_mambo](preview/c.kiki_zero/B74_mambo.stl) | 0 | 1.313 | 3.933 | 2.622 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B75_mambo.png" width="40"/> | [B75_mambo](preview/c.kiki_zero/B75_mambo.stl) | 0 | 1.709 | 5.121 | 3.414 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B76_mambo.png" width="40"/> | [B76_mambo](preview/c.kiki_zero/B76_mambo.stl) | 0 | 508 | 1.518 | 1.012 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B7_mambo.png" width="40"/> | [B7_mambo](preview/c.kiki_zero/B7_mambo.stl) | 0 | 498 | 1.488 | 992 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B8_mambo.png" width="40"/> | [B8_mambo](preview/c.kiki_zero/B8_mambo.stl) | 0 | 2.794 | 8.376 | 5.584 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/B9_mambo.png" width="40"/> | [B9_mambo](preview/c.kiki_zero/B9_mambo.stl) | 0 | 790 | 2.364 | 1.576 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/chesspawn_mambo.png" width="40"/> | [chesspawn_mambo](preview/c.kiki_zero/chesspawn_mambo.stl) | 0 | 11.613 | 34.833 | 23.222 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/chessrook_mambo.png" width="40"/> | [chessrook_mambo](preview/c.kiki_zero/chessrook_mambo.stl) | 0 | 9.170 | 27.504 | 18.336 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/completepart16_gao.png" width="40"/> | [completepart16_gao](preview/c.kiki_zero/completepart16_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/c.kiki_zero/completepart63_gao.png" width="40"/> | [completepart63_gao](preview/c.kiki_zero/completepart63_gao.stl) | 0 | 3.840 | 11.514 | 7.676 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/c.kiki_zero/coverrear_gao.png" width="40"/> | [coverrear_gao](preview/c.kiki_zero/coverrear_gao.stl) | 0 | 39.982 | 119.940 | 79.960 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/c.kiki_zero/cube_stein.png" width="40"/> | [cube_stein](preview/c.kiki_zero/cube_stein.stl) | 0 | 26 | 72 | 48 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/cube) |
+| <img src="preview/c.kiki_zero/cubecarved_loopy.png" width="40"/> | [cubecarved_loopy](preview/c.kiki_zero/cubecarved_loopy.stl) | 0 | 1.820 | 5.454 | 3.636 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/cubeminussphere_loopy.png" width="40"/> | [cubeminussphere_loopy](preview/c.kiki_zero/cubeminussphere_loopy.stl) | 0 | 2.066 | 6.192 | 4.128 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/cylinderplate_loopy.png" width="40"/> | [cylinderplate_loopy](preview/c.kiki_zero/cylinderplate_loopy.stl) | 0 | 908 | 2.718 | 1.812 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/dpw6g0_nlr.png" width="40"/> | [dpw6g0_nlr](preview/c.kiki_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [NASA + Stevie-Ray Janssen (meshed)](https://aiaa-dpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/dpw7_nlr.png" width="40"/> | [dpw7_nlr](preview/c.kiki_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [NASA + Stevie-Ray Janssen (meshed)](https://aiaa-dpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/fandisk_jacobson.png" width="40"/> | [fandisk_jacobson](preview/c.kiki_zero/fandisk_jacobson.stl) | 0 | 6.475 | 19.419 | 12.946 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/c.kiki_zero/fandisk_libigl.png" width="40"/> | [fandisk_libigl](preview/c.kiki_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | [libigl](https://github.com/libigl/libigl-tutorial-data) |
+| <img src="preview/c.kiki_zero/featureloft_mambo.png" width="40"/> | [featureloft_mambo](preview/c.kiki_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/gear_loopy.png" width="40"/> | [gear_loopy](preview/c.kiki_zero/gear_loopy.stl) | 0 | 3.931 | 11.787 | 7.858 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/hammer_stein.png" width="40"/> | [hammer_stein](preview/c.kiki_zero/hammer_stein.stl) | 0 | 30.082 | 90.240 | 60.160 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/hammer) |
+| <img src="preview/c.kiki_zero/hlpw4_nlr.png" width="40"/> | [hlpw4_nlr](preview/c.kiki_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | [NASA + Stevie-Ray Janssen (meshed)](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/) |
+| <img src="preview/c.kiki_zero/hlpw5_nlr.png" width="40"/> | [hlpw5_nlr](preview/c.kiki_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | [NASA + Stevie-Ray Janssen (meshed)](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/) |
+| <img src="preview/c.kiki_zero/jwb_nasa.png" width="40"/> | [jwb_nasa](preview/c.kiki_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | [NASA](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/legoblock_mambo.png" width="40"/> | [legoblock_mambo](preview/c.kiki_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/legoman_mambo.png" width="40"/> | [legoman_mambo](preview/c.kiki_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/mech10_loopy.png" width="40"/> | [mech10_loopy](preview/c.kiki_zero/mech10_loopy.stl) | 0 | 256 | 762 | 508 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/mechanical02_loopy.png" width="40"/> | [mechanical02_loopy](preview/c.kiki_zero/mechanical02_loopy.stl) | 0 | 3.588 | 10.758 | 7.172 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/mechanical05_loopy.png" width="40"/> | [mechanical05_loopy](preview/c.kiki_zero/mechanical05_loopy.stl) | 0 | 4.082 | 12.240 | 8.160 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/mechpiece_loopy.png" width="40"/> | [mechpiece_loopy](preview/c.kiki_zero/mechpiece_loopy.stl) | 0 | 2.089 | 6.261 | 4.174 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/plane_stein.png" width="40"/> | [plane_stein](preview/c.kiki_zero/plane_stein.stl) | 0 | 8.730 | 26.184 | 17.456 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/plane) |
+| <img src="preview/c.kiki_zero/plate1_loopy.png" width="40"/> | [plate1_loopy](preview/c.kiki_zero/plate1_loopy.stl) | 0 | 5.980 | 17.934 | 11.956 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/plate2_loopy.png" width="40"/> | [plate2_loopy](preview/c.kiki_zero/plate2_loopy.stl) | 0 | 4.199 | 12.591 | 8.394 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/plate3_loopy.png" width="40"/> | [plate3_loopy](preview/c.kiki_zero/plate3_loopy.stl) | 0 | 2.467 | 7.395 | 4.930 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/plate4_loopy.png" width="40"/> | [plate4_loopy](preview/c.kiki_zero/plate4_loopy.stl) | 0 | 17.795 | 53.379 | 35.586 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/prism_loopy.png" width="40"/> | [prism_loopy](preview/c.kiki_zero/prism_loopy.stl) | 0 | 990 | 2.964 | 1.976 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/S37_mambo.png" width="40"/> | [S37_mambo](preview/c.kiki_zero/S37_mambo.stl) | 0 | 15.725 | 47.169 | 31.446 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/c.kiki_zero/sbpw1_nlr.png" width="40"/> | [sbpw1_nlr](preview/c.kiki_zero/sbpw1_nlr.stl) | 0 | 22.799 | 68.391 | 45.594 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/sbpw2_nlr.png" width="40"/> | [sbpw2_nlr](preview/c.kiki_zero/sbpw2_nlr.stl) | 0 | 32.691 | 98.067 | 65.378 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/sbpw3_nlr.png" width="40"/> | [sbpw3_nlr](preview/c.kiki_zero/sbpw3_nlr.stl) | 0 | 32.348 | 97.038 | 64.692 | [NASA + Stevie-Ray Janssen (meshed)](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/springer_stein.png" width="40"/> | [springer_stein](preview/c.kiki_zero/springer_stein.stl) | 0 | 9.686 | 29.052 | 19.368 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/springer) |
+| <img src="preview/c.kiki_zero/sword_stein.png" width="40"/> | [sword_stein](preview/c.kiki_zero/sword_stein.stl) | 0 | 22.293 | 66.873 | 44.582 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/sword) |
+| <img src="preview/c.kiki_zero/trisclosed_loopy.png" width="40"/> | [trisclosed_loopy](preview/c.kiki_zero/trisclosed_loopy.stl) | 0 | 690 | 2.064 | 1.376 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/vessel_loopy.png" width="40"/> | [vessel_loopy](preview/c.kiki_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/wedge_loopy.png" width="40"/> | [wedge_loopy](preview/c.kiki_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/wingnut_stein.png" width="40"/> | [wingnut_stein](preview/c.kiki_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
-### (d) kiki (g≥1, n=60)
-| model | genus | vertices | edges | triangles | source |
-|-------|-------|----------|-------|-----------|--------|
-| [B1](dataset/d.kiki_plus/B1.stl) | 1 | 1.741 | 5.223 | 3.482 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B10](dataset/d.kiki_plus/B10.stl) | 1 | 1.506 | 4.518 | 3.012 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B13](dataset/d.kiki_plus/B13.stl) | 1 | 2.065 | 6.195 | 4.130 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B28](dataset/d.kiki_plus/B28.stl) | 1 | 1.128 | 3.384 | 2.256 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B29](dataset/d.kiki_plus/B29.stl) | 1 | 1.941 | 5.823 | 3.882 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B3](dataset/d.kiki_plus/B3.stl) | 2 | 3.495 | 10.491 | 6.994 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B31](dataset/d.kiki_plus/B31.stl) | 1 | 1.317 | 3.951 | 2.634 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B32](dataset/d.kiki_plus/B32.stl) | 1 | 1.364 | 4.092 | 2.728 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B33](dataset/d.kiki_plus/B33.stl) | 1 | 2.268 | 6.804 | 4.536 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B44](dataset/d.kiki_plus/B44.stl) | 1 | 2.265 | 6.795 | 4.530 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B47](dataset/d.kiki_plus/B47.stl) | 1 | 2.161 | 6.483 | 4.322 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B51](dataset/d.kiki_plus/B51.stl) | 1 | 1.169 | 3.507 | 2.338 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B53](dataset/d.kiki_plus/B53.stl) | 1 | 984 | 2.952 | 1.968 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B55](dataset/d.kiki_plus/B55.stl) | 1 | 802 | 2.406 | 1.604 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B62](dataset/d.kiki_plus/B62.stl) | 1 | 1.016 | 3.048 | 2.032 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B63](dataset/d.kiki_plus/B63.stl) | 1 | 990 | 2.970 | 1.980 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B64](dataset/d.kiki_plus/B64.stl) | 1 | 852 | 2.556 | 1.704 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B65](dataset/d.kiki_plus/B65.stl) | 1 | 936 | 2.808 | 1.872 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B66](dataset/d.kiki_plus/B66.stl) | 2 | 1.159 | 3.483 | 2.322 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [B73](dataset/d.kiki_plus/B73.stl) | 1 | 2.320 | 6.960 | 4.640 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [block](dataset/d.kiki_plus/block.stl) | 3 | 8.052 | 24.168 | 16.112 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [M1](dataset/d.kiki_plus/M1.stl) | 9 | 52.248 | 156.792 | 104.528 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M2](dataset/d.kiki_plus/M2.stl) | 3 | 4.268 | 12.816 | 8.544 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M3](dataset/d.kiki_plus/M3.stl) | 5 | 74.796 | 224.412 | 149.608 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M4](dataset/d.kiki_plus/M4.stl) | 3 | 31.868 | 95.616 | 63.744 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M5](dataset/d.kiki_plus/M5.stl) | 7 | 57.780 | 173.376 | 115.584 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M6](dataset/d.kiki_plus/M6.stl) | 4 | 54.507 | 163.539 | 109.026 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M8](dataset/d.kiki_plus/M8.stl) | 1 | 146.305 | 438.915 | 292.610 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [M9](dataset/d.kiki_plus/M9.stl) | 5 | 67.770 | 203.334 | 135.556 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [rocker](dataset/d.kiki_plus/rocker.stl) | 1 | 26.656 | 79.968 | 53.312 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [rod](dataset/d.kiki_plus/rod.stl) | 2 | 8.814 | 26.448 | 17.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| [S0](dataset/d.kiki_plus/S0.stl) | 3 | 85.962 | 257.898 | 171.932 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S1](dataset/d.kiki_plus/S1.stl) | 3 | 60.440 | 181.332 | 120.888 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S20](dataset/d.kiki_plus/S20.stl) | 7 | 10.211 | 30.669 | 20.446 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S22](dataset/d.kiki_plus/S22.stl) | 3 | 42.465 | 127.407 | 84.938 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S23](dataset/d.kiki_plus/S23.stl) | 2 | 37.229 | 111.693 | 74.462 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S24](dataset/d.kiki_plus/S24.stl) | 3 | 59.706 | 179.130 | 119.420 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S25](dataset/d.kiki_plus/S25.stl) | 3 | 78.708 | 236.136 | 157.424 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S26](dataset/d.kiki_plus/S26.stl) | 4 | 107.960 | 323.898 | 215.932 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S27](dataset/d.kiki_plus/S27.stl) | 5 | 25.417 | 76.275 | 50.850 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S3](dataset/d.kiki_plus/S3.stl) | 2 | 3.298 | 9.900 | 6.600 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S31](dataset/d.kiki_plus/S31.stl) | 7 | 13.704 | 41.148 | 27.432 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S33](dataset/d.kiki_plus/S33.stl) | 1 | 12.097 | 36.291 | 24.194 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S34](dataset/d.kiki_plus/S34.stl) | 3 | 51.472 | 154.428 | 102.952 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S35](dataset/d.kiki_plus/S35.stl) | 1 | 30.639 | 91.917 | 61.278 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S36](dataset/d.kiki_plus/S36.stl) | 1 | 126.068 | 378.204 | 252.136 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S38](dataset/d.kiki_plus/S38.stl) | 3 | 21.918 | 65.766 | 43.844 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S39](dataset/d.kiki_plus/S39.stl) | 2 | 23.428 | 70.290 | 46.860 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S4](dataset/d.kiki_plus/S4.stl) | 3 | 31.644 | 94.944 | 63.296 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S40](dataset/d.kiki_plus/S40.stl) | 1 | 37.574 | 112.722 | 75.148 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S41](dataset/d.kiki_plus/S41.stl) | 1 | 36.315 | 108.945 | 72.630 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S42](dataset/d.kiki_plus/S42.stl) | 1 | 35.625 | 106.875 | 71.250 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S43](dataset/d.kiki_plus/S43.stl) | 1 | 35.242 | 105.726 | 70.484 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S44](dataset/d.kiki_plus/S44.stl) | 1 | 35.363 | 106.089 | 70.726 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S45](dataset/d.kiki_plus/S45.stl) | 1 | 34.921 | 104.763 | 69.842 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S5](dataset/d.kiki_plus/S5.stl) | 7 | 41.492 | 124.512 | 83.008 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S6](dataset/d.kiki_plus/S6.stl) | 5 | 68.976 | 206.952 | 137.968 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S7](dataset/d.kiki_plus/S7.stl) | 2 | 61.013 | 183.045 | 122.030 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S8](dataset/d.kiki_plus/S8.stl) | 1 | 48.998 | 146.994 | 97.996 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
-| [S9](dataset/d.kiki_plus/S9.stl) | 3 | 281.281 | 843.855 | 562.570 | [Franck Ledoux](https://gitlab.com/franck.ledoux/mambo) |
+### (d) kiki (g≥1, n=129)
+| | model | genus | vertices | edges | triangles | source |
+|-|-------|-------|----------|-------|-----------|--------|
+| <img src="preview/d.kiki_plus/anc101_gao.png" width="40"/> | [anc101_gao](preview/d.kiki_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/aries155_gao.png" width="40"/> | [aries155_gao](preview/d.kiki_plus/aries155_gao.stl) | 6 | 2.336 | 7.038 | 4.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/B10_mambo.png" width="40"/> | [B10_mambo](preview/d.kiki_plus/B10_mambo.stl) | 1 | 1.506 | 4.518 | 3.012 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B13_mambo.png" width="40"/> | [B13_mambo](preview/d.kiki_plus/B13_mambo.stl) | 1 | 2.065 | 6.195 | 4.130 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B1_mambo.png" width="40"/> | [B1_mambo](preview/d.kiki_plus/B1_mambo.stl) | 1 | 1.741 | 5.223 | 3.482 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B28_mambo.png" width="40"/> | [B28_mambo](preview/d.kiki_plus/B28_mambo.stl) | 1 | 1.128 | 3.384 | 2.256 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B29_mambo.png" width="40"/> | [B29_mambo](preview/d.kiki_plus/B29_mambo.stl) | 1 | 1.941 | 5.823 | 3.882 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B31_mambo.png" width="40"/> | [B31_mambo](preview/d.kiki_plus/B31_mambo.stl) | 1 | 1.317 | 3.951 | 2.634 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B32_mambo.png" width="40"/> | [B32_mambo](preview/d.kiki_plus/B32_mambo.stl) | 1 | 1.364 | 4.092 | 2.728 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B33_mambo.png" width="40"/> | [B33_mambo](preview/d.kiki_plus/B33_mambo.stl) | 1 | 2.268 | 6.804 | 4.536 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B3_mambo.png" width="40"/> | [B3_mambo](preview/d.kiki_plus/B3_mambo.stl) | 2 | 3.495 | 10.491 | 6.994 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B44_mambo.png" width="40"/> | [B44_mambo](preview/d.kiki_plus/B44_mambo.stl) | 1 | 2.265 | 6.795 | 4.530 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B47_mambo.png" width="40"/> | [B47_mambo](preview/d.kiki_plus/B47_mambo.stl) | 1 | 2.161 | 6.483 | 4.322 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B51_mambo.png" width="40"/> | [B51_mambo](preview/d.kiki_plus/B51_mambo.stl) | 1 | 1.169 | 3.507 | 2.338 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B53_mambo.png" width="40"/> | [B53_mambo](preview/d.kiki_plus/B53_mambo.stl) | 1 | 984 | 2.952 | 1.968 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B55_mambo.png" width="40"/> | [B55_mambo](preview/d.kiki_plus/B55_mambo.stl) | 1 | 802 | 2.406 | 1.604 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B62_mambo.png" width="40"/> | [B62_mambo](preview/d.kiki_plus/B62_mambo.stl) | 1 | 1.016 | 3.048 | 2.032 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B63_mambo.png" width="40"/> | [B63_mambo](preview/d.kiki_plus/B63_mambo.stl) | 1 | 990 | 2.970 | 1.980 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B64_mambo.png" width="40"/> | [B64_mambo](preview/d.kiki_plus/B64_mambo.stl) | 1 | 852 | 2.556 | 1.704 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B65_mambo.png" width="40"/> | [B65_mambo](preview/d.kiki_plus/B65_mambo.stl) | 1 | 936 | 2.808 | 1.872 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B66_mambo.png" width="40"/> | [B66_mambo](preview/d.kiki_plus/B66_mambo.stl) | 2 | 1.159 | 3.483 | 2.322 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/B73_mambo.png" width="40"/> | [B73_mambo](preview/d.kiki_plus/B73_mambo.stl) | 1 | 2.320 | 6.960 | 4.640 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/bearingplate_loopy.png" width="40"/> | [bearingplate_loopy](preview/d.kiki_plus/bearingplate_loopy.stl) | 5 | 4.907 | 14.745 | 9.830 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/block_gao.png" width="40"/> | [block_gao](preview/d.kiki_plus/block_gao.stl) | 3 | 8.052 | 24.168 | 16.112 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/bolt_loopy.png" width="40"/> | [bolt_loopy](preview/d.kiki_plus/bolt_loopy.stl) | 1 | 4.752 | 14.256 | 9.504 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/bracket2_gao.png" width="40"/> | [bracket2_gao](preview/d.kiki_plus/bracket2_gao.stl) | 3 | 1.328 | 3.996 | 2.664 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/bracketinches_loopy.png" width="40"/> | [bracketinches_loopy](preview/d.kiki_plus/bracketinches_loopy.stl) | 6 | 8.301 | 24.933 | 16.622 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/c25dflowthru_nasa.png" width="40"/> | [c25dflowthru_nasa](preview/d.kiki_plus/c25dflowthru_nasa.stl) | 1 | 32.818 | 98.454 | 65.636 | [NASA](https://lbpw.larc.nasa.gov/) |
+| <img src="preview/d.kiki_plus/cami1_gao.png" width="40"/> | [cami1_gao](preview/d.kiki_plus/cami1_gao.stl) | 5 | 1.210 | 3.654 | 2.436 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/cami2_gao.png" width="40"/> | [cami2_gao](preview/d.kiki_plus/cami2_gao.stl) | 1 | 654 | 1.962 | 1.308 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/casting_gao.png" width="40"/> | [casting_gao](preview/d.kiki_plus/casting_gao.stl) | 9 | 26.034 | 78.150 | 52.100 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/cheese2_gao.png" width="40"/> | [cheese2_gao](preview/d.kiki_plus/cheese2_gao.stl) | 28 | 4.776 | 14.490 | 9.660 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/cheese3_gao.png" width="40"/> | [cheese3_gao](preview/d.kiki_plus/cheese3_gao.stl) | 81 | 14.156 | 42.948 | 28.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/cheese_gao.png" width="40"/> | [cheese_gao](preview/d.kiki_plus/cheese_gao.stl) | 176 | 31.240 | 94.770 | 63.180 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/cimplex_gao.png" width="40"/> | [cimplex_gao](preview/d.kiki_plus/cimplex_gao.stl) | 6 | 14.806 | 44.448 | 29.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/clevis23_gao.png" width="40"/> | [clevis23_gao](preview/d.kiki_plus/clevis23_gao.stl) | 9 | 2.478 | 7.482 | 4.988 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/ctc01_nist.png" width="40"/> | [ctc01_nist](preview/d.kiki_plus/ctc01_nist.stl) | 10 | 24.141 | 72.477 | 48.318 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ctc03_nist.png" width="40"/> | [ctc03_nist](preview/d.kiki_plus/ctc03_nist.stl) | 17 | 39.785 | 119.451 | 79.634 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/deckel_gao.png" width="40"/> | [deckel_gao](preview/d.kiki_plus/deckel_gao.stl) | 4 | 20.018 | 60.072 | 40.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/deckel_loopy.png" width="40"/> | [deckel_loopy](preview/d.kiki_plus/deckel_loopy.stl) | 4 | 5.000 | 15.018 | 10.012 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/des6_loopy.png" width="40"/> | [des6_loopy](preview/d.kiki_plus/des6_loopy.stl) | 1 | 5.695 | 17.085 | 11.390 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/dpw6g1_nlr.png" width="40"/> | [dpw6g1_nlr](preview/d.kiki_plus/dpw6g1_nlr.stl) | 1 | 31.591 | 94.773 | 63.182 | [NASA + Stevie-Ray Janssen (meshed)](https://aiaa-dpw.larc.nasa.gov/) |
+| <img src="preview/d.kiki_plus/ftc06_nist.png" width="40"/> | [ftc06_nist](preview/d.kiki_plus/ftc06_nist.stl) | 10 | 69.446 | 208.392 | 138.928 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ftc07_nist.png" width="40"/> | [ftc07_nist](preview/d.kiki_plus/ftc07_nist.stl) | 15 | 258.863 | 776.673 | 517.782 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ftc08_nist.png" width="40"/> | [ftc08_nist](preview/d.kiki_plus/ftc08_nist.stl) | 25 | 167.330 | 502.134 | 334.756 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ftc09_nist.png" width="40"/> | [ftc09_nist](preview/d.kiki_plus/ftc09_nist.stl) | 34 | 41.888 | 125.862 | 83.908 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ftc10_nist.png" width="40"/> | [ftc10_nist](preview/d.kiki_plus/ftc10_nist.stl) | 22 | 106.281 | 318.969 | 212.646 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/ftc11_nist.png" width="40"/> | [ftc11_nist](preview/d.kiki_plus/ftc11_nist.stl) | 1 | 13.533 | 40.599 | 27.066 | [NIST + Maxim Snoep (meshed)](https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0) |
+| <img src="preview/d.kiki_plus/gehaeuse_gao.png" width="40"/> | [gehaeuse_gao](preview/d.kiki_plus/gehaeuse_gao.stl) | 3 | 4.241 | 12.735 | 8.490 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/gimbal_gao.png" width="40"/> | [gimbal_gao](preview/d.kiki_plus/gimbal_gao.stl) | 5 | 838 | 2.538 | 1.692 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/gyroidpuzzle_loopy.png" width="40"/> | [gyroidpuzzle_loopy](preview/d.kiki_plus/gyroidpuzzle_loopy.stl) | 15 | 13.077 | 39.315 | 26.210 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/hanger_gao.png" width="40"/> | [hanger_gao](preview/d.kiki_plus/hanger_gao.stl) | 2 | 16.110 | 48.336 | 32.224 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/hanger_loopy.png" width="40"/> | [hanger_loopy](preview/d.kiki_plus/hanger_loopy.stl) | 2 | 4.026 | 12.084 | 8.056 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/hinge_loopy.png" width="40"/> | [hinge_loopy](preview/d.kiki_plus/hinge_loopy.stl) | 5 | 9.544 | 28.656 | 19.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/holes10_gao.png" width="40"/> | [holes10_gao](preview/d.kiki_plus/holes10_gao.stl) | 100 | 4.808 | 15.018 | 10.012 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/house_stein.png" width="40"/> | [house_stein](preview/d.kiki_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/house) |
+| <img src="preview/d.kiki_plus/impeller_loopy.png" width="40"/> | [impeller_loopy](preview/d.kiki_plus/impeller_loopy.stl) | 1 | 13.063 | 39.189 | 26.126 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/impellerhousing_gao.png" width="40"/> | [impellerhousing_gao](preview/d.kiki_plus/impellerhousing_gao.stl) | 1 | 1.024 | 3.072 | 2.048 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/joint_gao.png" width="40"/> | [joint_gao](preview/d.kiki_plus/joint_gao.stl) | 2 | 8.014 | 24.048 | 16.032 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/joint_loopy.png" width="40"/> | [joint_loopy](preview/d.kiki_plus/joint_loopy.stl) | 2 | 4.381 | 13.149 | 8.766 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/knob_loopy.png" width="40"/> | [knob_loopy](preview/d.kiki_plus/knob_loopy.stl) | 1 | 6.908 | 20.724 | 13.816 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/leverarm_loopy.png" width="40"/> | [leverarm_loopy](preview/d.kiki_plus/leverarm_loopy.stl) | 2 | 4.028 | 12.090 | 8.060 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/lock_gao.png" width="40"/> | [lock_gao](preview/d.kiki_plus/lock_gao.stl) | 3 | 85.084 | 255.264 | 170.176 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/M1_mambo.png" width="40"/> | [M1_mambo](preview/d.kiki_plus/M1_mambo.stl) | 9 | 52.248 | 156.792 | 104.528 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M2_mambo.png" width="40"/> | [M2_mambo](preview/d.kiki_plus/M2_mambo.stl) | 3 | 4.268 | 12.816 | 8.544 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M3_mambo.png" width="40"/> | [M3_mambo](preview/d.kiki_plus/M3_mambo.stl) | 5 | 74.796 | 224.412 | 149.608 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M4_mambo.png" width="40"/> | [M4_mambo](preview/d.kiki_plus/M4_mambo.stl) | 3 | 31.868 | 95.616 | 63.744 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M5_mambo.png" width="40"/> | [M5_mambo](preview/d.kiki_plus/M5_mambo.stl) | 7 | 57.780 | 173.376 | 115.584 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M6_mambo.png" width="40"/> | [M6_mambo](preview/d.kiki_plus/M6_mambo.stl) | 4 | 54.507 | 163.539 | 109.026 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M8_mambo.png" width="40"/> | [M8_mambo](preview/d.kiki_plus/M8_mambo.stl) | 1 | 146.305 | 438.915 | 292.610 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/M9_mambo.png" width="40"/> | [M9_mambo](preview/d.kiki_plus/M9_mambo.stl) | 5 | 67.770 | 203.334 | 135.556 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/mechanical06_loopy.png" width="40"/> | [mechanical06_loopy](preview/d.kiki_plus/mechanical06_loopy.stl) | 1 | 4.545 | 13.635 | 9.090 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/mechanical08_loopy.png" width="40"/> | [mechanical08_loopy](preview/d.kiki_plus/mechanical08_loopy.stl) | 1 | 1.464 | 4.392 | 2.928 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/motortail_loopy.png" width="40"/> | [motortail_loopy](preview/d.kiki_plus/motortail_loopy.stl) | 13 | 7.600 | 22.872 | 15.248 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/orion_nasa.png" width="40"/> | [orion_nasa](preview/d.kiki_plus/orion_nasa.stl) | 7 | 25.852 | 77.592 | 51.728 | [NASA](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule) |
+| <img src="preview/d.kiki_plus/part10_gao.png" width="40"/> | [part10_gao](preview/d.kiki_plus/part10_gao.stl) | 3 | 1.288 | 3.876 | 2.584 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/part11_gao.png" width="40"/> | [part11_gao](preview/d.kiki_plus/part11_gao.stl) | 6 | 4.530 | 13.620 | 9.080 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/part_gao.png" width="40"/> | [part_gao](preview/d.kiki_plus/part_gao.stl) | 3 | 17.056 | 51.180 | 34.120 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/pinion_gao.png" width="40"/> | [pinion_gao](preview/d.kiki_plus/pinion_gao.stl) | 1 | 1.298 | 3.894 | 2.596 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/pinion_loopy.png" width="40"/> | [pinion_loopy](preview/d.kiki_plus/pinion_loopy.stl) | 1 | 21.439 | 64.317 | 42.878 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/rocker_gao.png" width="40"/> | [rocker_gao](preview/d.kiki_plus/rocker_gao.stl) | 1 | 26.656 | 79.968 | 53.312 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/rocker_jacobson.png" width="40"/> | [rocker_jacobson](preview/d.kiki_plus/rocker_jacobson.stl) | 1 | 10.044 | 30.132 | 20.088 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
+| <img src="preview/d.kiki_plus/rod_gao.png" width="40"/> | [rod_gao](preview/d.kiki_plus/rod_gao.stl) | 2 | 8.814 | 26.448 | 17.632 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/rod_loopy.png" width="40"/> | [rod_loopy](preview/d.kiki_plus/rod_loopy.stl) | 2 | 2.202 | 6.612 | 4.408 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/S0_mambo.png" width="40"/> | [S0_mambo](preview/d.kiki_plus/S0_mambo.stl) | 3 | 85.962 | 257.898 | 171.932 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S1_mambo.png" width="40"/> | [S1_mambo](preview/d.kiki_plus/S1_mambo.stl) | 3 | 60.440 | 181.332 | 120.888 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S20_mambo.png" width="40"/> | [S20_mambo](preview/d.kiki_plus/S20_mambo.stl) | 7 | 10.211 | 30.669 | 20.446 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S22_mambo.png" width="40"/> | [S22_mambo](preview/d.kiki_plus/S22_mambo.stl) | 3 | 42.465 | 127.407 | 84.938 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S23_mambo.png" width="40"/> | [S23_mambo](preview/d.kiki_plus/S23_mambo.stl) | 2 | 37.229 | 111.693 | 74.462 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S24_mambo.png" width="40"/> | [S24_mambo](preview/d.kiki_plus/S24_mambo.stl) | 3 | 59.706 | 179.130 | 119.420 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S25_mambo.png" width="40"/> | [S25_mambo](preview/d.kiki_plus/S25_mambo.stl) | 3 | 78.708 | 236.136 | 157.424 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S26_mambo.png" width="40"/> | [S26_mambo](preview/d.kiki_plus/S26_mambo.stl) | 4 | 107.960 | 323.898 | 215.932 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S27_mambo.png" width="40"/> | [S27_mambo](preview/d.kiki_plus/S27_mambo.stl) | 5 | 25.417 | 76.275 | 50.850 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S31_mambo.png" width="40"/> | [S31_mambo](preview/d.kiki_plus/S31_mambo.stl) | 7 | 13.704 | 41.148 | 27.432 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S33_mambo.png" width="40"/> | [S33_mambo](preview/d.kiki_plus/S33_mambo.stl) | 1 | 12.097 | 36.291 | 24.194 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S34_mambo.png" width="40"/> | [S34_mambo](preview/d.kiki_plus/S34_mambo.stl) | 3 | 51.472 | 154.428 | 102.952 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S35_mambo.png" width="40"/> | [S35_mambo](preview/d.kiki_plus/S35_mambo.stl) | 1 | 30.639 | 91.917 | 61.278 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S36_mambo.png" width="40"/> | [S36_mambo](preview/d.kiki_plus/S36_mambo.stl) | 1 | 126.068 | 378.204 | 252.136 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S38_mambo.png" width="40"/> | [S38_mambo](preview/d.kiki_plus/S38_mambo.stl) | 3 | 21.918 | 65.766 | 43.844 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S39_mambo.png" width="40"/> | [S39_mambo](preview/d.kiki_plus/S39_mambo.stl) | 2 | 23.428 | 70.290 | 46.860 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S3_mambo.png" width="40"/> | [S3_mambo](preview/d.kiki_plus/S3_mambo.stl) | 2 | 3.298 | 9.900 | 6.600 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S40_mambo.png" width="40"/> | [S40_mambo](preview/d.kiki_plus/S40_mambo.stl) | 1 | 37.574 | 112.722 | 75.148 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S41_mambo.png" width="40"/> | [S41_mambo](preview/d.kiki_plus/S41_mambo.stl) | 1 | 36.315 | 108.945 | 72.630 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S42_mambo.png" width="40"/> | [S42_mambo](preview/d.kiki_plus/S42_mambo.stl) | 1 | 35.625 | 106.875 | 71.250 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S43_mambo.png" width="40"/> | [S43_mambo](preview/d.kiki_plus/S43_mambo.stl) | 1 | 35.242 | 105.726 | 70.484 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S44_mambo.png" width="40"/> | [S44_mambo](preview/d.kiki_plus/S44_mambo.stl) | 1 | 35.363 | 106.089 | 70.726 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S45_mambo.png" width="40"/> | [S45_mambo](preview/d.kiki_plus/S45_mambo.stl) | 1 | 34.921 | 104.763 | 69.842 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S4_mambo.png" width="40"/> | [S4_mambo](preview/d.kiki_plus/S4_mambo.stl) | 3 | 31.644 | 94.944 | 63.296 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S5_mambo.png" width="40"/> | [S5_mambo](preview/d.kiki_plus/S5_mambo.stl) | 7 | 41.492 | 124.512 | 83.008 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S6_mambo.png" width="40"/> | [S6_mambo](preview/d.kiki_plus/S6_mambo.stl) | 5 | 68.976 | 206.952 | 137.968 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S7_mambo.png" width="40"/> | [S7_mambo](preview/d.kiki_plus/S7_mambo.stl) | 2 | 61.013 | 183.045 | 122.030 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S8_mambo.png" width="40"/> | [S8_mambo](preview/d.kiki_plus/S8_mambo.stl) | 1 | 48.998 | 146.994 | 97.996 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/S9_mambo.png" width="40"/> | [S9_mambo](preview/d.kiki_plus/S9_mambo.stl) | 3 | 281.281 | 843.855 | 562.570 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/sbracket_gao.png" width="40"/> | [sbracket_gao](preview/d.kiki_plus/sbracket_gao.stl) | 2 | 1.300 | 3.906 | 2.604 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/sculpt_gao.png" width="40"/> | [sculpt_gao](preview/d.kiki_plus/sculpt_gao.stl) | 2 | 14.682 | 44.052 | 29.368 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/sculpt_loopy.png" width="40"/> | [sculpt_loopy](preview/d.kiki_plus/sculpt_loopy.stl) | 2 | 3.669 | 11.013 | 7.342 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/simp_hexme.png" width="40"/> | [simp_hexme](preview/d.kiki_plus/simp_hexme.stl) | 1 | 5.024 | 15.072 | 10.048 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/d.kiki_plus/sls_nasa.png" width="40"/> | [sls_nasa](preview/d.kiki_plus/sls_nasa.stl) | 7 | 29.988 | 90.000 | 60.000 | [NASA](https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201) |
+| <img src="preview/d.kiki_plus/socket1_gao.png" width="40"/> | [socket1_gao](preview/d.kiki_plus/socket1_gao.stl) | 7 | 1.194 | 3.618 | 2.412 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/socket2_gao.png" width="40"/> | [socket2_gao](preview/d.kiki_plus/socket2_gao.stl) | 7 | 1.198 | 3.630 | 2.420 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/supportframe_gao.png" width="40"/> | [supportframe_gao](preview/d.kiki_plus/supportframe_gao.stl) | 5 | 554 | 1.686 | 1.124 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/swivel2_gao.png" width="40"/> | [swivel2_gao](preview/d.kiki_plus/swivel2_gao.stl) | 2 | 406 | 1.224 | 816 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/team2_gao.png" width="40"/> | [team2_gao](preview/d.kiki_plus/team2_gao.stl) | 9 | 4.303 | 12.957 | 8.638 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/d.kiki_plus/tower_stein.png" width="40"/> | [tower_stein](preview/d.kiki_plus/tower_stein.stl) | 2 | 29.966 | 89.904 | 59.936 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/tower) |
+| <img src="preview/d.kiki_plus/triangularbase_mambo.png" width="40"/> | [triangularbase_mambo](preview/d.kiki_plus/triangularbase_mambo.stl) | 4 | 15.070 | 45.228 | 30.152 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
+| <img src="preview/d.kiki_plus/trisopen_loopy.png" width="40"/> | [trisopen_loopy](preview/d.kiki_plus/trisopen_loopy.stl) | 1 | 720 | 2.160 | 1.440 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/ujoint_loopy.png" width="40"/> | [ujoint_loopy](preview/d.kiki_plus/ujoint_loopy.stl) | 2 | 5.574 | 16.728 | 11.152 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/well_stein.png" width="40"/> | [well_stein](preview/d.kiki_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [Oded Stein + Maxim Snoep (remeshed)](https://github.com/odedstein/meshes/tree/master/objects/well) |
+| <img src="preview/d.kiki_plus/wrench_loopy.png" width="40"/> | [wrench_loopy](preview/d.kiki_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 
-### (e) nightmares (g≥0, n=11)
-| model | genus | vertices | edges | triangles | source |
-|-------|-------|----------|-------|-----------|--------|
-| [7connected](dataset/e.nightmares/7connected.stl) | 0 | 6.890 | 20.664 | 13.776 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [8connected](dataset/e.nightmares/8connected.stl) | 0 | 10.424 | 31.266 | 20.844 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [encrusted](dataset/e.nightmares/encrusted.stl) | 0 | 17.660 | 52.974 | 35.316 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [pipehelix](dataset/e.nightmares/pipehelix.stl) | 1 | 53.939 | 161.817 | 107.878 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [pipehelix7](dataset/e.nightmares/pipehelix7.stl) | 7 | 90.136 | 270.444 | 180.296 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [screw](dataset/e.nightmares/screw.stl) | 0 | 15.424 | 46.266 | 30.844 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [torusstep](dataset/e.nightmares/torusstep.stl) | 1 | 4.268 | 12.804 | 8.536 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [traystep](dataset/e.nightmares/traystep.stl) | 0 | 8.562 | 25.680 | 17.120 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [twins](dataset/e.nightmares/twins.stl) | 0 | 9.272 | 27.810 | 18.540 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [twist](dataset/e.nightmares/twist.stl) | 2 | 78.524 | 235.578 | 157.052 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| [yeahright](dataset/e.nightmares/yeahright.stl) | 131 | 377.084 | 1.132.032 | 754.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+### (e) nightmares (g≥0, n=44)
+| | model | genus | vertices | edges | triangles | source |
+|-|-------|-------|----------|-------|-----------|--------|
+| <img src="preview/e.nightmares/7connected_nop.png" width="40"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/7connected_snoep.png" width="40"/> | [7connected_snoep](preview/e.nightmares/7connected_snoep.stl) | 0 | 6.890 | 20.664 | 13.776 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/8connected_nop.png" width="40"/> | [8connected_nop](preview/e.nightmares/8connected_nop.stl) | 0 | 114.112 | 342.330 | 228.220 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/8connected_snoep.png" width="40"/> | [8connected_snoep](preview/e.nightmares/8connected_snoep.stl) | 0 | 10.424 | 31.266 | 20.844 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/acuteline_hexme.png" width="40"/> | [acuteline_hexme](preview/e.nightmares/acuteline_hexme.stl) | 0 | 660 | 1.974 | 1.316 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/antipentapyramid_hexme.png" width="40"/> | [antipentapyramid_hexme](preview/e.nightmares/antipentapyramid_hexme.stl) | 0 | 5.915 | 17.739 | 11.826 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/antipyramid_hexme.png" width="40"/> | [antipyramid_hexme](preview/e.nightmares/antipyramid_hexme.stl) | 0 | 6.011 | 18.027 | 12.018 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/antiskijump_hexme.png" width="40"/> | [antiskijump_hexme](preview/e.nightmares/antiskijump_hexme.stl) | 0 | 726 | 2.172 | 1.448 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/beveledshoulder2_loopy.png" width="40"/> | [beveledshoulder2_loopy](preview/e.nightmares/beveledshoulder2_loopy.stl) | 1 | 22 | 66 | 44 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/e.nightmares/boxpcyls_hexme.png" width="40"/> | [boxpcyls_hexme](preview/e.nightmares/boxpcyls_hexme.stl) | 1 | 1.122 | 3.366 | 2.244 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/catalanwire_thingi.png" width="40"/> | [catalanwire_thingi](preview/e.nightmares/catalanwire_thingi.stl) | 119 | 28.564 | 86.400 | 57.600 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=509316) |
+| <img src="preview/e.nightmares/constantwidth_crane.png" width="40"/> | [constantwidth_crane](preview/e.nightmares/constantwidth_crane.stl) | 0 | 19.802 | 59.400 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/e.nightmares/crosscyls_hexme.png" width="40"/> | [crosscyls_hexme](preview/e.nightmares/crosscyls_hexme.stl) | 0 | 345 | 1.029 | 686 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/csaszar_crane.png" width="40"/> | [csaszar_crane](preview/e.nightmares/csaszar_crane.stl) | 1 | 448 | 1.344 | 896 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/e.nightmares/encrusted_nop.png" width="40"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/encrusted_snoep.png" width="40"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/halvedobliquescarf3_loopy.png" width="40"/> | [halvedobliquescarf3_loopy](preview/e.nightmares/halvedobliquescarf3_loopy.stl) | 0 | 36 | 102 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/e.nightmares/hilbertcube_thingi.png" width="40"/> | [hilbertcube_thingi](preview/e.nightmares/hilbertcube_thingi.stl) | 8 | 240 | 762 | 508 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
+| <img src="preview/e.nightmares/icosahedron_hexme.png" width="40"/> | [icosahedron_hexme](preview/e.nightmares/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/inlaydovetail3_loopy.png" width="40"/> | [inlaydovetail3_loopy](preview/e.nightmares/inlaydovetail3_loopy.stl) | 0 | 32 | 90 | 60 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/e.nightmares/involumeknot_nop.png" width="40"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/knot1_cgal.png" width="40"/> | [knot1_cgal](preview/e.nightmares/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
+| <img src="preview/e.nightmares/knot_cgal.png" width="40"/> | [knot_cgal](preview/e.nightmares/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
+| <img src="preview/e.nightmares/limitcycle_hexme.png" width="40"/> | [limitcycle_hexme](preview/e.nightmares/limitcycle_hexme.stl) | 1 | 8.413 | 25.239 | 16.826 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/limitcycleg0_hexme.png" width="40"/> | [limitcycleg0_hexme](preview/e.nightmares/limitcycleg0_hexme.stl) | 0 | 7.640 | 22.914 | 15.276 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/metatron_loopy.png" width="40"/> | [metatron_loopy](preview/e.nightmares/metatron_loopy.stl) | 11 | 7.171 | 21.573 | 14.382 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/e.nightmares/octaflower_gao.png" width="40"/> | [octaflower_gao](preview/e.nightmares/octaflower_gao.stl) | 0 | 7.919 | 23.751 | 15.834 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
+| <img src="preview/e.nightmares/octahedron_hexme.png" width="40"/> | [octahedron_hexme](preview/e.nightmares/octahedron_hexme.stl) | 0 | 3.366 | 10.092 | 6.728 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/oloid_crane.png" width="40"/> | [oloid_crane](preview/e.nightmares/oloid_crane.stl) | 0 | 4.098 | 12.288 | 8.192 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
+| <img src="preview/e.nightmares/pentapyramid_hexme.png" width="40"/> | [pentapyramid_hexme](preview/e.nightmares/pentapyramid_hexme.stl) | 0 | 961 | 2.877 | 1.918 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/pipehelix7_nop.png" width="40"/> | [pipehelix7_nop](preview/e.nightmares/pipehelix7_nop.stl) | 7 | 90.136 | 270.444 | 180.296 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/pipehelix_nop.png" width="40"/> | [pipehelix_nop](preview/e.nightmares/pipehelix_nop.stl) | 1 | 53.939 | 161.817 | 107.878 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/pyramid_hexme.png" width="40"/> | [pyramid_hexme](preview/e.nightmares/pyramid_hexme.stl) | 0 | 1.274 | 3.816 | 2.544 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/screw_nop.png" width="40"/> | [screw_nop](preview/e.nightmares/screw_nop.stl) | 0 | 88.075 | 264.219 | 176.146 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/screw_snoep.png" width="40"/> | [screw_snoep](preview/e.nightmares/screw_snoep.stl) | 0 | 15.424 | 46.266 | 30.844 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/skijump_hexme.png" width="40"/> | [skijump_hexme](preview/e.nightmares/skijump_hexme.stl) | 0 | 848 | 2.538 | 1.692 | [HexMe](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/e.nightmares/torusstep_nop.png" width="40"/> | [torusstep_nop](preview/e.nightmares/torusstep_nop.stl) | 1 | 80.371 | 241.113 | 160.742 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/torusstep_snoep.png" width="40"/> | [torusstep_snoep](preview/e.nightmares/torusstep_snoep.stl) | 1 | 4.268 | 12.804 | 8.536 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/traystep_nop.png" width="40"/> | [traystep_nop](preview/e.nightmares/traystep_nop.stl) | 0 | 79.151 | 237.447 | 158.298 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/traystep_snoep.png" width="40"/> | [traystep_snoep](preview/e.nightmares/traystep_snoep.stl) | 0 | 8.562 | 25.680 | 17.120 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/twins_nop.png" width="40"/> | [twins_nop](preview/e.nightmares/twins_nop.stl) | 0 | 63.873 | 191.613 | 127.742 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/twins_snoep.png" width="40"/> | [twins_snoep](preview/e.nightmares/twins_snoep.stl) | 0 | 9.272 | 27.810 | 18.540 | [Sébastien Mestrallet + Maxim Snoep (remeshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/twist_nop.png" width="40"/> | [twist_nop](preview/e.nightmares/twist_nop.stl) | 2 | 78.524 | 235.578 | 157.052 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
+| <img src="preview/e.nightmares/yeahright_crane.png" width="40"/> | [yeahright_crane](preview/e.nightmares/yeahright_crane.stl) | 131 | 377.084 | 1.132.032 | 754.688 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
