@@ -8,7 +8,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=128)
+### (a) bouba (g=0, n=127)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.bouba_zero/airplane1_gao.png" width="40"/> | [airplane1_gao](preview/a.bouba_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -60,7 +60,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.bouba_zero/duck2_gao.png" width="40"/> | [duck2_gao](preview/a.bouba_zero/duck2_gao.stl) | 0 | 9.640 | 28.914 | 19.276 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/duck_gao.png" width="40"/> | [duck_gao](preview/a.bouba_zero/duck_gao.stl) | 0 | 3.598 | 10.788 | 7.192 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/ellipse_loopy.png" width="40"/> | [ellipse_loopy](preview/a.bouba_zero/ellipse_loopy.stl) | 0 | 554 | 1.656 | 1.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/a.bouba_zero/eraserball_loopy.png" width="40"/> | [eraserball_loopy](preview/a.bouba_zero/eraserball_loopy.stl) | 0 | 2.624 | 7.866 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/eros_gao.png" width="40"/> | [eros_gao](preview/a.bouba_zero/eros_gao.stl) | 0 | 25.001 | 74.997 | 49.998 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 | <img src="preview/a.bouba_zero/falconstatue_stein.png" width="40"/> | [falconstatue_stein](preview/a.bouba_zero/falconstatue_stein.stl) | 0 | 25.839 | 77.511 | 51.674 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/falconstatue) |
 | <img src="preview/a.bouba_zero/fish1_gao.png" width="40"/> | [fish1_gao](preview/a.bouba_zero/fish1_gao.stl) | 0 | 11.895 | 35.679 | 23.786 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -199,7 +198,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.bouba_plus/violin_stein.png" width="40"/> | [violin_stein](preview/b.bouba_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.bouba_plus/wrench_gao.png" width="40"/> | [wrench_gao](preview/b.bouba_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
 
-### (c) kiki (g=0, n=102)
+### (c) kiki (g=0, n=103)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/c.kiki_zero/3035_gao.png" width="40"/> | [3035_gao](preview/c.kiki_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -274,6 +273,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.kiki_zero/cylinderplate_loopy.png" width="40"/> | [cylinderplate_loopy](preview/c.kiki_zero/cylinderplate_loopy.stl) | 0 | 908 | 2.718 | 1.812 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/dpw6g0_nlr.png" width="40"/> | [dpw6g0_nlr](preview/c.kiki_zero/dpw6g0_nlr.stl) | 0 | 31.124 | 93.366 | 62.244 | [NASA + Stevie-Ray Janssen (meshed)](https://aiaa-dpw.larc.nasa.gov/) |
 | <img src="preview/c.kiki_zero/dpw7_nlr.png" width="40"/> | [dpw7_nlr](preview/c.kiki_zero/dpw7_nlr.stl) | 0 | 3.964 | 11.886 | 7.924 | [NASA + Stevie-Ray Janssen (meshed)](https://aiaa-dpw.larc.nasa.gov/) |
+| <img src="preview/c.kiki_zero/eraserball_loopy.png" width="40"/> | [eraserball_loopy](preview/c.kiki_zero/eraserball_loopy.stl) | 0 | 2.624 | 7.866 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/fandisk_jacobson.png" width="40"/> | [fandisk_jacobson](preview/c.kiki_zero/fandisk_jacobson.stl) | 0 | 6.475 | 19.419 | 12.946 | [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models) |
 | <img src="preview/c.kiki_zero/fandisk_libigl.png" width="40"/> | [fandisk_libigl](preview/c.kiki_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | [libigl](https://github.com/libigl/libigl-tutorial-data) |
 | <img src="preview/c.kiki_zero/featureloft_mambo.png" width="40"/> | [featureloft_mambo](preview/c.kiki_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |

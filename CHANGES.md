@@ -109,7 +109,7 @@ Credit changes in this version:
 | `cup_loopy` | c.kiki_zero | 0 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `dog_loopy` | a.bouba_zero | 0 | 6.164 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `ellipse_loopy` | a.bouba_zero | 0 | 1.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `eraserball_loopy` | a.bouba_zero | 0 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `eraserball_loopy` | c.kiki_zero | 0 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `falconstatue_stein` | a.bouba_zero | 0 | 51.674 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/falconstatue) |
 | `fish_stein` | a.bouba_zero | 0 | 21.568 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/fish) |
 | `hand_loopy` | a.bouba_zero | 0 | 4.944 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
