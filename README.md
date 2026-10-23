@@ -199,7 +199,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/b.bouba_plus/violin_stein.png" width="160"/> | [violin_stein](preview/b.bouba_plus/violin_stein.stl) | 5 | 29.991 | 89.997 | 59.998 | 0.51 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/violin) |
 | <img src="preview/b.bouba_plus/wrench_gao.png" width="160"/> | [wrench_gao](preview/b.bouba_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | 0.14 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 
-### (c) kiki (g=0, n=109)
+### (c) kiki (g=0, n=112)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/c.kiki_zero/3035_gao.png" width="160"/> | [3035_gao](preview/c.kiki_zero/3035_gao.stl) | 0 | 3.568 | 10.698 | 7.132 | 0.89 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -284,9 +284,12 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.kiki_zero/fandisk_libigl.png" width="160"/> | [fandisk_libigl](preview/c.kiki_zero/fandisk_libigl.stl) | 0 | 7.229 | 21.681 | 14.454 | 0.98 | [libigl](https://github.com/libigl/libigl-tutorial-data) |
 | <img src="preview/c.kiki_zero/featureloft_mambo.png" width="160"/> | [featureloft_mambo](preview/c.kiki_zero/featureloft_mambo.stl) | 0 | 9.242 | 27.720 | 18.480 | 1.00 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.kiki_zero/gear_loopy.png" width="160"/> | [gear_loopy](preview/c.kiki_zero/gear_loopy.stl) | 0 | 3.931 | 11.787 | 7.858 | 0.96 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/c.kiki_zero/halvedobliquescarf3_loopy.png" width="160"/> | [halvedobliquescarf3_loopy](preview/c.kiki_zero/halvedobliquescarf3_loopy.stl) | 0 | 36 | 102 | 68 | 0.95 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/hammer_stein.png" width="160"/> | [hammer_stein](preview/c.kiki_zero/hammer_stein.stl) | 0 | 30.082 | 90.240 | 60.160 | 0.11 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/hammer) |
 | <img src="preview/c.kiki_zero/hlpw4_nlr.png" width="160"/> | [hlpw4_nlr](preview/c.kiki_zero/hlpw4_nlr.stl) | 0 | 33.144 | 99.426 | 66.284 | 0.92 | [NASA + Stevie-Ray Janssen (meshed)](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/) |
 | <img src="preview/c.kiki_zero/hlpw5_nlr.png" width="160"/> | [hlpw5_nlr](preview/c.kiki_zero/hlpw5_nlr.stl) | 0 | 20.730 | 62.184 | 41.456 | 0.95 | [NASA + Stevie-Ray Janssen (meshed)](https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/) |
+| <img src="preview/c.kiki_zero/icosahedron_hexme.png" width="160"/> | [icosahedron_hexme](preview/c.kiki_zero/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | 1.00 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| <img src="preview/c.kiki_zero/inlaydovetail3_loopy.png" width="160"/> | [inlaydovetail3_loopy](preview/c.kiki_zero/inlaydovetail3_loopy.stl) | 0 | 32 | 90 | 60 | 0.95 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/jwb_nasa.png" width="160"/> | [jwb_nasa](preview/c.kiki_zero/jwb_nasa.stl) | 0 | 21.673 | 65.013 | 43.342 | 0.68 | [NASA + Maxim Snoep (meshed)](https://lbpw.larc.nasa.gov/) |
 | <img src="preview/c.kiki_zero/legoblock_mambo.png" width="160"/> | [legoblock_mambo](preview/c.kiki_zero/legoblock_mambo.stl) | 0 | 21.494 | 64.476 | 42.984 | 0.99 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
 | <img src="preview/c.kiki_zero/legoman_mambo.png" width="160"/> | [legoman_mambo](preview/c.kiki_zero/legoman_mambo.stl) | 0 | 7.059 | 21.171 | 14.114 | 0.98 | [Franck Ledoux + Maxim Snoep (meshed)](https://gitlab.com/franck.ledoux/mambo) |
@@ -312,7 +315,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/c.kiki_zero/wedge_loopy.png" width="160"/> | [wedge_loopy](preview/c.kiki_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | 1.00 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/c.kiki_zero/wingnut_stein.png" width="160"/> | [wingnut_stein](preview/c.kiki_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | 0.95 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/wingnut) |
 
-### (d) kiki (g≥1, n=132)
+### (d) kiki (g≥1, n=133)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/d.kiki_plus/anc101_gao.png" width="160"/> | [anc101_gao](preview/d.kiki_plus/anc101_gao.stl) | 5 | 3.970 | 11.934 | 7.956 | 0.91 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
@@ -371,6 +374,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.kiki_plus/gyroidpuzzle_loopy.png" width="160"/> | [gyroidpuzzle_loopy](preview/d.kiki_plus/gyroidpuzzle_loopy.stl) | 15 | 13.077 | 39.315 | 26.210 | 0.28 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/d.kiki_plus/hanger_gao.png" width="160"/> | [hanger_gao](preview/d.kiki_plus/hanger_gao.stl) | 2 | 16.110 | 48.336 | 32.224 | 0.99 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/d.kiki_plus/hanger_loopy.png" width="160"/> | [hanger_loopy](preview/d.kiki_plus/hanger_loopy.stl) | 2 | 4.026 | 12.084 | 8.056 | 0.98 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| <img src="preview/d.kiki_plus/hilbertcube_thingi.png" width="160"/> | [hilbertcube_thingi](preview/d.kiki_plus/hilbertcube_thingi.stl) | 8 | 240 | 762 | 508 | 0.97 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
 | <img src="preview/d.kiki_plus/hinge_loopy.png" width="160"/> | [hinge_loopy](preview/d.kiki_plus/hinge_loopy.stl) | 5 | 9.544 | 28.656 | 19.104 | 0.96 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/d.kiki_plus/holes10_gao.png" width="160"/> | [holes10_gao](preview/d.kiki_plus/holes10_gao.stl) | 100 | 4.808 | 15.018 | 10.012 | 0.59 | [Xifeng Gao](https://cims.nyu.edu/gcl/publications.html) |
 | <img src="preview/d.kiki_plus/house_stein.png" width="160"/> | [house_stein](preview/d.kiki_plus/house_stein.stl) | 36 | 28.940 | 87.030 | 58.020 | 0.32 | [Oded Stein + Maxim Snoep (repaired, simplified)](https://github.com/odedstein/meshes/tree/master/objects/house) |
@@ -448,7 +452,7 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/d.kiki_plus/well_stein.png" width="160"/> | [well_stein](preview/d.kiki_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | 0.37 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/well) |
 | <img src="preview/d.kiki_plus/wrench_loopy.png" width="160"/> | [wrench_loopy](preview/d.kiki_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | 0.99 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 
-### (e) nightmares (g≥0, n=36)
+### (e) nightmares (g≥0, n=32)
 | | model | genus | vertices | edges | triangles | kikiness | source |
 |-|-------|-------|----------|-------|-----------|----------|--------|
 | <img src="preview/e.nightmares/7connected_nop.png" width="160"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | 1.00 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
@@ -459,10 +463,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/e.nightmares/csaszar_crane.png" width="160"/> | [csaszar_crane](preview/e.nightmares/csaszar_crane.stl) | 1 | 448 | 1.344 | 896 | 1.00 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | <img src="preview/e.nightmares/encrusted_nop.png" width="160"/> | [encrusted_nop](preview/e.nightmares/encrusted_nop.stl) | 0 | 24.823 | 74.463 | 49.642 | 0.99 | [Sébastien Mestrallet](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/encrusted_snoep.png" width="160"/> | [encrusted_snoep](preview/e.nightmares/encrusted_snoep.stl) | 0 | 17.660 | 52.974 | 35.316 | 0.99 | [Sébastien Mestrallet + Maxim Snoep (simplified)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
-| <img src="preview/e.nightmares/halvedobliquescarf3_loopy.png" width="160"/> | [halvedobliquescarf3_loopy](preview/e.nightmares/halvedobliquescarf3_loopy.stl) | 0 | 36 | 102 | 68 | 0.95 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| <img src="preview/e.nightmares/hilbertcube_thingi.png" width="160"/> | [hilbertcube_thingi](preview/e.nightmares/hilbertcube_thingi.stl) | 8 | 240 | 762 | 508 | 0.97 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
-| <img src="preview/e.nightmares/icosahedron_hexme.png" width="160"/> | [icosahedron_hexme](preview/e.nightmares/icosahedron_hexme.stl) | 0 | 6.252 | 18.750 | 12.500 | 1.00 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| <img src="preview/e.nightmares/inlaydovetail3_loopy.png" width="160"/> | [inlaydovetail3_loopy](preview/e.nightmares/inlaydovetail3_loopy.stl) | 0 | 32 | 90 | 60 | 0.95 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/e.nightmares/involumeknot_nop.png" width="160"/> | [involumeknot_nop](preview/e.nightmares/involumeknot_nop.stl) | 1 | 13.375 | 40.125 | 26.750 | 1.00 | [Sébastien Mestrallet + Maxim Snoep (meshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | <img src="preview/e.nightmares/knot1_cgal.png" width="160"/> | [knot1_cgal](preview/e.nightmares/knot1_cgal.stl) | 1 | 3.200 | 9.600 | 6.400 | 0.06 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | <img src="preview/e.nightmares/knot_cgal.png" width="160"/> | [knot_cgal](preview/e.nightmares/knot_cgal.stl) | 1 | 2.080 | 6.240 | 4.160 | 0.07 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |

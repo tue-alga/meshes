@@ -275,10 +275,10 @@ Credit changes in this version:
 | `constantwidth_crane` | a.bouba_zero | 0 | 39.600 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `crosscyls_hexme` | c.kiki_zero | 0 | 686 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
 | `csaszar_crane` | e.nightmares | 1 | 896 | [Keenan Crane + Maxim Snoep (remeshed)](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
-| `halvedobliquescarf3_loopy` | e.nightmares | 0 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `hilbertcube_thingi` | e.nightmares | 8 | 508 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
-| `icosahedron_hexme` | e.nightmares | 0 | 12.500 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
-| `inlaydovetail3_loopy` | e.nightmares | 0 | 60 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `halvedobliquescarf3_loopy` | c.kiki_zero | 0 | 68 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `hilbertcube_thingi` | d.kiki_plus | 8 | 508 | [Thingi10K](https://ten-thousand-models.appspot.com/detail.html?file_id=53757) |
+| `icosahedron_hexme` | c.kiki_zero | 0 | 12.500 | [HexMe + Maxim Snoep (meshed)](https://github.com/cgg-bern/hex-me-if-you-can) |
+| `inlaydovetail3_loopy` | c.kiki_zero | 0 | 60 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `involumeknot_nop` | e.nightmares | 1 | 26.750 | [Sébastien Mestrallet + Maxim Snoep (meshed)](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes) |
 | `knot1_cgal` | e.nightmares | 1 | 6.400 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
 | `knot_cgal` | e.nightmares | 1 | 4.160 | [CGAL](https://github.com/CGAL/cgal/tree/main/Data/data/meshes) |
