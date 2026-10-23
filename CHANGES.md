@@ -105,8 +105,8 @@ Credit changes in this version:
 | `cat_loopy` | a.bouba_zero | 0 | 4.660 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `cheese_stein` | a.bouba_zero | 0 | 60.000 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/cheese) |
 | `chineselion_gao` | a.bouba_zero | 0 | 50.384 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
-| `clef_loopy` | a.bouba_zero | 0 | 2.780 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
-| `cup_loopy` | a.bouba_zero | 0 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `clef_loopy` | c.kiki_zero | 0 | 2.780 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
+| `cup_loopy` | c.kiki_zero | 0 | 424 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `dog_loopy` | a.bouba_zero | 0 | 6.164 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `ellipse_loopy` | a.bouba_zero | 0 | 1.104 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `eraserball_loopy` | a.bouba_zero | 0 | 5.244 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
