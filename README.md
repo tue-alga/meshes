@@ -1,4 +1,4 @@
-This repository contains a curated collection of 460 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
+This repository contains a curated collection of 459 triangle meshes spanning a wide variety of shapes. All meshes are verified to be connected, watertight, orientable, and manifold. You can refer to a specific version of the dataset (e.g., in a publication) through the [releases](https://github.com/tue-alga/meshes/releases) page.
 
 > 💡 **Tip:** GitHub has a built-in STL viewer. Click on any model name in the tables below to preview it interactively in 3D.
 
@@ -8,7 +8,7 @@ Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`
 
 Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
 
-### (a) bouba (g=0, n=135)
+### (a) bouba (g=0, n=134)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.bouba_zero/airplane1_gao.png" width="40"/> | [airplane1_gao](preview/a.bouba_zero/airplane1_gao.stl) | 0 | 9.417 | 28.245 | 18.830 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |
@@ -135,7 +135,6 @@ Some shapes originated from different (or broken) formats. In those cases, we pr
 | <img src="preview/a.bouba_zero/spot_stein.png" width="40"/> | [spot_stein](preview/a.bouba_zero/spot_stein.stl) | 0 | 11.533 | 34.593 | 23.062 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/spot) |
 | <img src="preview/a.bouba_zero/strawberry_stein.png" width="40"/> | [strawberry_stein](preview/a.bouba_zero/strawberry_stein.stl) | 0 | 29.992 | 89.970 | 59.980 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
 | <img src="preview/a.bouba_zero/stuffedtoy_stein.png" width="40"/> | [stuffedtoy_stein](preview/a.bouba_zero/stuffedtoy_stein.stl) | 0 | 6.669 | 20.001 | 13.334 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy) |
-| <img src="preview/a.bouba_zero/teapot_jacobson.png" width="40"/> | [teapot_jacobson](preview/a.bouba_zero/teapot_jacobson.stl) | 0 | 1.805 | 5.409 | 3.606 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | <img src="preview/a.bouba_zero/torque1_loopy.png" width="40"/> | [torque1_loopy](preview/a.bouba_zero/torque1_loopy.stl) | 0 | 2.850 | 8.544 | 5.696 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/torque_loopy.png" width="40"/> | [torque_loopy](preview/a.bouba_zero/torque_loopy.stl) | 0 | 1.652 | 4.950 | 3.300 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | <img src="preview/a.bouba_zero/toy1_gao.png" width="40"/> | [toy1_gao](preview/a.bouba_zero/toy1_gao.stl) | 0 | 13.452 | 40.350 | 26.900 | [Xifeng Gao](https://cims.nyu.edu/gcl/papers/2019-OctreeMeshing.zip) |

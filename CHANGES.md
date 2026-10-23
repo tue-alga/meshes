@@ -79,7 +79,7 @@ Credit changes in this version:
 
 ## Added
 
-210 models that were not in the previous version (the `_snoep` meshes are previous versions under a new name and are listed under *Changed geometry or pose*).
+209 models that were not in the previous version (the `_snoep` meshes are previous versions under a new name and are listed under *Changed geometry or pose*).
 
 | new name | folder | genus | triangles | source |
 |---|---|---|---|---|
@@ -138,7 +138,6 @@ Credit changes in this version:
 | `spot_crane` | a.bouba_zero | 0 | 5.856 | [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/) |
 | `strawberry_stein` | a.bouba_zero | 0 | 59.980 | [Oded Stein + Maxim Snoep (simplified)](https://github.com/odedstein/meshes/tree/master/objects/strawberry) |
 | `stuffedtoy_stein` | a.bouba_zero | 0 | 13.334 | [Oded Stein](https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy) |
-| `teapot_jacobson` | a.bouba_zero | 0 | 3.606 | [Alec Jacobson + Maxim Snoep (repaired)](https://github.com/alecjacobson/common-3d-test-models) |
 | `torque1_loopy` | a.bouba_zero | 0 | 5.696 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `torque_loopy` | a.bouba_zero | 0 | 3.300 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
 | `trebol_loopy` | a.bouba_zero | 0 | 36.348 | [Marco Livesu](https://github.com/mlivesu/LoopyCuts/tree/master/test_data) |
