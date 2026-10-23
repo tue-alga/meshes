@@ -218,7 +218,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/vessel_loopy.png" width="120"/> | [vessel_loopy](preview/a.smooth_zero/vessel_loopy.stl) | 0 | 2.658 | 7.968 | 5.312 | [^9] |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="120"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [^4] |
 
-### (b) smooth (g≥1, n=97)
+### (b) smooth (g≥1, n=98)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/10.102_knotplot.png" width="120"/> | [10.102_knotplot](preview/b.smooth_plus/10.102_knotplot.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 1 | 4.312 | 12.936 | 8.624 | [^14] |
@@ -271,6 +271,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/greek_sculpture_gao.png" width="120"/> | [greek_sculpture_gao](preview/b.smooth_plus/greek_sculpture_gao.stl) | 4 | 12.501 | 37.521 | 25.014 | [^4] |
 | <img src="preview/b.smooth_plus/greek_sculpture_quadwild.png" width="120"/> | [greek_sculpture_quadwild](preview/b.smooth_plus/greek_sculpture_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 4 | 24.994 | 75.000 | 50.000 | [^1] |
 | <img src="preview/b.smooth_plus/happy_vrip_stanford.png" width="120"/> | [happy_vrip_stanford](preview/b.smooth_plus/happy_vrip_stanford.stl) | 10 | 29.419 | 88.311 | 58.874 | [^17] (repaired, simplified) |
+| <img src="preview/b.smooth_plus/helmet_quadwild.png" width="120"/> | [helmet_quadwild](preview/b.smooth_plus/helmet_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 3 | 496 | 1.500 | 1.000 | [^1] |
 | <img src="preview/b.smooth_plus/heptoroid_skel.png" width="120"/> | [heptoroid_skel](preview/b.smooth_plus/heptoroid_skel.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 22 | 29.957 | 89.997 | 59.998 | [^3] (simplified) |
 | <img src="preview/b.smooth_plus/holes2_loopy.png" width="120"/> | [holes2_loopy](preview/b.smooth_plus/holes2_loopy.stl) | 2 | 2.922 | 8.772 | 5.848 | [^9] |
 | <img src="preview/b.smooth_plus/holes3_gao.png" width="120"/> | [holes3_gao](preview/b.smooth_plus/holes3_gao.stl) | 3 | 14.396 | 43.200 | 28.800 | [^4] |
@@ -479,7 +480,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="120"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^9] |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="120"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [^8] |
 
-### (d) sharp (g≥1, n=236)
+### (d) sharp (g≥1, n=235)
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/1012A_esb.png" width="120"/> | [1012A_esb](preview/d.sharp_plus/1012A_esb.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 5 | 1.693 | 5.103 | 3.402 | [^15] |
@@ -597,7 +598,6 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/gyroidpuzzle_loopy.png" width="120"/> | [gyroidpuzzle_loopy](preview/d.sharp_plus/gyroidpuzzle_loopy.stl) | 15 | 13.077 | 39.315 | 26.210 | [^9] |
 | <img src="preview/d.sharp_plus/hanger_gao.png" width="120"/> | [hanger_gao](preview/d.sharp_plus/hanger_gao.stl) | 2 | 16.110 | 48.336 | 32.224 | [^4] |
 | <img src="preview/d.sharp_plus/hanger_loopy.png" width="120"/> | [hanger_loopy](preview/d.sharp_plus/hanger_loopy.stl) | 2 | 4.026 | 12.084 | 8.056 | [^9] |
-| <img src="preview/d.sharp_plus/helmet_quadwild.png" width="120"/> | [helmet_quadwild](preview/d.sharp_plus/helmet_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 3 | 496 | 1.500 | 1.000 | [^1] |
 | <img src="preview/d.sharp_plus/heptoroid100k_quadwild.png" width="120"/> | [heptoroid100k_quadwild](preview/d.sharp_plus/heptoroid100k_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 22 | 49.958 | 150.000 | 100.000 | [^1] |
 | <img src="preview/d.sharp_plus/hinge_loopy.png" width="120"/> | [hinge_loopy](preview/d.sharp_plus/hinge_loopy.stl) | 5 | 9.544 | 28.656 | 19.104 | [^9] |
 | <img src="preview/d.sharp_plus/hip_quadwild.png" width="120"/> | [hip_quadwild](preview/d.sharp_plus/hip_quadwild.stl) <img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/> | 2 | 48.104 | 144.318 | 96.212 | [^1] |
