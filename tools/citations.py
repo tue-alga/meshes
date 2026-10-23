@@ -31,6 +31,15 @@ CITATIONS = {
     "https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes":
         "MESTRALLET S., BOURCIER C., LEDOUX F.: Nightmare of polycubes, version 2.0.0 (dataset). "
         "[github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes)",
+    "https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes":
+        "LIVESU M., MUNTONI A., PUPPO E., SCATENI R.: Skeleton-driven adaptive hexahedral meshing of tubular shapes. "
+        "_Computer Graphics Forum 35_, 7 (2016). [doi:10.1111/cgf.13021](https://doi.org/10.1111/cgf.13021). Input meshes via "
+        "[HexaLab](https://github.com/cnr-isti-vclab/HexaLab)",
+    "https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping":
+        "GAO X., MARTIN T., DENG S., COHEN E., DENG Z., CHEN G.: Structured volume decomposition via generalized sweeping. "
+        "_IEEE Transactions on Visualization and Computer Graphics 22_, 7 (2016). "
+        "[doi:10.1109/TVCG.2015.2473835](https://doi.org/10.1109/TVCG.2015.2473835). Input meshes via "
+        "[HexaLab](https://github.com/cnr-isti-vclab/HexaLab)",
     # --- shape benchmarks
     "https://ten-thousand-models.appspot.com":
         "ZHOU Q., JACOBSON A.: Thingi10K: a dataset of 10,000 3D-printing models. arXiv:1605.04797 (2016). "

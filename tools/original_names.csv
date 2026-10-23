@@ -42,6 +42,7 @@ armadillo_gao,armadillo,Xifeng Gao
 armadillo_jacobson,armadillo,Alec Jacobson
 armadillo_shrec11,T473,SHREC'11
 armadillo_stein,armadillo,Oded Stein
+armadillo_tubular,armadillo,Livesu et al. 2016
 armchair_gao,armchair,Xifeng Gao
 asiandragon_skel,asiandragon,Skeleton benchmark
 asm007_quadwild,asm007,QuadWild
@@ -128,6 +129,7 @@ bearingblock_esb,advgr01,Engineering Shape Benchmark
 bearingplate_loopy,bearing_plate,Marco Livesu
 beast_jacobson,beast,Alec Jacobson
 bendtube_quadwild,BendTube,QuadWild
+bigbuddy_tubular,bigbuddy,Livesu et al. 2016
 bigguy_quadwild,bigguy,QuadWild
 bimba_gao,bimba,Xifeng Gao
 bimba_jacobson,bimba,Alec Jacobson
@@ -170,6 +172,7 @@ buddha_stanford,happy_vrip,Stanford
 bumpysphere_gao,bumpy_sphere,Xifeng Gao
 bumpytorus_gao,bumpy_torus,Xifeng Gao
 bundtpan_gso,Nordic_Ware_Original_Bundt_Pan,Google Scanned Objects
+bunny6_sweeping,bunny6,Gao et al. 2016
 bunny_gao,bunny,Xifeng Gao
 bunny_jacobson,stanford-bunny,Alec Jacobson
 bunny_loopy,bunny,Marco Livesu
@@ -177,6 +180,7 @@ bunny_quadwild,bunny_alessia,QuadWild
 bunny_skel,bun_zipper,Skeleton benchmark
 bunny_snoep,bunny,Marco Livesu
 bunny_stein,bunny,Oded Stein
+bunny_sweeping,bunny,Gao et al. 2016
 buste_gao,buste,Xifeng Gao
 buste_loopy,buste,Marco Livesu
 buste_polycut,BU,PolyCut
@@ -184,6 +188,7 @@ buste_snoep,buste,Marco Livesu
 c0089_quadwild,C0089,QuadWild
 c25dflowthru_nasa,c25d-flowthru-geom-v1-mm,NASA
 cactus_loopy,cactus,Marco Livesu
+cactus_tubular,cactus,Livesu et al. 2016
 cad5_quadwild,cad5-tri,QuadWild
 camel_gao,camel,Xifeng Gao
 camel_shrec11,T431,SHREC'11
@@ -198,6 +203,7 @@ casting_gao,casting,Xifeng Gao
 cat_loopy,cat,Marco Livesu
 cat_shrec11,T44,SHREC'11
 cat_stein,cat,Oded Stein
+cat_sweeping,cat,Gao et al. 2016
 catalanwire_thingi,509316,Thingi10K
 centaur_shrec11,T95,SHREC'11
 centaur_tds,Centaur,Three D Scans
@@ -266,12 +272,15 @@ dino0_quadwild,dino0,QuadWild
 dino1_quadwild,dino1,QuadWild
 dino2_gao,dino2,Xifeng Gao
 dino_gao,dino,Xifeng Gao
+dino_tubular,dino,Livesu et al. 2016
+dinopet_tubular,dinopet,Livesu et al. 2016
 dinosaur_shrec11,T595,SHREC'11
 dinoskeleton_shrec11,T222,SHREC'11
 disc_esb,1274417,Engineering Shape Benchmark
 dog1_shrec11,T216,SHREC'11
 dog2_shrec11,T8,SHREC'11
 dog_loopy,dog,Marco Livesu
+dolphin_sweeping,dolphin,Gao et al. 2016
 doubletorus_quadwild,double_torus,QuadWild
 dovetail1_quadwild,inlay_dovetail_1,QuadWild
 dovetail3_loopy,inlay_dovetail_3,Marco Livesu
@@ -305,7 +314,9 @@ featureloft_mambo,feature_loft,Franck Ledoux
 feline_quadwild,feline,QuadWild
 femhead_quadwild,mnf07HeadFem,QuadWild
 femur_quadwild,femur,QuadWild
+femur_sweeping,femur1,Gao et al. 2016
 fertility_gao,fertility,Xifeng Gao
+fertility_sweeping,fertility,Gao et al. 2016
 filigree_quadwild,filigree100k,QuadWild
 fish0_quadwild,fish0,QuadWild
 fish1_gao,fish1,Xifeng Gao
@@ -354,6 +365,7 @@ hand_gao,hand,Xifeng Gao
 hand_loopy,hand,Marco Livesu
 hand_shrec11,T280,SHREC'11
 hand_stein,hand,Oded Stein
+hand_sweeping,hand,Gao et al. 2016
 handle_esb,din444,Engineering Shape Benchmark
 hanger_gao,hanger,Xifeng Gao
 hanger_loopy,hanger,Marco Livesu
@@ -416,6 +428,8 @@ kiss_gao,Kiss,Xifeng Gao
 kiss_loopy,kiss,Marco Livesu
 kitten_gao,kitten,Xifeng Gao
 kitten_loopy,kitten,Marco Livesu
+kitten_sweeping,kitten,Gao et al. 2016
+knight_tubular,knight,Livesu et al. 2016
 knob_loopy,knob,Marco Livesu
 knot10102_knotplot,10.102,KnotPlot
 knot1_cgal,knot1,CGAL
@@ -555,6 +569,7 @@ pump_quadwild,pump,QuadWild
 pyramid_hexme,n09o_pyramid,HexMe
 rabbit_loopy,rabbit,Marco Livesu
 rabbit_shrec11,T594,SHREC'11
+rabbit_sweeping,rabbit,Gao et al. 2016
 ramses_gao,ramses,Xifeng Gao
 raptor_quadwild,raptor50K,QuadWild
 rcube_skel,rcube,Skeleton benchmark
@@ -570,9 +585,11 @@ rocker_gao,rocker,Xifeng Gao
 rocker_jacobson,rocker-arm,Alec Jacobson
 rockerarm_esb,1546387,Engineering Shape Benchmark
 rockerarm_skel,rockerArm,Skeleton benchmark
+rockerarm_sweeping,rock_arm,Gao et al. 2016
 rod_gao,rod,Xifeng Gao
 rod_loopy,rod,Marco Livesu
 rollingstage_gao,rolling_stage,Xifeng Gao
+rotellipse_sweeping,rotellipse,Gao et al. 2016
 rotor_skel,rotor,Skeleton benchmark
 rotorhub_quadwild,RotorHub,QuadWild
 roundend_esb,disk,Engineering Shape Benchmark
@@ -703,6 +720,7 @@ twins_nop,conjoined_twins,Sébastien Mestrallet
 twins_snoep,conjoined_twins,Sébastien Mestrallet
 twirl_quadwild,twirl,QuadWild
 twist_nop,in-volume_twist,Sébastien Mestrallet
+twistedu_sweeping,twistedU,Gao et al. 2016
 twoballs_shrec11,T85,SHREC'11
 ujoint_loopy,ujoint,Marco Livesu
 ushape_esb,Asm11,Engineering Shape Benchmark

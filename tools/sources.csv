@@ -42,6 +42,7 @@ armadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 armadillo_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
 armadillo_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 armadillo_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/armadillo
+armadillo_tubular,Livesu et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
 armchair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 asiandragon_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 asm007_quadwild,QuadWild,https://www.quadmesh.cloud/
@@ -128,6 +129,7 @@ bearingblock_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdes
 bearingplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 beast_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 bendtube_quadwild,QuadWild,https://www.quadmesh.cloud/
+bigbuddy_tubular,Livesu et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
 bigguy_quadwild,QuadWild,https://www.quadmesh.cloud/
 bimba_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bimba_jacobson,Alec Jacobson + Maxim Snoep (simplified),https://github.com/alecjacobson/common-3d-test-models
@@ -170,6 +172,7 @@ buddha_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics
 bumpysphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bumpytorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bundtpan_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+bunny6_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 bunny_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bunny_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 bunny_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
@@ -177,6 +180,7 @@ bunny_quadwild,QuadWild,https://www.quadmesh.cloud/
 bunny_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 bunny_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bunny_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
+bunny_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 buste_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 buste_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 buste_polycut,PolyCut + Maxim Snoep (simplified),https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
@@ -184,6 +188,7 @@ buste_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/
 c0089_quadwild,QuadWild,https://www.quadmesh.cloud/
 c25dflowthru_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
 cactus_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cactus_tubular,Livesu et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
 cad5_quadwild,QuadWild,https://www.quadmesh.cloud/
 camel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 camel_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
@@ -198,6 +203,7 @@ casting_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 cat_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 cat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
+cat_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 catalanwire_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
 centaur_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified, rescaled)",https://huggingface.co/datasets/alecjacobson/threedscans
@@ -266,12 +272,15 @@ dino0_quadwild,QuadWild,https://www.quadmesh.cloud/
 dino1_quadwild,QuadWild,https://www.quadmesh.cloud/
 dino2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 dino_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+dino_tubular,Livesu et al. 2016 + Maxim Snoep (repaired),https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
+dinopet_tubular,Livesu et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
 dinosaur_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 dinoskeleton_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 disc_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 dog1_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 dog2_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 dog_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+dolphin_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 doubletorus_quadwild,QuadWild,https://www.quadmesh.cloud/
 dovetail1_quadwild,QuadWild,https://www.quadmesh.cloud/
 dovetail3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
@@ -305,7 +314,9 @@ featureloft_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck
 feline_quadwild,QuadWild,https://www.quadmesh.cloud/
 femhead_quadwild,QuadWild,https://www.quadmesh.cloud/
 femur_quadwild,QuadWild,https://www.quadmesh.cloud/
+femur_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 fertility_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+fertility_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 filigree_quadwild,QuadWild,https://www.quadmesh.cloud/
 fish0_quadwild,QuadWild,https://www.quadmesh.cloud/
 fish1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
@@ -354,6 +365,7 @@ hand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 hand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 hand_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 hand_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hand
+hand_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 handle_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 hanger_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 hanger_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
@@ -416,6 +428,8 @@ kiss_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 kiss_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 kitten_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 kitten_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+kitten_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
+knight_tubular,Livesu et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Skeleton-driven%20Adaptive%20Hexahedral%20Meshing%20of%20Tubular%20Shapes
 knob_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 knot10102_knotplot,KnotPlot,https://knotplot.com/
 knot1_cgal,CGAL,https://github.com/CGAL/cgal/tree/main/Data/data/meshes
@@ -555,6 +569,7 @@ pump_quadwild,QuadWild,https://www.quadmesh.cloud/
 pyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 rabbit_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 rabbit_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+rabbit_sweeping,Gao et al. 2016 + Maxim Snoep (simplified),https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 ramses_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 raptor_quadwild,QuadWild,https://www.quadmesh.cloud/
 rcube_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
@@ -570,9 +585,11 @@ rocker_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 rocker_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
 rockerarm_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 rockerarm_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+rockerarm_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 rod_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 rod_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 rollingstage_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+rotellipse_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 rotor_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 rotorhub_quadwild,QuadWild,https://www.quadmesh.cloud/
 roundend_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
@@ -703,6 +720,7 @@ twins_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/
 twins_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 twirl_quadwild,QuadWild,https://www.quadmesh.cloud/
 twist_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+twistedu_sweeping,Gao et al. 2016,https://github.com/cnr-isti-vclab/HexaLab/tree/master/datasets/2016%20-%20Structured%20Volume%20Decomposition%20via%20Generalized%20Sweeping
 twoballs_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 ujoint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 ushape_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
