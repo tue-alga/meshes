@@ -422,8 +422,7 @@ def print_dataset(
         if rows:
             tables.append((folder, rows))
 
-    # references are numbered by how many meshes they contribute (most first)
-    ranked = sorted(ref_count, key=lambda k: (-ref_count[k], ref_order[k]))
+    ranked = sorted(ref_order, key=ref_order.get)
     number = {k: i + 1 for i, k in enumerate(ranked)}
 
     for folder, rows in tables:
@@ -439,7 +438,7 @@ def print_dataset(
         for file_path, g, V, E, F, key, note in rows:
             preview_stem = (DEFAULT_PREVIEW_PATH / folder.name / file_path.stem).relative_to(PROJECT_ROOT).as_posix()
             thumb_cell = f'<img src="{preview_stem}.png" width="60"/>'
-            source_cell = f"[[{number[key]}]](#ref-{number[key]}) {note}".strip() if key else ""
+            source_cell = f"[^{number[key]}] {note}".strip() if key else ""
             badge = f" {NEW_BADGE}" if file_path.stem in new_names else ""
             print(
                 f"| {thumb_cell} | [{file_path.stem}]({preview_stem}.stl){badge} | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
@@ -449,13 +448,11 @@ def print_dataset(
     from citations import CITATIONS
 
     print()
-    print("### References")
-    print()
+    # GitHub renders these as footnotes, numbered by first appearance, with links back to each model
     for key in ranked:
         base_name, url = ref_info[key]
         citation = CITATIONS.get(url) or CITATIONS.get(base_name) or (f"{base_name}. <{url}>" if url else base_name)
-        n = ref_count[key]
-        print(f'{number[key]}. <a name="ref-{number[key]}"></a>{citation} ({n} mesh{"es" if n != 1 else ""})')
+        print(f"[^{number[key]}]: {citation}")
 
     unused_sources = sorted(set(sources) - dataset_names)
 
