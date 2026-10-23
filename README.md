@@ -4,10 +4,6 @@ This repository contains a curated collection of 458 triangle meshes spanning a 
 
 The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder contains a thumbnail and `.stl` copy such that the models can be viewed using GitHub's built-in 3D viewer. The collection is organized into five categories based on geometric character and topological complexity: (a) **smooth genus 0**, (b) **smooth genus ≥ 1**, (c) **sharp genus 0**, (d) **sharp genus ≥ 1**, and (e) **nightmares**. Here, *smooth* refers to organic or freeform shapes, *sharp* to CAD-like shapes with flat faces and sharp edges, and *nightmares* to very challenging shapes with unusual geometric or topological quirks.
 
-Each file is named `<shape>_<source>` (for example `bunny_loopy` and `bunny_gao`), so the same shape can be included once per source. Meshes are taken from their original source without rotating or rescaling them, unless the source column says otherwise: *meshed* (tessellated from CAD), *remeshed*, *simplified* (fewer triangles), *repaired*, *re-oriented* or *rescaled*.
-
-Some shapes originated from different (or broken) formats. In those cases, we processed the shape into a connected watertight orientable manifold triangle mesh.
-
 ### (a) smooth (g=0, n=130)
 | | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
