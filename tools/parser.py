@@ -351,16 +351,32 @@ def collection_url(url: str) -> str:
     return url
 
 
+# archives that copies of older models were obtained from
+ARCHIVE_URLS = {
+    "Alec Jacobson": "https://github.com/alecjacobson/common-3d-test-models",
+    "Oded Stein": "https://github.com/odedstein/meshes",
+    "Keenan Crane": "https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/",
+    "Princeton": "https://gfx.cs.princeton.edu/proj/sugcon/models/",
+}
+
+
 def split_source(source: str) -> tuple[str, str]:
-    """'Base + Person (tag, tag)' -> (base source, note such as '(simplified)' or '(meshed by X)')."""
-    if " + " not in source:
-        return source, ""
-    base, rest = source.split(" + ", 1)
-    person, _, tags = rest.partition(" (")
-    tags = tags.rstrip(")")
-    if person != DEFAULT_PROCESSOR:
-        return base, f"({tags} by {person})"
-    return base, f"({tags})"
+    """'Origin + Archive + Person (tag, tag)' -> (origin, note such as '(via Archive; simplified)' or '(meshed by X)').
+
+    A later part without tags is an archive the mesh was obtained from."""
+    base, *rest = source.split(" + ")
+    notes = []
+    for part in rest:
+        person, _, tags = part.partition(" (")
+        tags = tags.rstrip(")")
+        if not tags:
+            url = ARCHIVE_URLS.get(person)
+            notes.append(f"via [{person}]({url})" if url else f"via {person}")
+        elif person != DEFAULT_PROCESSOR:
+            notes.append(f"{tags} by {person}")
+        else:
+            notes.append(tags)
+    return base, f"({'; '.join(notes)})" if notes else ""
 
 
 def load_new(path=DEFAULT_NEW_PATH) -> set[str]:
