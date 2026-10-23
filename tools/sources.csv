@@ -1,54 +1,83 @@
 name,source,url
+0_1875_BALL_CUTTER_esb,Engineering Shape Benchmark + Maxim Snoep (repaired),https://engineering.purdue.edu/cdesign/wp/?p=1386
+10.102_knotplot,KnotPlot,https://knotplot.com/
+1012A_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1142040_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1145480_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1181651_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1236922_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1274417_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+12_quadwild,QuadWild,https://www.quadmesh.cloud/
+1305432_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+1546387_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+16t_2d_05w_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+17674_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+1797609IN_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+18020_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+18_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
+1MOTOR_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+20304_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+20306_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+20_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+21362_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+21464_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+21747_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+21788_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22081_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22290_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22601_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22669_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22701_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22711_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22808_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22826_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+22_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+23091_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+2473396_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+2568b_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 3035_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-3holes_quadwild,QuadWild,https://www.quadmesh.cloud/
-7connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-7connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-8connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-8connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-90degreeelbows_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-acuteline_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-aim17674_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim18020_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim20304_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim20306_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim21362_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim21464_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim21747_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim21788_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22081_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22290_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22601_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22669_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22701_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22711_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22808_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim22826_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim23091_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-aim711dente_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+3_holes_quadwild,QuadWild,https://www.quadmesh.cloud/
+3_octa-flower_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+40746_snoep,Thingi10K + Maxim Snoep (re-oriented),https://ten-thousand-models.appspot.com/detail.html?file_id=40746
+40746_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=40746
+48tooth-sprocket_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+509316_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
+53757_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=53757
+54teeth2_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+7-connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+7-connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+711_dente_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+8-connected_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+8-connected_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+86849_snoep,"Thingi10K + Maxim Snoep (remeshed, re-oriented)",https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+86849_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+a-arm2_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+ACE_Coffee_Mug_Kristen_16_oz_cup_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+advgr01_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 aircraft_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
 airplane1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 airplane2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-alien_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-amogus_sketchfab,joshua facunla,https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
-amogus_snoep,joshua facunla + Maxim Snoep (remeshed),https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
+among-us-crewmate_sketchfab,joshua facunla,https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
+among-us-crewmate_snoep,joshua facunla + Maxim Snoep (remeshed),https://sketchfab.com/3d-models/among-us-crewmate-021671fa658d4d0dbb7bd5102b59c1d0
 anc101_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-anc101a1_quadwild,QuadWild,https://www.quadmesh.cloud/
-androidpanda_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+anc_101_a1_quadwild,QuadWild,https://www.quadmesh.cloud/
+Android_Figure_Panda_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 angel_quadwild,QuadWild,https://www.quadmesh.cloud/
-antibacklashnut_quadwild,QuadWild,https://www.quadmesh.cloud/
-antipentapyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-antipyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-antiskijump_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-ants_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-aries155_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-aries70_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+anti_backlash_nut_quadwild,QuadWild,https://www.quadmesh.cloud/
+aries155_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+aries63_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+aries70_new1a_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+arm_group17_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 armadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 armadillo_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
-armadillo_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 armadillo_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/armadillo
 armchair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+Aroma_Stainless_Steel_Milk_Frother_2_Cup_gso,Google Scanned Objects + Maxim Snoep (repaired),https://research.google/pubs/pub51437
 asiandragon_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 asm007_quadwild,QuadWild,https://www.quadmesh.cloud/
+Asm11_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+assem_catch_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+atlanta2422220_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 B0_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 B10_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 B11_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
@@ -123,21 +152,22 @@ B76_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/
 B7_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 B8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 B9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-backdoors_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-balljoint_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-bamboopen_quadwild,QuadWild,https://www.quadmesh.cloud/
-bearingblocks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-bearinglikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-bearingplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-bendtube_quadwild,QuadWild,https://www.quadmesh.cloud/
-beveledshoulder1_quadwild,QuadWild,https://www.quadmesh.cloud/
-beveledshoulder2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+back_plate_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+backdoor_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+ballJoint_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+bamboo_pen_quadwild,QuadWild,https://www.quadmesh.cloud/
+bear0_quadwild,QuadWild,https://www.quadmesh.cloud/
+bear1_quadwild,QuadWild,https://www.quadmesh.cloud/
+bearing_208_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+bearing_plate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bed2_left_sidepannel_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+BendTube_quadwild,QuadWild,https://www.quadmesh.cloud/
+beveled_shoulder_1_quadwild,QuadWild,https://www.quadmesh.cloud/
+beveled_shoulder_2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bigguy_quadwild,QuadWild,https://www.quadmesh.cloud/
 bimba_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bimba_jacobson,Alec Jacobson + Maxim Snoep (simplified),https://github.com/alecjacobson/common-3d-test-models
 bimba_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-bird1_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-bird2_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 bird_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 blacde_quadwild,QuadWild,https://www.quadmesh.cloud/
 blade_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
@@ -145,302 +175,277 @@ blade_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_d
 bladefem_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 blech_quadwild,QuadWild,https://www.quadmesh.cloud/
 block_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-blocklp_quadwild,QuadWild,https://www.quadmesh.cloud/
-blocktopus_snoep,"Thingi10K + Maxim Snoep (remeshed, re-oriented)",https://ten-thousand-models.appspot.com/detail.html?file_id=86849
-blocktopus_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=86849
+blockLP_quadwild,QuadWild,https://www.quadmesh.cloud/
 blub_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 bmw_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 boat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 boat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/boat
 bob_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 bolt_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-boltlikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 bone1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+bone_femur_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bone_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bonefemur_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+BOOT_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 boot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/boot
 botijo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bottle1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 bottle2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-boxpcyls_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-bozbezbozzel_quadwild,QuadWild,https://www.quadmesh.cloud/
-bracket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bracketinches_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-bracketlikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+bozbezbozzel50K_quadwild,QuadWild,https://www.quadmesh.cloud/
+bracket2-Part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+BracketInches_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+brain2_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 brain_quadwild,QuadWild,https://www.quadmesh.cloud/
-brain_skel,"Skeleton benchmark + Maxim Snoep (repaired, simplified)",https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 brucewick_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/brucewick
-buddha_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
-bumpysphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bumpytorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bundtpan_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+BU_polycut,PolyCut + Maxim Snoep (simplified),https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
+bumpy_sphere_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+bumpy_torus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+bun_zipper_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+bunny_alessia_quadwild,QuadWild,https://www.quadmesh.cloud/
 bunny_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-bunny_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 bunny_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-bunny_quadwild,QuadWild,https://www.quadmesh.cloud/
-bunny_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 bunny_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 bunny_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/bunny
 buste_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 buste_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-buste_polycut,PolyCut + Maxim Snoep (simplified),https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
 buste_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-c0089_quadwild,QuadWild,https://www.quadmesh.cloud/
-c25dflowthru_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
+C0089_quadwild,QuadWild,https://www.quadmesh.cloud/
+c25d-flowthru-geom-v1-mm_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
 cactus_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-cad5_quadwild,QuadWild,https://www.quadmesh.cloud/
+cad5-tri_quadwild,QuadWild,https://www.quadmesh.cloud/
 camel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-camel_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 cami1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cami2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-camillehand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-camillehand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-capthing_quadwild,QuadWild,https://www.quadmesh.cloud/
+camille_hand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+camille_hand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cap_thing_quadwild,QuadWild,https://www.quadmesh.cloud/
 carter_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 casting2_quadwild,QuadWild,https://www.quadmesh.cloud/
 casting_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cat_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-cat_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 cat_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cat
-catalanwire_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=509316
-centaur_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified, rescaled)",https://huggingface.co/datasets/alecjacobson/threedscans
+CC0805_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+Centaur_tds,"Three D Scans + Maxim Snoep (repaired, simplified, rescaled)",https://huggingface.co/datasets/alecjacobson/threedscans
+center_link_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 chair1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 chair_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cheese2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cheese3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cheese_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cheese_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/cheese
-chesspawn_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-chessrook_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-chicken_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-chineselion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-chineselion_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-chineselion_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+chess_pawn_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+chess_rook_v1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+chicken_high_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+chinese_lion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+chinese_lion_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+chinese_lion_snoep,Marco Livesu + Maxim Snoep (re-oriented),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 cimplex_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+CLAMP_FINGER_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 clamp_quadwild,QuadWild,https://www.quadmesh.cloud/
 clef_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 clevis23_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-clips_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 cognit_quadwild,QuadWild,https://www.quadmesh.cloud/
-completepart16_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-completepart63_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-constantwidth_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-contactswitches_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-containerlikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-contouredsurfaces_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+Cole_Hardware_Mug_Classic_Blue_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+COLLECTOR_13920_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+CompletePart_16_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+CompletePart_63_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+conjoined_twins_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+conjoined_twins_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+constant-width_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 coverrear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-coverslipcleaningholder2b_quadwild,QuadWild,https://www.quadmesh.cloud/
+CoverSlipCleaningHolder2b_quadwild,QuadWild,https://www.quadmesh.cloud/
 cow2_quadwild,QuadWild,https://www.quadmesh.cloud/
 cow_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/cow
-crosscyls_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-csaszar_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-ctc01_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-ctc03_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+Csaszar_crane,Keenan Crane + Maxim Snoep (remeshed),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+cube_carved_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+cube_minus_sphere_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 cube_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/cube
-cubecarved_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-cubeminussphere_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-cup1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+cuboid_screw_thread_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+cuboid_screw_thread_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+cuboid_torus_with_step_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+cuboid_torus_with_step_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+cuboid_tray_with_step_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+cuboid_tray_with_step_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+Cup1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cup_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 cup_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-curvedhousings_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-cylinderplate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-cylindricalparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+cylinder_plate_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 dancer2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 dancer_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 dancer_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-dancingchildren_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-datatech2_quadwild,QuadWild,https://www.quadmesh.cloud/
+dancing_children_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+datatech_2_quadwild,QuadWild,https://www.quadmesh.cloud/
 david_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 deckel_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 deckel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-deformedarmadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-deltaarm2_quadwild,QuadWild,https://www.quadmesh.cloud/
-deltaarmbase_quadwild,QuadWild,https://www.quadmesh.cloud/
-deltaarmendeffector_quadwild,QuadWild,https://www.quadmesh.cloud/
+deformed_armadillo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+delta_arm2_remesh_quadwild,QuadWild,https://www.quadmesh.cloud/
+delta_arm_base_quadwild,QuadWild,https://www.quadmesh.cloud/
+delta_arm_end_effector_remesh_quadwild,QuadWild,https://www.quadmesh.cloud/
+DEMO_REF_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 demosthenes_stein,"Oded Stein + Maxim Snoep (repaired, simplified)",https://github.com/odedstein/meshes/tree/master/objects/demosthenes
 dente_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 des6_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 des7_quadwild,QuadWild,https://www.quadmesh.cloud/
 desertrose_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+Diamond_Visions_Scissors_Red_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 dilo_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+din444_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+din6304_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 dino0_quadwild,QuadWild,https://www.quadmesh.cloud/
 dino1_quadwild,QuadWild,https://www.quadmesh.cloud/
 dino2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 dino_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-dinosaur_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-dinoskeleton_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-discs_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-dog1_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-dog2_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+disk_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 dog_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-doubletorus_quadwild,QuadWild,https://www.quadmesh.cloud/
+double_torus_quadwild,QuadWild,https://www.quadmesh.cloud/
 dpw6g0_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
 dpw6g1_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
 dpw7_nlr,NASA + Stevie-Ray Janssen (meshed),https://aiaa-dpw.larc.nasa.gov/
 dragon0_quadwild,QuadWild,https://www.quadmesh.cloud/
-dragon_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
+dragon_stand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+dragon_vrip_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
 dragonstand2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-dragonstand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 dtorus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 duck2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 duck_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-dustpan_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 eight_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-ele_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+ele12a_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 elephant_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 elk_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 ellipse_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-encrusted_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-encrusted_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-eraserball_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+encrusted_cube_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+encrusted_cube_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+eraser_ball_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 eros_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+EXTSUPPORT1_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 falconstatue_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/falconstatue
 fandisk_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
 fandisk_libigl,libigl,https://github.com/libigl/libigl-tutorial-data
-featureloft_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+feature_loft_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 feline_quadwild,QuadWild,https://www.quadmesh.cloud/
 femur_quadwild,QuadWild,https://www.quadmesh.cloud/
+fender-gearbox2-left_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 fertility_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-filigree_quadwild,QuadWild,https://www.quadmesh.cloud/
+filigree100k_quadwild,QuadWild,https://www.quadmesh.cloud/
 fish0_quadwild,QuadWild,https://www.quadmesh.cloud/
 fish1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 fish2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 fish_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/fish
-flamingo_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-flangelikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-focalocta_quadwild,QuadWild,https://www.quadmesh.cloud/
+focal-octa_quadwild,QuadWild,https://www.quadmesh.cloud/
 foot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 freihand_quadwild,QuadWild,https://www.quadmesh.cloud/
 frog_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-ftc06_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-ftc07_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-ftc08_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-ftc09_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
 ftc10_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-ftc11_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
-fusee_quadwild,QuadWild,https://www.quadmesh.cloud/
-gargoyle2_quadwild,QuadWild,https://www.quadmesh.cloud/
+fusee_Lp_quadwild,QuadWild,https://www.quadmesh.cloud/
+ganter_din_6330_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+gargoyle2_100K_quadwild,QuadWild,https://www.quadmesh.cloud/
 gargoyle_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-gear2_quadwild,QuadWild,https://www.quadmesh.cloud/
+gear_2_quadwild,QuadWild,https://www.quadmesh.cloud/
 gear_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 gearbox_quadwild,QuadWild,https://www.quadmesh.cloud/
-gearlikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 gehaeuse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 genus3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-ghost_snoep,Thingi10K + Maxim Snoep (re-oriented),https://ten-thousand-models.appspot.com/detail.html?file_id=40746
-ghost_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=40746
-gimbal_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+gerwah_peter_dxk1501_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+gimbal_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 glass1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 glass2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-glasses_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 goathead_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedstein/meshes/tree/master/objects/goathead
 goathead_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/goathead
-gorilla_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-gps25_quadwild,QuadWild,https://www.quadmesh.cloud/
+gps_25_cut_quadwild,QuadWild,https://www.quadmesh.cloud/
 grandpiano_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+Granimals_20_Wooden_ABC_Blocks_Wagon_g2TinmUGGHI_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 grayloc_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-greek_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-greeksculpture_quadwild,QuadWild,https://www.quadmesh.cloud/
-greyhounds_tds,"Three D Scans + Maxim Snoep (repaired, simplified)",https://huggingface.co/datasets/alecjacobson/threedscans
+greek_sculpture_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+greek_sculpture_quadwild,QuadWild,https://www.quadmesh.cloud/
+groschopp_IGK65-40-2pole_esb,Engineering Shape Benchmark + Maxim Snoep (repaired),https://engineering.purdue.edu/cdesign/wp/?p=1386
 guy_quadwild,QuadWild,https://www.quadmesh.cloud/
 gyroidpuzzle_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-halvedobliquescarf1_quadwild,QuadWild,https://www.quadmesh.cloud/
-halvedobliquescarf2_quadwild,QuadWild,https://www.quadmesh.cloud/
-halvedobliquescarf3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+halved_oblique_scarf_1_quadwild,QuadWild,https://www.quadmesh.cloud/
+halved_oblique_scarf_2_quadwild,QuadWild,https://www.quadmesh.cloud/
+halved_oblique_scarf_3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 hammer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hammer
 hand_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 hand_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-hand_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 hand_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/hand
-handles_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 hanger_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 hanger_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+happy_vrip_stanford,"Stanford + Maxim Snoep (repaired, simplified)",https://graphics.stanford.edu/data/3Dscanrep/
 head1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 head2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 heart_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 helmet_quadwild,QuadWild,https://www.quadmesh.cloud/
-heptoroid_quadwild,QuadWild,https://www.quadmesh.cloud/
+heptoroid100k_quadwild,QuadWild,https://www.quadmesh.cloud/
 heptoroid_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 hh_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 hht_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-hilbertcube_thingi,Thingi10K,https://ten-thousand-models.appspot.com/detail.html?file_id=53757
 hinge_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 hip_quadwild,QuadWild,https://www.quadmesh.cloud/
 hippo_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 hlpw4_nlr,NASA + Stevie-Ray Janssen (meshed),https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/
 hlpw5_nlr,NASA + Stevie-Ray Janssen (meshed),https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/
-holes10_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+HMJ_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+holes10_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 holes2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 holes3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 homer_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 horse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 horse_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
-horse_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 hound_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 house_stein,"Oded Stein + Maxim Snoep (repaired, simplified)",https://github.com/odedstein/meshes/tree/master/objects/house
 hub2_quadwild,QuadWild,https://www.quadmesh.cloud/
-hub_quadwild,QuadWild,https://www.quadmesh.cloud/
+Hub_quadwild,QuadWild,https://www.quadmesh.cloud/
 human1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 human2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 human3_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-humanhand_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-humanman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
-humanneutral_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/human
-humanwoman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
+human_hand_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+human_man_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
+human_neutral_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/human
+human_woman_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/human
 humerus_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+i10o_simp_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 ico_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-icosahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 igea_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 igea_jacobson,Alec Jacobson + Maxim Snoep (simplified),https://github.com/alecjacobson/common-3d-test-models
+impeller_housing_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 impeller_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-impellerhousing_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+in-volume_knot_nop,Sébastien Mestrallet + Maxim Snoep (meshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+in-volume_twist_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 indorelax_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 inigo_crane,"Keenan Crane + Maxim Snoep (repaired, simplified)",https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
-inlaydovetail1_quadwild,QuadWild,https://www.quadmesh.cloud/
-inlaydovetail3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+inlay_dovetail_1_quadwild,QuadWild,https://www.quadmesh.cloud/
+inlay_dovetail_3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 insect_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-intersectingpipes_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-involumeknot_nop,Sébastien Mestrallet + Maxim Snoep (meshed),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-isidorehorse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+isidore_horse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 israel_quadwild,QuadWild,https://www.quadmesh.cloud/
-jbs003_quadwild,QuadWild,https://www.quadmesh.cloud/
+jbs_003_quadwild,QuadWild,https://www.quadmesh.cloud/
 joint_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 joint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-jwb_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
+jwb-geom-v2-mm_nasa,NASA + Maxim Snoep (meshed),https://lbpw.larc.nasa.gov/
 kid00_topkids,TOPKIDS + Maxim Snoep (repaired),https://cvg.cit.tum.de/data/datasets/topkids
 kid14_topkids,TOPKIDS + Maxim Snoep (repaired),https://cvg.cit.tum.de/data/datasets/topkids
 kid15_topkids,TOPKIDS + Maxim Snoep (repaired),https://cvg.cit.tum.de/data/datasets/topkids
 kid18_topkids,TOPKIDS + Maxim Snoep (repaired),https://cvg.cit.tum.de/data/datasets/topkids
-kiss_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+Kiss_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 kiss_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 kitten_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 kitten_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 knob_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-knot10102_knotplot,KnotPlot,https://knotplot.com/
 knot1_cgal,CGAL,https://github.com/CGAL/cgal/tree/main/Data/data/meshes
 knot_cgal,CGAL,https://github.com/CGAL/cgal/tree/main/Data/data/meshes
 koala_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/koala
 kong_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-lamp_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-laptop_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-laurenthand_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
-lblocks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+laurent_hand_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
+lego_block_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+lego_man_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 lego_quadwild,QuadWild,https://www.quadmesh.cloud/
-legoblock_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-legoman_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-lenkanew_quadwild,QuadWild,https://www.quadmesh.cloud/
-leverarm_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-limitcycle_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-limitcycleg0_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-lion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+lenka_new_quadwild,QuadWild,https://www.quadmesh.cloud/
+lever_arm_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+lion_recon_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 lionstatue_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/lionstatue
-lissajousknot_knotplot,KnotPlot,https://knotplot.com/
-loafer_gso,Google Scanned Objects,https://research.google/pubs/pub51437
+lissajous_knotplot,KnotPlot,https://knotplot.com/
 lock_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-longmachineelements_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-longpins_esb,Engineering Shape Benchmark + Maxim Snoep (repaired),https://engineering.purdue.edu/cdesign/wp/?p=1386
-lowercontrolarm_quadwild,QuadWild,https://www.quadmesh.cloud/
+LowerControlArm_quadwild,QuadWild,https://www.quadmesh.cloud/
 lucy_quadwild,QuadWild,https://www.quadmesh.cloud/
 lucy_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 M1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
@@ -451,19 +456,17 @@ M5_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/m
 M6_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 M8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 M9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-machinedblocks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-machinedplates_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-magaliehand_quadwild,QuadWild,https://www.quadmesh.cloud/
-man_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-mannequindevil_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
-mannequinmc_quadwild,"QuadWild + Maxim Snoep (repaired, simplified)",https://www.quadmesh.cloud/
-mastercylinder_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+magalie_hand100K_quadwild,QuadWild,https://www.quadmesh.cloud/
+mannequin-devil_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
+mannequin_mc_quadwild,"QuadWild + Maxim Snoep (repaired, simplified)",https://www.quadmesh.cloud/
+master_cylinder_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+max-planck_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
+max-planck_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
 max_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-max_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
-maxplanck_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
 mazewheel_quadwild,QuadWild,https://www.quadmesh.cloud/
 mech09_quadwild,QuadWild,https://www.quadmesh.cloud/
 mech10_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+mech_piece_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mechanical01_quadwild,QuadWild,https://www.quadmesh.cloud/
 mechanical02_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mechanical03_quadwild,QuadWild,https://www.quadmesh.cloud/
@@ -472,46 +475,56 @@ mechanical05_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master
 mechanical06_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mechanical07_quadwild,QuadWild,https://www.quadmesh.cloud/
 mechanical08_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-mechpiece_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 memento_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-mesh12_quadwild,QuadWild,https://www.quadmesh.cloud/
-mesh18_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
+Mens_Gold_Cup_ASV_Capetown_Penny_Loafer_in_Black_EjPnk3E8fCs_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 metatron_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 micscope_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-mid2fem_quadwild,QuadWild,https://www.quadmesh.cloud/
-milkfrother_gso,Google Scanned Objects + Maxim Snoep (repaired),https://research.google/pubs/pub51437
-mnf07headfem_quadwild,QuadWild,https://www.quadmesh.cloud/
+mid2Fem_quadwild,QuadWild,https://www.quadmesh.cloud/
+mnf07HeadFem_quadwild,QuadWild,https://www.quadmesh.cloud/
 moai_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-motorbodies_esb,Engineering Shape Benchmark + Maxim Snoep (repaired),https://engineering.purdue.edu/cdesign/wp/?p=1386
-motortail_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+motor_tail_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 mount_quadwild,QuadWild,https://www.quadmesh.cloud/
 mouse_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-mug2_gso,Google Scanned Objects,https://research.google/pubs/pub51437
-mug_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 mushroom_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/mushroom
-nastycheese2_quadwild,QuadWild,https://www.quadmesh.cloud/
-nastycheese_quadwild,QuadWild,https://www.quadmesh.cloud/
-nautilus20kclosed_quadwild,QuadWild,https://www.quadmesh.cloud/
-nefertiti_crane,Keenan Crane + Maxim Snoep (simplified),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+n01o_cross_cyls_sr_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n02o_skijump_anti_box_cyl_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n03o_skijump_box_cyl_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n05o_box_min_pcyls_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n06o_anti_pentapyr_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n07o_anti_pyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n08o_pentapyr_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n09o_pyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n11o_limit_cycle_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n12o_limit_cycle_genus0_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n13o_acute_line_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n14o_octahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+n15o_icosahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+nasty_cheese-tri_quadwild,QuadWild,https://www.quadmesh.cloud/
+nasty_cheese2_quadwild,QuadWild,https://www.quadmesh.cloud/
+nautilus-20k-closed-tri_quadwild,QuadWild,https://www.quadmesh.cloud/
+Nefertiti_crane,Keenan Crane + Maxim Snoep (simplified),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 nefertiti_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/nefertiti
 neptune_quadwild,QuadWild,https://www.quadmesh.cloud/
 neptune_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
+nist_ctc_01_asme1_rd_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ctc_03_asme1_rc_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ftc_06_asme1_rd_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ftc_07_asme1_rd_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ftc_08_asme1_rc_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ftc_09_asme1_rd_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
+nist_ftc_11_asme1_rb_nist,NIST + Maxim Snoep (meshed),https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0
 noisydino_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-non90degreeelbows_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+Nordic_Ware_Original_Bundt_Pan_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 nugear_quadwild,QuadWild,https://www.quadmesh.cloud/
-nutrefinetetsurf_quadwild,QuadWild,https://www.quadmesh.cloud/
-nuts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-octaflower_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-octahedron_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+nut_refine_tet_surf_quadwild,QuadWild,https://www.quadmesh.cloud/
+Ocedar_Snap_On_Dust_Pan_And_Brush_1_ct_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 octopus_quadwild,QuadWild,https://www.quadmesh.cloud/
-octopus_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 ogre_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 ogre_jacobson,"Alec Jacobson + Maxim Snoep (repaired, simplified)",https://github.com/alecjacobson/common-3d-test-models
-oilpans_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-oilpump_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+oil_pump_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 oloid_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 oni_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-orion_nasa,NASA + Maxim Snoep (repaired),https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule
+Orion_Capsule_no_fbc_nasa,NASA + Maxim Snoep (repaired),https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Orion%20Capsule
 parsnip_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/parsnip
 part10_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 part11_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
@@ -521,61 +534,49 @@ pear_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 pegaso_quadwild,QuadWild,https://www.quadmesh.cloud/
 penguin_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/penguin
 pensatore_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-pentapyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 pierrot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 pig_crane,Keenan Crane + Maxim Snoep (repaired),https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 pig_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 pig_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-pinion_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+pinion_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 pinion_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+pipe_helix_7_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+pipe_helix_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 pipe_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-pipehelix7_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-pipehelix_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-pittsburghbridge_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
+PittsburghBridge_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 pizza_stein,Oded Stein + Maxim Snoep (repaired),https://github.com/odedstein/meshes/tree/master/objects/pizza
 plane_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/plane
-plate1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-plate2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-plate3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-plate4_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-plate5_quadwild,QuadWild,https://www.quadmesh.cloud/
-plate6_quadwild,QuadWild,https://www.quadmesh.cloud/
-plate_quadwild,QuadWild,https://www.quadmesh.cloud/
-platemid_quadwild,QuadWild,https://www.quadmesh.cloud/
-pliers_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+Plate1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+Plate2_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+Plate3_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+Plate4_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+plate_5_quadwild,QuadWild,https://www.quadmesh.cloud/
+plate_6_quadwild,QuadWild,https://www.quadmesh.cloud/
+plate_Lp-tri_quadwild,QuadWild,https://www.quadmesh.cloud/
+plate_lp_mid_quadwild,QuadWild,https://www.quadmesh.cloud/
 polygirl_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
-posts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 prism_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-prismaticstock_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-prismmisc_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-pulley_quadwild,QuadWild,https://www.quadmesh.cloud/
-pulleylikeparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-pump2_quadwild,QuadWild,https://www.quadmesh.cloud/
+pulley100K_quadwild,QuadWild,https://www.quadmesh.cloud/
+pump_2_quadwild,QuadWild,https://www.quadmesh.cloud/
 pump_quadwild,QuadWild,https://www.quadmesh.cloud/
-pyramid_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
 rabbit_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-rabbit_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 ramses_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-raptor_quadwild,QuadWild,https://www.quadmesh.cloud/
+raptor50K_quadwild,QuadWild,https://www.quadmesh.cloud/
 rcube_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-rectangularhousings_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-redbox_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-redcircularbox_quadwild,QuadWild,https://www.quadmesh.cloud/
+red_circular_box100K_quadwild,QuadWild,https://www.quadmesh.cloud/
+red_circular_box_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 retinal_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-revolutionmisc_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-rgbdragon_quadwild,QuadWild,https://www.quadmesh.cloud/
+rgb_dragon_quadwild,QuadWild,https://www.quadmesh.cloud/
 rhino_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-robocatdeci_quadwild,QuadWild,https://www.quadmesh.cloud/
+robocat_deci_quadwild,QuadWild,https://www.quadmesh.cloud/
+rocker-arm_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
 rocker_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-rocker_jacobson,Alec Jacobson,https://github.com/alecjacobson/common-3d-test-models
-rockerarm_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-rockerarms_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+rockerArm_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 rod_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 rod_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-rollingstage_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+rolling_stage_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 rotor_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-rotorhub_quadwild,QuadWild,https://www.quadmesh.cloud/
-roundchangeatend_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+RotorHub_quadwild,QuadWild,https://www.quadmesh.cloud/
 S0_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 S1_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 S20_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
@@ -606,49 +607,34 @@ S6_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/m
 S7_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 S8_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
 S9_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+s_bracket_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 sacrum_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
 santa_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-santa_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-saverring_gso,Google Scanned Objects,https://research.google/pubs/pub51437
 sbpw1_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
 sbpw2_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
 sbpw3_nlr,NASA + Stevie-Ray Janssen (meshed),https://lbpw.larc.nasa.gov/
-sbracket_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 scapula_skel,Skeleton benchmark + Maxim Snoep (simplified),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-scissors_gso,Google Scanned Objects,https://research.google/pubs/pub51437
-scissors_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+schmersal_AZ-17-1_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 scorpion_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/scorpion
-screw_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-screw_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 screwdriver_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 sculpt_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 sculpt_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 seabowl_skel,Skeleton benchmark,https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-seahorse2_quadwild,QuadWild,https://www.quadmesh.cloud/
+seahorse2_100K_quadwild,QuadWild,https://www.quadmesh.cloud/
 sediapatch_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 shark_quadwild,QuadWild,https://www.quadmesh.cloud/
-shark_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-sharpsphere_quadwild,QuadWild,https://www.quadmesh.cloud/
-simp_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
-simplepipes_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-skijump_hexme,HexMe + Maxim Snoep (meshed),https://github.com/cgg-bern/hex-me-if-you-can
+sharp_sphere10k_quadwild,QuadWild,https://www.quadmesh.cloud/
 skotknot_knotplot,KnotPlot,https://knotplot.com/
 skull_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/skull
-slenderlinks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-slenderthinplates_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-sls_nasa,"NASA + Maxim Snoep (repaired, simplified)",https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201
-smallmachinedblocks_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-smoothfeature_quadwild,QuadWild,https://www.quadmesh.cloud/
-snake_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
-socket1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-socket2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+smooth-feature_quadwild,QuadWild,https://www.quadmesh.cloud/
+socket1-Part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+socket2-Part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+Space_Launch_System_SLS_Block_1_nasa,"NASA + Maxim Snoep (repaired, simplified)",https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Printing/Space%20Launch%20System%20(SLS)%20Block%201
 sphere_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sphere
 sphinx_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 sphinx_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 spider_skel,Skeleton benchmark + Maxim Snoep (repaired),https://webspace.science.uu.nl/~telea001/Shapes/SkelBenchmark
-spiders_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 spiral_quadwild,QuadWild,https://www.quadmesh.cloud/
-spokedwheels_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
 spot_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
 spot_snoep,Oded Stein + Maxim Snoep (re-oriented),https://github.com/odedstein/meshes/tree/master/objects/spot
 spot_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/spot
@@ -657,68 +643,82 @@ spring_quadwild,QuadWild,https://www.quadmesh.cloud/
 springer_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/springer
 squirrel_polycut,PolyCut,https://www.cs.ubc.ca/labs/imager/tr/2013/polycut/
 stab3_quadwild,QuadWild,https://www.quadmesh.cloud/
+stanford-bunny_jacobson,Alec Jacobson + Maxim Snoep (repaired),https://github.com/alecjacobson/common-3d-test-models
 strawberry_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/strawberry
 stuffedtoy_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/stuffedtoy
-supportframe_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-switchmec_quadwild,QuadWild,https://www.quadmesh.cloud/
-swivel2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+support_frame_1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+switchmec_Lp_quadwild,QuadWild,https://www.quadmesh.cloud/
+swivel2-Part_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 sword_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/sword
+T137_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T165_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T200_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T211_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T216_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T222_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T235_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T248_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T266_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T280_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T2_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T340_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T345_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T351_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T360_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T366_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T380_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T402_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T431_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T441_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T44_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T473_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T535_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T594_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T595_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T60_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T80_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T85_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T8_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
+T95_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 team2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-teapot_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+teaport_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 teapot_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-thaistatue_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-thickplates_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-thickslottedplates_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-thinplates_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-thinwallmisc_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
+thai_statue_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 threecees_paardekooper,Bas Paardekooper,
-toothbrushholder_quadwild,QuadWild,https://www.quadmesh.cloud/
+toothbrush_holder_quadwild,QuadWild,https://www.quadmesh.cloud/
 torque1_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 torque_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 torso_quadwild,QuadWild,https://www.quadmesh.cloud/
 torus2_quadwild,QuadWild + Maxim Snoep (repaired),https://www.quadmesh.cloud/
 torus_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/torus
-torusstep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-torusstep_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
 tower_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/tower
+Townley-Greyhounds_tds,"Three D Scans + Maxim Snoep (repaired, simplified)",https://huggingface.co/datasets/alecjacobson/threedscans
 toy1_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-toy1_quadwild,QuadWild,https://www.quadmesh.cloud/
 toy2_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-toy2_quadwild,QuadWild,https://www.quadmesh.cloud/
-toywagon_gso,Google Scanned Objects,https://research.google/pubs/pub51437
-transmissionhousingfem_quadwild,QuadWild,https://www.quadmesh.cloud/
-traystep_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-traystep_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+TransmissionHousingFem_quadwild,QuadWild,https://www.quadmesh.cloud/
 trebol_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 tree_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/tree
-triangularbase_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
-trimstar_quadwild,QuadWild,https://www.quadmesh.cloud/
-trisclosed_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-trisopen_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-tshapedparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-turbine_quadwild,QuadWild,https://www.quadmesh.cloud/
-twins_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-twins_snoep,Sébastien Mestrallet + Maxim Snoep (simplified),https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
+triangular_base_mambo,Franck Ledoux + Maxim Snoep (meshed),https://gitlab.com/franck.ledoux/mambo
+trim-star_quadwild,QuadWild,https://www.quadmesh.cloud/
+tris_closed_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+tris_open_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
+turbine_Lp_quadwild,QuadWild,https://www.quadmesh.cloud/
 twirl_quadwild,QuadWild,https://www.quadmesh.cloud/
-twist_nop,Sébastien Mestrallet,https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes
-twoballs_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 ujoint_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-ushapedparts_esb,Engineering Shape Benchmark,https://engineering.purdue.edu/cdesign/wp/?p=1386
-uumemento_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+uu-memento_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
+vase-lion100K_quadwild,QuadWild,https://www.quadmesh.cloud/
 vase0_quadwild,QuadWild,https://www.quadmesh.cloud/
-vaselion_quadwild,QuadWild,https://www.quadmesh.cloud/
 venus_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
-vertebrae_quadwild,QuadWild,https://www.quadmesh.cloud/
+Vertebrae_quadwild,QuadWild,https://www.quadmesh.cloud/
 vessel_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 violin_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/violin
 wave_loopy,Marco Livesu + Maxim Snoep (repaired),https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 wedge_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
 well_stein,Oded Stein + Maxim Snoep (simplified),https://github.com/odedstein/meshes/tree/master/objects/well
-wheeldassault_quadwild,QuadWild,https://www.quadmesh.cloud/
+WheelDassault_quadwild,QuadWild,https://www.quadmesh.cloud/
 wingnut_stein,Oded Stein,https://github.com/odedstein/meshes/tree/master/objects/wingnut
-woman_shrec11,SHREC'11,https://data.nist.gov/od/id/mds2-2215
 woodenfish_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 wrench_gao,Xifeng Gao,https://cims.nyu.edu/gcl/publications.html
 wrench_loopy,Marco Livesu,https://github.com/mlivesu/LoopyCuts/tree/master/test_data
-wwwre_quadwild,QuadWild,https://www.quadmesh.cloud/
+www_re_quadwild,QuadWild,https://www.quadmesh.cloud/
 yeahright_crane,Keenan Crane,https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/
