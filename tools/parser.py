@@ -410,7 +410,7 @@ def print_dataset(
             ).relative_to(PROJECT_ROOT).as_posix()
             stl_path = f"{preview_stem}.stl"
             png_path = f"{preview_stem}.png"
-            thumb_cell = f'<img src="{png_path}" width="320"/>'
+            thumb_cell = f'<img src="{png_path}" width="640"/>'
             mech = sharpness.get(file_path.stem)
             mech_cell = f"{mech:.2f}" if mech is not None else ""
             source_info = sources.get(file_path.stem)
