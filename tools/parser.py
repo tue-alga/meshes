@@ -17,6 +17,8 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 DEFAULT_DATASET_PATH = PROJECT_ROOT / "dataset"
 DEFAULT_SOURCES_PATH = SCRIPT_DIR / "sources.csv"
+# STL copies (for GitHub's 3D viewer) and thumbnails live here, mirroring dataset/
+DEFAULT_PREVIEW_PATH = PROJECT_ROOT / "preview"
 
 
 def rewrite_obj_without_header(obj_path: str) -> None:
@@ -160,7 +162,8 @@ def check_mesh(mesh, path: str) -> None:
         print(f"[WARNING] Mesh '{path}' is not watertight or orientable.")
 
 
-# We consider a mesh to be valid if it is orientable, connected, vertex-manifold, edge-manifold, and closed
+# We consider a mesh to be valid if it is orientable, connected, vertex-manifold, edge-manifold, and closed,
+# and the solid it bounds is confirmed to be a handlebody (see handlebody.py)
 def is_valid(mesh) -> bool:
     orientable = is_orientable(mesh)
     connected = is_connected(mesh)
@@ -175,12 +178,27 @@ def is_valid(mesh) -> bool:
         print("The mesh is not vertex-manifold.")
     if not closed:
         print("The mesh is not closed.")
+    if not (orientable and connected and vertex_manifold and closed):
+        return False
 
-    return orientable and connected and vertex_manifold and closed
+    # Only meaningful for a closed, connected, manifold surface, so checked last.
+    from handlebody import is_handlebody
+
+    try:
+        handlebody = is_handlebody(mesh)
+    except RuntimeError as error:
+        print(f"The mesh could not be confirmed to bound a handlebody: {error}")
+        return False
+    if not handlebody:
+        print("The mesh does not bound a handlebody.")
+    return handlebody
 
 
-def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
+def normalize_dataset(
+    base_path=DEFAULT_DATASET_PATH, preview_path=DEFAULT_PREVIEW_PATH
+) -> None:
     base = Path(base_path)
+    preview = Path(preview_path)
 
     if not base.is_dir():
         raise FileNotFoundError(f"{base_path} is not a valid directory")
@@ -219,7 +237,9 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
             print(f"[INFO]   [{index}/{total_in_folder}] Processing mesh '{stem}'.")
 
             obj_path = folder / f"{stem}.obj"
-            stl_path = folder / f"{stem}.stl"
+            legacy_stl_path = folder / f"{stem}.stl"
+            stl_path = preview / folder.name / f"{stem}.stl"
+            stl_path.parent.mkdir(parents=True, exist_ok=True)
 
             try:
                 if ".obj" in exts:
@@ -228,6 +248,7 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
 
                     export_obj_safely(mesh, obj_path)
                     export_stl_safely(mesh, stl_path)
+                    legacy_stl_path.unlink(missing_ok=True)
 
                     processed_from_obj += 1
                     print(
@@ -235,11 +256,12 @@ def normalize_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
                     )
 
                 elif ".stl" in exts:
-                    mesh = load_trimesh(stl_path)
-                    check_mesh(mesh, str(stl_path))
+                    mesh = load_trimesh(legacy_stl_path)
+                    check_mesh(mesh, str(legacy_stl_path))
 
                     export_obj_safely(mesh, obj_path)
                     export_stl_safely(mesh, stl_path)
+                    legacy_stl_path.unlink(missing_ok=True)
 
                     processed_from_stl += 1
                     print(
@@ -324,79 +346,148 @@ def fmt(n):
     return f"{n:,}".replace(",", ".")
 
 
+DEFAULT_NEW_PATH = SCRIPT_DIR / "new_meshes.txt"
+NEW_BADGE = '<img src="https://img.shields.io/badge/-NEW-e11d48" alt="NEW"/>'
+DEFAULT_PROCESSOR = "Maxim Snoep"
+# per-object URLs that belong to one collection (reference) in the README
+COLLECTION_URLS = {
+    "https://github.com/odedstein/meshes/": "https://github.com/odedstein/meshes",
+    "https://ten-thousand-models.appspot.com/": "https://ten-thousand-models.appspot.com",
+    "https://github.com/nasa/NASA-3D-Resources/": "https://github.com/nasa/NASA-3D-Resources",
+}
+
+
+def collection_url(url: str) -> str:
+    for prefix, collection in COLLECTION_URLS.items():
+        if url.startswith(prefix):
+            return collection
+    return url
+
+
+# archives that copies of older models were obtained from
+ARCHIVE_URLS = {
+    "Alec Jacobson": "https://github.com/alecjacobson/common-3d-test-models",
+    "Oded Stein": "https://github.com/odedstein/meshes",
+    "Keenan Crane": "https://www.cs.cmu.edu/~kmcrane/Projects/ModelRepository/",
+    "Princeton": "https://gfx.cs.princeton.edu/proj/sugcon/models/",
+}
+
+
+def split_source(source: str) -> tuple[str, str]:
+    """'Origin + Archive + Person (tag, tag)' -> (origin, note such as '(via Archive; simplified)' or '(meshed by X)').
+
+    A later part without tags is an archive the mesh was obtained from."""
+    base, *rest = source.split(" + ")
+    notes = []
+    for part in rest:
+        person, _, tags = part.partition(" (")
+        tags = tags.rstrip(")")
+        if not tags:
+            url = ARCHIVE_URLS.get(person)
+            notes.append(f"via [{person}]({url})" if url else f"via {person}")
+        elif person != DEFAULT_PROCESSOR:
+            notes.append(f"{tags} by {person}")
+        else:
+            notes.append(tags)
+    return base, f"({'; '.join(notes)})" if notes else ""
+
+
+def load_new(path=DEFAULT_NEW_PATH) -> set[str]:
+    path = Path(path)
+    if not path.is_file():
+        return set()
+    return {line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()}
+
+
 def print_dataset(
     base_path=DEFAULT_DATASET_PATH,
     sources_path=DEFAULT_SOURCES_PATH,
 ) -> None:
     base = Path(base_path)
     sources = load_sources(sources_path)
+    new_names = load_new()
 
     folders = {
-        "a.bouba_zero": ("a", "bouba"),
-        "b.bouba_plus": ("b", "bouba"),
-        "c.kiki_zero": ("c", "kiki"),
-        "d.kiki_plus": ("d", "kiki"),
+        "a.smooth_zero": ("a", "smooth"),
+        "b.smooth_plus": ("b", "smooth"),
+        "c.sharp_zero": ("c", "sharp"),
+        "d.sharp_plus": ("d", "sharp"),
         "e.nightmares": ("e", "nightmares"),
     }
 
     dataset_names = set()
     missing_sources = set()
 
-    for folder in base.iterdir():
+    # first pass: geometry and the reference (collection) of every mesh
+    tables = []
+    ref_info: dict[str, tuple[str, str]] = {}
+    ref_count: dict[str, int] = {}
+    ref_order: dict[str, int] = {}
+    for folder in sorted(base.iterdir()):
         if not folder.is_dir() or folder.name not in folders:
             continue
-
-        letter, name = folders[folder.name]
-        files = [p for p in folder.iterdir() if p.is_file() and p.suffix == ".obj"]
-        if not files:
-            continue
-
+        files = sorted(
+            (p for p in folder.iterdir() if p.is_file() and p.suffix == ".obj"),
+            key=lambda p: p.stem.lower(),
+        )
         rows = []
-
         for file_path in files:
             mesh = load_trimesh(file_path)
-
-            V = len(mesh.vertices)
-            E = len(mesh.edges_unique)
-            F = len(mesh.faces)
-
-            chi = V - E + F
-            g = (2 - chi) // 2
-
+            V, E, F = len(mesh.vertices), len(mesh.edges_unique), len(mesh.faces)
+            g = (2 - (V - E + F)) // 2
             dataset_names.add(file_path.stem)
-            rows.append((file_path, g, V, E, F))
-
-        genera = [g for _, g, _, _, _ in rows]
-
-        if all(g == 0 for g in genera):
-            g_label = "=0"
-        elif all(g >= 1 for g in genera):
-            g_label = "≥1"
-        else:
-            g_label = "≥0"
-
-        print()
-        print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
-
-        print("| model | genus | vertices | edges | triangles | source |")
-        print("|-------|-------|----------|-------|-----------|--------|")
-
-        for file_path, g, V, E, F in rows:
-            stl_path = (
-                file_path.with_suffix(".stl").relative_to(PROJECT_ROOT).as_posix()
-            )
+            key, note = None, ""
             source_info = sources.get(file_path.stem)
-
             if source_info is None:
-                source_cell = ""
                 missing_sources.add(file_path.stem)
             else:
                 source_name, source_url = source_info
-                source_cell = f"[{source_name}]({source_url})"
+                base_name, note = split_source(source_name)
+                key = collection_url(source_url) or base_name
+                ref_info.setdefault(key, (base_name, key if source_url else ""))
+                ref_count[key] = ref_count.get(key, 0) + 1
+                ref_order.setdefault(key, len(ref_order))
+            rows.append((file_path, g, V, E, F, key, note))
+        if rows:
+            tables.append((folder, rows))
 
+    from citations import LABELS
+
+    # GitHub numbers footnotes by first use, so this overview (ranked by mesh count) comes before the tables
+    ranked = sorted(ref_count, key=lambda k: (-ref_count[k], ref_order[k]))
+    number = {k: i + 1 for i, k in enumerate(ranked)}
+    print("<!-- sources -->")
+    print("<sub>Sources, by number of meshes: " + ", ".join(
+        f"{LABELS.get(k, ref_info[k][0])} ({ref_count[k]})[^{number[k]}]" for k in ranked) + ".</sub>")
+
+    for folder, rows in tables:
+        letter, name = folders[folder.name]
+        genera = [r[1] for r in rows]
+        g_label = "=0" if all(g == 0 for g in genera) else "≥1" if all(g >= 1 for g in genera) else "≥0"
+        print()
+        print(f"### ({letter}) {name} (g{g_label}, n={len(rows)})")
+        # GitHub shrinks images in wide tables; an unbreakable header keeps the thumbnail column wide enough
+        spacer = "&nbsp;" * 17
+        print(f"| {spacer} | model | genus | vertices | edges | triangles | source |")
+        print("|-|-------|-------|----------|-------|-----------|--------|")
+        for file_path, g, V, E, F, key, note in rows:
+            preview_stem = (DEFAULT_PREVIEW_PATH / folder.name / file_path.stem).relative_to(PROJECT_ROOT).as_posix()
+            thumb_cell = f'<img src="{preview_stem}.png" width="60"/>'
+            source_cell = f"[^{number[key]}] {note}".strip() if key else ""
+            badge = f" {NEW_BADGE}" if file_path.stem in new_names else ""
             print(
-                f"| [{file_path.stem}]({stl_path}) | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} | {source_cell} |"
+                f"| {thumb_cell} | [{file_path.stem}]({preview_stem}.stl){badge} | {g} | {fmt(V)} | {fmt(E)} | {fmt(F)} "
+                f"| {source_cell} |"
             )
+
+    from citations import CITATIONS
+
+    print()
+    # GitHub renders these as footnotes, numbered by first appearance, with links back to each model
+    for key in ranked:
+        base_name, url = ref_info[key]
+        citation = CITATIONS.get(url) or CITATIONS.get(base_name) or (f"{base_name}. <{url}>" if url else base_name)
+        print(f"[^{number[key]}]: {citation}")
 
     unused_sources = sorted(set(sources) - dataset_names)
 
