@@ -1,11 +1,14 @@
 import argparse
+import os
+import shutil
 import subprocess
 from collections import defaultdict
 from pathlib import Path
 
 import trimesh
 
-GMSH_CMD = r"C:\Users\snoep\Documents\gmsh-4.15.2-Windows64\gmsh.exe"
+# Set the GMSH_CMD environment variable if gmsh is not on your PATH
+GMSH_CMD = os.environ.get("GMSH_CMD") or shutil.which("gmsh") or "gmsh"
 DEFAULT_REFINE_COUNT = 0
 DEFAULT_CURVATURE = 30.0
 DEFAULT_CLMIN = None
@@ -324,7 +327,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     if not Path(GMSH_CMD).is_file():
-        raise SystemExit(f"Gmsh executable was not found: '{GMSH_CMD}'")
+        raise SystemExit(f"Gmsh executable was not found: '{GMSH_CMD}'. Add gmsh to your PATH or set GMSH_CMD.")
 
     args = parse_args()
     path = Path(args.path).resolve()
