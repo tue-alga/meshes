@@ -7,7 +7,9 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 <!-- sources -->
 <sub>Sources, by number of meshes: Gao et al. 2019 (131)[^1], QuadWild (118)[^2], MAMBO (118)[^3], LoopyCuts (76)[^4], Skeleton benchmark (50)[^5], Engineering Shape Benchmark (45)[^6], SHREC'11 (30)[^7], Nightmare of polycubes (17)[^8], HexMe (14)[^9], Keenan Crane (13)[^10], Gao et al. 2016 (12)[^11], Google Scanned Objects (9)[^12], NIST (8)[^13], Livesu et al. 2016 (6)[^14], Thingi10K (6)[^15], Oded Stein (6)[^16], NASA LBPW (5)[^17], TOPKIDS (4)[^18], YahooJAPAN (4)[^19], Stanford Armadillo (3)[^20], Princeton (3)[^21], SMPL (3)[^22], Cyberware (3)[^23], Al-Badri and Nelles (3)[^24], KnotPlot (3)[^25], NASA CRM (3)[^26], Joshua Facunla (2)[^27], Josh Holinaty (2)[^28], Stanford Bunny (2)[^29], PolyCut (2)[^30], Espona (2)[^31], AIM@SHAPE (INRIA) (2)[^32], MPI Informatik (2)[^33], Stanford VRIP (2)[^34], Three D Scans (2)[^35], CGAL (2)[^36], Stein et al. 2018 (2)[^37], NASA HL-CRM (2)[^38], Autodesk (1)[^39], AIM@SHAPE (Bimba) (1)[^40], billyd (1)[^41], 3dvs_ch (1)[^42], colinfizgig (1)[^43], hugoelec (1)[^44], SMPL-X (1)[^45], Stanford Lion (1)[^46], Stanford Lucy (1)[^47], Kiaran Ritchie (1)[^48], TimEdwards (1)[^49], GSC_Nakamura (1)[^50], Ilya Baran (1)[^51], The Oakeshott Institute (1)[^52], warmarine759 (1)[^53], inciprocal (1)[^54], 3dvs_ch (1)[^55], ryanfb (1)[^56], Carlo Séquin (1)[^57], BSGMiniatures (1)[^58], tomburtonwood (1)[^59], Bart (1)[^60], Rigsters (1)[^61], jansentee3d (1)[^62], Virtual Museums of Małopolska (1)[^63], onmioji (1)[^64], Hoppe et al. 1994 (1)[^65], libigl (1)[^66], Andrea Spognetta (1)[^67], NASA 3D Resources (1)[^68], Bas Paardekooper (1)[^69].</sub>
 
-### (a) smooth (g=0, n=237)
+<details>
+<summary><h3>(a) smooth (g=0, n=237)</h3></summary>
+  
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/a.smooth_zero/aircraft_quadwild.png" width="60"/> | [aircraft_quadwild](preview/a.smooth_zero/aircraft_quadwild.stl) | 0 | 13.687 | 41.055 | 27.370 | [^2] (repaired) |
@@ -17,7 +19,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/amogus_snoep.png" width="60"/> | [amogus_snoep](preview/a.smooth_zero/amogus_snoep.stl) | 0 | 3.061 | 9.177 | 6.118 | [^27] (remeshed) |
 | <img src="preview/a.smooth_zero/angel_quadwild.png" width="60"/> | [angel_quadwild](preview/a.smooth_zero/angel_quadwild.stl) | 0 | 4.468 | 13.398 | 8.932 | [^2] |
 | <img src="preview/a.smooth_zero/ants_shrec11.png" width="60"/> | [ants_shrec11](preview/a.smooth_zero/ants_shrec11.stl) | 0 | 9.497 | 28.485 | 18.990 | [^7] |
-| <img src="preview/a.smooth_zero/armadillo_gao.png" width="60"/> | [armadillo_gao](preview/a.smooth_zero/armadillo_gao.stl) | 0 | 15.508 | 46.518 | 31.012 | [^1] |
+| <img src="preview/a.smooth_zero/armadillo_gao.png" width="60"/> | [armadillo_gao](preview/a.smooth_zero/armadillo_gao.stl) | 0 | 15.508 | 46.518 | 31.012 | [^1] | 
 | <img src="preview/a.smooth_zero/armadillo_jacobson.png" width="60"/> | [armadillo_jacobson](preview/a.smooth_zero/armadillo_jacobson.stl) | 0 | 49.990 | 149.964 | 99.976 | [^20] (via [Alec Jacobson](https://github.com/alecjacobson/common-3d-test-models)) |
 | <img src="preview/a.smooth_zero/armadillo_shrec11.png" width="60"/> | [armadillo_shrec11](preview/a.smooth_zero/armadillo_shrec11.stl) | 0 | 9.485 | 28.449 | 18.966 | [^7] |
 | <img src="preview/a.smooth_zero/armadillo_stanford.png" width="60"/> | [armadillo_stanford](preview/a.smooth_zero/armadillo_stanford.stl) | 0 | 30.002 | 90.000 | 60.000 | [^20] (via [Princeton](https://gfx.cs.princeton.edu/proj/sugcon/models/); simplified) |
@@ -248,7 +250,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/a.smooth_zero/woman_shrec11.png" width="60"/> | [woman_shrec11](preview/a.smooth_zero/woman_shrec11.stl) | 0 | 9.229 | 27.681 | 18.454 | [^7] |
 | <img src="preview/a.smooth_zero/woodenfish_gao.png" width="60"/> | [woodenfish_gao](preview/a.smooth_zero/woodenfish_gao.stl) | 0 | 15.940 | 47.814 | 31.876 | [^1] |
 
-### (b) smooth (g≥1, n=101)
+</details>
+<details>
+<summary><h3>(b) smooth (g≥1, n=101)</h3></summary>
+  
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/b.smooth_plus/17674_skel.png" width="60"/> | [17674_skel](preview/b.smooth_plus/17674_skel.stl) | 2 | 29.211 | 87.639 | 58.426 | [^5] (repaired, simplified) |
@@ -353,7 +358,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/b.smooth_plus/well_stein.png" width="60"/> | [well_stein](preview/b.smooth_plus/well_stein.stl) | 48 | 29.822 | 89.748 | 59.832 | [^64] (via [Oded Stein](https://github.com/odedstein/meshes); simplified) |
 | <img src="preview/b.smooth_plus/wrench_gao.png" width="60"/> | [wrench_gao](preview/b.smooth_plus/wrench_gao.stl) | 1 | 12.997 | 38.991 | 25.994 | [^1] |
 
-### (c) sharp (g=0, n=156)
+</details>
+<details>
+<summary><h3>(c) sharp (g=0, n=156)</h3></summary>
+  
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/c.sharp_zero/18020_skel.png" width="60"/> | [18020_skel](preview/c.sharp_zero/18020_skel.stl) | 0 | 24.786 | 74.352 | 49.568 | [^5] (repaired) |
@@ -513,7 +521,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/c.sharp_zero/wedge_loopy.png" width="60"/> | [wedge_loopy](preview/c.sharp_zero/wedge_loopy.stl) | 0 | 2.236 | 6.702 | 4.468 | [^4] |
 | <img src="preview/c.sharp_zero/wingnut_stein.png" width="60"/> | [wingnut_stein](preview/c.sharp_zero/wingnut_stein.stl) | 0 | 3.047 | 9.135 | 6.090 | [^37] |
 
-### (d) sharp (g≥1, n=235)
+</details>
+<details>
+<summary><h3>(d) sharp (g≥1, n=235)</h3></summary>
+
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/d.sharp_plus/20304_skel.png" width="60"/> | [20304_skel](preview/d.sharp_plus/20304_skel.stl) | 2 | 928 | 2.790 | 1.860 | [^5] |
@@ -752,7 +763,10 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/d.sharp_plus/wrench_loopy.png" width="60"/> | [wrench_loopy](preview/d.sharp_plus/wrench_loopy.stl) | 1 | 2.248 | 6.744 | 4.496 | [^4] |
 | <img src="preview/d.sharp_plus/wwwre_quadwild.png" width="60"/> | [wwwre_quadwild](preview/d.sharp_plus/wwwre_quadwild.stl) | 1 | 28.712 | 86.136 | 57.424 | [^2] |
 
-### (e) nightmares (g≥0, n=19)
+</details>
+<details>
+<summary><h3>(e) nightmares (g≥0, n=19)</h3></summary>
+
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
 | <img src="preview/e.nightmares/7connected_nop.png" width="60"/> | [7connected_nop](preview/e.nightmares/7connected_nop.stl) | 0 | 76.326 | 228.972 | 152.648 | [^8] |
@@ -774,6 +788,8 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 | <img src="preview/e.nightmares/twins_nop.png" width="60"/> | [twins_nop](preview/e.nightmares/twins_nop.stl) | 0 | 63.873 | 191.613 | 127.742 | [^8] |
 | <img src="preview/e.nightmares/twins_snoep.png" width="60"/> | [twins_snoep](preview/e.nightmares/twins_snoep.stl) | 0 | 9.272 | 27.810 | 18.540 | [^8] (simplified) |
 | <img src="preview/e.nightmares/twist_nop.png" width="60"/> | [twist_nop](preview/e.nightmares/twist_nop.stl) | 2 | 78.524 | 235.578 | 157.052 | [^8] |
+
+</details>
 
 [^1]: GAO X., SHEN H., PANOZZO D.: Feature preserving octree-based hexahedral meshing. _Computer Graphics Forum (SGP) 38_, 5 (2019). [doi:10.1111/cgf.13795](https://doi.org/10.1111/cgf.13795)
 [^2]: PIETRONI N., NUVOLI S., ALDERIGHI T., CIGNONI P., TARINI M., PANOZZO D.: Reliable feature-line driven quad-remeshing. _ACM Transactions on Graphics 40_, 4 (2021). [doi:10.1145/3450626.3459941](https://doi.org/10.1145/3450626.3459941)
