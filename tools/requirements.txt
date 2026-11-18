@@ -1,8 +1,6 @@
 trimesh
 numpy
 scipy
-networkx
-rtree
 pyvista
 pillow
 gmsh
@@ -11,4 +9,3 @@ tetgen
 pytetwild
 pymeshfix
 fast-simplification
-markdown

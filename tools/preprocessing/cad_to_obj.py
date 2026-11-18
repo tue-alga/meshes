@@ -1,10 +1,10 @@
 """Mesh a CAD file (STEP/BREP/IGES/GEO) into a closed triangle mesh with the gmsh Python API.
 
-Unlike step_to_obj.py (which uses an absolute element size), the element size here is relative
-to the model's bounding-box diagonal, so it works for models in any unit. Faces are sewn, multiple
-volumes are fused, and half-models (CFD geometry cut at a symmetry plane) can be mirrored.
+The element size is relative to the model's bounding-box diagonal, so it works for models in
+any unit. Faces are sewn, multiple volumes are fused, and half-models (CFD geometry cut at a
+symmetry plane) can be mirrored.
 
-Usage:  python tools/cad_to_obj.py <cad file> <out.obj> [--divisions 100] [--mirror]
+Usage:  python tools/preprocessing/cad_to_obj.py <cad file> <out.obj> [--divisions 100] [--mirror]
 Needs:  pip install gmsh trimesh numpy
 """
 

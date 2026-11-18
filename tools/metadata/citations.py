@@ -216,27 +216,3 @@ CITATIONS = {
     "Bas Paardekooper":
         "Bas Paardekooper: Threecees (personal communication)",
 }
-
-
-# short names for the ranked source overview at the top of the README (default: the source name in sources.csv)
-LABELS = {
-    "https://cims.nyu.edu/gcl/publications.html": "Gao et al. 2019",
-    "https://gitlab.com/franck.ledoux/mambo": "MAMBO",
-    "https://github.com/mlivesu/LoopyCuts/tree/master/test_data": "LoopyCuts",
-    "https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes": "Nightmare of polycubes",
-    "https://lbpw.larc.nasa.gov/": "NASA LBPW",
-    "https://commonresearchmodel.larc.nasa.gov/": "NASA CRM",
-    "https://www.nasa.gov/reference/aiaa-cfd-high-lift-prediction-workshop/": "NASA HL-CRM",
-    "https://github.com/nasa/NASA-3D-Resources": "NASA 3D Resources",
-    "http://www.cs.columbia.edu/cg/developability/": "Stein et al. 2018",
-    "https://graphics.stanford.edu/data/3Dscanrep/#armadillo": "Stanford Armadillo",
-    "https://graphics.stanford.edu/data/3Dscanrep/#bunny": "Stanford Bunny",
-    "https://graphics.stanford.edu/data/3Dscanrep/#vrip": "Stanford VRIP",
-    "https://graphics.stanford.edu/data/3Dscanrep/#lucy": "Stanford Lucy",
-    "https://gfx.cs.princeton.edu/proj/sugcon/models/#lion": "Stanford Lion",
-    "https://gfx.cs.princeton.edu/proj/sugcon/models/": "Princeton",
-    "https://gfx.cs.princeton.edu/proj/sugcon/models/#heptoroid": "Carlo Séquin",
-    "https://github.com/alecjacobson/common-3d-test-models#fandisk": "Hoppe et al. 1994",
-    "https://github.com/alecjacobson/common-3d-test-models#aimatshape": "AIM@SHAPE (INRIA)",
-    "https://github.com/alecjacobson/common-3d-test-models#bimba": "AIM@SHAPE (Bimba)",
-}

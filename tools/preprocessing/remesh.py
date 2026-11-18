@@ -7,9 +7,9 @@
   repair    close small holes, remove small components and fix non-manifold parts
             (MeshFix). Refuses surfaces with many open edges unless --force.
 
-Usage:  python tools/remesh.py remesh   in.obj out.obj [--edge 0.02] [--feature-angle 30]
-        python tools/remesh.py decimate in.obj out.obj [--faces 60000]
-        python tools/remesh.py repair   in.obj out.obj [--force]
+Usage:  python tools/preprocessing/remesh.py remesh   in.obj out.obj [--edge 0.02] [--feature-angle 30]
+        python tools/preprocessing/remesh.py decimate in.obj out.obj [--faces 60000]
+        python tools/preprocessing/remesh.py repair   in.obj out.obj [--force]
 Needs:  pip install trimesh numpy pymeshlab fast-simplification pymeshfix
 """
 

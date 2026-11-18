@@ -1,2 +1,4 @@
-*.Identifier
-/temp
+__pycache__/
+tetgen-tmpfile*
+__tracked_surface.stl
+tools/readme/header_image.py

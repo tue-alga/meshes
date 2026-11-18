@@ -6,7 +6,7 @@ drawn in ALGO blue (#00a2de) with a dark outline.
 
 The PNG has a transparent background.
 
-Usage:  python tools/thumbnails.py [--size 320] [--force] [names ...]
+Usage:  python tools/readme/thumbnails.py [--size 320] [--force] [names ...]
 Needs:  pip install pyvista pillow
 """
 
@@ -22,7 +22,7 @@ except ImportError:
     raise SystemExit("Missing dependency: pip install pyvista pillow")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
+PROJECT_ROOT = SCRIPT_DIR.parents[1]
 DATASET = PROJECT_ROOT / "dataset"
 PREVIEW = PROJECT_ROOT / "preview"
 

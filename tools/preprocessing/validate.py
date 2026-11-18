@@ -1,4 +1,6 @@
-"""Check that the solid bounded by a mesh is a handlebody.
+"""Check that every mesh in dataset/ is valid.
+
+A valid mesh is orientable, connected, vertex-manifold and closed, and bounds a handlebody.
 
 A handlebody (https://en.wikipedia.org/wiki/Handlebody) is a ball with solid handles attached: a thickened
 graph. A closed surface of genus 0 always bounds a ball (Alexander), so it passes right away. A closed surface
@@ -13,15 +15,20 @@ Filling the solid: TetGen keeps the surface exactly, but fails on self-intersect
 crashes), so it runs in a separate process. If it fails, fTetWild fills the solid approximately; that result
 is only used when its boundary is still one surface of the same genus.
 
-Needs:  pip install tetgen pytetwild
+Usage:  python tools/preprocessing/validate.py
+Needs:  pip install -r tools/requirements.txt
 """
 
 import multiprocessing
 import queue
-from collections import deque
+from collections import defaultdict, deque
+from pathlib import Path
 
 import numpy as np
 import trimesh
+
+from convert import DEFAULT_DATASET_PATH, load_trimesh
+
 
 TRIES = 3
 TET_FACES = [[1, 2, 3], [0, 2, 3], [0, 1, 3], [0, 1, 2]]
@@ -132,3 +139,98 @@ def is_handlebody(mesh) -> bool:
     tets = _tetrahedralize(mesh)
     rng = np.random.default_rng(0)
     return any(_collapses_to_graph(tets, rng) for _ in range(TRIES))
+
+
+# To verify that a mesh is orientable, there must exist a consistent winding order on the faces
+def is_orientable(mesh) -> bool:
+    return mesh.is_winding_consistent
+
+
+# To verify that a mesh is connected, it must consist of exactly 1 connected component
+def is_connected(mesh) -> bool:
+    return len(mesh.split()) == 1
+
+
+# To verify that a mesh is vertex-manifold, the link of each vertex must be a single path or cycle
+def is_vertex_manifold(mesh) -> bool:
+    for v, fs in enumerate(mesh.vertex_faces):
+        adj = defaultdict(set)
+        [
+            adj[x].add(y) or adj[y].add(x)
+            for f in fs[fs != -1]
+            for x, y in [[i for i in mesh.faces[f] if i != v]]
+        ]
+        d = [*map(len, adj.values())]
+        if any(i > 2 for i in d) or not (d.count(1) == 2 or all(i == 2 for i in d)):
+            return False
+    return True
+
+
+# To verify that a mesh is closed, each edge must be adjacent to at least 2 faces
+def is_closed(mesh) -> bool:
+    return mesh.is_watertight
+
+
+# We consider a mesh to be valid if it is orientable, connected, vertex-manifold, edge-manifold, and closed,
+# and the solid it bounds is confirmed to be a handlebody (see is_handlebody)
+def is_valid(mesh) -> bool:
+    orientable = is_orientable(mesh)
+    connected = is_connected(mesh)
+    vertex_manifold = is_vertex_manifold(mesh)
+    closed = is_closed(mesh)
+
+    if not orientable:
+        print("The mesh is not orientable.")
+    if not connected:
+        print("The mesh is not connected.")
+    if not vertex_manifold:
+        print("The mesh is not vertex-manifold.")
+    if not closed:
+        print("The mesh is not closed.")
+    if not (orientable and connected and vertex_manifold and closed):
+        return False
+
+    # Only meaningful for a closed, connected, manifold surface, so checked last.
+    try:
+        handlebody = is_handlebody(mesh)
+    except RuntimeError as error:
+        print(f"The mesh could not be confirmed to bound a handlebody: {error}")
+        return False
+    if not handlebody:
+        print("The mesh does not bound a handlebody.")
+    return handlebody
+
+
+def verify_dataset(base_path=DEFAULT_DATASET_PATH) -> None:
+    base = Path(base_path)
+    if not base.is_dir():
+        raise FileNotFoundError(f"{base_path} is not a valid directory")
+
+    valid = 0
+    invalid = []
+
+    for folder in base.iterdir():
+        if not folder.is_dir():
+            continue
+
+        print(f"\n[INFO] Verifying directory: {folder}")
+
+        for file_path in folder.iterdir():
+            if not file_path.is_file() or file_path.suffix != ".obj":
+                continue
+            mesh = load_trimesh(file_path)
+            if is_valid(mesh):
+                valid += 1
+            else:
+                invalid.append(file_path)
+
+    print(f"\nValid meshes:   {valid}")
+    print(f"Invalid meshes: {len(invalid)}")
+    if invalid:
+        print("\nMeshes that failed validation:")
+        for path in invalid:
+            print(f"- {path}")
+
+
+if __name__ == "__main__":
+    verify_dataset()
