@@ -8,7 +8,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 <sub>Sources, by number of meshes: Gao et al. 2019 (131)[^1], QuadWild (118)[^2], MAMBO (118)[^3], LoopyCuts (76)[^4], Skeleton benchmark (50)[^5], Engineering Shape Benchmark (45)[^6], SHREC'11 (30)[^7], Nightmare of polycubes (17)[^8], HexMe (14)[^9], Keenan Crane (13)[^10], Gao et al. 2016 (12)[^11], Google Scanned Objects (9)[^12], NIST (8)[^13], Livesu et al. 2016 (6)[^14], Thingi10K (6)[^15], Oded Stein (6)[^16], NASA LBPW (5)[^17], TOPKIDS (4)[^18], YahooJAPAN (4)[^19], Stanford Armadillo (3)[^20], Princeton (3)[^21], SMPL (3)[^22], Cyberware (3)[^23], Al-Badri and Nelles (3)[^24], KnotPlot (3)[^25], NASA CRM (3)[^26], Joshua Facunla (2)[^27], Josh Holinaty (2)[^28], Stanford Bunny (2)[^29], PolyCut (2)[^30], Espona (2)[^31], AIM@SHAPE (INRIA) (2)[^32], MPI Informatik (2)[^33], Stanford VRIP (2)[^34], Three D Scans (2)[^35], CGAL (2)[^36], Stein et al. 2018 (2)[^37], NASA HL-CRM (2)[^38], Autodesk (1)[^39], AIM@SHAPE (Bimba) (1)[^40], billyd (1)[^41], 3dvs_ch (1)[^42], colinfizgig (1)[^43], hugoelec (1)[^44], SMPL-X (1)[^45], Stanford Lion (1)[^46], Stanford Lucy (1)[^47], Kiaran Ritchie (1)[^48], TimEdwards (1)[^49], GSC_Nakamura (1)[^50], Ilya Baran (1)[^51], The Oakeshott Institute (1)[^52], warmarine759 (1)[^53], inciprocal (1)[^54], 3dvs_ch (1)[^55], ryanfb (1)[^56], Carlo Séquin (1)[^57], BSGMiniatures (1)[^58], tomburtonwood (1)[^59], Bart (1)[^60], Rigsters (1)[^61], jansentee3d (1)[^62], Virtual Museums of Małopolska (1)[^63], onmioji (1)[^64], Hoppe et al. 1994 (1)[^65], libigl (1)[^66], Andrea Spognetta (1)[^67], NASA 3D Resources (1)[^68], Bas Paardekooper (1)[^69].</sub>
 
 <details>
-<summary><h3>(a) smooth (g=0, n=237)</h3></summary>
+<summary><b>(a) smooth (g=0, n=237)</b></summary>
   
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
@@ -252,7 +252,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 
 </details>
 <details>
-<summary><h3>(b) smooth (g≥1, n=101)</h3></summary>
+<summary><b>(b) smooth (g≥1, n=101)</b></summary>
   
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
@@ -360,7 +360,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 
 </details>
 <details>
-<summary><h3>(c) sharp (g=0, n=156)</h3></summary>
+<summary><b>(c) sharp (g=0, n=156)</b></summary>
   
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
@@ -523,7 +523,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 
 </details>
 <details>
-<summary><h3>(d) sharp (g≥1, n=235)</h3></summary>
+<summary><b>(d) sharp (g≥1, n=235)</b></summary>
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
@@ -765,7 +765,7 @@ The meshes are stored as `.obj` files in `dataset/`. The `preview/` folder conta
 
 </details>
 <details>
-<summary><h3>(e) nightmares (g≥0, n=19)</h3></summary>
+<summary><b>(e) nightmares (g≥0, n=19)</b></summary>
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | model | genus | vertices | edges | triangles | source |
 |-|-------|-------|----------|-------|-----------|--------|
