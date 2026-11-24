@@ -1,0 +1,8 @@
+trimesh
+numpy
+scipy
+pyvista
+pillow
+gmsh
+pymeshlab
+tetgen

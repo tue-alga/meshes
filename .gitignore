@@ -1,4 +1,5 @@
 __pycache__/
 tetgen-tmpfile*
 __tracked_surface.stl
-tools/readme/header_image.py
+resources/tools/readme/header_image.py
+resources/tools/preprocessing/remesh.py
